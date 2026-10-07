@@ -1,5 +1,6 @@
 # Pixel Punk Studio catalog, rendered into index.html by `python -m kdp site`.
 # amazon: the paperback ASIN (https://www.amazon.com/dp/<ASIN>). Leave it empty for "coming soon".
+site_url: https://pixelpunkstudio.shop/
 author_page: https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY
 
 sections:
