@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Connected - Pixel Punk Publisher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<header><img src="logo.png" alt="Pixel Punk Studio logo"><h1>Account connection</h1></header>
+<div class="card">
+<p id="msg">Reading the response...</p>
+<code class="big" id="code"></code>
+<p id="hint"></p>
+</div>
+<script>
+  // The platform sends us back here with ?code=... (or ?error=...). The code is shown so it can be
+  // pasted into Pixel Punk Publisher; it is single-use, expires within minutes and is never sent anywhere.
+  const q = new URLSearchParams(location.search);
+  const code = q.get("code"), err = q.get("error") || q.get("error_description");
+  if (code) {
+    document.getElementById("msg").textContent = "Connection approved. Copy this code and paste it to Claude:";
+    document.getElementById("code").textContent = code;
+    document.getElementById("hint").textContent = "The code works once and expires in a few minutes.";
+  } else {
+    document.getElementById("msg").textContent = err ? "The connection was not approved: " + err : "No code received.";
+    document.getElementById("code").style.display = "none";
+  }
+</script>
+</main></body>
+</html>
