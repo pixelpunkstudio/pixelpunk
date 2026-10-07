@@ -1,6 +1,9 @@
 # Pixel Punk Studio catalog, rendered into index.html by `python -m kdp site`.
 # amazon: the paperback ASIN (https://www.amazon.com/dp/<ASIN>). Leave it empty for "coming soon".
 site_url: https://pixelpunkstudio.shop/
+newsletter:                    # Brevo form "Website newsletter" -> list Pixel Punk Newsletter
+  form_action: https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==
+  after_submit: welcome.html    # switch to subscribed.html once double opt-in is enabled in Brevo
 author_page: https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY
 
 sections:
