@@ -1,0 +1,65 @@
+# Pixel Punk Studio catalog, rendered into index.html by `python -m kdp site`.
+# amazon: the paperback ASIN (https://www.amazon.com/dp/<ASIN>). Leave it empty for "coming soon".
+author_page: https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY
+
+sections:
+  - title: Cozy Seasons Word Search
+    intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
+    books:
+      - slug: cozy-winter-hygge
+        title: Cozy Winter Hygge Word Search
+        subtitle: 55 relaxing large print puzzles inspired by the Scandinavian art of cozy living
+        tags: [Large print, 8.5 x 11, Adults & seniors]
+        amazon:
+      - slug: winter-snowy-days
+        title: Snowy Days Winter Word Search
+        subtitle: 55 winter activity puzzles, from building snowmen to sipping hot cocoa
+        tags: [Large print, 8.5 x 11, Teens & adults]
+        amazon: B0DS9SG35T
+      - slug: spring-fresh-blooms
+        title: Fresh Blooms Spring Word Search
+        subtitle: 55 spring puzzles full of gardens, picnics and blossoms
+        tags: [Large print, 8.5 x 11, Teens & adults]
+        amazon: B0FLXRGFZY
+      - slug: summer-sunny-vibes
+        title: Sunny Vibes Summer Word Search
+        subtitle: 55 summer puzzles about camping, beaches and long sunny days
+        tags: [Large print, 8.5 x 11, Teens & adults]
+        amazon: B0FRXWL9R7
+      - slug: fall-crisp-leaves
+        title: Crisp Leaves Fall Word Search
+        subtitle: 55 autumn puzzles with apple picking, hayrides and cozy campfires
+        tags: [Large print, 8.5 x 11, Teens & adults]
+        amazon: B0FDL4QN1M
+
+  - title: Farm & Bug Learning Adventures
+    intro: Screen-free activity books for kids, with fun facts to learn while they play.
+    books:
+      - slug: life-on-the-farm
+        title: Life on the Farm Word Search for Kids
+        subtitle: 50 farm-themed puzzles with fun facts about animals and activities
+        tags: [Ages 6-10, 8.5 x 11]
+        amazon: B0FHKMG9KK
+      - slug: bug-hunt
+        title: Bug Hunt Word Search Coloring Book
+        subtitle: 55 bug word searches with color-the-letters puzzles
+        tags: [Ages 4-10, 8.5 x 8.5]
+        amazon: B0G3H1KJLN
+      - slug: cute-farm-days
+        title: Cute Farm Days Coloring Book
+        subtitle: Adorable farm animals with easy designs and fun facts
+        tags: [Ages 4-8, Coloring, 8.5 x 11]
+        amazon: B0FBM7X2HR
+
+  - title: More Puzzle Books
+    books:
+      - slug: retirement
+        title: Retirement Word Search
+        subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
+        tags: [Large print, 8.5 x 11, Gift idea]
+        amazon: B0HGB15BJ2
+      - slug: sudoku-of-love
+        title: Sudoku of Love
+        subtitle: 500+ romantic sudoku puzzles, very easy to hard, with solutions
+        tags: [Sudoku, 6 x 9, Gift idea]
+        amazon: B0DVR3HN6Q
