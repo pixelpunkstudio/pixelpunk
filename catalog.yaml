@@ -11,26 +11,51 @@ sections:
         subtitle: 55 relaxing large print puzzles inspired by the Scandinavian art of cozy living
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon:
+        sample:
+          pdf: "books/cozy-winter-hygge/output"
+          pages: [5, 116]
+          label: Free printable puzzle
+        more: There are 54 more cozy puzzles, with 1,650 words that never repeat, in Cozy Winter Hygge Word Search.
       - slug: winter-snowy-days
         title: Snowy Days Winter Word Search
         subtitle: 55 winter activity puzzles, from building snowmen to sipping hot cocoa
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0DS9SG35T
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Winter Activities - Word Search/Winter_Season_Word_Search 1861158 (CMYK)"
+          pages: [5, 117]
+          label: Free printable puzzle
+        more: There are 54 more winter puzzles in Snowy Days Winter Word Search.
       - slug: spring-fresh-blooms
         title: Fresh Blooms Spring Word Search
         subtitle: 55 spring puzzles full of gardens, picnics and blossoms
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FLXRGFZY
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Spring Activities - Word Search/Spring_Activities_Word_Search 2435155 (CMYK)"
+          pages: [5, 116]
+          label: Free printable puzzle
+        more: There are 54 more spring puzzles in Fresh Blooms Spring Word Search.
       - slug: summer-sunny-vibes
         title: Sunny Vibes Summer Word Search
         subtitle: 55 summer puzzles about camping, beaches and long sunny days
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FRXWL9R7
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Summer Activities - Word Search/Summer_Activities_Word_Search 2512955 (CMYK)"
+          pages: [5, 116]
+          label: Free printable puzzle
+        more: There are 54 more summer puzzles in Sunny Vibes Summer Word Search.
       - slug: fall-crisp-leaves
         title: Crisp Leaves Fall Word Search
         subtitle: 55 autumn puzzles with apple picking, hayrides and cozy campfires
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FDL4QN1M
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Fall Activities - Word Search/Fall_Activities_Word_Search 2327831 (CMYK)"
+          pages: [5, 116]
+          label: Free printable puzzle
+        more: There are 54 more autumn puzzles in Crisp Leaves Fall Word Search.
 
   - title: Farm & Bug Learning Adventures
     intro: Screen-free activity books for kids, with fun facts to learn while they play.
@@ -40,16 +65,31 @@ sections:
         subtitle: 50 farm-themed puzzles with fun facts about animals and activities
         tags: [Ages 6-10, 8.5 x 11]
         amazon: B0FHKMG9KK
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Life On The Farm - Word Search/Life_On_The_Farm_Word_Search 2348354 (CMYK)"
+          pages: [6, 7, 107]
+          label: Free printable puzzle
+        more: There are 49 more farm puzzles, each with a fun fact, in Life on the Farm Word Search for Kids.
       - slug: bug-hunt
         title: Bug Hunt Word Search Coloring Book
         subtitle: 55 bug word searches with color-the-letters puzzles
         tags: [Ages 4-10, 8.5 x 8.5]
         amazon: B0G3H1KJLN
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Kids Word Search - Bugs/Kids_Word_Search_Bugs 2582400 (CMYK)"
+          pages: [5, 116]
+          label: Free printable puzzle
+        more: There are 54 more bug puzzles to search and color in Bug Hunt Word Search Coloring Book.
       - slug: cute-farm-days
         title: Cute Farm Days Coloring Book
         subtitle: Adorable farm animals with easy designs and fun facts
         tags: [Ages 4-8, Coloring, 8.5 x 11]
         amazon: B0FBM7X2HR
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Farm Animals Coloring Book/Cute_Farm_Days_Coloring_Book 2295511 (CMYK)"
+          pages: [5, 6]
+          label: Free coloring page
+        more: There are 49 more farm animals to color, each with a fun fact, in Cute Farm Days Coloring Book.
 
   - title: More Puzzle Books
     books:
@@ -58,8 +98,18 @@ sections:
         subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HGB15BJ2
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Retirement Activities - Word Search/Retirement_Activities_Word_Search 2754862 (CMYK)"
+          pages: [5, 116]
+          label: Free printable puzzle
+        more: There are 54 more puzzles about hobbies, travel and wellness in Retirement Word Search.
       - slug: sudoku-of-love
         title: Sudoku of Love
         subtitle: 500+ romantic sudoku puzzles, very easy to hard, with solutions
         tags: [Sudoku, 6 x 9, Gift idea]
         amazon: B0DVR3HN6Q
+        sample:
+          pdf: "C:/BigBangPixels/KDP/Sudoku of Love/Sudoku_of_Love 1991516 (CMYK)"
+          pages: [3, 131]
+          label: Free printable puzzle
+        more: There are 500+ romantic sudoku puzzles, from very easy to hard, in Sudoku of Love.
