@@ -164,14 +164,18 @@
       }
       btn.disabled = true; btn.textContent = "Sending...";
       try {
-        const r = await fetch(f.action, { method: "POST", body: new FormData(f) });
-        const data = await r.json();
-        if (data.success) { location.href = f.dataset.after; return; }
-        throw new Error("rejected");
+        // isAjax=1 makes Brevo answer with JSON instead of redirecting (same as Brevo's own script)
+        const r = await fetch(f.action + "?isAjax=1", { method: "POST", body: new FormData(f) });
+        if (r.redirected) { location.href = f.dataset.after; return; }
+        let data = {};
+        try { data = await r.json(); } catch (_) {}
+        if (r.ok && data.success) { location.href = f.dataset.after; return; }
+        const why = data.errors ? Object.values(data.errors).join(" ") : "";
+        msg.textContent = why || "Something went wrong on our side. Please try again in a moment.";
       } catch (e) {
         msg.textContent = "Something went wrong on our side. Please try again in a moment.";
-        btn.disabled = false; btn.textContent = "Subscribe";
       }
+      btn.disabled = false; btn.textContent = "Subscribe";
     });
     </script>
 </section>
