@@ -45,7 +45,7 @@ header.top { position: sticky; top: 0; z-index: 10; display: flex; align-items: 
               text-align: left; margin: -32px -16px 8px; padding: 10px 16px; background: rgba(251, 247, 240, .94);
               backdrop-filter: blur(6px); border-bottom: 1px solid #eee5d8; }
 header.top .home { display: flex; align-items: center; gap: 10px; font: 700 1.05rem/1 system-ui, sans-serif; color: var(--ink); text-decoration: none; }
-header.top .home img { width: 40px; height: 40px; }
+header.top .home img { width: 48px; height: 48px; display: block; }
 .menu { margin: 0 0 0 auto; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; font: 600 .92rem/1 system-ui, sans-serif; }
 .menu a { color: var(--ink); text-decoration: none; padding: 6px 0; }
 .menu a:hover, .menu a[aria-current] { color: var(--accent); }
@@ -79,7 +79,7 @@ h1.page { font-size: 1.9rem; line-height: 1.25; text-align: center; margin: 16px
 @media (max-width: 760px) {
   .printable-hero { grid-template-columns: 1fr; }
   header.top { gap: 4px 12px; padding: 8px 16px 4px; }
-  header.top .home img { width: 32px; height: 32px; }
+  header.top .home img { width: 40px; height: 40px; }
   header.top .btn.small-btn { margin-left: auto; padding: 8px 12px; font-size: .8rem; }
   .menu { order: 3; margin: 0; width: 100%; gap: 0 18px; }
   h1.page { font-size: 1.5rem; }
