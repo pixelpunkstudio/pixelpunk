@@ -78,9 +78,12 @@ h1.page { font-size: 1.9rem; line-height: 1.25; text-align: center; margin: 16px
 .small.left { text-align: left; margin-top: 0; }
 @media (max-width: 760px) {
   .printable-hero { grid-template-columns: 1fr; }
-  header.top { gap: 4px 12px; padding: 8px 16px 4px; }
+  /* two fixed rows: logo + button on top, links below */
+  header.top { display: grid; grid-template-columns: auto 1fr; grid-template-areas: "logo cta" "menu menu";
+               align-items: center; gap: 4px 12px; padding: 8px 16px 4px; }
+  header.top .home { grid-area: logo; }
   header.top .home img { width: 40px; height: 40px; }
-  header.top .btn.small-btn { margin-left: auto; padding: 8px 12px; font-size: .8rem; }
-  .menu { order: 3; margin: 0; width: 100%; gap: 0 18px; }
+  header.top .btn.small-btn { grid-area: cta; justify-self: end; white-space: nowrap; padding: 8px 12px; font-size: .8rem; }
+  .menu { grid-area: menu; margin: 0; width: auto; gap: 0 18px; }
   h1.page { font-size: 1.5rem; }
 }
