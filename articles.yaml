@@ -13,8 +13,9 @@ articles:
     image: media/printables/winter-snowy-days.jpg
     photos:
       - slot: hero
-        query: crossword puzzle pencil coffee
-        alt: A pair of reading glasses resting on a crossword puzzle, with a red pencil
+        query: wooden table top view coffee
+        compose: {printable: thanksgiving-word-search, solved: 6, at: [0.36, 0.56], width: 0.42, angle: -6, shadow: [-0.35, 0.95]}
+        alt: A Thanksgiving word search puzzle, partly solved in pencil, next to a latte on a wooden table
       - slot: ideas
         after: 10 word search activity ideas
         query: tea cups cookies table
@@ -159,8 +160,9 @@ articles:
     image: media/printables/fall-crisp-leaves.jpg
     photos:
       - slot: hero
-        query: sudoku pencil
-        alt: A hand holding a pencil over a puzzle book
+        query: desk top view pencil coffee
+        compose: {printable: halloween-word-search, solved: 9, at: [0.27, 0.6], width: 0.38, angle: 7}
+        alt: A Halloween word search puzzle with words circled in pencil, beside a cup of coffee on a dark wooden desk
       - slot: practice
         after: Which puzzles are best for practice?
         query: cup of tea pencil paper table

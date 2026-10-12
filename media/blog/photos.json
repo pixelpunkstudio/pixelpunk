@@ -2,12 +2,13 @@
  "how-to-solve-word-search-puzzles": {
   "hero": {
    "file": "media/blog/how-to-solve-word-search-puzzles-hero.jpg",
-   "height": 800,
-   "page": "https://pixabay.com/photos/sudoku-mystery-puzzle-book-hand-552944/",
-   "pixabay_id": 552944,
-   "query": "sudoku pencil",
-   "user": "franzl34",
-   "user_page": "https://pixabay.com/users/franzl34-594177/",
+   "height": 900,
+   "page": "https://pixabay.com/photos/coffee-coffee-cup-pen-notebook-965768/",
+   "pixabay_id": 965768,
+   "puzzle": true,
+   "query": "desk top view pencil coffee",
+   "user": "Edar",
+   "user_page": "https://pixabay.com/users/Edar-609103/",
    "width": 1200
   },
   "practice": {
@@ -66,12 +67,13 @@
  "word-search-activities-for-seniors": {
   "hero": {
    "file": "media/blog/word-search-activities-for-seniors-hero.jpg",
-   "height": 900,
-   "page": "https://pixabay.com/photos/topic-of-the-week-insight-glasses-4968731/",
-   "pixabay_id": 4968731,
-   "query": "crossword puzzle pencil coffee",
-   "user": "SoniSa",
-   "user_page": "https://pixabay.com/users/SoniSa-15663288/",
+   "height": 801,
+   "page": "https://pixabay.com/photos/coffee-workspace-cafe-drink-2242213/",
+   "pixabay_id": 2242213,
+   "puzzle": true,
+   "query": "wooden table top view coffee",
+   "user": "Engin_Akyurt",
+   "user_page": "https://pixabay.com/users/Engin_Akyurt-3656355/",
    "width": 1200
   },
   "ideas": {
