@@ -7,8 +7,8 @@ newsletter:                    # Brevo form "Website newsletter" -> list Pixel P
 author_page: https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY
 
 sections:
-  - title: Cozy Seasons Word Search
-    intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
+  - title: Cozy Hygge Word Search
+    intro: Large print word searches for adults and seniors, inspired by the Scandinavian art of cozy living.
     books:
       - slug: cozy-winter-hygge
         title: Cozy Winter Hygge Word Search
@@ -20,6 +20,10 @@ sections:
           pages: [5, 116]
           label: Free printable puzzle
         more: There are 54 more cozy puzzles, with 1,650 words that never repeat, in Cozy Winter Hygge Word Search.
+
+  - title: Cozy Seasons Word Search
+    intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
+    books:
       - slug: winter-snowy-days
         title: Snowy Days Winter Word Search
         subtitle: 55 winter activity puzzles, from building snowmen to sipping hot cocoa
