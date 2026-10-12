@@ -1,5 +1,5 @@
 # Articles on the website, rendered by `python -m kdp site` into site/<slug>.html.
-# body: HTML (h2, p, ul, ol, a). related: book slugs shown under the article; printables: page names.
+# topics: free labels (filter buttons on blog.html). body: HTML (h2, p, ul, ol, a). related: book slugs shown under the article; printables: page names.
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
@@ -9,6 +9,7 @@ articles:
       Simple, social and screen-free word search activities for seniors and older adults, at home or in a
       group, with free large print printables.
     date: 2026-10-12
+    topics: [Seniors & groups, Activity ideas]
     image: media/printables/winter-snowy-days.jpg
     related: [winter-snowy-days, retirement, cozy-winter-hygge]
     printables: [free-printable-winter-word-search, free-printable-thanksgiving-word-search, free-printable-retirement-word-search]
@@ -67,6 +68,7 @@ articles:
       Simple hygge ideas for long winter evenings: candles, warm drinks, slow mornings, puzzles and small
       rituals that make the cold season feel cozy.
     date: 2026-10-12
+    topics: [Cozy living, Seasonal ideas, Activity ideas]
     image: media/printables/cozy-winter-hygge.jpg
     related: [cozy-winter-hygge, winter-snowy-days]
     printables: [free-printable-hygge-word-search, free-printable-christmas-word-search, free-printable-winter-word-search]
@@ -125,6 +127,7 @@ articles:
       Easy word search strategies that actually work: scanning for rare letters, searching row by row,
       double letters and more. Practice with free large print printables.
     date: 2026-10-12
+    topics: [Puzzle tips]
     image: media/printables/fall-crisp-leaves.jpg
     related: [fall-crisp-leaves, summer-sunny-vibes, spring-fresh-blooms]
     printables: [free-printable-fall-word-search, free-printable-halloween-word-search, free-printable-summer-word-search]
