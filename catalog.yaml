@@ -19,6 +19,11 @@ sections:
           pdf: "books/cozy-winter-hygge/output"
           pages: [5, 116]
           label: Free printable puzzle
+          page: free-printable-hygge-word-search
+          seo_title: "Free Printable Hygge Word Search for Adults (Large Print)"
+          pin_title: "Cozy Hygge Word Search"
+          about: >-
+            Candlelit Evenings: a cozy large print word search with 30 warm words, from beeswax and lanterns to tealights, vanilla and twilight.
         more: There are 54 more cozy puzzles, with 1,650 words that never repeat, in Cozy Winter Hygge Word Search.
 
   - title: Cozy Seasons Word Search
@@ -33,6 +38,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Winter Activities - Word Search/Winter_Season_Word_Search 1861158 (CMYK)"
           pages: [5, 117]
           label: Free printable puzzle
+          page: free-printable-winter-word-search
+          seo_title: "Free Printable Winter Word Search for Adults (Large Print)"
+          pin_title: "Winter Word Search"
+          about: >-
+            Stargazing on Clear Winter Nights: 30 words about long starry evenings, from comets and constellations to the Milky Way and the northern lights.
         more: There are 54 more winter puzzles in Snowy Days Winter Word Search.
       - slug: spring-fresh-blooms
         title: Fresh Blooms Spring Word Search
@@ -43,6 +53,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Spring Activities - Word Search/Spring_Activities_Word_Search 2435155 (CMYK)"
           pages: [5, 116]
           label: Free printable puzzle
+          page: free-printable-spring-word-search
+          seo_title: "Free Printable Spring Word Search for Adults (Large Print)"
+          pin_title: "Spring Word Search"
+          about: >-
+            A Spring Picnic: 30 sunny words about eating outdoors, from gingham blankets and lemonade to butterflies, dandelions and a hammock nap.
         more: There are 54 more spring puzzles in Fresh Blooms Spring Word Search.
       - slug: summer-sunny-vibes
         title: Sunny Vibes Summer Word Search
@@ -53,6 +68,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Summer Activities - Word Search/Summer_Activities_Word_Search 2512955 (CMYK)"
           pages: [5, 116]
           label: Free printable puzzle
+          page: free-printable-summer-word-search
+          seo_title: "Free Printable Summer Word Search for Adults (Large Print)"
+          pin_title: "Summer Word Search"
+          about: >-
+            Swim in the Ocean: 30 summer words about a day at the beach, from snorkeling and sandbars to coral reefs, high tide and lifeguards.
         more: There are 54 more summer puzzles in Sunny Vibes Summer Word Search.
       - slug: fall-crisp-leaves
         title: Crisp Leaves Fall Word Search
@@ -63,6 +83,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Fall Activities - Word Search/Fall_Activities_Word_Search 2327831 (CMYK)"
           pages: [5, 116]
           label: Free printable puzzle
+          page: free-printable-fall-word-search
+          seo_title: "Free Printable Fall Word Search for Adults (Large Print)"
+          pin_title: "Fall Word Search"
+          about: >-
+            A Fall Nature Walk: 30 autumn words, from acorns and maple leaves to hayrides, pumpkins, cinnamon and campfires.
         more: There are 54 more autumn puzzles in Crisp Leaves Fall Word Search.
 
   - title: Farm & Bug Learning Adventures
@@ -77,6 +102,12 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Life On The Farm - Word Search/Life_On_The_Farm_Word_Search 2348354 (CMYK)"
           pages: [6, 7, 107]
           label: Free printable puzzle
+          page: free-printable-farm-word-search-for-kids
+          seo_title: "Free Printable Farm Word Search for Kids (Highland Cow)"
+          pin_title: "Farm Word Search for Kids"
+          about: >-
+            Highland Cow: a kids' farm word search with 18 big, easy-to-read words and a fun fact page about these fluffy, cold-loving cows.
+          preview: 2
         more: There are 49 more farm puzzles, each with a fun fact, in Life on the Farm Word Search for Kids.
       - slug: bug-hunt
         title: Bug Hunt Word Search Coloring Book
@@ -87,6 +118,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Kids Word Search - Bugs/Kids_Word_Search_Bugs 2582400 (CMYK)"
           pages: [5, 116]
           label: Free printable puzzle
+          page: free-printable-bug-word-search-for-kids
+          seo_title: "Free Printable Bug Word Search for Kids (Color the Letters)"
+          pin_title: "Bug Word Search for Kids"
+          about: >-
+            Common Bugs: an easy word search for young kids with 8 bug words to find, then color in, with bubble letters and a cute ant.
         more: There are 54 more bug puzzles to search and color in Bug Hunt Word Search Coloring Book.
       - slug: cute-farm-days
         title: Cute Farm Days Coloring Book
@@ -97,6 +133,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Farm Animals Coloring Book/Cute_Farm_Days_Coloring_Book 2295511 (CMYK)"
           pages: [5, 6]
           label: Free coloring page
+          page: free-printable-puppy-kitten-coloring-page
+          seo_title: "Free Printable Puppy and Kitten Coloring Page for Kids"
+          pin_title: "Puppy & Kitten Coloring Page"
+          about: >-
+            A puppy and a sleepy kitten in a wheelbarrow, with bold, easy lines for little hands and a "Did you know?" fun fact about dogs.
         more: There are 49 more farm animals to color, each with a fun fact, in Cute Farm Days Coloring Book.
 
   - title: More Puzzle Books
@@ -110,6 +151,11 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Retirement Activities - Word Search/Retirement_Activities_Word_Search 2754862 (CMYK)"
           pages: [5, 116]
           label: Free printable puzzle
+          page: free-printable-retirement-word-search
+          seo_title: "Free Printable Retirement Word Search (Large Print)"
+          pin_title: "Retirement Word Search"
+          about: >-
+            Take an Online Course: 30 words about learning something new in retirement, from history and painting to gardening, music and typing.
         more: There are 54 more puzzles about hobbies, travel and wellness in Retirement Word Search.
       - slug: sudoku-of-love
         title: Sudoku of Love
@@ -120,4 +166,49 @@ sections:
           pdf: "C:/BigBangPixels/KDP/Sudoku of Love/Sudoku_of_Love 1991516 (CMYK)"
           pages: [3, 131]
           label: Free printable puzzle
+          page: free-printable-easy-sudoku-puzzles
+          seo_title: "Free Printable Very Easy Sudoku Puzzles (with Solutions)"
+          pin_title: "Easy Sudoku Puzzles"
+          about: >-
+            Four very easy sudoku puzzles from the "Sweet Beginnings" chapter of Sudoku of Love, with heart-themed pages and all the solutions.
         more: There are 500+ romantic sudoku puzzles, from very easy to hard, in Sudoku of Love.
+
+# Standalone free printables (not samples of a book). Each gets a page, a pin image and a PDF built
+# from books/<source>/words.yaml (puzzle = 1-based index). related: book slugs promoted on the page.
+printables:
+  - key: halloween-word-search
+    page: free-printable-halloween-word-search
+    title: Halloween Night Word Search
+    seo_title: "Free Printable Halloween Word Search for Adults (Large Print)"
+    pin_title: "Halloween Word Search"
+    source: holiday-printables
+    puzzle: 1
+    related: [fall-crisp-leaves]
+    about: >-
+      Halloween Night: 30 spooky-but-friendly words, from jack o lanterns and candy corn to black cats,
+      cauldrons and a full moon. A large print puzzle for teens, adults and seniors.
+    more: Love fall puzzles? Crisp Leaves Fall Word Search has 55 more, from apple picking to cozy campfires.
+  - key: thanksgiving-word-search
+    page: free-printable-thanksgiving-word-search
+    title: Thanksgiving Feast Word Search
+    seo_title: "Free Printable Thanksgiving Word Search for Adults (Large Print)"
+    pin_title: "Thanksgiving Word Search"
+    source: holiday-printables
+    puzzle: 2
+    related: [fall-crisp-leaves]
+    about: >-
+      A Thanksgiving Feast: 30 words from the holiday table, from turkey, stuffing and pecan pie to the
+      parade, the wishbone and plenty of gratitude. Perfect to print for the whole family.
+    more: Love fall puzzles? Crisp Leaves Fall Word Search has 55 more, from apple picking to cozy campfires.
+  - key: christmas-word-search
+    page: free-printable-christmas-word-search
+    title: Christmas Eve Word Search
+    seo_title: "Free Printable Christmas Word Search for Adults (Large Print)"
+    pin_title: "Christmas Word Search"
+    source: holiday-printables
+    puzzle: 3
+    related: [winter-snowy-days, cozy-winter-hygge]
+    about: >-
+      Christmas Eve at Home: 30 festive words, from stockings, tinsel and gingerbread to sleigh rides,
+      carols and twinkle lights. A large print holiday puzzle with the full solution.
+    more: Love winter puzzles? Snowy Days Winter Word Search has 55 more, from building snowmen to sipping hot cocoa.

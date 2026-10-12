@@ -1,0 +1,159 @@
+# Articles on the website, rendered by `python -m kdp site` into site/<slug>.html.
+# body: HTML (h2, p, ul, ol, a). related: book slugs shown under the article; printables: page names.
+# No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
+
+articles:
+  - slug: word-search-activities-for-seniors
+    title: "Word Search Activities for Seniors: 10 Ideas for Home, Family and Senior Centers"
+    description: >-
+      Simple, social and screen-free word search activities for seniors and older adults, at home or in a
+      group, with free large print printables.
+    date: 2026-10-12
+    image: media/printables/winter-snowy-days.jpg
+    related: [winter-snowy-days, retirement, cozy-winter-hygge]
+    printables: [free-printable-winter-word-search, free-printable-thanksgiving-word-search, free-printable-retirement-word-search]
+    body: |
+      <p>Word searches are one of the easiest puzzles to share: no rules to learn, no math, and you can stop
+      after five minutes or keep going for an hour. For older adults they also tick a lot of boxes at once:
+      a calm moment, a reason to sit together, and something to look forward to. Here are ten ways to make
+      the most of them, at home or in a group.</p>
+
+      <h2>Before you start: pick the right puzzle</h2>
+      <ul>
+        <li><strong>Large print matters.</strong> Look for big letters, a clear grid and plenty of white space.
+        Most of our books use a 20 x 20 grid on full 8.5 x 11 inch pages for that reason.</li>
+        <li><strong>A theme helps.</strong> Words about seasons, holidays, hobbies or travel are easier to
+        spot, and they get people talking.</li>
+        <li><strong>Check the solution is included.</strong> Nobody likes being stuck on the last word.</li>
+      </ul>
+
+      <h2>10 word search activity ideas</h2>
+      <ol>
+        <li><strong>The morning coffee puzzle.</strong> One puzzle with breakfast is a gentle start to the day and
+        an easy habit to keep.</li>
+        <li><strong>Team searching.</strong> Two people, one puzzle, two pencil colors. Count who found more
+        words, or just enjoy the company.</li>
+        <li><strong>The season of the month.</strong> Match the puzzle to the calendar: snowflakes in January,
+        gardens in April, beaches in July, harvest in October. It is a nice way to mark the year, especially
+        for anyone who doesn't get outside as often as they'd like.</li>
+        <li><strong>Memory lane.</strong> After each puzzle, pick one word and share a story about it. "Hayride"
+        or "sandcastle" can start a wonderful conversation.</li>
+        <li><strong>Group activity time.</strong> In a senior center or care home, print the same puzzle for
+        everyone and read the words aloud together. The first table to finish chooses next week's theme.</li>
+        <li><strong>Grandkids' challenge.</strong> Grandparents and grandchildren race on the same puzzle (a kids'
+        puzzle for the little ones, a large print one for grandma or grandpa).</li>
+        <li><strong>Holiday table placemats.</strong> Print a holiday word search for each place at the
+        Thanksgiving or Christmas table: perfect while the turkey rests.</li>
+        <li><strong>Waiting room kit.</strong> Keep a folded puzzle and a pencil in a bag for appointments,
+        trips and long car rides.</li>
+        <li><strong>Make your own list.</strong> Write down 15 words about your family, your hometown or a
+        favorite trip, and let someone else hide them in a grid (or use an online grid maker).</li>
+        <li><strong>The monthly book club, puzzle edition.</strong> Everyone solves the same puzzle book over a
+        month, then meets to compare favorite themes over tea and cookies.</li>
+      </ol>
+
+      <h2>Tips to keep it relaxing</h2>
+      <ul>
+        <li>Good light and a soft pencil (or a highlighter) make a big difference.</li>
+        <li>Clip the page to a clipboard so it doesn't slide on a lap or a tray.</li>
+        <li>There is no time limit. Finding half the words today and the rest tomorrow is perfectly fine.</li>
+      </ul>
+
+      <p>Want to try one now? Every printable below is free, large print and comes with its solution.</p>
+
+  - slug: hygge-winter-activities
+    title: "15 Cozy Hygge Winter Activities to Enjoy at Home"
+    description: >-
+      Simple hygge ideas for long winter evenings: candles, warm drinks, slow mornings, puzzles and small
+      rituals that make the cold season feel cozy.
+    date: 2026-10-12
+    image: media/printables/cozy-winter-hygge.jpg
+    related: [cozy-winter-hygge, winter-snowy-days]
+    printables: [free-printable-hygge-word-search, free-printable-christmas-word-search, free-printable-winter-word-search]
+    body: |
+      <p><em>Hygge</em> (say "hoo-gah") is the Danish word for that warm, contented feeling of being cozy and
+      at ease, often with people you love. It isn't about buying anything. It's about slowing down and
+      noticing small comforts, which is exactly what winter is good for. Here are fifteen easy ways to bring
+      a little hygge home this season.</p>
+
+      <h2>Make your home feel warm</h2>
+      <ol>
+        <li><strong>Light candles in the late afternoon.</strong> Soft light is the heart of hygge. Group a few
+        candles or lanterns together (and never leave them burning unattended).</li>
+        <li><strong>Build a reading nook.</strong> A chair by the window, a blanket, a lamp and a small table
+        for your mug. That's all it takes.</li>
+        <li><strong>Bring in a little nature.</strong> Pine branches, pinecones, a bowl of clementines or a pot
+        of rosemary on the windowsill.</li>
+        <li><strong>Pile on the textures.</strong> Wool socks, a knitted throw, sheepskin on a chair: winter is
+        the season for soft things.</li>
+      </ol>
+
+      <h2>Slow, simple rituals</h2>
+      <ol start="5">
+        <li><strong>A proper hot drink.</strong> Hot cocoa with marshmallows, spiced cider or tea in your
+        favorite mug, made slowly and enjoyed sitting down.</li>
+        <li><strong>Slow Sunday mornings.</strong> Pancakes, the radio on, no plans before noon.</li>
+        <li><strong>Bake something that smells good.</strong> Cinnamon rolls, gingerbread or a simple loaf of
+        bread fill the whole house.</li>
+        <li><strong>A soup night.</strong> One big pot, crusty bread and nobody in a hurry.</li>
+        <li><strong>Puzzles by candlelight.</strong> A word search, a jigsaw or a crossword is the perfect
+        screen-free way to unwind. Try our free hygge word search below.</li>
+      </ol>
+
+      <h2>Hygge with the people you love</h2>
+      <ol start="10">
+        <li><strong>Board game evening.</strong> Old favorites, snacks in bowls, phones in another room.</li>
+        <li><strong>Write letters or cards.</strong> A handwritten note is a small, warm gift.</li>
+        <li><strong>Share a story night.</strong> Read aloud, look through old photo albums or tell family
+        stories.</li>
+        <li><strong>Invite a friend for fika.</strong> Borrowed from Sweden, it means coffee and something sweet, no special occasion needed.</li>
+      </ol>
+
+      <h2>Enjoy winter outside, then come back in</h2>
+      <ol start="14">
+        <li><strong>A short winter walk.</strong> Fresh air makes coming back to a warm house even better.</li>
+        <li><strong>Stargaze from the porch.</strong> Winter nights are long and clear. Wrap up, bring a warm
+        drink and look for the brightest stars.</li>
+      </ol>
+
+      <p>Looking for a cozy way to spend the evening? Our free printables are large print and come with the
+      solutions, so you can print one, light a candle and relax.</p>
+
+  - slug: how-to-solve-word-search-puzzles
+    title: "How to Solve Word Search Puzzles Faster: 9 Simple Tips"
+    description: >-
+      Easy word search strategies that actually work: scanning for rare letters, searching row by row,
+      double letters and more. Practice with free large print printables.
+    date: 2026-10-12
+    image: media/printables/fall-crisp-leaves.jpg
+    related: [fall-crisp-leaves, summer-sunny-vibes, spring-fresh-blooms]
+    printables: [free-printable-fall-word-search, free-printable-halloween-word-search, free-printable-summer-word-search]
+    body: |
+      <p>Word searches look simple, but a few habits make them much faster and more satisfying. Here are the
+      strategies most puzzle fans use, from beginner to "I can't stop".</p>
+
+      <ol>
+        <li><strong>Look for the rare letters first.</strong> Q, Z, X, J and K don't appear often, so a word
+        like "Zenith" or "Jellyfish" is quickest to find by hunting for its unusual letter.</li>
+        <li><strong>Search for double letters.</strong> Pairs like "ee", "oo" or "ll" stand out in a grid. Words
+        such as "Cocoa" or "Balloon" jump out once you spot them.</li>
+        <li><strong>Start with the longest words.</strong> Long words cross more of the grid and are easier to
+        see. Once they are circled, the shorter words have fewer places to hide.</li>
+        <li><strong>Scan row by row, then column by column.</strong> Instead of looking everywhere at once, run
+        a finger along each row for the first letter of the word you want.</li>
+        <li><strong>Remember the directions.</strong> In most adult puzzles words can run forwards, backwards, up,
+        down and diagonally. Many players forget the backward diagonals, so check those last.</li>
+        <li><strong>Use the shape of the word.</strong> For a word with an unusual pair of letters, like "wh"
+        in "Wheelbarrow", look for that pair rather than the first letter.</li>
+        <li><strong>Cross off as you go.</strong> Strike each word on the list as soon as you find it, so you
+        never search for the same word twice.</li>
+        <li><strong>Change your angle.</strong> Stuck? Turn the page sideways or upside down. A fresh view
+        often reveals the word you've been staring past.</li>
+        <li><strong>Take a break.</strong> The last word is always the hardest. Come back after a cup of tea and
+        it is often right there.</li>
+      </ol>
+
+      <h2>Which puzzles are best for practice?</h2>
+      <p>Themed puzzles are easiest to start with, because the words fit together and you can guess what to
+      look for. Large print grids are also more comfortable for longer sessions. Try the free printables
+      below: each one has 30 themed words and the full solution.</p>
