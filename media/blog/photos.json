@@ -2,99 +2,109 @@
  "how-to-solve-word-search-puzzles": {
   "hero": {
    "file": "media/blog/how-to-solve-word-search-puzzles-hero.jpg",
-   "height": 900,
-   "page": "https://pixabay.com/photos/coffee-coffee-cup-pen-notebook-965768/",
-   "pixabay_id": 965768,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/dirty-high-angle-shot-panel-pumpkin-1867817/",
+   "pixabay_id": 1867817,
    "puzzle": true,
-   "query": "desk top view pencil coffee",
-   "user": "Edar",
-   "user_page": "https://pixabay.com/users/Edar-609103/",
-   "width": 1200
+   "query": "wood texture top view",
+   "user": "Pexels",
+   "user_page": "https://pixabay.com/users/Pexels-2286921/",
+   "wide": "media/blog/how-to-solve-word-search-puzzles-hero-wide.jpg",
+   "width": 1000
   },
   "practice": {
    "file": "media/blog/how-to-solve-word-search-puzzles-practice.jpg",
-   "height": 795,
-   "page": "https://pixabay.com/photos/tea-hot-cup-table-tea-time-break-2356764/",
-   "pixabay_id": 2356764,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/tea-cup-chamomile-chamomile-flowers-1839140/",
+   "pixabay_id": 1839140,
+   "puzzle": false,
    "query": "cup of tea pencil paper table",
-   "user": "dungthuyvunguyen",
-   "user_page": "https://pixabay.com/users/dungthuyvunguyen-5499796/",
-   "width": 1200
+   "user": "Pexels",
+   "user_page": "https://pixabay.com/users/Pexels-2286921/",
+   "width": 1000
   }
  },
  "hygge-winter-activities": {
   "hero": {
    "file": "media/blog/hygge-winter-activities-hero.jpg",
-   "height": 800,
-   "page": "https://pixabay.com/photos/candle-flame-heat-light-fire-burn-3040997/",
-   "pixabay_id": 3040997,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/mulled-wine-christmas-drink-6783665/",
+   "pixabay_id": 6783665,
+   "puzzle": false,
    "query": "candles cozy blanket winter",
-   "user": "_Alicja_",
-   "user_page": "https://pixabay.com/users/_Alicja_-5975425/",
-   "width": 1200
+   "user": "MReisen",
+   "user_page": "https://pixabay.com/users/MReisen-6688182/",
+   "wide": "media/blog/hygge-winter-activities-hero-wide.jpg",
+   "width": 1000
   },
   "home": {
    "file": "media/blog/hygge-winter-activities-home.jpg",
-   "height": 730,
-   "page": "https://pixabay.com/photos/coffee-cup-of-coffee-lifestyle-cup-1276778/",
-   "pixabay_id": 1276778,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/cup-blanket-table-plaid-blanket-7263953/",
+   "pixabay_id": 7263953,
+   "puzzle": false,
    "query": "reading nook armchair blanket window",
-   "user": "freephotocc",
-   "user_page": "https://pixabay.com/users/freephotocc-2275370/",
-   "width": 1200
+   "user": "lishuang111",
+   "user_page": "https://pixabay.com/users/lishuang111-28070340/",
+   "width": 1000
   },
   "outside": {
    "file": "media/blog/hygge-winter-activities-outside.jpg",
-   "height": 667,
-   "page": "https://pixabay.com/photos/forest-trees-snow-nature-landscape-3143164/",
-   "pixabay_id": 3143164,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/snow-winter-white-cold-weather-2590191/",
+   "pixabay_id": 2590191,
+   "puzzle": false,
    "query": "snowy forest path winter walk",
-   "user": "652234",
-   "user_page": "https://pixabay.com/users/652234-652234/",
+   "user": "StockSnap",
+   "user_page": "https://pixabay.com/users/StockSnap-894430/",
    "width": 1000
   },
   "rituals": {
    "file": "media/blog/hygge-winter-activities-rituals.jpg",
-   "height": 800,
-   "page": "https://pixabay.com/photos/marshmallows-cup-cocoa-powder-5781478/",
-   "pixabay_id": 5781478,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/hot-chocolate-drink-christmas-5933017/",
+   "pixabay_id": 5933017,
+   "puzzle": false,
    "query": "hot chocolate mug marshmallows",
-   "user": "Couleur",
-   "user_page": "https://pixabay.com/users/Couleur-1195798/",
-   "width": 1200
+   "user": "Ragabz",
+   "user_page": "https://pixabay.com/users/Ragabz-19706270/",
+   "width": 1000
   }
  },
  "word-search-activities-for-seniors": {
   "hero": {
    "file": "media/blog/word-search-activities-for-seniors-hero.jpg",
-   "height": 801,
-   "page": "https://pixabay.com/photos/coffee-workspace-cafe-drink-2242213/",
-   "pixabay_id": 2242213,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
+   "pixabay_id": 7036168,
    "puzzle": true,
-   "query": "wooden table top view coffee",
-   "user": "Engin_Akyurt",
-   "user_page": "https://pixabay.com/users/Engin_Akyurt-3656355/",
-   "width": 1200
+   "query": "light wood planks background",
+   "user": "Alexandra_Koch",
+   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
+   "wide": "media/blog/word-search-activities-for-seniors-hero-wide.jpg",
+   "width": 1000
   },
   "ideas": {
    "file": "media/blog/word-search-activities-for-seniors-ideas.jpg",
-   "height": 800,
-   "page": "https://pixabay.com/photos/coffee-glasses-house-table-1420260/",
-   "pixabay_id": 1420260,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/biscuit-coffee-tea-coffee-break-6129435/",
+   "pixabay_id": 6129435,
+   "puzzle": false,
    "query": "tea cups cookies table",
-   "user": "ponce_photography",
-   "user_page": "https://pixabay.com/users/ponce_photography-2473530/",
-   "width": 1200
+   "user": "Hilda_Smith",
+   "user_page": "https://pixabay.com/users/Hilda_Smith-20231267/",
+   "width": 1000
   },
   "relax": {
    "file": "media/blog/word-search-activities-for-seniors-relax.jpg",
-   "height": 800,
-   "page": "https://pixabay.com/photos/reading-glasses-book-read-4330761/",
-   "pixabay_id": 4330761,
+   "height": 1500,
+   "page": "https://pixabay.com/photos/candle-book-read-study-fiction-6942931/",
+   "pixabay_id": 6942931,
+   "puzzle": false,
    "query": "reading glasses pencil notebook",
-   "user": "jan_photo",
-   "user_page": "https://pixabay.com/users/jan_photo-2842014/",
-   "width": 1200
+   "user": "Arturo_Anez",
+   "user_page": "https://pixabay.com/users/Arturo_Anez-20351946/",
+   "width": 1000
   }
  }
 }

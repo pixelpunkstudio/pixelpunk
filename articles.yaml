@@ -13,17 +13,18 @@ articles:
     image: media/printables/winter-snowy-days.jpg
     photos:
       - slot: hero
-        query: wooden table top view coffee
-        compose: {printable: thanksgiving-word-search, solved: 6, at: [0.36, 0.56], width: 0.42, angle: -6, shadow: [-0.35, 0.95]}
-        alt: A Thanksgiving word search puzzle, partly solved in pencil, next to a latte on a wooden table
+        query: light wood planks background
+        # scale: nail heads ~0.3 in and boards ~5.5 in both give ~80 px/in on the full-size photo
+        compose: {printable: thanksgiving-word-search, solved: 6, scale: [80, 1], at: [0.5, 0.5], angle: -4, shadow: [0.4, 0.9]}
+        alt: A Thanksgiving word search puzzle, partly solved in pencil, on rustic wooden boards
       - slot: ideas
         after: 10 word search activity ideas
         query: tea cups cookies table
-        alt: Cups of coffee, cookies and reading glasses on a lace tablecloth
+        alt: Two cups, a few cookies and a daisy on a wooden table, with steam rising
       - slot: relax
         after: Tips to keep it relaxing
         query: reading glasses pencil notebook
-        alt: Reading glasses resting on an open book
+        alt: Reading glasses resting on an open book beside a candle
     related: [winter-snowy-days, retirement, cozy-winter-hygge]
     printables: [free-printable-winter-word-search, free-printable-thanksgiving-word-search, free-printable-retirement-word-search]
     body: |
@@ -86,19 +87,20 @@ articles:
     photos:
       - slot: hero
         query: candles cozy blanket winter
-        alt: A candle glowing in a jar, nestled in a soft sheepskin throw
+        alt: A warm spiced drink and a glowing candle lantern on a wooden table with a soft fur throw
+        wide_focus: [0.5, 0.68]
       - slot: home
         after: Make your home feel warm
         query: reading nook armchair blanket window
-        alt: A steaming cup resting on an open book, with a warm blanket by the window
+        alt: A small cup on a plaid cloth on a wooden table by the window, with fresh flowers
       - slot: rituals
         after: Slow, simple rituals
         query: hot chocolate mug marshmallows
-        alt: A warm mug of hot cocoa topped with marshmallows
+        alt: A dark mug of hot cocoa with marshmallows and cinnamon sticks, surrounded by pinecones and chocolate
       - slot: outside
         after: Enjoy winter outside, then come back in
         query: snowy forest path winter walk
-        alt: A quiet snowy path through a winter forest
+        alt: A quiet snowy road through a tall pine forest
     related: [cozy-winter-hygge, winter-snowy-days]
     printables: [free-printable-hygge-word-search, free-printable-christmas-word-search, free-printable-winter-word-search]
     body: |
@@ -160,13 +162,16 @@ articles:
     image: media/printables/fall-crisp-leaves.jpg
     photos:
       - slot: hero
-        query: desk top view pencil coffee
-        compose: {printable: halloween-word-search, solved: 9, at: [0.27, 0.6], width: 0.38, angle: 7}
-        alt: A Halloween word search puzzle with words circled in pencil, beside a cup of coffee on a dark wooden desk
+        query: wood texture top view
+        # scale: planks ~360 px = 5.5 in; the white pumpkin comes out ~5 in across
+        compose: {printable: halloween-word-search, solved: 9, scale: [360, 5.5], at: [0.5, 0.33], angle: 5, shadow: [-0.4, 0.9]}
+        focus: [0.5, 0.5]
+        wide_focus: [0.5, 0.3]
+        alt: A Halloween word search puzzle with words circled in pencil, above a small white pumpkin on dark wooden planks
       - slot: practice
         after: Which puzzles are best for practice?
         query: cup of tea pencil paper table
-        alt: Tea being poured into a white cup on a small wooden table
+        alt: A cup of chamomile tea on a weathered wooden table, next to a bunch of small white flowers
     related: [fall-crisp-leaves, summer-sunny-vibes, spring-fresh-blooms]
     printables: [free-printable-fall-word-search, free-printable-halloween-word-search, free-printable-summer-word-search]
     body: |

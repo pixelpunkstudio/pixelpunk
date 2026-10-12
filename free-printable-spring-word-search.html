@@ -17,7 +17,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/pins/spring-fresh-blooms.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=64c55bcf">
+<link rel="stylesheet" href="style.css?v=73c77512">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "Free Printable Spring Word Search for Adults: Easter Egg Hunt (Large Print)", "description": "Go on an Egg Hunt: 30 springtime words about an Easter egg hunt, from bunnies, baskets and chocolate to clues, prizes and hidden surprises in the grass. Free to download and print at home on letter paper.", "url": "https://pixelpunkstudio.shop/free-printable-spring-word-search.html", "image": ["https://pixelpunkstudio.shop/media/printables/spring-fresh-blooms.jpg", "https://pixelpunkstudio.shop/media/pins/spring-fresh-blooms.jpg"], "isAccessibleForFree": true, "inLanguage": "en-US", "encodingFormat": "application/pdf", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "about": [{"@context": "https://schema.org", "@type": "Book", "name": "Fresh Blooms Spring Word Search", "description": "55 spring puzzles full of gardens, picnics and blossoms", "image": "https://pixelpunkstudio.shop/covers/spring-fresh-blooms.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FLXRGFZY", "sameAs": "https://www.amazon.com/dp/B0FLXRGFZY"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Free printables", "item": "https://pixelpunkstudio.shop/free-printables.html"}, {"@type": "ListItem", "position": 3, "name": "Spring Word Search", "item": "https://pixelpunkstudio.shop/free-printable-spring-word-search.html"}]}</script>
 </head><body><main class="wide">
@@ -25,7 +25,25 @@
   <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
   <nav class="menu" aria-label="Main"><a href="free-printables.html" aria-current="page">Free printables</a><a href="./#books">Books</a><a href="blog.html">Blog</a></nav>
   <a class="btn small-btn" href="#newsletter">Free monthly puzzle</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
 </header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <nav class="panel-links" aria-label="Main"><a href="free-printables.html" aria-current="page">Free printables</a><a href="./#books">Books</a><a href="blog.html">Blog</a></nav>
+  
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
 <h1 class="page">Free Printable Spring Word Search for Adults: Easter Egg Hunt (Large Print)</h1>
 <section class="printable-hero">
   <a href="free/spring-fresh-blooms-free-puzzle.pdf" download><img class="sheet" src="media/printables/spring-fresh-blooms.jpg" alt="Free Printable Spring Word Search for Adults: Easter Egg Hunt (Large Print): preview of the puzzle page" width="900"></a>

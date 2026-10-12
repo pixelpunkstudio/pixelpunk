@@ -17,14 +17,32 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/word-search-activities-for-seniors-hero.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=64c55bcf">
+<link rel="stylesheet" href="style.css?v=73c77512">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Blog", "name": "Pixel Punk Studio blog", "description": "Puzzle tips, cozy seasonal ideas and activity ideas for adults, seniors and kids, with free printable word searches.", "url": "https://pixelpunkstudio.shop/blog.html", "blogPost": [{"@type": "BlogPosting", "headline": "Word Search Activities for Seniors: 10 Ideas for Home, Family and Senior Centers", "url": "https://pixelpunkstudio.shop/word-search-activities-for-seniors.html", "datePublished": "2026-10-12"}, {"@type": "BlogPosting", "headline": "15 Cozy Hygge Winter Activities to Enjoy at Home", "url": "https://pixelpunkstudio.shop/hygge-winter-activities.html", "datePublished": "2026-10-12"}, {"@type": "BlogPosting", "headline": "How to Solve Word Search Puzzles Faster: 9 Simple Tips", "url": "https://pixelpunkstudio.shop/how-to-solve-word-search-puzzles.html", "datePublished": "2026-10-12"}]}</script>
 </head><body><main class="wide">
 <header class="top">
   <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
   <nav class="menu" aria-label="Main"><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
   <a class="btn small-btn" href="#newsletter">Free monthly puzzle</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
 </header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <nav class="panel-links" aria-label="Main"><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
 <h1 class="page">Puzzle Tips &amp; Cozy Ideas</h1>
 <p class="intro">Ideas, tips and seasonal inspiration from Pixel Punk Studio, newest first · <a href="feed.xml">RSS feed</a></p>
 <nav class="chips" aria-label="Topics"><a class="chip" href="#all" data-topic="all">All</a><a class="chip" href="#activity-ideas" data-topic="activity-ideas">Activity ideas <span>2</span></a><a class="chip" href="#cozy-living" data-topic="cozy-living">Cozy living <span>1</span></a><a class="chip" href="#puzzle-tips" data-topic="puzzle-tips">Puzzle tips <span>1</span></a><a class="chip" href="#seasonal-ideas" data-topic="seasonal-ideas">Seasonal ideas <span>1</span></a><a class="chip" href="#seniors-groups" data-topic="seniors-groups">Seniors &amp; groups <span>1</span></a></nav>
