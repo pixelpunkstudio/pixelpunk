@@ -11,6 +11,18 @@ articles:
     date: 2026-10-12
     topics: [Seniors & groups, Activity ideas]
     image: media/printables/winter-snowy-days.jpg
+    photos:
+      - slot: hero
+        query: crossword puzzle pencil coffee
+        alt: A pair of reading glasses resting on a crossword puzzle, with a red pencil
+      - slot: ideas
+        after: 10 word search activity ideas
+        query: tea cups cookies table
+        alt: Cups of coffee, cookies and reading glasses on a lace tablecloth
+      - slot: relax
+        after: Tips to keep it relaxing
+        query: reading glasses pencil notebook
+        alt: Reading glasses resting on an open book
     related: [winter-snowy-days, retirement, cozy-winter-hygge]
     printables: [free-printable-winter-word-search, free-printable-thanksgiving-word-search, free-printable-retirement-word-search]
     body: |
@@ -70,6 +82,22 @@ articles:
     date: 2026-10-12
     topics: [Cozy living, Seasonal ideas, Activity ideas]
     image: media/printables/cozy-winter-hygge.jpg
+    photos:
+      - slot: hero
+        query: candles cozy blanket winter
+        alt: A candle glowing in a jar, nestled in a soft sheepskin throw
+      - slot: home
+        after: Make your home feel warm
+        query: reading nook armchair blanket window
+        alt: A steaming cup resting on an open book, with a warm blanket by the window
+      - slot: rituals
+        after: Slow, simple rituals
+        query: hot chocolate mug marshmallows
+        alt: A warm mug of hot cocoa topped with marshmallows
+      - slot: outside
+        after: Enjoy winter outside, then come back in
+        query: snowy forest path winter walk
+        alt: A quiet snowy path through a winter forest
     related: [cozy-winter-hygge, winter-snowy-days]
     printables: [free-printable-hygge-word-search, free-printable-christmas-word-search, free-printable-winter-word-search]
     body: |
@@ -129,6 +157,14 @@ articles:
     date: 2026-10-12
     topics: [Puzzle tips]
     image: media/printables/fall-crisp-leaves.jpg
+    photos:
+      - slot: hero
+        query: sudoku pencil
+        alt: A hand holding a pencil over a puzzle book
+      - slot: practice
+        after: Which puzzles are best for practice?
+        query: cup of tea pencil paper table
+        alt: Tea being poured into a white cup on a small wooden table
     related: [fall-crisp-leaves, summer-sunny-vibes, spring-fresh-blooms]
     printables: [free-printable-fall-word-search, free-printable-halloween-word-search, free-printable-summer-word-search]
     body: |

@@ -112,6 +112,12 @@ a.tag:hover { background: var(--ink); color: #fff; }
 .toc a { text-decoration: none; }
 .toc a:hover { text-decoration: underline; }
 .prose h2[id] { scroll-margin-top: 100px; }
+.photo { margin: 20px 0; }
+.photo img { width: 100%; height: auto; border-radius: 10px; display: block; }
+.photo figcaption { font: .75rem/1.4 system-ui, sans-serif; color: var(--muted); margin-top: 6px; text-align: right; }
+.photo figcaption a { color: var(--muted); }
+.prose > .photo:first-child { margin-top: 0; }
+.post img[src*="media/blog/"] { aspect-ratio: 4 / 3; }
 .back { margin: 28px 0 0; font: 600 .95rem/1 system-ui, sans-serif; }
 .back a { text-decoration: none; }
 @media (max-width: 560px) {
