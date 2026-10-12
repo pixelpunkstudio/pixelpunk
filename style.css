@@ -174,3 +174,9 @@ h1.page.left { text-align: left; margin-left: 0; }
   .side { display: none; }
 }
 @media (min-width: 901px) { .mobile-panel { display: none !important; } }
+/* "In this article" also at the top of the text (the right column keeps its own copy) */
+.toc.inline { background: #f6f1e8; border-radius: 10px; padding: 14px 18px; margin: 16px 0 8px; }
+.toc.inline strong { display: block; font: 700 .78rem/1 system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase;
+                     color: var(--muted); margin-bottom: 8px; }
+.toc.inline ol { margin: 0; padding-left: 1.3em; }
+.toc.inline li { margin: 5px 0; }
