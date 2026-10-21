@@ -1,0 +1,783 @@
+# Pixel Punk Studio social content: one entry per Pinterest pin or Instagram post.
+# Edit texts freely before approving; `social.py plan` only ADDS entries for new books, printables
+# and articles. Pinterest: title <= 100, description and alt <= 500 characters. Instagram: caption.
+items:
+- key: pin-cozy-christmas-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Cozy Christmas Word Search: Large Print Puzzles for Adults & Seniors'
+  description: '55 festive large print word searches, from the Nativity and the Nutcracker to Santa''s workshop
+    and Christmas around the world. Big letters, one puzzle per page and 1,650 words that never repeat. A cozy stocking
+    stuffer for puzzle lovers. Try a free Christmas puzzle on our website. #christmaswordsearch #largeprint #wordsearch
+    #stockingstuffers #giftsforseniors'
+  alt: 'Cover of Cozy Christmas Word Search: Cozy Christmas puzzles to enjoy by the tree'
+  book: cozy-christmas
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-cozy-christmas-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Cozy Christmas Word Search'
+  description: 'A real page from Cozy Christmas Word Search. 55 festive large print word searches, from the Nativity
+    and the Nutcracker to Santa''s workshop and Christmas around the world. Big letters, one puzzle per page and
+    1,650 words that never repeat. A cozy stocking stuffer for puzzle lovers. Try a free Christmas puzzle on our
+    website. #christmaswordsearch #largeprint #wordsearch #stockingstuffers #giftsforseniors'
+  alt: A page from Cozy Christmas Word Search next to its cover
+  book: cozy-christmas
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-cozy-christmas-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Nativity Word Search for Adults (Large Print)
+  description: 'The Nativity Story: a large print Christmas word search with 30 words, from Bethlehem, the manger
+    and swaddling clothes to Emmanuel, the innkeeper and the holy child. Free to download and print at home. There
+    are 54 more Christmas puzzles, with 1,650 words that never repeat, in Cozy Christmas Word Search. #christmaswordsearch
+    #largeprint #wordsearch #stockingstuffers #giftsforseniors'
+  alt: Free Printable Nativity Word Search for Adults (Large Print)
+  image: media/pins/cozy-christmas.jpg
+  book: cozy-christmas
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: ig-cozy-christmas
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Cozy Christmas Word Search
+  caption: 'Cozy Christmas puzzles to enjoy by the tree ✏️
+
+    Cozy Christmas Word Search: 55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas
+    around the world.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-nativity-word-search.html
+
+    #christmaswordsearch #largeprint #wordsearch #stockingstuffers #giftsforseniors'
+  book: cozy-christmas
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-cozy-winter-hygge-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Cozy Winter Hygge Word Search: Large Print Puzzles for Adults & Seniors'
+  description: '55 relaxing large print word searches inspired by hygge, the Scandinavian art of cozy living: candlelit
+    evenings, knitting by the fire, the northern lights and Swedish fika. 1,650 words that never repeat, one puzzle
+    per page. Try a free hygge puzzle on our website. #hygge #wordsearch #largeprint #cozywinter #puzzlebook'
+  alt: 'Cover of Cozy Winter Hygge Word Search: Slow down, light a candle, find the words'
+  book: cozy-winter-hygge
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+- key: pin-cozy-winter-hygge-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Cozy Winter Hygge Word Search'
+  description: 'A real page from Cozy Winter Hygge Word Search. 55 relaxing large print word searches inspired by
+    hygge, the Scandinavian art of cozy living: candlelit evenings, knitting by the fire, the northern lights and
+    Swedish fika. 1,650 words that never repeat, one puzzle per page. Try a free hygge puzzle on our website. #hygge
+    #wordsearch #largeprint #cozywinter #puzzlebook'
+  alt: A page from Cozy Winter Hygge Word Search next to its cover
+  book: cozy-winter-hygge
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+- key: pin-cozy-winter-hygge-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Hygge Word Search for Adults (Large Print)
+  description: 'Candlelit Evenings: a cozy large print word search with 30 warm words, from beeswax and lanterns
+    to tealights, vanilla and twilight. Free to download and print at home. There are 54 more cozy puzzles, with
+    1,650 words that never repeat, in Cozy Winter Hygge Word Search. #hygge #wordsearch #largeprint #cozywinter
+    #puzzlebook'
+  alt: Free Printable Hygge Word Search for Adults (Large Print)
+  image: media/pins/cozy-winter-hygge.jpg
+  book: cozy-winter-hygge
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+- key: ig-cozy-winter-hygge
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Cozy Winter Hygge Word Search
+  caption: 'Slow down, light a candle, find the words ✏️
+
+    Cozy Winter Hygge Word Search: 55 relaxing large print puzzles inspired by the Scandinavian art of cozy living.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-hygge-word-search.html
+
+    #hygge #wordsearch #largeprint #cozywinter #puzzlebook'
+  book: cozy-winter-hygge
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+- key: pin-winter-snowy-days-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Snowy Days Winter Word Search: Large Print Puzzles for Teens & Adults'
+  description: '55 winter activity puzzles, from building snowmen to sipping hot cocoa. Large print word searches
+    for teens, adults and seniors, with solutions. Try a free winter puzzle on our website. #winterwordsearch #wordsearch
+    #largeprint #winteractivities #puzzlebook'
+  alt: 'Cover of Snowy Days Winter Word Search: Snowy day puzzles to enjoy with hot cocoa'
+  book: winter-snowy-days
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  until: '2027-02-20'
+- key: pin-winter-snowy-days-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Snowy Days Winter Word Search'
+  description: 'A real page from Snowy Days Winter Word Search. 55 winter activity puzzles, from building snowmen
+    to sipping hot cocoa. Large print word searches for teens, adults and seniors, with solutions. Try a free winter
+    puzzle on our website. #winterwordsearch #wordsearch #largeprint #winteractivities #puzzlebook'
+  alt: A page from Snowy Days Winter Word Search next to its cover
+  book: winter-snowy-days
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  until: '2027-02-20'
+- key: pin-winter-snowy-days-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Winter Word Search for Adults (Large Print)
+  description: 'Stargazing on Clear Winter Nights: 30 words about long starry evenings, from comets and constellations
+    to the Milky Way and the northern lights. Free to download and print at home. There are 54 more winter puzzles
+    in Snowy Days Winter Word Search. #winterwordsearch #wordsearch #largeprint #winteractivities #puzzlebook'
+  alt: Free Printable Winter Word Search for Adults (Large Print)
+  image: media/pins/winter-snowy-days.jpg
+  book: winter-snowy-days
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  until: '2027-02-20'
+- key: ig-winter-snowy-days
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Snowy Days Winter Word Search
+  caption: 'Snowy day puzzles to enjoy with hot cocoa ✏️
+
+    Snowy Days Winter Word Search: 55 winter activity puzzles, from building snowmen to sipping hot cocoa.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-winter-word-search.html
+
+    #winterwordsearch #wordsearch #largeprint #winteractivities #puzzlebook'
+  book: winter-snowy-days
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  until: '2027-02-20'
+- key: pin-spring-fresh-blooms-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Fresh Blooms Spring Word Search: Large Print Puzzles for Teens & Adults'
+  description: '55 spring puzzles full of gardens, picnics and blossoms. Large print word searches for teens, adults
+    and seniors, with solutions. Try a free spring puzzle on our website. #springwordsearch #wordsearch #largeprint
+    #springactivities #puzzlebook'
+  alt: 'Cover of Fresh Blooms Spring Word Search: Fresh puzzles for spring days'
+  book: spring-fresh-blooms
+  link: https://pixelpunkstudio.shop/free-printable-spring-word-search.html
+  priority: 5
+  start: '2027-02-20'
+  until: '2027-05-15'
+- key: pin-spring-fresh-blooms-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Fresh Blooms Spring Word Search'
+  description: 'A real page from Fresh Blooms Spring Word Search. 55 spring puzzles full of gardens, picnics and
+    blossoms. Large print word searches for teens, adults and seniors, with solutions. Try a free spring puzzle
+    on our website. #springwordsearch #wordsearch #largeprint #springactivities #puzzlebook'
+  alt: A page from Fresh Blooms Spring Word Search next to its cover
+  book: spring-fresh-blooms
+  link: https://pixelpunkstudio.shop/free-printable-spring-word-search.html
+  priority: 5
+  start: '2027-02-20'
+  until: '2027-05-15'
+- key: pin-spring-fresh-blooms-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: 'Free Printable Spring Word Search for Adults: Easter Egg Hunt (Large Print)'
+  description: 'Go on an Egg Hunt: 30 springtime words about an Easter egg hunt, from bunnies, baskets and chocolate
+    to clues, prizes and hidden surprises in the grass. Free to download and print at home. There are 54 more spring
+    puzzles in Fresh Blooms Spring Word Search. #springwordsearch #wordsearch #largeprint #springactivities #puzzlebook'
+  alt: 'Free Printable Spring Word Search for Adults: Easter Egg Hunt (Large Print)'
+  image: media/pins/spring-fresh-blooms.jpg
+  book: spring-fresh-blooms
+  link: https://pixelpunkstudio.shop/free-printable-spring-word-search.html
+  priority: 5
+  start: '2027-02-20'
+  until: '2027-05-15'
+- key: ig-spring-fresh-blooms
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Fresh Blooms Spring Word Search
+  caption: 'Fresh puzzles for spring days ✏️
+
+    Fresh Blooms Spring Word Search: 55 spring puzzles full of gardens, picnics and blossoms.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-spring-word-search.html
+
+    #springwordsearch #wordsearch #largeprint #springactivities #puzzlebook'
+  book: spring-fresh-blooms
+  link: https://pixelpunkstudio.shop/free-printable-spring-word-search.html
+  priority: 5
+  start: '2027-02-20'
+  until: '2027-05-15'
+- key: pin-summer-sunny-vibes-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Sunny Vibes Summer Word Search: Large Print Puzzles for Teens & Adults'
+  description: '55 summer puzzles about camping, beaches and long sunny days. Large print word searches for teens,
+    adults and seniors, with solutions. Try a free summer puzzle on our website. #summerwordsearch #wordsearch #largeprint
+    #summeractivities #puzzlebook'
+  alt: 'Cover of Sunny Vibes Summer Word Search: Sunny puzzles for long summer days'
+  book: summer-sunny-vibes
+  link: https://pixelpunkstudio.shop/free-printable-summer-word-search.html
+  priority: 5
+  start: '2027-05-01'
+  until: '2027-08-15'
+- key: pin-summer-sunny-vibes-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Sunny Vibes Summer Word Search'
+  description: 'A real page from Sunny Vibes Summer Word Search. 55 summer puzzles about camping, beaches and long
+    sunny days. Large print word searches for teens, adults and seniors, with solutions. Try a free summer puzzle
+    on our website. #summerwordsearch #wordsearch #largeprint #summeractivities #puzzlebook'
+  alt: A page from Sunny Vibes Summer Word Search next to its cover
+  book: summer-sunny-vibes
+  link: https://pixelpunkstudio.shop/free-printable-summer-word-search.html
+  priority: 5
+  start: '2027-05-01'
+  until: '2027-08-15'
+- key: pin-summer-sunny-vibes-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Summer Word Search for Adults (Large Print)
+  description: 'Swim in the Ocean: 30 summer words about a day at the beach, from snorkeling and sandbars to coral
+    reefs, high tide and lifeguards. Free to download and print at home. There are 54 more summer puzzles in Sunny
+    Vibes Summer Word Search. #summerwordsearch #wordsearch #largeprint #summeractivities #puzzlebook'
+  alt: Free Printable Summer Word Search for Adults (Large Print)
+  image: media/pins/summer-sunny-vibes.jpg
+  book: summer-sunny-vibes
+  link: https://pixelpunkstudio.shop/free-printable-summer-word-search.html
+  priority: 5
+  start: '2027-05-01'
+  until: '2027-08-15'
+- key: ig-summer-sunny-vibes
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Sunny Vibes Summer Word Search
+  caption: 'Sunny puzzles for long summer days ✏️
+
+    Sunny Vibes Summer Word Search: 55 summer puzzles about camping, beaches and long sunny days.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-summer-word-search.html
+
+    #summerwordsearch #wordsearch #largeprint #summeractivities #puzzlebook'
+  book: summer-sunny-vibes
+  link: https://pixelpunkstudio.shop/free-printable-summer-word-search.html
+  priority: 5
+  start: '2027-05-01'
+  until: '2027-08-15'
+- key: pin-fall-crisp-leaves-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Crisp Leaves Fall Word Search: Large Print Puzzles for Teens & Adults'
+  description: '55 autumn puzzles with apple picking, hayrides and cozy campfires. Large print word searches for
+    teens, adults and seniors, with solutions. Try a free fall puzzle on our website. #fallwordsearch #wordsearch
+    #largeprint #fallactivities #puzzlebook'
+  alt: 'Cover of Crisp Leaves Fall Word Search: Cozy fall puzzles for crisp evenings'
+  book: fall-crisp-leaves
+  link: https://pixelpunkstudio.shop/free-printable-fall-word-search.html
+  priority: 4
+  until: '2026-11-20'
+- key: pin-fall-crisp-leaves-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Crisp Leaves Fall Word Search'
+  description: 'A real page from Crisp Leaves Fall Word Search. 55 autumn puzzles with apple picking, hayrides and
+    cozy campfires. Large print word searches for teens, adults and seniors, with solutions. Try a free fall puzzle
+    on our website. #fallwordsearch #wordsearch #largeprint #fallactivities #puzzlebook'
+  alt: A page from Crisp Leaves Fall Word Search next to its cover
+  book: fall-crisp-leaves
+  link: https://pixelpunkstudio.shop/free-printable-fall-word-search.html
+  priority: 4
+  until: '2026-11-20'
+- key: pin-fall-crisp-leaves-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Fall Word Search for Adults (Large Print)
+  description: 'A Fall Nature Walk: 30 autumn words, from acorns and maple leaves to hayrides, pumpkins, cinnamon
+    and campfires. Free to download and print at home. There are 54 more autumn puzzles in Crisp Leaves Fall Word
+    Search. #fallwordsearch #wordsearch #largeprint #fallactivities #puzzlebook'
+  alt: Free Printable Fall Word Search for Adults (Large Print)
+  image: media/pins/fall-crisp-leaves.jpg
+  book: fall-crisp-leaves
+  link: https://pixelpunkstudio.shop/free-printable-fall-word-search.html
+  priority: 4
+  until: '2026-11-20'
+- key: ig-fall-crisp-leaves
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Crisp Leaves Fall Word Search
+  caption: 'Cozy fall puzzles for crisp evenings ✏️
+
+    Crisp Leaves Fall Word Search: 55 autumn puzzles with apple picking, hayrides and cozy campfires.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-fall-word-search.html
+
+    #fallwordsearch #wordsearch #largeprint #fallactivities #puzzlebook'
+  book: fall-crisp-leaves
+  link: https://pixelpunkstudio.shop/free-printable-fall-word-search.html
+  priority: 4
+  until: '2026-11-20'
+- key: pin-life-on-the-farm-cover
+  platform: pinterest
+  kind: book cover
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: Life on the Farm Word Search for Kids Ages 6-10
+  description: '50 farm-themed word searches with fun facts about animals and activities, for kids ages 6 to 10.
+    Screen-free fun that builds vocabulary and spelling. Try a free farm puzzle on our website. #wordsearchforkids
+    #farmanimals #kidsactivities #homeschool #screenfree'
+  alt: 'Cover of Life on the Farm Word Search for Kids: Farm fun for curious kids'
+  book: life-on-the-farm
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+- key: pin-life-on-the-farm-inside
+  platform: pinterest
+  kind: peek inside
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: 'Look Inside: Life on the Farm Word Search for Kids'
+  description: 'A real page from Life on the Farm Word Search for Kids. 50 farm-themed word searches with fun facts
+    about animals and activities, for kids ages 6 to 10. Screen-free fun that builds vocabulary and spelling. Try
+    a free farm puzzle on our website. #wordsearchforkids #farmanimals #kidsactivities #homeschool #screenfree'
+  alt: A page from Life on the Farm Word Search for Kids next to its cover
+  book: life-on-the-farm
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+- key: pin-life-on-the-farm-free
+  platform: pinterest
+  kind: free printable
+  board: Kids Coloring & Activity Books
+  title: Free Printable Farm Word Search for Kids (Highland Cow)
+  description: 'Highland Cow: a kids'' farm word search with 18 big, easy-to-read words and a fun fact page about
+    these fluffy, cold-loving cows. Free to download and print at home. There are 49 more farm puzzles, each with
+    a fun fact, in Life on the Farm Word Search for Kids. #wordsearchforkids #farmanimals #kidsactivities #homeschool
+    #screenfree'
+  alt: Free Printable Farm Word Search for Kids (Highland Cow)
+  image: media/pins/life-on-the-farm.jpg
+  book: life-on-the-farm
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+- key: ig-life-on-the-farm
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Life on the Farm Word Search for Kids
+  caption: 'Farm fun for curious kids ✏️
+
+    Life on the Farm Word Search for Kids: 50 farm-themed puzzles with fun facts about animals and activities.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+
+    #wordsearchforkids #farmanimals #kidsactivities #homeschool #screenfree'
+  book: life-on-the-farm
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+- key: pin-bug-hunt-cover
+  platform: pinterest
+  kind: book cover
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: Bug Hunt Word Search Coloring Book for Kids Ages 4-10
+  description: '55 bug word searches for kids ages 4 to 10, with color-the-letters puzzles: find each word, then
+    color it in. Fun, screen-free practice for spelling and focus. Try a free bug puzzle on our website. #wordsearchforkids
+    #bugs #kidsactivities #preschool #screenfree'
+  alt: 'Cover of Bug Hunt Word Search Coloring Book: Find the bugs, then color the letters'
+  book: bug-hunt
+  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+  priority: 4
+- key: pin-bug-hunt-inside
+  platform: pinterest
+  kind: peek inside
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: 'Look Inside: Bug Hunt Word Search Coloring Book'
+  description: 'A real page from Bug Hunt Word Search Coloring Book. 55 bug word searches for kids ages 4 to 10,
+    with color-the-letters puzzles: find each word, then color it in. Fun, screen-free practice for spelling and
+    focus. Try a free bug puzzle on our website. #wordsearchforkids #bugs #kidsactivities #preschool #screenfree'
+  alt: A page from Bug Hunt Word Search Coloring Book next to its cover
+  book: bug-hunt
+  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+  priority: 4
+- key: pin-bug-hunt-free
+  platform: pinterest
+  kind: free printable
+  board: Kids Coloring & Activity Books
+  title: Free Printable Bug Word Search for Kids (Color the Letters)
+  description: 'Common Bugs: an easy word search for young kids with 8 bug words to find, then color in, with bubble
+    letters and a cute ant. Free to download and print at home. There are 54 more bug puzzles to search and color
+    in Bug Hunt Word Search Coloring Book. #wordsearchforkids #bugs #kidsactivities #preschool #screenfree'
+  alt: Free Printable Bug Word Search for Kids (Color the Letters)
+  image: media/pins/bug-hunt.jpg
+  book: bug-hunt
+  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+  priority: 4
+- key: ig-bug-hunt
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Bug Hunt Word Search Coloring Book
+  caption: 'Find the bugs, then color the letters ✏️
+
+    Bug Hunt Word Search Coloring Book: 55 bug word searches with color-the-letters puzzles.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+
+    #wordsearchforkids #bugs #kidsactivities #preschool #screenfree'
+  book: bug-hunt
+  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+  priority: 4
+- key: pin-cute-farm-days-cover
+  platform: pinterest
+  kind: book cover
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: 'Cute Farm Days: Farm Animal Coloring Book for Kids Ages 4-8'
+  description: 'Adorable farm animals with bold, easy lines for little hands and a "Did you know?" fun fact on every
+    page. Single-sided pages and a story page beside every drawing. Try a free coloring page on our website. #coloringbook
+    #kidscoloring #farmanimals #kidsactivities #toddleractivities'
+  alt: 'Cover of Cute Farm Days Coloring Book: Cute farm animals to color, with fun facts'
+  book: cute-farm-days
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+- key: pin-cute-farm-days-inside
+  platform: pinterest
+  kind: peek inside
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: 'Look Inside: Cute Farm Days Coloring Book'
+  description: 'A real page from Cute Farm Days Coloring Book. Adorable farm animals with bold, easy lines for little
+    hands and a "Did you know?" fun fact on every page. Single-sided pages and a story page beside every drawing.
+    Try a free coloring page on our website. #coloringbook #kidscoloring #farmanimals #kidsactivities #toddleractivities'
+  alt: A page from Cute Farm Days Coloring Book next to its cover
+  book: cute-farm-days
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+- key: pin-cute-farm-days-free
+  platform: pinterest
+  kind: free printable
+  board: Kids Coloring & Activity Books
+  title: Free Printable Puppy and Kitten Coloring Page for Kids
+  description: 'A puppy and a sleepy kitten in a wheelbarrow, with bold, easy lines for little hands and a "Did
+    you know?" fun fact about dogs. Free to download and print at home. There are 49 more farm animals to color,
+    each with a fun fact, in Cute Farm Days Coloring Book. #coloringbook #kidscoloring #farmanimals #kidsactivities
+    #toddleractivities'
+  alt: Free Printable Puppy and Kitten Coloring Page for Kids
+  image: media/pins/cute-farm-days.jpg
+  book: cute-farm-days
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+- key: ig-cute-farm-days
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Cute Farm Days Coloring Book
+  caption: 'Cute farm animals to color, with fun facts ✏️
+
+    Cute Farm Days Coloring Book: Adorable farm animals with easy designs and fun facts.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+
+    #coloringbook #kidscoloring #farmanimals #kidsactivities #toddleractivities'
+  book: cute-farm-days
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+- key: pin-cute-bug-days-cover
+  platform: pinterest
+  kind: book cover
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: 'Cute Bug Days: Bug & Insect Coloring Book for Kids Ages 3-10'
+  description: '50 adorable bugs and insects to color, each in its own natural home, with a "Did you know?" fun
+    fact on every page. Bold, thick lines, single-sided pages and a story page beside every drawing. Try a free
+    ladybug coloring page on our website. #coloringbook #kidscoloring #bugs #insects #kidsactivities'
+  alt: 'Cover of Cute Bug Days Coloring Book: 50 cute bugs to color, with fun facts'
+  book: cute-bug-days
+  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+  priority: 3
+- key: pin-cute-bug-days-inside
+  platform: pinterest
+  kind: peek inside
+  board: Kids Coloring & Activity Books
+  needs_amazon: true
+  title: 'Look Inside: Cute Bug Days Coloring Book'
+  description: 'A real page from Cute Bug Days Coloring Book. 50 adorable bugs and insects to color, each in its
+    own natural home, with a "Did you know?" fun fact on every page. Bold, thick lines, single-sided pages and a
+    story page beside every drawing. Try a free ladybug coloring page on our website. #coloringbook #kidscoloring
+    #bugs #insects #kidsactivities'
+  alt: A page from Cute Bug Days Coloring Book next to its cover
+  book: cute-bug-days
+  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+  priority: 3
+- key: pin-cute-bug-days-free
+  platform: pinterest
+  kind: free printable
+  board: Kids Coloring & Activity Books
+  title: Free Printable Ladybug Coloring Page for Kids
+  description: 'A smiling ladybug on a big leaf in a flower garden, with bold, easy lines for little hands, a "Did
+    you know?" fun fact and a story page to write their own bug adventure. Free to download and print at home. There
+    are 49 more cute bugs and insects to color, each with a fun fact, in Cute Bug Days Coloring Book. #coloringbook
+    #kidscoloring #bugs #insects #kidsactivities'
+  alt: Free Printable Ladybug Coloring Page for Kids
+  image: media/pins/cute-bug-days.jpg
+  book: cute-bug-days
+  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+  priority: 3
+- key: ig-cute-bug-days
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Cute Bug Days Coloring Book
+  caption: '50 cute bugs to color, with fun facts ✏️
+
+    Cute Bug Days Coloring Book: 50 cute bugs and insects to color, with a fun fact on every page.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+
+    #coloringbook #kidscoloring #bugs #insects #kidsactivities'
+  book: cute-bug-days
+  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+  priority: 3
+- key: pin-retirement-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Retirement Word Search: 55 Large Print Puzzles for a Happy Retirement'
+  description: '55 fun puzzles inspired by hobbies, travel, creativity and wellness. A large print word search book
+    for a happy, active retirement, and a thoughtful retirement gift. Try a free retirement puzzle on our website.
+    #retirementgift #wordsearch #largeprint #retirement #giftsforseniors'
+  alt: 'Cover of Retirement Word Search: A happy retirement, one puzzle at a time'
+  book: retirement
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+- key: pin-retirement-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Retirement Word Search'
+  description: 'A real page from Retirement Word Search. 55 fun puzzles inspired by hobbies, travel, creativity
+    and wellness. A large print word search book for a happy, active retirement, and a thoughtful retirement gift.
+    Try a free retirement puzzle on our website. #retirementgift #wordsearch #largeprint #retirement #giftsforseniors'
+  alt: A page from Retirement Word Search next to its cover
+  book: retirement
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+- key: pin-retirement-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Retirement Word Search (Large Print)
+  description: 'Take an Online Course: 30 words about learning something new in retirement, from history and painting
+    to gardening, music and typing. Free to download and print at home. There are 54 more puzzles about hobbies,
+    travel and wellness in Retirement Word Search. #retirementgift #wordsearch #largeprint #retirement #giftsforseniors'
+  alt: Free Printable Retirement Word Search (Large Print)
+  image: media/pins/retirement.jpg
+  book: retirement
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+- key: ig-retirement
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Retirement Word Search
+  caption: 'A happy retirement, one puzzle at a time ✏️
+
+    Retirement Word Search: 55 fun puzzles inspired by hobbies, travel, creativity and wellness.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-retirement-word-search.html
+
+    #retirementgift #wordsearch #largeprint #retirement #giftsforseniors'
+  book: retirement
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+- key: pin-sudoku-of-love-cover
+  platform: pinterest
+  kind: book cover
+  board: Cozy Activities for Adults
+  needs_amazon: true
+  title: 'Sudoku of Love: 500+ Romantic Sudoku Puzzles, Very Easy to Hard'
+  description: '500+ romantic sudoku puzzles, from very easy to hard, with solutions. A sweet gift for the sudoku
+    lovers in your life, and a perfect Valentine''s Day present. Try four free easy sudoku puzzles on our website.
+    #sudoku #puzzlebook #valentinesgift #sudokupuzzles #giftforher'
+  alt: 'Cover of Sudoku of Love: 500+ sudoku puzzles with a lot of heart'
+  book: sudoku-of-love
+  link: https://pixelpunkstudio.shop/free-printable-easy-sudoku-puzzles.html
+  priority: 5
+  start: '2027-01-05'
+  until: '2027-02-12'
+- key: pin-sudoku-of-love-inside
+  platform: pinterest
+  kind: peek inside
+  board: Cozy Activities for Adults
+  needs_amazon: true
+  title: 'Look Inside: Sudoku of Love'
+  description: 'A real page from Sudoku of Love. 500+ romantic sudoku puzzles, from very easy to hard, with solutions.
+    A sweet gift for the sudoku lovers in your life, and a perfect Valentine''s Day present. Try four free easy
+    sudoku puzzles on our website. #sudoku #puzzlebook #valentinesgift #sudokupuzzles #giftforher'
+  alt: A page from Sudoku of Love next to its cover
+  book: sudoku-of-love
+  link: https://pixelpunkstudio.shop/free-printable-easy-sudoku-puzzles.html
+  priority: 5
+  start: '2027-01-05'
+  until: '2027-02-12'
+- key: pin-sudoku-of-love-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Very Easy Sudoku Puzzles (with Solutions)
+  description: 'Four very easy sudoku puzzles from the "Sweet Beginnings" chapter of Sudoku of Love, with heart-themed
+    pages and all the solutions. Free to download and print at home. There are 500+ romantic sudoku puzzles, from
+    very easy to hard, in Sudoku of Love. #sudoku #puzzlebook #valentinesgift #sudokupuzzles #giftforher'
+  alt: Free Printable Very Easy Sudoku Puzzles (with Solutions)
+  image: media/pins/sudoku-of-love.jpg
+  book: sudoku-of-love
+  link: https://pixelpunkstudio.shop/free-printable-easy-sudoku-puzzles.html
+  priority: 5
+  start: '2027-01-05'
+  until: '2027-02-12'
+- key: ig-sudoku-of-love
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Sudoku of Love
+  caption: '500+ sudoku puzzles with a lot of heart ✏️
+
+    Sudoku of Love: 500+ romantic sudoku puzzles, very easy to hard, with solutions.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-easy-sudoku-puzzles.html
+
+    #sudoku #puzzlebook #valentinesgift #sudokupuzzles #giftforher'
+  book: sudoku-of-love
+  link: https://pixelpunkstudio.shop/free-printable-easy-sudoku-puzzles.html
+  priority: 5
+  start: '2027-01-05'
+  until: '2027-02-12'
+- key: pin-thanksgiving-word-search-free
+  platform: pinterest
+  kind: free printable
+  book: thanksgiving-word-search
+  board: Free Printable Puzzles
+  link: https://pixelpunkstudio.shop/free-printable-thanksgiving-word-search.html
+  priority: 1
+  until: '2026-11-24'
+  title: Free Printable Thanksgiving Word Search for Adults (Large Print)
+  alt: Free Printable Thanksgiving Word Search for Adults (Large Print)
+  image: media/pins/thanksgiving-word-search.jpg
+  description: 'A Thanksgiving Feast: 30 words from the holiday table, from turkey, stuffing and pecan pie to the
+    parade, the wishbone and plenty of gratitude. Perfect to print for the whole family. Free to download and print
+    at home on letter paper. #thanksgivingwordsearch #freeprintable #wordsearch #largeprint #thanksgivingactivities'
+- key: pin-christmas-word-search-free
+  platform: pinterest
+  kind: free printable
+  book: christmas-word-search
+  board: Free Printable Puzzles
+  link: https://pixelpunkstudio.shop/free-printable-christmas-word-search.html
+  priority: 2
+  until: '2026-12-22'
+  title: Free Printable Christmas Word Search for Adults (Large Print)
+  alt: Free Printable Christmas Word Search for Adults (Large Print)
+  image: media/pins/christmas-word-search.jpg
+  description: 'Christmas Eve at Home: 30 festive words, from stockings, tinsel and gingerbread to sleigh rides,
+    carols and twinkle lights. A large print holiday puzzle with the full solution. Free to download and print at
+    home on letter paper. #christmaswordsearch #freeprintable #wordsearch #largeprint #christmasactivities'
+- key: pin-christmas-word-search-games
+  platform: pinterest
+  kind: article
+  book: christmas-word-search-games
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/christmas-word-search-games.html
+  priority: 2
+  title: 'Christmas Word Search Games: 8 Easy Ideas for Family Gatherings'
+  alt: 'Christmas Word Search Games: 8 Easy Ideas for Family Gatherings'
+  description: 'How to keep every generation happily busy at Christmas: turn a printable word search into a game
+    for the whole family, from an Advent countdown to a Christmas Eve race, with free large print puzzles. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+- key: pin-word-search-hard-to-read
+  platform: pinterest
+  kind: article
+  book: word-search-hard-to-read
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-hard-to-read.html
+  priority: 3
+  title: Word Searches Hard to Read? How to Choose Large Print Puzzles and Print Them Bigger
+  alt: Word Searches Hard to Read? How to Choose Large Print Puzzles and Print Them Bigger
+  description: 'Squinting at tiny letters? What "large print" really means for word searches (letter size, spacing,
+    grid and paper), and printer settings that keep free puzzles big, dark and easy on the eyes. #wordsearch #puzzletips
+    #largeprint #cozyactivities'
+- key: pin-word-search-activities-for-seniors
+  platform: pinterest
+  kind: article
+  book: word-search-activities-for-seniors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-activities-for-seniors.html
+  priority: 3
+  title: 'Word Search Activities for Seniors: 10 Ideas for Home, Family and Senior Centers'
+  alt: 'Word Search Activities for Seniors: 10 Ideas for Home, Family and Senior Centers'
+  description: 'Simple, social and screen-free word search activities for seniors and older adults, at home or in
+    a group, with free large print printables. #wordsearch #puzzletips #largeprint #cozyactivities'
+- key: pin-hygge-winter-activities
+  platform: pinterest
+  kind: article
+  book: hygge-winter-activities
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/hygge-winter-activities.html
+  priority: 3
+  title: 15 Cozy Hygge Winter Activities to Enjoy at Home
+  alt: 15 Cozy Hygge Winter Activities to Enjoy at Home
+  description: 'Simple hygge ideas for long winter evenings: candles, warm drinks, slow mornings, puzzles and small
+    rituals that make the cold season feel cozy. #wordsearch #puzzletips #largeprint #cozyactivities'
+- key: pin-how-to-solve-word-search-puzzles
+  platform: pinterest
+  kind: article
+  book: how-to-solve-word-search-puzzles
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/how-to-solve-word-search-puzzles.html
+  priority: 3
+  title: 'How to Solve Word Search Puzzles Faster: 9 Simple Tips'
+  alt: 'How to Solve Word Search Puzzles Faster: 9 Simple Tips'
+  description: 'Easy word search strategies that actually work: scanning for rare letters, searching row by row,
+    double letters and more. Practice with free large print printables. #wordsearch #puzzletips #largeprint #cozyactivities'

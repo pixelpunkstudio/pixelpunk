@@ -1,0 +1,49 @@
+# Publishes the scheduled Pinterest pins and Instagram posts that are due (site/_social), every 15 minutes,
+# so the PC can be off. Missed slots are re-planned by the runner, never published in a burst.
+name: Social publisher
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"   # every 15 minutes, off the top of the hour
+  workflow_dispatch:
+    inputs:
+      check:
+        description: "Only check the connections (publish nothing)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: social-publisher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests pyyaml
+      - name: Publish what is due
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          PINTEREST_SANDBOX_TOKEN: ${{ secrets.PINTEREST_SANDBOX_TOKEN }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python _social/runner.py ${{ inputs.check && '--check' || '' }}
+      - name: Save the results
+        run: |
+          if [ -n "$(git status --porcelain _social)" ]; then
+            git config user.name "Pixel Punk publisher"
+            git config user.email "hello@pixelpunkstudio.shop"
+            git add _social
+            git commit -q -m "Social: published / re-planned"
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+          fi
