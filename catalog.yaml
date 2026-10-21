@@ -31,7 +31,7 @@ sections:
         subtitle: 55 relaxing large print puzzles inspired by the Scandinavian art of cozy living
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HMJH6W21
-        published: 2026-10-12
+        published: 2026-10-09
         sample:
           pdf: "books/cozy-winter-hygge/output"
           pages: [5, 116]
@@ -51,7 +51,7 @@ sections:
         subtitle: 55 winter activity puzzles, from building snowmen to sipping hot cocoa
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0DS9SG35T
-        published: 2025-01-10  # estimated from the ASIN
+        published: 2024-12-12
         sample:
           pdf: "C:/BigBangPixels/KDP/Winter Activities - Word Search/Winter_Season_Word_Search 1861158 (CMYK)"
           pages: [5, 117]
@@ -83,7 +83,7 @@ sections:
         subtitle: 55 summer puzzles about camping, beaches and long sunny days
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FRXWL9R7
-        published: 2025-09-15  # estimated from the ASIN
+        published: 2025-09-17
         sample:
           pdf: "C:/BigBangPixels/KDP/Summer Activities - Word Search/Summer_Activities_Word_Search 2512955 (CMYK)"
           pages: [5, 116]
@@ -99,7 +99,7 @@ sections:
         subtitle: 55 autumn puzzles with apple picking, hayrides and cozy campfires
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FDL4QN1M
-        published: 2025-06-10  # estimated from the ASIN
+        published: 2025-06-15
         sample:
           pdf: "C:/BigBangPixels/KDP/Fall Activities - Word Search/Fall_Activities_Word_Search 2327831 (CMYK)"
           pages: [5, 116]
@@ -136,7 +136,7 @@ sections:
         subtitle: 55 bug word searches with color-the-letters puzzles
         tags: [Ages 4-10, 8.5 x 8.5]
         amazon: B0G3H1KJLN
-        published: 2025-11-25  # estimated from the ASIN
+        published: 2025-11-21
         sample:
           pdf: "C:/BigBangPixels/KDP/Kids Word Search - Bugs/Kids_Word_Search_Bugs 2582400 (CMYK)"
           pages: [5, 116]
@@ -180,7 +180,7 @@ sections:
         subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HGB15BJ2
-        published: 2026-09-01  # estimated from the ASIN
+        published: 2026-08-24
         sample:
           pdf: "C:/BigBangPixels/KDP/Retirement Activities - Word Search/Retirement_Activities_Word_Search 2754862 (CMYK)"
           pages: [5, 116]
@@ -196,7 +196,7 @@ sections:
         subtitle: 500+ romantic sudoku puzzles, very easy to hard, with solutions
         tags: [Sudoku, 6 x 9, Gift idea]
         amazon: B0DVR3HN6Q
-        published: 2025-02-01  # estimated from the ASIN
+        published: 2025-01-30
         sample:
           pdf: "C:/BigBangPixels/KDP/Sudoku of Love/Sudoku_of_Love 1991516 (CMYK)"
           pages: [3, 131]
