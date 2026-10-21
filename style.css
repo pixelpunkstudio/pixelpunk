@@ -183,3 +183,26 @@ h1.page.left { text-align: left; margin-left: 0; }
                      color: var(--muted); margin-bottom: 8px; }
 .toc.inline ol { margin: 0; padding-left: 1.3em; }
 .toc.inline li { margin: 5px 0; }
+/* home page: free printables as taped paper sheets on a warm band */
+.cozy-band { background: #f3e8da radial-gradient(rgba(176, 112, 46, .09) 1px, transparent 1.5px) 0 0 / 18px 18px;
+             border-radius: 22px; padding: 34px 22px 26px; box-shadow: inset 0 0 0 1px #eadbc8; }
+.cozy-band .intro { max-width: 640px; margin: 0 auto 30px; }
+.sheets { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 26px 22px; max-width: 1060px; margin: 0 auto; }
+.sheet-card { position: relative; display: flex; flex-direction: column; gap: 6px; background: #fff; padding: 8px 8px 12px;
+              border-radius: 3px; text-decoration: none; color: var(--ink); transform: rotate(-2deg);
+              box-shadow: 0 8px 18px rgba(90, 60, 30, .16), 0 1px 3px rgba(90, 60, 30, .12); transition: transform .2s, box-shadow .2s; }
+.sheet-card:nth-child(2n) { transform: rotate(1.6deg); }
+.sheet-card:nth-child(3n) { transform: rotate(-.8deg); }
+.sheet-card:hover, .sheet-card:focus-visible { transform: rotate(0) translateY(-4px); box-shadow: 0 12px 24px rgba(90, 60, 30, .22); }
+.sheet-card img { width: 100%; aspect-ratio: 8.5 / 11; object-fit: cover; object-position: top; display: block; border: 1px solid #efe7db; }
+.tape { position: absolute; top: -9px; left: 50%; width: 56px; height: 18px; transform: translateX(-50%) rotate(-4deg);
+        background: rgba(214, 178, 128, .62); box-shadow: 0 1px 2px rgba(90, 60, 30, .12); }
+.sheet-card:nth-child(2n) .tape { transform: translateX(-50%) rotate(5deg); background: rgba(176, 196, 168, .62); }
+.sheet-title { font: 600 .86rem/1.25 system-ui, sans-serif; text-align: center; margin-top: 4px; }
+.sheet-card:hover .sheet-title { color: var(--accent); }
+.sheet-tag { align-self: center; font: 600 .68rem/1 system-ui, sans-serif; letter-spacing: .04em; color: var(--accent);
+             background: #fbf3e8; border: 1px solid #ecd9c0; padding: 4px 8px; border-radius: 99px; }
+.cozy-band .more { text-align: center; margin: 30px 0 0; }
+@media (max-width: 980px) { .sheets { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 620px; } }
+@media (max-width: 520px) { .sheets { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; }
+                            .cozy-band { padding: 28px 16px 22px; } }
