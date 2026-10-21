@@ -19,7 +19,8 @@ sections:
         title: Cozy Christmas Word Search
         subtitle: 55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world
         tags: [Large print, 8.5 x 11, Adults & seniors]
-        amazon:
+        amazon: B0HNTD7VS7
+        published: 2026-10-21
         sample:
           pdf: "books/cozy-christmas/output"
           pages: [45, 136]
@@ -177,6 +178,16 @@ sections:
         tags: [Ages 3-10, Coloring, 8.5 x 11]
         amazon: B0HNTC7ZBX
         published: 2026-10-21
+        sample:
+          pdf: "books/cute-bug-days/output"
+          pages: [3, 4]
+          label: Free coloring page
+          page: free-printable-ladybug-coloring-page
+          seo_title: "Free Printable Ladybug Coloring Page for Kids"
+          pin_title: "Ladybug Coloring Page"
+          about: >-
+            A smiling ladybug on a big leaf in a flower garden, with bold, easy lines for little hands, a "Did you know?" fun fact and a story page to write their own bug adventure.
+        more: There are 49 more cute bugs and insects to color, each with a fun fact, in Cute Bug Days Coloring Book.
 
   - title: More Puzzle Books
     books:
