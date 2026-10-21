@@ -18,7 +18,10 @@ section h2 { font-size: 1.6rem; margin: 0 0 4px; text-align: center; }
 .intro { text-align: center; color: var(--muted); margin: 0 0 20px; }
 .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .book { background: var(--card); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column;
-        box-shadow: 0 2px 12px rgba(35, 50, 74, .08); }
+        box-shadow: 0 2px 12px rgba(35, 50, 74, .08); position: relative; }
+.new-pill { position: absolute; top: 8px; left: 8px; z-index: 1; background: var(--accent); color: #fff;
+            font: 700 .66rem/1 system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase;
+            padding: 5px 8px; border-radius: 99px; box-shadow: 0 2px 6px rgba(35, 50, 74, .25); }
 .book img { width: 100%; aspect-ratio: 600 / 777; object-fit: contain; background: #f1ece3; display: block; }
 .book .info { padding: 14px 16px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .book h3 { font-size: 1.05rem; margin: 0; line-height: 1.3; }

@@ -1,5 +1,6 @@
 # Pixel Punk Studio catalog, rendered into index.html by `python -m kdp site`.
 # amazon: the paperback ASIN (https://www.amazon.com/dp/<ASIN>). Leave it empty for "coming soon".
+# published: Amazon publication date; the card shows a "New" pill for 90 days after it.
 site_url: https://pixelpunkstudio.shop/
 newsletter:                    # Brevo form "Website newsletter" -> list Pixel Punk Newsletter
   form_action: https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==
@@ -7,14 +8,30 @@ newsletter:                    # Brevo form "Website newsletter" -> list Pixel P
 author_page: https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY
 
 sections:
-  - title: Cozy Hygge Word Search
-    intro: Large print word searches for adults and seniors, inspired by the Scandinavian art of cozy living.
+  - title: Cozy Nights Word Search
+    intro: Large print word searches for adults and seniors, made for calm, cozy winter evenings, from Christmas by the tree to hygge by the fire.
     books:
+      - slug: cozy-christmas
+        title: Cozy Christmas Word Search
+        subtitle: 55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world
+        tags: [Large print, 8.5 x 11, Adults & seniors]
+        amazon:
+        sample:
+          pdf: "books/cozy-christmas/output"
+          pages: [45, 136]
+          label: Free printable puzzle
+          page: free-printable-nativity-word-search
+          seo_title: "Free Printable Nativity Word Search for Adults (Large Print)"
+          pin_title: "Nativity Word Search"
+          about: >-
+            The Nativity Story: a large print Christmas word search with 30 words, from Bethlehem, the manger and swaddling clothes to Emmanuel, the innkeeper and the holy child.
+        more: There are 54 more Christmas puzzles, with 1,650 words that never repeat, in Cozy Christmas Word Search.
       - slug: cozy-winter-hygge
         title: Cozy Winter Hygge Word Search
         subtitle: 55 relaxing large print puzzles inspired by the Scandinavian art of cozy living
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HMJH6W21
+        published: 2026-10-12
         sample:
           pdf: "books/cozy-winter-hygge/output"
           pages: [5, 116]
@@ -34,6 +51,7 @@ sections:
         subtitle: 55 winter activity puzzles, from building snowmen to sipping hot cocoa
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0DS9SG35T
+        published: 2025-01-10  # estimated from the ASIN
         sample:
           pdf: "C:/BigBangPixels/KDP/Winter Activities - Word Search/Winter_Season_Word_Search 1861158 (CMYK)"
           pages: [5, 117]
@@ -49,6 +67,7 @@ sections:
         subtitle: 55 spring puzzles full of gardens, picnics and blossoms
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FLXRGFZY
+        published: 2025-08-08
         sample:
           pdf: "C:/BigBangPixels/KDP/Spring Activities - Word Search/Spring_Activities_Word_Search 2435155 (CMYK)"
           pages: [47, 137]
@@ -64,6 +83,7 @@ sections:
         subtitle: 55 summer puzzles about camping, beaches and long sunny days
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FRXWL9R7
+        published: 2025-09-15  # estimated from the ASIN
         sample:
           pdf: "C:/BigBangPixels/KDP/Summer Activities - Word Search/Summer_Activities_Word_Search 2512955 (CMYK)"
           pages: [5, 116]
@@ -79,6 +99,7 @@ sections:
         subtitle: 55 autumn puzzles with apple picking, hayrides and cozy campfires
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FDL4QN1M
+        published: 2025-06-10  # estimated from the ASIN
         sample:
           pdf: "C:/BigBangPixels/KDP/Fall Activities - Word Search/Fall_Activities_Word_Search 2327831 (CMYK)"
           pages: [5, 116]
@@ -90,14 +111,15 @@ sections:
             A Fall Nature Walk: 30 autumn words, from acorns and maple leaves to hayrides, pumpkins, cinnamon and campfires.
         more: There are 54 more autumn puzzles in Crisp Leaves Fall Word Search.
 
-  - title: Farm & Bug Learning Adventures
-    intro: Screen-free activity books for kids, with fun facts to learn while they play.
+  - title: Farm & Bug Word Search for Kids
+    intro: Screen-free word search books for kids, with fun facts and color-the-letters puzzles to learn while they play.
     books:
       - slug: life-on-the-farm
         title: Life on the Farm Word Search for Kids
         subtitle: 50 farm-themed puzzles with fun facts about animals and activities
         tags: [Ages 6-10, 8.5 x 11]
         amazon: B0FHKMG9KK
+        published: 2025-07-12
         sample:
           pdf: "C:/BigBangPixels/KDP/Life On The Farm - Word Search/Life_On_The_Farm_Word_Search 2348354 (CMYK)"
           pages: [6, 7, 107]
@@ -114,6 +136,7 @@ sections:
         subtitle: 55 bug word searches with color-the-letters puzzles
         tags: [Ages 4-10, 8.5 x 8.5]
         amazon: B0G3H1KJLN
+        published: 2025-11-25  # estimated from the ASIN
         sample:
           pdf: "C:/BigBangPixels/KDP/Kids Word Search - Bugs/Kids_Word_Search_Bugs 2582400 (CMYK)"
           pages: [5, 116]
@@ -124,11 +147,16 @@ sections:
           about: >-
             Common Bugs: an easy word search for young kids with 8 bug words to find, then color in, with bubble letters and a cute ant.
         more: There are 54 more bug puzzles to search and color in Bug Hunt Word Search Coloring Book.
+
+  - title: Cute Days Coloring Books
+    intro: Bold, easy coloring books for young kids, with a "Did you know?" fun fact on every page.
+    books:
       - slug: cute-farm-days
         title: Cute Farm Days Coloring Book
         subtitle: Adorable farm animals with easy designs and fun facts
         tags: [Ages 4-8, Coloring, 8.5 x 11]
         amazon: B0FBM7X2HR
+        published: 2025-05-30
         sample:
           pdf: "C:/BigBangPixels/KDP/Farm Animals Coloring Book/Cute_Farm_Days_Coloring_Book 2295511 (CMYK)"
           pages: [5, 6]
@@ -139,6 +167,11 @@ sections:
           about: >-
             A puppy and a sleepy kitten in a wheelbarrow, with bold, easy lines for little hands and a "Did you know?" fun fact about dogs.
         more: There are 49 more farm animals to color, each with a fun fact, in Cute Farm Days Coloring Book.
+      - slug: cute-bug-days
+        title: Cute Bug Days Coloring Book
+        subtitle: 50 cute bugs and insects to color, with a fun fact on every page
+        tags: [Ages 3-10, Coloring, 8.5 x 11]
+        amazon:
 
   - title: More Puzzle Books
     books:
@@ -147,6 +180,7 @@ sections:
         subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HGB15BJ2
+        published: 2026-09-01  # estimated from the ASIN
         sample:
           pdf: "C:/BigBangPixels/KDP/Retirement Activities - Word Search/Retirement_Activities_Word_Search 2754862 (CMYK)"
           pages: [5, 116]
@@ -162,6 +196,7 @@ sections:
         subtitle: 500+ romantic sudoku puzzles, very easy to hard, with solutions
         tags: [Sudoku, 6 x 9, Gift idea]
         amazon: B0DVR3HN6Q
+        published: 2025-02-01  # estimated from the ASIN
         sample:
           pdf: "C:/BigBangPixels/KDP/Sudoku of Love/Sudoku_of_Love 1991516 (CMYK)"
           pages: [3, 131]
@@ -207,7 +242,7 @@ printables:
     pin_title: "Christmas Word Search"
     source: holiday-printables
     puzzle: 3
-    related: [winter-snowy-days, cozy-winter-hygge]
+    related: [cozy-christmas, winter-snowy-days, cozy-winter-hygge]
     about: >-
       Christmas Eve at Home: 30 festive words, from stockings, tinsel and gingerbread to sleigh rides,
       carols and twinkle lights. A large print holiday puzzle with the full solution.
