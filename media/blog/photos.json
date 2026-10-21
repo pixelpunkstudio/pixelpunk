@@ -1,4 +1,29 @@
 {
+ "christmas-word-search-games": {
+  "hero": {
+   "file": "media/blog/christmas-word-search-games-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/background-wood-texture-barn-2186565/",
+   "pixabay_id": 2186565,
+   "puzzle": true,
+   "query": "wood planks texture background",
+   "user": "dre2uomaha0",
+   "user_page": "https://pixabay.com/users/dre2uomaha0-586440/",
+   "wide": "media/blog/christmas-word-search-games-hero-wide.jpg",
+   "width": 1000
+  },
+  "table": {
+   "file": "media/blog/christmas-word-search-games-table.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/gingerbread-cookies-food-flat-lay-5775897/",
+   "pixabay_id": 5775897,
+   "puzzle": false,
+   "query": "christmas cookies table",
+   "user": "13729238",
+   "user_page": "https://pixabay.com/users/13729238-13729238/",
+   "width": 1000
+  }
+ },
  "how-to-solve-word-search-puzzles": {
   "hero": {
    "file": "media/blog/how-to-solve-word-search-puzzles-hero.jpg",
@@ -104,6 +129,31 @@
    "query": "reading glasses pencil notebook",
    "user": "Arturo_Anez",
    "user_page": "https://pixabay.com/users/Arturo_Anez-20351946/",
+   "width": 1000
+  }
+ },
+ "word-search-hard-to-read": {
+  "hero": {
+   "file": "media/blog/word-search-hard-to-read-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
+   "pixabay_id": 7036168,
+   "puzzle": true,
+   "query": "wood planks texture background",
+   "user": "Alexandra_Koch",
+   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
+   "wide": "media/blog/word-search-hard-to-read-hero-wide.jpg",
+   "width": 1000
+  },
+  "light": {
+   "file": "media/blog/word-search-hard-to-read-light.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/lamp-book-reader-table-chair-dark-2593187/",
+   "pixabay_id": 2593187,
+   "puzzle": false,
+   "query": "reading lamp desk window light",
+   "user": "StockSnap",
+   "user_page": "https://pixabay.com/users/StockSnap-894430/",
    "width": 1000
   }
  }

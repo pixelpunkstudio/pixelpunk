@@ -3,6 +3,152 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-word-search-games
+    title: "Christmas Word Search Games: 8 Easy Ideas for Family Gatherings"
+    description: >-
+      How to keep every generation happily busy at Christmas: turn a printable word search into a game for
+      the whole family, from an Advent countdown to a Christmas Eve race, with free large print puzzles.
+    date: 2026-10-21
+    topics: [Seasonal ideas, Activity ideas]
+    image: media/printables/christmas-word-search.jpg
+    photos:
+      - slot: hero
+        query: wood planks texture background
+        # scale: nail heads ~13 px = 0.3 in on the full-size photo (pallet boards ~3.25 in)
+        compose: {printable: christmas-word-search, solved: 7, scale: [43, 1], at: [0.5, 0.45], angle: -3, shadow: [0.4, 0.9]}
+        wide_focus: [0.5, 0.42]
+        alt: A Christmas word search puzzle, partly solved in pencil, on rustic reclaimed wooden boards
+      - slot: table
+        after: Make it a game, not a test
+        query: christmas cookies table
+        alt: Iced gingerbread cookies in a white tray on white wooden boards, with a poinsettia, pine and gift tags
+    related: [cozy-christmas, cozy-winter-hygge, winter-snowy-days]
+    printables: [free-printable-christmas-word-search, free-printable-nativity-word-search, free-printable-winter-word-search]
+    body: |
+      <p>Big family Christmas gatherings have a familiar problem: the kids are restless, the grandparents
+      can't join the video games, and everyone is waiting for dinner. A Christmas word search solves it
+      better than almost anything: no rules to explain, no board to set up, and every generation can play at
+      once. All you need is a printer, a few pencils and one good idea for how to play. Here are eight.</p>
+
+      <h2>8 Christmas word search games</h2>
+      <ol>
+        <li><strong>The Christmas Eve race.</strong> Print the same puzzle for everyone, say "go", and the
+        first to find all the words picks the Christmas movie. Give younger players a head start of three words.</li>
+        <li><strong>Team colors.</strong> Pair a child with a grandparent and give each team one puzzle and two
+        pencil colors. The child spots, the grandparent circles, and everyone sees who found what.</li>
+        <li><strong>The Advent countdown.</strong> Slip one puzzle a day into an Advent calendar or an
+        envelope by the tree. A themed puzzle each morning makes the wait for Christmas part of the fun.</li>
+        <li><strong>Placemat puzzles.</strong> Put a puzzle and a pencil at each place while the roast is in
+        the oven. It keeps hungry guests happily busy, and it is a natural conversation starter.</li>
+        <li><strong>Read-aloud search.</strong> One person reads the word list slowly, everyone searches at the
+        same time, and the first to call "found it!" gets a point. Great for larger groups and senior centers,
+        because players never need to read the word list themselves.</li>
+        <li><strong>The carol challenge.</strong> Use a puzzle full of carol words: each time someone finds a
+        word, the table sings the line it comes from.</li>
+        <li><strong>Stocking stuffer surprise.</strong> Roll a printed puzzle with a pencil and a ribbon and tuck
+        it into a stocking or a Christmas card. It costs nothing and keeps someone busy on Christmas morning.</li>
+        <li><strong>The quiet hour.</strong> Not every game needs a winner. After the presents, put out a stack
+        of puzzles and a pot of cocoa, and let everyone solve at their own pace.</li>
+      </ol>
+
+      <h2>Make it a game, not a test</h2>
+      <ul>
+        <li><strong>Match the puzzle to the player.</strong> Large print puzzles for grandparents, easier
+        puzzles with fewer words for young children, so everyone can actually finish.</li>
+        <li><strong>Keep the solutions handy.</strong> Nobody should spend Christmas stuck on the last word.
+        Print the answer page separately and hand it over when someone asks.</li>
+        <li><strong>Use clipboards or trays.</strong> They turn any sofa or lap into a table.</li>
+        <li><strong>Reuse your puzzles.</strong> Slide a page into a clear sheet protector and use a dry-erase
+        marker: wipe it clean and the next player can start again.</li>
+        <li><strong>Mix in a story.</strong> When someone finds a word like "sleigh" or "gingerbread", ask who
+        has a memory about it. The puzzle becomes the start of the conversation.</li>
+      </ul>
+
+      <h2>Free Christmas puzzles to print</h2>
+      <p>Start with our free large print Christmas printables below. Each one has 30 festive words and the full
+      solution, and prints on regular letter paper. If your family wants more, our Cozy Christmas Word Search
+      book has 55 Christmas puzzles, from the Nativity and the Nutcracker to Christmas around the world.</p>
+
+  - slug: word-search-hard-to-read
+    title: "Word Searches Hard to Read? How to Choose Large Print Puzzles and Print Them Bigger"
+    description: >-
+      Squinting at tiny letters? What "large print" really means for word searches (letter size, spacing,
+      grid and paper), and printer settings that keep free puzzles big, dark and easy on the eyes.
+    date: 2026-10-21
+    topics: [Puzzle tips, Seniors & groups]
+    image: media/printables/thanksgiving-word-search.jpg
+    photos:
+      - slot: hero
+        query: wood planks texture background
+        # scale: one old plank ~427 px = 10 in on the full-size photo
+        compose: {printable: thanksgiving-word-search, solved: 5, scale: [427, 10], at: [0.5, 0.48], angle: 4, shadow: [0.4, 0.9]}
+        alt: A large print Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks
+      - slot: light
+        after: Make any puzzle easier to read
+        query: reading lamp desk window light
+        alt: A table lamp lighting an open book on a table
+    related: [cozy-winter-hygge, retirement, winter-snowy-days]
+    printables: [free-printable-thanksgiving-word-search, free-printable-christmas-word-search, free-printable-winter-word-search]
+    body: |
+      <p>If you love word searches but find yourself squinting, holding the book at arm's length or giving up
+      after one puzzle, the problem is usually the puzzle, not you. "Large print" on a cover can mean very
+      different things: some books simply use a bigger grid of small letters, others are truly comfortable to
+      read for an hour. Here is what to look for, whether you are buying for yourself, a parent or a group,
+      and how to print free puzzles so they stay just as easy to read.</p>
+
+      <h2>What makes a word search truly large print</h2>
+      <ul>
+        <li><strong>Big letters with space around them.</strong> Letter size matters, but so does the gap
+        between letters. A grid where every letter has room to breathe is far easier to scan than big letters
+        packed tightly together.</li>
+        <li><strong>A clear, plain font.</strong> Simple, bold letters without decorative curls are quicker to
+        recognize, especially look-alikes like O and Q, or M and W.</li>
+        <li><strong>A big page.</strong> An 8.5 x 11 inch page leaves room for large letters and a full grid. In
+        a small pocket book, "large print" usually means cramped puzzles.</li>
+        <li><strong>A readable word list.</strong> Check the list too: if the grid is big but the words to find
+        are tiny, the puzzle is still a strain.</li>
+        <li><strong>Strong contrast.</strong> Dark letters on white or cream paper. Pictures behind the grid
+        are fine as long as they are soft and pale.</li>
+      </ul>
+
+      <h2>Large print, extra large or jumbo?</h2>
+      <p>Standard large print suits most adults who simply want comfortable puzzles. "Extra large" and "jumbo"
+      books use even bigger letters, which means smaller grids and fewer words per puzzle: a good choice for
+      anyone with low vision, or for a first puzzle after a long break. If you are unsure, start with regular
+      large print: it keeps the challenge while being easy on the eyes.</p>
+
+      <h2>Other details worth checking</h2>
+      <ul>
+        <li><strong>One puzzle per page</strong>, so the grid can be as big as possible.</li>
+        <li><strong>Blank backs or notes pages</strong>, so pencil and marker never show through the next puzzle.</li>
+        <li><strong>Solutions at the back</strong>, for the last word that just won't show up.</li>
+        <li><strong>A theme you enjoy.</strong> Themed word lists (seasons, holidays, hobbies) are easier to
+        guess and more fun to talk about afterwards.</li>
+      </ul>
+
+      <h2>How to print free puzzles at a large size</h2>
+      <ol>
+        <li><strong>Print at "Actual size" (100%).</strong> "Fit to page" or "Shrink" can make the letters
+        smaller than they were designed.</li>
+        <li><strong>Using A4 paper?</strong> Our printables are made for US letter paper. On A4, choose "Fit"
+        so nothing is cut off: the puzzle shrinks only very slightly.</li>
+        <li><strong>Choose "Best" or "High" quality</strong> in the printer settings for darker, sharper letters.</li>
+        <li><strong>Use thicker paper</strong> if you can. It feels nicer, and a pen or marker won't bleed through.</li>
+      </ol>
+
+      <h2>Make any puzzle easier to read</h2>
+      <ul>
+        <li><strong>Good light from the side or behind you</strong>, not from the front, avoids glare on the page.</li>
+        <li><strong>A clipboard or a slanted surface</strong> brings the page closer and stops it sliding.</li>
+        <li><strong>A soft pencil or a highlighter</strong> marks found words clearly without hiding the
+        letters around them.</li>
+        <li><strong>A ruler or a strip of paper</strong> under each row helps you keep your place while scanning.</li>
+      </ul>
+
+      <h2>Try a large print puzzle for free</h2>
+      <p>All our free printables below use the same large print layout as our books: big letters on a full
+      letter-size page, 30 words to find, and the solution included.</p>
+
   - slug: word-search-activities-for-seniors
     title: "Word Search Activities for Seniors: 10 Ideas for Home, Family and Senior Centers"
     description: >-
