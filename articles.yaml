@@ -13,10 +13,14 @@ articles:
     image: media/printables/christmas-word-search.jpg
     photos:
       - slot: hero
+        query: christmas hot chocolate cozy lights
+        alt: A Santa mug of hot chocolate and iced Christmas cookies on a red knit blanket, with a fire glowing behind
+        wide_focus: [0.5, 0.57]
+      - slot: puzzle
+        after: 8 Christmas word search games
         query: wood planks texture background
         # scale: nail heads ~13 px = 0.3 in on the full-size photo (pallet boards ~3.25 in)
         compose: {printable: christmas-word-search, solved: 7, scale: [43, 1], at: [0.5, 0.45], angle: -3, shadow: [0.4, 0.9]}
-        wide_focus: [0.5, 0.42]
         alt: A Christmas word search puzzle, partly solved in pencil, on rustic reclaimed wooden boards
       - slot: table
         after: Make it a game, not a test
@@ -79,6 +83,10 @@ articles:
     image: media/printables/thanksgiving-word-search.jpg
     photos:
       - slot: hero
+        query: reading glasses magnifying glass
+        alt: Reading glasses resting on a stack of books on a wooden table
+      - slot: puzzle
+        after: How to print free puzzles at a large size
         query: wood planks texture background
         # scale: one old plank ~427 px = 10 in on the full-size photo
         compose: {printable: thanksgiving-word-search, solved: 5, scale: [427, 10], at: [0.5, 0.48], angle: 4, shadow: [0.4, 0.9]}

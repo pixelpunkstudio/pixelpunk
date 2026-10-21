@@ -3,13 +3,24 @@
   "hero": {
    "file": "media/blog/christmas-word-search-games-hero.jpg",
    "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-decoration-cookies-9223828/",
+   "pixabay_id": 9223828,
+   "puzzle": false,
+   "query": "christmas hot chocolate cozy lights",
+   "user": "JillWellington",
+   "user_page": "https://pixabay.com/users/JillWellington-334088/",
+   "wide": "media/blog/christmas-word-search-games-hero-wide.jpg",
+   "width": 1000
+  },
+  "puzzle": {
+   "file": "media/blog/christmas-word-search-games-puzzle.jpg",
+   "height": 1500,
    "page": "https://pixabay.com/photos/background-wood-texture-barn-2186565/",
    "pixabay_id": 2186565,
    "puzzle": true,
    "query": "wood planks texture background",
    "user": "dre2uomaha0",
    "user_page": "https://pixabay.com/users/dre2uomaha0-586440/",
-   "wide": "media/blog/christmas-word-search-games-hero-wide.jpg",
    "width": 1000
   },
   "table": {
@@ -136,12 +147,12 @@
   "hero": {
    "file": "media/blog/word-search-hard-to-read-hero.jpg",
    "height": 1500,
-   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
-   "pixabay_id": 7036168,
-   "puzzle": true,
-   "query": "wood planks texture background",
-   "user": "Alexandra_Koch",
-   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
+   "page": "https://pixabay.com/photos/books-reading-glasses-library-3733892/",
+   "pixabay_id": 3733892,
+   "puzzle": false,
+   "query": "reading glasses magnifying glass",
+   "user": "karishea",
+   "user_page": "https://pixabay.com/users/karishea-10087552/",
    "wide": "media/blog/word-search-hard-to-read-hero-wide.jpg",
    "width": 1000
   },
@@ -154,6 +165,17 @@
    "query": "reading lamp desk window light",
    "user": "StockSnap",
    "user_page": "https://pixabay.com/users/StockSnap-894430/",
+   "width": 1000
+  },
+  "puzzle": {
+   "file": "media/blog/word-search-hard-to-read-puzzle.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
+   "pixabay_id": 7036168,
+   "puzzle": true,
+   "query": "wood planks texture background",
+   "user": "Alexandra_Koch",
+   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
    "width": 1000
   }
  }
