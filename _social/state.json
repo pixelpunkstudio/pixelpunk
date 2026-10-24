@@ -48,10 +48,12 @@
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "ig-cozy-winter-hygge": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-24T12:52:00-04:00",
     "first_planned": "2026-10-24T12:52:00-04:00",
-    "approved": "2026-10-21T18:04:53.999Z"
+    "approved": "2026-10-21T18:04:53.999Z",
+    "url": "https://www.instagram.com/p/De4n7OQl34Y/",
+    "published_at": "2026-10-24T13:02-04:00"
   },
   "pin-winter-snowy-days-cover": {
     "status": "published",
