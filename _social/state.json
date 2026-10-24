@@ -54,10 +54,12 @@
     "approved": "2026-10-21T18:04:53.999Z"
   },
   "pin-winter-snowy-days-cover": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-24T11:36:00-04:00",
     "first_planned": "2026-10-24T11:36:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613023903945/",
+    "published_at": "2026-10-24T12:02-04:00"
   },
   "pin-winter-snowy-days-inside": {
     "status": "scheduled",
