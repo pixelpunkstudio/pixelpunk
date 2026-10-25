@@ -48,6 +48,25 @@ sections:
             Candlelit Evenings: a cozy large print word search with 30 warm words, from beeswax and lanterns to tealights, vanilla and twilight.
         more: There are 54 more cozy puzzles, with 1,650 words that never repeat, in Cozy Winter Hygge Word Search.
 
+  - title: Jumbo Print Word Search
+    intro: Extra large print word searches in big 30-point letters, single sided, with a fun fact beside every puzzle. Made for seniors and anyone who prefers big, clear print.
+    books:
+      - slug: jumbo-christmas
+        title: Jumbo Christmas Word Search for Seniors
+        subtitle: 100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle
+        tags: [Font size 30, 8.5 x 11, Seniors]
+        amazon:
+        sample:
+          pdf: "books/jumbo-christmas/output"
+          pages: [7, 208]
+          label: Free printable puzzle
+          page: free-printable-jumbo-christmas-word-search
+          seo_title: "Free Printable Jumbo Christmas Word Search for Seniors (Extra Large Print)"
+          pin_title: "Jumbo Print Christmas Word Search"
+          about: >-
+            Christmas Cookie Swap: an extra large print Christmas word search in 30-point letters with 18 words, from spritz, pizzelle and biscotti to sprinkles, frosting and the cookie exchange.
+        more: There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search for Seniors.
+
   - title: Cozy Seasons Word Search
     intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
     books:

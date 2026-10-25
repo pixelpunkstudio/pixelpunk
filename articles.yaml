@@ -3,6 +3,184 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-activities-for-seniors
+    title: "Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care"
+    description: >-
+      Looking for Christmas games for seniors that everyone can join? How to choose the right puzzle level,
+      9 calm word search activities for December and tips for memory care groups, with free large print printables.
+    date: 2026-10-25
+    topics: [Seniors & groups, Seasonal ideas]
+    photos:
+      - slot: hero
+        query: christmas flat lay wood copy space
+        # scale: dried orange slices ~160 px = 2.75 in on the full-size photo (cookies come out ~3.5 in)
+        compose: {printable: christmas-word-search, solved: 5, seed: 11, scale: [160, 2.75], at: [0.5, 0.265], angle: 3, shadow: [0.3, 0.9]}
+        wide_focus: [0.5, 0.24]
+        alt: A large print Christmas word search puzzle, partly solved in pencil, on festive kraft paper with iced Christmas cookies and dried orange slices
+      - slot: cookies
+        after: 9 Christmas word search games for seniors
+        query: christmas cookies hot chocolate
+        alt: A white mug of hot cocoa with marshmallows and a gingerbread man on white wooden boards, with candy canes and cotton
+      - slot: tree
+        after: Tips for memory care and mixed-ability groups
+        query: christmas ornaments pine branches
+        alt: A red and white pinecone ornament hanging on a Christmas tree branch
+    related: [cozy-christmas, cozy-winter-hygge, retirement]
+    printables: [free-printable-jumbo-christmas-word-search, free-printable-christmas-word-search, free-printable-nativity-word-search]
+    body: |
+      <p>December is full of activities for older adults, but many of them don't suit everyone. A loud party can
+      overwhelm, a quiz can feel like a test, and crafts need steady hands. If you are planning the Christmas
+      calendar for a senior center, a care home or a memory care unit, or just visiting a parent over the
+      holidays, you need something calm that every person can join at their own level. A Christmas word search
+      does exactly that: the words are familiar, there are no rules to remember, and it works alone, in pairs or
+      as a whole room. Here is how to make it work for everyone.</p>
+
+      <h2>Pick the right level first</h2>
+      <p>Most frustration comes from a puzzle that is too small or too long, not from the person solving it.
+      Keep three levels on hand and let each person choose:</p>
+      <ul>
+        <li><strong>Jumbo print (easiest).</strong> Very big letters (30 point), a small grid and about 18 words.
+        Best for low vision, shaky hands or a first puzzle after a long break.</li>
+        <li><strong>Large print (standard).</strong> Big, clear letters, around 30 words on a full letter-size page.
+        Comfortable for most seniors for half an hour or more.</li>
+        <li><strong>Team puzzle.</strong> One large print puzzle shared by two or three people. Good for anyone
+        who would rather chat than search alone.</li>
+      </ul>
+      <p>Whatever the level, choose words everyone knows: stockings, carols, gingerbread, sleigh. Familiar
+      Christmas words are quicker to spot and much more fun to talk about.</p>
+
+      <h2>9 Christmas word search games for seniors</h2>
+      <ol>
+        <li><strong>The memory ornament.</strong> When someone finds a word like "tinsel" or "carols", ask
+        them to share a Christmas memory about it. Write the word on a paper ornament and hang it on a paper tree
+        on the wall: by Christmas the tree is full of the group's stories.</li>
+        <li><strong>Read-aloud search.</strong> One person reads each word slowly, everyone looks at the same
+        time, and whoever finds it first says "found it!". Nobody has to read the small word list, and quieter
+        players can simply follow along.</li>
+        <li><strong>Twelve days of puzzles.</strong> Hand out one puzzle a day for the twelve days before
+        Christmas. A small daily ritual gives everyone something to look forward to.</li>
+        <li><strong>Sing the word.</strong> Use a puzzle full of carol words. Each time a word is found, the
+        group sings the line it comes from. It works even for people who no longer enjoy the search itself.</li>
+        <li><strong>Christmas word bingo.</strong> Give each person a puzzle. Call out words from the list; players
+        circle them in the grid, and the first to find five calls "bingo!". Every player has the same words, so
+        there is no losing card.</li>
+        <li><strong>Pairs across the room.</strong> Pair a resident with a visitor, a volunteer or a grandchild,
+        one puzzle and two pencil colors between them. It gives family visits an easy shared focus.</li>
+        <li><strong>Cookie break puzzle.</strong> Set out puzzles with the afternoon tea and Christmas cookies,
+        no instructions, no timer. People join in as they like.</li>
+        <li><strong>The holiday card puzzle.</strong> Slip a printed puzzle into the Christmas cards you send to
+        older relatives who live alone. It is a small gift that keeps them busy on a quiet afternoon.</li>
+        <li><strong>Make your own Christmas list.</strong> Ask the group for 15 words about their own Christmases
+        (a hometown, a favorite dish, an old toy) and turn them into a word search for next week.</li>
+      </ol>
+
+      <h2>Tips for memory care and mixed-ability groups</h2>
+      <ul>
+        <li><strong>Keep sessions short.</strong> Fifteen to twenty minutes is plenty. Stop while everyone is
+        still enjoying it.</li>
+        <li><strong>Same time, same place.</strong> A regular slot, like after morning coffee, makes the activity
+        familiar and easy to settle into.</li>
+        <li><strong>Make the page bigger, not just the letters.</strong> Print one puzzle per page at actual size,
+        and enlarge a copy on the office copier for anyone who needs it.</li>
+        <li><strong>Use a clipboard and a thick pencil or highlighter.</strong> They are easier to hold and the
+        page won't slide on a lap.</li>
+        <li><strong>Help without taking over.</strong> Point to the right row ("it's somewhere on this line")
+        rather than circling the word. The find still belongs to them.</li>
+        <li><strong>Never mark anything wrong.</strong> A half-finished puzzle is a good morning. Keep the
+        solution handy and celebrate every word.</li>
+        <li><strong>Keep the room calm.</strong> Soft Christmas music, good light and fewer people per table
+        usually work better than a busy party room.</li>
+      </ul>
+
+      <h2>Free Christmas puzzles to print</h2>
+      <p>Below are three free Christmas printables at different levels: an extra large jumbo print puzzle, and
+      two large print puzzles with 30 words each. All come with the solution and print on regular letter paper.
+      For the whole season, our Cozy Christmas Word Search book has 55 large print Christmas puzzles, from the
+      Nativity and the Nutcracker to Christmas around the world.</p>
+
+  - slug: bug-coloring-activities-for-kids
+    title: "Kids Bored of Coloring? 8 Bug Coloring Activities That Keep Them Busy"
+    description: >-
+      Does your child give up on coloring pages after two minutes? 8 easy ways to turn a bug coloring page into
+      a game, a story or a backyard bug hunt, plus tips for little hands and a free ladybug coloring page.
+    date: 2026-10-25
+    topics: [Kids & coloring, Activity ideas]
+    photos:
+      - slot: hero
+        query: light wood planks background
+        # same planks as word-search-activities-for-seniors: nail heads ~0.3 in and boards ~5.5 in give ~80 px/in
+        compose: {pdf: site/free/cute-bug-days-free-puzzle.pdf, page: 1, scale: [80, 1], at: [0.5, 0.48], angle: 4, shadow: [0.4, 0.9],
+                  colored: [[0.33, 0.20, "#d93a2f"], [0.72, 0.27, "#d93a2f"], [0.17, 0.45, "#d93a2f"], [0.85, 0.45, "#d93a2f"],
+                            [0.2, 0.13, "#f2c230"], [0.88, 0.64, "#f2c230"]]}
+        wide_focus: [0.5, 0.4]
+        alt: A ladybug coloring page, partly colored in red and yellow crayon, on weathered wooden planks
+      - slot: ladybug
+        after: 8 bug coloring activities
+        query: ladybug leaf macro
+        alt: A real red ladybug on a dark green leaf covered in water droplets
+      - slot: crayons
+        after: Tips for little hands
+        query: crayons colored pencils
+        alt: Chunky crayons, pastels and a watercolor paint set on a wooden table
+    related: [cute-bug-days, bug-hunt, cute-farm-days]
+    printables: [free-printable-ladybug-coloring-page, free-printable-bug-word-search-for-kids, free-printable-puppy-kitten-coloring-page]
+    body: |
+      <p>You print a coloring page, hand over the crayons, and two minutes later your child is asking for the
+      tablet. Sound familiar? Most kids don't dislike coloring: they lose interest when the page is too busy,
+      when there is nothing to do but fill in shapes, or when it feels like homework. Bugs are a great fix.
+      Kids are naturally curious about them, they are easy to draw, and every bug comes with a surprising fact.
+      Here are eight ways to turn a simple bug coloring page into something they actually want to finish.</p>
+
+      <h2>Why kids give up on coloring pages</h2>
+      <ul>
+        <li><strong>Too much detail.</strong> Tiny shapes and thin lines are hard for small hands, and the page
+        never looks "done". Young children need bold lines and big spaces.</li>
+        <li><strong>No reason to color.</strong> A page with no story, game or question is just a task.</li>
+        <li><strong>Too long.</strong> A page that takes forty minutes ends half-finished. Short wins keep kids coming back.</li>
+      </ul>
+
+      <h2>8 bug coloring activities</h2>
+      <ol>
+        <li><strong>Real or rainbow?</strong> Look at a photo of a real ladybug, bee or butterfly first and
+        try to match its colors. Then color a second copy in completely silly colors and ask which one they like best.</li>
+        <li><strong>Count the spots.</strong> Before coloring a ladybug, count its spots together. Roll a die and
+        draw that many extra spots: easy math practice that doesn't feel like math.</li>
+        <li><strong>The fun fact game.</strong> Read the "Did you know?" fact aloud ("a ladybug can eat 50
+        aphids a day!") and ask your child to guess the answer before you read it. They will remember it far
+        longer than the coloring.</li>
+        <li><strong>Tell the bug's story.</strong> Once the page is colored, ask: what is this bug's name? Where
+        is it going? Younger kids can tell the story while you write it down; older ones can write it on the back
+        or on a story page.</li>
+        <li><strong>Bug hunt, then color.</strong> Go outside (or look out of the window) and spot real bugs:
+        ants, beetles, spiders, a bee on a flower. Then color the bugs you found. In winter, a picture book or a
+        bug video works too.</li>
+        <li><strong>Bug of the day.</strong> On school breaks, put one bug page on the table each morning. One
+        page a day is a manageable goal, and by the end of the week they have their own bug collection.</li>
+        <li><strong>Build a bug garden.</strong> Cut out the finished bugs and tape them on a big sheet of paper
+        or the fridge, then draw leaves, flowers and a sun around them. Each new page grows the garden.</li>
+        <li><strong>Color together.</strong> Print two copies and color side by side with your child, a sibling
+        or a grandparent. Compare at the end: it is the simplest way to make coloring social.</li>
+      </ol>
+
+      <h2>Tips for little hands</h2>
+      <ul>
+        <li><strong>Choose bold, simple designs</strong> with thick outlines and large spaces, especially for
+        ages 3 to 6.</li>
+        <li><strong>Use chunky crayons or triangular pencils.</strong> They are easier to grip and don't break as often.</li>
+        <li><strong>Print on thicker paper</strong> if you have it, so markers don't bleed through and the page
+        survives the fridge door.</li>
+        <li><strong>Keep sessions short.</strong> Ten minutes of happy coloring beats forty minutes of nagging.
+        It is fine to finish tomorrow.</li>
+        <li><strong>Display the result.</strong> A colored bug on the wall tells your child their work matters,
+        and makes them want to color the next one.</li>
+      </ul>
+
+      <h2>Free bug coloring page to print</h2>
+      <p>Start with our free ladybug coloring page below: a smiling ladybug on a big leaf, with bold, easy lines,
+      a "Did you know?" fun fact and a story page. If your child wants more, our Cute Bug Days Coloring Book has
+      50 cute bugs and insects to color, each with its own fun fact, and Bug Hunt Word Search is a great next step
+      for kids who are starting to read.</p>
+
   - slug: christmas-word-search-games
     title: "Christmas Word Search Games: 8 Easy Ideas for Family Gatherings"
     description: >-

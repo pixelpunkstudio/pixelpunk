@@ -1,4 +1,76 @@
 {
+ "bug-coloring-activities-for-kids": {
+  "crayons": {
+   "file": "media/blog/bug-coloring-activities-for-kids-crayons.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/school-times-school-school-supplies-3599190/",
+   "pixabay_id": 3599190,
+   "puzzle": false,
+   "query": "crayons colored pencils",
+   "user": "adonyig",
+   "user_page": "https://pixabay.com/users/adonyig-4265448/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/bug-coloring-activities-for-kids-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
+   "pixabay_id": 7036168,
+   "puzzle": true,
+   "query": "light wood planks background",
+   "user": "Alexandra_Koch",
+   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
+   "wide": "media/blog/bug-coloring-activities-for-kids-hero-wide.jpg",
+   "width": 1000
+  },
+  "ladybug": {
+   "file": "media/blog/bug-coloring-activities-for-kids-ladybug.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/ladybug-leaf-outdoor-water-10418639/",
+   "pixabay_id": 10418639,
+   "puzzle": false,
+   "query": "ladybug leaf macro",
+   "user": "Mahi8",
+   "user_page": "https://pixabay.com/users/Mahi8-54853152/",
+   "width": 1000
+  }
+ },
+ "christmas-activities-for-seniors": {
+  "cookies": {
+   "file": "media/blog/christmas-activities-for-seniors-cookies.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/drink-cocoa-chocolate-winter-6865996/",
+   "pixabay_id": 6865996,
+   "puzzle": false,
+   "query": "christmas cookies hot chocolate",
+   "user": "Be_Stasya",
+   "user_page": "https://pixabay.com/users/Be_Stasya-11197808/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/christmas-activities-for-seniors-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/background-baked-brown-celebration-7671998/",
+   "pixabay_id": 7671998,
+   "puzzle": true,
+   "query": "christmas flat lay wood copy space",
+   "user": "niki_emmert",
+   "user_page": "https://pixabay.com/users/niki_emmert-13526667/",
+   "wide": "media/blog/christmas-activities-for-seniors-hero-wide.jpg",
+   "width": 1000
+  },
+  "tree": {
+   "file": "media/blog/christmas-activities-for-seniors-tree.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/pinecone-christmas-decoration-jaw-10001896/",
+   "pixabay_id": 10001896,
+   "puzzle": false,
+   "query": "christmas ornaments pine branches",
+   "user": "neelam279",
+   "user_page": "https://pixabay.com/users/neelam279-9820894/",
+   "width": 1000
+  }
+ },
  "christmas-word-search-games": {
   "hero": {
    "file": "media/blog/christmas-word-search-games-hero.jpg",
