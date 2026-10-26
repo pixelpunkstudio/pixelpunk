@@ -75,6 +75,16 @@ sections:
         subtitle: 50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page
         tags: [Bold & easy, 8.5 x 8.5, Adults & seniors]
         amazon:
+        sample:
+          pdf: "books/cozy-christmas-coloring/output"
+          pages: [45, 44]
+          label: Free coloring page
+          page: free-printable-cardinal-christmas-coloring-page
+          seo_title: "Free Printable Cardinal Christmas Coloring Page for Adults (Bold and Easy)"
+          pin_title: "Cardinals Christmas Coloring Page"
+          about: >-
+            Cardinals at the Bird Feeder: two cardinals on a snowy bird feeder, drawn in bold, easy lines for adults and seniors, with a "Did you know?" fun fact about why both cardinals sing.
+        more: There are 49 more cozy Christmas scenes to color, each with a fun fact, in Cozy Christmas Coloring Book for Adults and Seniors.
 
   - title: Cozy Seasons Word Search
     intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
