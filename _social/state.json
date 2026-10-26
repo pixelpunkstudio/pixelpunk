@@ -256,10 +256,12 @@
     "moves": 1
   },
   "ig-cute-bug-days": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-26T12:56:00-04:00",
     "first_planned": "2026-10-26T12:56:00-04:00",
-    "approved": "2026-10-21T18:04:53.999Z"
+    "approved": "2026-10-21T18:04:53.999Z",
+    "url": "https://www.instagram.com/p/De9zkvyl0rS/",
+    "published_at": "2026-10-26T13:20-04:00"
   },
   "pin-retirement-cover": {
     "status": "scheduled",
