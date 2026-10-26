@@ -362,5 +362,32 @@
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023799711/",
     "published_at": "2026-10-23T11:12-04:00"
+  },
+  "pin-cozy-christmas-coloring-cover": {
+    "status": "draft"
+  },
+  "pin-cozy-christmas-coloring-inside": {
+    "status": "draft"
+  },
+  "pin-cozy-christmas-coloring-free": {
+    "status": "scheduled",
+    "when": "2026-11-02T08:02:00-05:00",
+    "first_planned": "2026-11-02T08:02:00-05:00",
+    "approved": "2026-10-26T19:25:25.848Z"
+  },
+  "ig-cozy-christmas-coloring": {
+    "status": "draft"
+  },
+  "pin-christmas-activities-for-seniors": {
+    "status": "scheduled",
+    "when": "2026-11-04T14:37:00-05:00",
+    "first_planned": "2026-11-04T14:37:00-05:00",
+    "approved": "2026-10-26T19:25:25.848Z"
+  },
+  "pin-bug-coloring-activities-for-kids": {
+    "status": "scheduled",
+    "when": "2026-11-04T11:04:00-05:00",
+    "first_planned": "2026-11-04T11:04:00-05:00",
+    "approved": "2026-10-26T19:25:25.848Z"
   }
 }

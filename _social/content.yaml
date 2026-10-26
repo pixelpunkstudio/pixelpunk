@@ -781,3 +781,89 @@ items:
   alt: 'How to Solve Word Search Puzzles Faster: 9 Simple Tips'
   description: 'Easy word search strategies that actually work: scanning for rare letters, searching row by row,
     double letters and more. Practice with free large print printables. #wordsearch #puzzletips #largeprint #cozyactivities'
+- key: pin-cozy-christmas-coloring-cover
+  platform: pinterest
+  kind: book cover
+  board: Cozy Activities for Adults
+  needs_amazon: true
+  title: 'Cozy Christmas Coloring Book for Adults & Seniors: Bold and Easy Designs'
+  description: '50 peaceful holiday scenes drawn in bold, easy lines for adults and seniors: cozy cottages, cardinals
+    at the feeder, gingerbread houses and sleepy cats by the fire. Single-sided pages and a "Did you know?" fun
+    fact beside every picture. Try a free cardinal coloring page on our website. #adultcoloring #christmascoloring
+    #boldandeasy #coloringforseniors #cozychristmas'
+  alt: 'Cover of Cozy Christmas Coloring Book for Adults and Seniors: Peaceful Christmas scenes to color and unwind'
+  book: cozy-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-cozy-christmas-coloring-inside
+  platform: pinterest
+  kind: peek inside
+  board: Cozy Activities for Adults
+  needs_amazon: true
+  title: 'Look Inside: Cozy Christmas Coloring Book for Adults and Seniors'
+  description: 'A real page from Cozy Christmas Coloring Book for Adults and Seniors. 50 peaceful holiday scenes
+    drawn in bold, easy lines for adults and seniors: cozy cottages, cardinals at the feeder, gingerbread houses
+    and sleepy cats by the fire. Single-sided pages and a "Did you know?" fun fact beside every picture. Try a free
+    cardinal coloring page on our website. #adultcoloring #christmascoloring #boldandeasy #coloringforseniors #cozychristmas'
+  alt: A page from Cozy Christmas Coloring Book for Adults and Seniors next to its cover
+  book: cozy-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-cozy-christmas-coloring-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Cardinal Christmas Coloring Page for Adults (Bold and Easy)
+  description: 'Cardinals at the Bird Feeder: two cardinals on a snowy bird feeder, drawn in bold, easy lines for
+    adults and seniors, with a "Did you know?" fun fact about why both cardinals sing. Free to download and print
+    at home. There are 49 more cozy Christmas scenes to color, each with a fun fact, in Cozy Christmas Coloring
+    Book for Adults and Seniors. #adultcoloring #christmascoloring #boldandeasy #coloringforseniors #cozychristmas'
+  alt: Free Printable Cardinal Christmas Coloring Page for Adults (Bold and Easy)
+  image: media/pins/cozy-christmas-coloring.jpg
+  book: cozy-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: ig-cozy-christmas-coloring
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Cozy Christmas Coloring Book for Adults and Seniors
+  caption: 'Peaceful Christmas scenes to color and unwind ✏️
+
+    Cozy Christmas Coloring Book for Adults and Seniors: 50 peaceful holiday scenes in bold and easy large print
+    designs, with a fun fact beside every page.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+
+    #adultcoloring #christmascoloring #boldandeasy #coloringforseniors #cozychristmas'
+  book: cozy-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-activities-for-seniors
+  platform: pinterest
+  kind: article
+  book: christmas-activities-for-seniors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/christmas-activities-for-seniors.html
+  priority: 2
+  title: 'Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care'
+  alt: 'Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care'
+  description: 'Looking for Christmas games for seniors that everyone can join? How to choose the right puzzle level,
+    9 calm word search activities for December and tips for memory care groups, with free large print printables.
+    #wordsearch #puzzletips #largeprint #cozyactivities'
+- key: pin-bug-coloring-activities-for-kids
+  platform: pinterest
+  kind: article
+  book: bug-coloring-activities-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/bug-coloring-activities-for-kids.html
+  priority: 3
+  title: Kids Bored of Coloring? 8 Bug Coloring Activities That Keep Them Busy
+  alt: Kids Bored of Coloring? 8 Bug Coloring Activities That Keep Them Busy
+  description: 'Does your child give up on coloring pages after two minutes? 8 easy ways to turn a bug coloring
+    page into a game, a story or a backyard bug hunt, plus tips for little hands and a free ladybug coloring page.
+    #kidscoloring #bugs #kidsactivities #preschool #screenfree'
