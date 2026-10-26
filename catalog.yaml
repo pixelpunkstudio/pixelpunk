@@ -67,6 +67,15 @@ sections:
             Christmas Cookie Swap: an extra large print Christmas word search in 30-point letters with 18 words, from spritz, pizzelle and biscotti to sprinkles, frosting and the cookie exchange.
         more: There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search for Seniors.
 
+  - title: Bold & Easy Coloring for Adults
+    intro: Relaxing coloring books for adults and seniors, with thick lines, big simple shapes and a fun fact beside every picture.
+    books:
+      - slug: cozy-christmas-coloring
+        title: Cozy Christmas Coloring Book for Adults and Seniors
+        subtitle: 50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page
+        tags: [Bold & easy, 8.5 x 8.5, Adults & seniors]
+        amazon:
+
   - title: Cozy Seasons Word Search
     intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
     books:
