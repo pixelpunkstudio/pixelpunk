@@ -459,10 +459,17 @@
     "status": "draft"
   },
   "pin-christmas-activities-for-seniors": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-28T11:37:00-04:00",
     "first_planned": "2026-11-04T14:37:00-05:00",
-    "approved": "2026-10-26T19:25:25.848Z"
+    "approved": "2026-10-26T19:25:25.848Z",
+    "url": "https://www.pinterest.com/pin/1127166613024281513/",
+    "published_at": "2026-10-28T11:53-04:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-bug-coloring-activities-for-kids": {
     "status": "scheduled",
