@@ -55,7 +55,8 @@ sections:
         title: Jumbo Christmas Word Search for Seniors
         subtitle: 100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle
         tags: [Font size 30, 8.5 x 11, Seniors]
-        amazon:
+        amazon: B0HPL7DGYX
+        published: 2026-10-28
         sample:
           pdf: "books/jumbo-christmas/output"
           pages: [7, 208]
