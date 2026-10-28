@@ -495,10 +495,16 @@
     "approved": "2026-10-26T19:25:25.848Z"
   },
   "pin-thanksgiving-kids-table-activities": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-28T14:42:00-04:00",
     "first_planned": "2026-11-05T08:42:00-05:00",
-    "approved": "article rule 2026-10-28T05:37:48-04:00"
+    "approved": "article rule 2026-10-28T05:37:48-04:00",
+    "url": "https://www.pinterest.com/pin/1127166613024297469/",
+    "published_at": "2026-10-28T15:26-04:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Thanksgiving Activities"
+    ]
   },
   "pin-word-search-difficulty-levels": {
     "status": "scheduled",
