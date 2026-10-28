@@ -1051,3 +1051,66 @@ items:
   start: '2026-10-28'
   priority: 1
   until: '2026-11-24'
+- key: pin-jumbo-christmas-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Jumbo Christmas Word Search for Seniors: 100 Extra Large Print Puzzles in 30 Font Size'
+  description: '100 Christmas word searches in big 30-point letters, one per page and single sided, with a fun fact
+    beside every puzzle and 1,800 words that never repeat. Easy on tired eyes, with nostalgic themes from a 1950s
+    Christmas to old-time radio. A thoughtful stocking stuffer for grandparents. Try a free jumbo print puzzle on
+    our website. #largeprintwordsearch #christmaswordsearch #giftsforseniors #jumboprint #stockingstuffers'
+  alt: 'Cover of Jumbo Christmas Word Search for Seniors: Jumbo Christmas puzzles, easy on the eyes'
+  book: jumbo-christmas
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-jumbo-christmas-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Jumbo Christmas Word Search for Seniors'
+  description: 'A real page from Jumbo Christmas Word Search for Seniors. 100 Christmas word searches in big 30-point
+    letters, one per page and single sided, with a fun fact beside every puzzle and 1,800 words that never repeat.
+    Easy on tired eyes, with nostalgic themes from a 1950s Christmas to old-time radio. A thoughtful stocking stuffer
+    for grandparents. Try a free jumbo print puzzle on our website. #largeprintwordsearch #christmaswordsearch #giftsforseniors
+    #jumboprint #stockingstuffers'
+  alt: A page from Jumbo Christmas Word Search for Seniors next to its cover
+  book: jumbo-christmas
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-jumbo-christmas-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Jumbo Christmas Word Search for Seniors (Extra Large Print)
+  description: 'Christmas Cookie Swap: an extra large print Christmas word search in 30-point letters with 18 words,
+    from spritz, pizzelle and biscotti to sprinkles, frosting and the cookie exchange. Free to download and print
+    at home. There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search
+    for Seniors. #largeprintwordsearch #christmaswordsearch #giftsforseniors #jumboprint #stockingstuffers'
+  alt: Free Printable Jumbo Christmas Word Search for Seniors (Extra Large Print)
+  image: media/pins/jumbo-christmas.jpg
+  book: jumbo-christmas
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  until: '2026-12-22'
+- key: ig-jumbo-christmas
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Jumbo Christmas Word Search for Seniors
+  caption: 'Jumbo Christmas puzzles, easy on the eyes ✏️
+
+    Jumbo Christmas Word Search for Seniors: 100 extra large print Christmas puzzles in font size 30, with a fun
+    fact beside every puzzle.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+
+    #largeprintwordsearch #christmaswordsearch #giftsforseniors #jumboprint #stockingstuffers'
+  book: jumbo-christmas
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  until: '2026-12-22'

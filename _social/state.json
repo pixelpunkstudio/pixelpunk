@@ -517,5 +517,17 @@
     "when": "2026-11-09T12:58:00-05:00",
     "first_planned": "2026-11-09T12:58:00-05:00",
     "approved": "article rule 2026-10-28T05:37:48-04:00"
+  },
+  "pin-jumbo-christmas-cover": {
+    "status": "draft"
+  },
+  "pin-jumbo-christmas-inside": {
+    "status": "draft"
+  },
+  "pin-jumbo-christmas-free": {
+    "status": "draft"
+  },
+  "ig-jumbo-christmas": {
+    "status": "draft"
   }
 }
