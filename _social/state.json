@@ -464,5 +464,38 @@
   },
   "pin-thanksgiving-kids-table-activities": {
     "status": "draft"
+  },
+  "pin-word-search-difficulty-levels": {
+    "status": "scheduled",
+    "when": "2026-11-05T08:45:00-05:00",
+    "first_planned": "2026-11-05T08:45:00-05:00",
+    "approved": "article rule 2026-10-28T05:36:58-04:00"
+  },
+  "pin-word-search-difficulty-levels-2": {
+    "status": "scheduled",
+    "when": "2026-11-09T14:29:00-05:00",
+    "first_planned": "2026-11-09T14:29:00-05:00",
+    "approved": "article rule 2026-10-28T05:36:58-04:00"
+  },
+  "pin-word-search-difficulty-levels-3": {
+    "status": "scheduled",
+    "when": "2026-11-13T14:07:00-05:00",
+    "first_planned": "2026-11-13T14:07:00-05:00",
+    "approved": "article rule 2026-10-28T05:36:58-04:00"
+  },
+  "ig-word-search-difficulty-levels": {
+    "status": "scheduled",
+    "when": "2026-11-09T12:14:00-05:00",
+    "first_planned": "2026-11-09T12:14:00-05:00",
+    "approved": "article rule 2026-10-28T05:36:58-04:00"
+  },
+  "pin-thanksgiving-kids-table-activities-2": {
+    "status": "draft"
+  },
+  "pin-thanksgiving-kids-table-activities-3": {
+    "status": "draft"
+  },
+  "ig-thanksgiving-kids-table-activities": {
+    "status": "draft"
   }
 }

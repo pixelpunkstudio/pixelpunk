@@ -867,16 +867,173 @@ items:
   description: 'Does your child give up on coloring pages after two minutes? 8 easy ways to turn a bug coloring
     page into a game, a story or a backyard bug hunt, plus tips for little hands and a free ladybug coloring page.
     #kidscoloring #bugs #kidsactivities #preschool #screenfree'
+- key: pin-word-search-difficulty-levels
+  platform: pinterest
+  kind: article
+  book: word-search-difficulty-levels
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-difficulty-levels.html
+  title: Word Search Too Easy or Too Hard? How to Pick the Right Level for Every Solver
+  alt: A large print Christmas word search, partly solved in pencil, on dark wooden planks next to a small white
+    pumpkin
+  description: 'Bored after two minutes, or stuck staring at the grid? What really makes a word search easy or hard,
+    the right level for kids, adults and seniors, and simple tricks to make any puzzle easier or harder. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: panel
+  photo: hero
+  kicker: From our blog
+  items: []
+  start: '2026-10-28'
+  priority: 3
+- key: pin-word-search-difficulty-levels-2
+  platform: pinterest
+  kind: article
+  book: word-search-difficulty-levels
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-difficulty-levels.html
+  title: Is Your Word Search Too Easy or Too Hard? Find Your Perfect Level
+  alt: A freshly sharpened blue pencil next to a metal sharpener and a curl of pencil shavings on white paper
+  description: 'Bored after two minutes, or stuck staring at the grid? What really makes a word search easy or hard,
+    the right level for kids, adults and seniors, and simple tricks to make any puzzle easier or harder. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: pencil
+  kicker: Puzzle tips
+  items: []
+  start: '2026-11-04'
+  priority: 3
+- key: pin-word-search-difficulty-levels-3
+  platform: pinterest
+  kind: article
+  book: word-search-difficulty-levels
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-difficulty-levels.html
+  title: 6 Tricks When a Word Search Feels Too Hard
+  alt: A glass mug of dark tea with a spoon, decorated with white blossoms, on an old wooden table
+  description: 'Bored after two minutes, or stuck staring at the grid? What really makes a word search easy or hard,
+    the right level for kids, adults and seniors, and simple tricks to make any puzzle easier or harder. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: tea
+  kicker: Make any puzzle easier
+  items:
+  - Hunt for the first letter
+  - One direction at a time
+  - Use a ruler or a card
+  - Print it bigger
+  - Cross off as you go
+  - Solve in pairs
+  start: '2026-11-11'
+  priority: 3
+- key: ig-word-search-difficulty-levels
+  platform: instagram
+  kind: article carousel
+  book: word-search-difficulty-levels
+  link: https://pixelpunkstudio.shop/word-search-difficulty-levels.html
+  title: Word Search Too Easy or Too Hard? How to Pick the Right Level for Every Solver
+  headline: Too easy or too hard?
+  kicker: New on the blog
+  items:
+  - Letter size
+  - Grid size
+  - Number of words
+  - Directions
+  - Word length
+  - The theme
+  list_title: What makes a word search hard?
+  caption: 'Bored after two minutes, or stuck staring at the grid? 🔍
+
+    The size of the letters, the number of words and the directions change everything. Our new article explains
+    how to pick the right level for kids, adults and seniors, and how to make any word search easier or harder.
+
+    Free puzzles at three levels: link in bio 👉 pixelpunkstudio.shop
+
+    #wordsearch #puzzletips #largeprint #brainbreak #puzzlelovers'
+  start: '2026-10-28'
+  priority: 3
 - key: pin-thanksgiving-kids-table-activities
   platform: pinterest
   kind: article
   book: thanksgiving-kids-table-activities
   board: Kids Coloring & Activity Books
   link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
-  priority: 1
-  until: '2026-11-24'
   title: 'Thanksgiving Kids'' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner'
-  alt: 'A Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks'
+  alt: A Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks
   description: 'The turkey needs another hour and the kids'' table is getting loud? 8 calm, screen-free Thanksgiving
     activities for ages 4 to 12, a simple kids'' table kit and free printable word searches and coloring pages.
     #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'
+  design: panel
+  photo: hero
+  kicker: From our blog
+  items: []
+  start: '2026-10-28'
+  priority: 1
+  until: '2026-11-24'
+- key: pin-thanksgiving-kids-table-activities-2
+  platform: pinterest
+  kind: article
+  book: thanksgiving-kids-table-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
+  title: Restless Kids Before Thanksgiving Dinner? 8 Quiet Activities for Ages 4 to 12
+  alt: Thanksgiving cookies shaped like pumpkins and leaves around a pumpkin pie cookie that says Happy Thanksgiving,
+    with a cornucopia of pears and apples and two pumpkin mugs of cider
+  description: 'The turkey needs another hour and the kids'' table is getting loud? 8 calm, screen-free Thanksgiving
+    activities for ages 4 to 12, a simple kids'' table kit and free printable word searches and coloring pages.
+    #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'
+  design: top
+  photo: table
+  kicker: Thanksgiving with kids
+  items: []
+  start: '2026-11-04'
+  priority: 1
+  until: '2026-11-24'
+- key: pin-thanksgiving-kids-table-activities-3
+  platform: pinterest
+  kind: article
+  book: thanksgiving-kids-table-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
+  title: Pack a Kids' Table Kit for Thanksgiving
+  alt: Rows of sharpened colored pencils in every color of the rainbow
+  description: 'The turkey needs another hour and the kids'' table is getting loud? 8 calm, screen-free Thanksgiving
+    activities for ages 4 to 12, a simple kids'' table kit and free printable word searches and coloring pages.
+    #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'
+  design: list
+  photo: crayons
+  kicker: Thanksgiving checklist
+  items:
+  - Pencils and crayons, not markers
+  - One activity per age band
+  - A clipboard or a book to lean on
+  - Print a few spares
+  - Set it out before guests arrive
+  start: '2026-11-11'
+  priority: 1
+  until: '2026-11-24'
+- key: ig-thanksgiving-kids-table-activities
+  platform: instagram
+  kind: article carousel
+  book: thanksgiving-kids-table-activities
+  link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
+  title: 'Thanksgiving Kids'' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner'
+  headline: Keep the kids' table calm until dinner
+  kicker: New on the blog
+  items:
+  - Pencils and crayons, not markers
+  - One activity per age band
+  - A clipboard or a book to lean on
+  - Print a few spares
+  - Set it out before guests arrive
+  list_title: Pack a kids' table kit
+  caption: 'The turkey needs another hour and the kids'' table is getting loud? 🦃
+
+    Our new article has 8 quiet, screen-free Thanksgiving activities for ages 4 to 12, a simple kids'' table kit,
+    and free printable word searches and coloring pages.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'
+  start: '2026-10-28'
+  priority: 1
+  until: '2026-11-24'

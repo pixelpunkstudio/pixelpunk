@@ -1,26 +1,26 @@
 {
  "": [
-  "2e062c2948f0d1ec0f8c5feb21be9f3985e9f669",
+  "e8e24fe7bbdae3b1207ca20b6ba603d78abee61d",
   "2026-10-28"
  ],
  "blog.html": [
-  "69265d2c0be1d3ef87c99bf16a0ec82bd93efe95",
+  "5c54a34c4f894b30d86557aeb7b027cc0c16727a",
   "2026-10-28"
  ],
  "bug-coloring-activities-for-kids.html": [
-  "c000940afce917c1eceafac35633c1da7c93589e",
+  "69df0647a3b8155352ffba0437ca2860c4e56bf6",
   "2026-10-28"
  ],
  "christmas-activities-for-seniors.html": [
-  "ee058e30858bf9e08b528e969b6eea0591f16837",
+  "2f93c2edf9525b8aa812a2dc79d0cbc74de2d1ac",
   "2026-10-28"
  ],
  "christmas-word-search-games.html": [
-  "ea24434647c2b63d02d4f549354754f4f2cc7f5a",
+  "bdaf5ff93f6b19ee2687b37d98c86eea1743c95c",
   "2026-10-28"
  ],
  "free-printable-bug-word-search-for-kids.html": [
-  "26a553bc362acadcf89973e2894da2bba7532a9e",
+  "15a897e301cbdf2b62c387c4b03312845c0012d3",
   "2026-10-28"
  ],
  "free-printable-cardinal-christmas-coloring-page.html": [
@@ -28,8 +28,8 @@
   "2026-10-26"
  ],
  "free-printable-christmas-word-search.html": [
-  "23a705ed78e8caef27f5ac651e0537f292ba7cff",
-  "2026-10-26"
+  "21790bf40977f21751cad4266afa763e486d7aeb",
+  "2026-10-28"
  ],
  "free-printable-easy-sudoku-puzzles.html": [
   "752d4d8799562e9af0d21ac63d1639a9b5e48598",
@@ -52,16 +52,16 @@
   "2026-10-26"
  ],
  "free-printable-jumbo-christmas-word-search.html": [
-  "882c084be11f233ddee153208688627d55c64d47",
-  "2026-10-26"
+  "6a0b7aad2dd1e448e98563ac11536c0425193612",
+  "2026-10-28"
  ],
  "free-printable-ladybug-coloring-page.html": [
   "5ec28a22ebb959b30c0621119c64ddd7caf62d2b",
   "2026-10-26"
  ],
  "free-printable-nativity-word-search.html": [
-  "e106588f21e6a94d55b387c1d66000723b1dc24b",
-  "2026-10-26"
+  "9adb4f196dfa265b28807deb1307d910b52f7f6f",
+  "2026-10-28"
  ],
  "free-printable-puppy-kitten-coloring-page.html": [
   "930557fc4e62883cbf1efd16b1d63e4f5e3fd298",
@@ -92,11 +92,11 @@
   "2026-10-26"
  ],
  "how-to-solve-word-search-puzzles.html": [
-  "2412dc55ec0cc432b6f93053facc1116922b3963",
+  "76195402d889816cca9037ab4fca48ee5f2f40d8",
   "2026-10-28"
  ],
  "hygge-winter-activities.html": [
-  "962c1acd5a43f7db8d4b81e909b6010e78aa29ae",
+  "966355f61f3c377b71fcd06704399a6ee9fa797e",
   "2026-10-28"
  ],
  "privacy.html": [
@@ -108,15 +108,19 @@
   "2026-10-12"
  ],
  "thanksgiving-kids-table-activities.html": [
-  "1e8ceba075bff3b5965855aedaba912777a4ba19",
+  "70b03a84afa8a86ff0117642b07995d6fccfa497",
   "2026-10-28"
  ],
  "word-search-activities-for-seniors.html": [
-  "4cc23e0de60a1417b0183c73303f30c302216931",
+  "7bd65ccfcadf44ad1235da61126221ea6b03f208",
+  "2026-10-28"
+ ],
+ "word-search-difficulty-levels.html": [
+  "9e511dcaab3fad9f9a671d572d682282830bf600",
   "2026-10-28"
  ],
  "word-search-hard-to-read.html": [
-  "a888f9907e0897b9c416e2b9bff0bcbf24256ae7",
+  "3f65bdd4ea79e6d77554411ccaf4fb4780752c86",
   "2026-10-28"
  ]
 }

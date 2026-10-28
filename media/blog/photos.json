@@ -251,6 +251,42 @@
    "width": 1000
   }
  },
+ "word-search-difficulty-levels": {
+  "hero": {
+   "file": "media/blog/word-search-difficulty-levels-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/dirty-high-angle-shot-panel-pumpkin-1867817/",
+   "pixabay_id": 1867817,
+   "puzzle": true,
+   "query": "wood texture top view",
+   "user": "Pexels",
+   "user_page": "https://pixabay.com/users/Pexels-2286921/",
+   "wide": "media/blog/word-search-difficulty-levels-hero-wide.jpg",
+   "width": 1000
+  },
+  "pencil": {
+   "file": "media/blog/word-search-difficulty-levels-pencil.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/school-office-pencil-education-3865201/",
+   "pixabay_id": 3865201,
+   "puzzle": false,
+   "query": "pencil eraser paper desk",
+   "user": "AbsolutVision",
+   "user_page": "https://pixabay.com/users/AbsolutVision-6158753/",
+   "width": 1000
+  },
+  "tea": {
+   "file": "media/blog/word-search-difficulty-levels-tea.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/aroma-beautiful-beauty-closeup-cup-5365653/",
+   "pixabay_id": 5365653,
+   "puzzle": false,
+   "query": "cup of tea glasses table",
+   "user": "Kartashova",
+   "user_page": "https://pixabay.com/users/Kartashova-15610394/",
+   "width": 1000
+  }
+ },
  "word-search-hard-to-read": {
   "hero": {
    "file": "media/blog/word-search-hard-to-read-hero.jpg",

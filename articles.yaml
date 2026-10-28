@@ -3,6 +3,108 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: word-search-difficulty-levels
+    title: "Word Search Too Easy or Too Hard? How to Pick the Right Level for Every Solver"
+    description: >-
+      Bored after two minutes, or stuck staring at the grid? What really makes a word search easy or hard, the
+      right level for kids, adults and seniors, and simple tricks to make any puzzle easier or harder.
+    date: 2026-10-28
+    topics: [Puzzle tips, Seniors & groups]
+    photos:
+      - slot: hero
+        query: wood texture top view
+        compose: {printable: christmas-word-search, solved: 8, seed: 21, scale: [360, 5.5], at: [0.5, 0.34], angle: -4, shadow: [-0.4, 0.9]}
+        wide_focus: [0.5, 0.32]
+        alt: A large print Christmas word search, partly solved in pencil, on dark wooden planks next to a small white pumpkin
+      - slot: pencil
+        after: What makes a word search easy or hard
+        query: pencil eraser paper desk
+        alt: A freshly sharpened blue pencil next to a metal sharpener and a curl of pencil shavings on white paper
+      - slot: tea
+        after: Too hard? 6 ways to make it easier
+        query: cup of tea glasses table
+        alt: A glass mug of dark tea with a spoon, decorated with white blossoms, on an old wooden table
+    related: [cozy-christmas, jumbo-christmas, bug-hunt]
+    printables: [free-printable-jumbo-christmas-word-search, free-printable-christmas-word-search, free-printable-bug-word-search-for-kids]
+    social:
+      pins:
+        - {photo: hero, design: panel, kicker: From our blog}
+        - {photo: pencil, design: top, kicker: Puzzle tips, headline: "Is Your Word Search Too Easy or Too Hard? Find Your Perfect Level"}
+        - {photo: tea, design: list, kicker: Make any puzzle easier, headline: "6 Tricks When a Word Search Feels Too Hard", from: "Too hard? 6 ways to make it easier"}
+      instagram:
+        headline: Too easy or too hard?
+        list_title: What makes a word search hard?
+        caption: |-
+          Bored after two minutes, or stuck staring at the grid? 🔍
+          The size of the letters, the number of words and the directions change everything. Our new article explains how to pick the right level for kids, adults and seniors, and how to make any word search easier or harder.
+          Free puzzles at three levels: link in bio 👉 pixelpunkstudio.shop
+          #wordsearch #puzzletips #largeprint #brainbreak #puzzlelovers
+    body: |
+      <p>Some people finish a word search in three minutes and wonder what the fuss is about. Others stare at
+      the same grid for twenty minutes and give up with half the words missing. It is rarely about being "good"
+      or "bad" at puzzles: the puzzle simply doesn't match the person holding it. A few things decide how hard a
+      word search feels, and once you know them you can pick the right level for a child, a grandparent or
+      yourself, and adjust any puzzle you already have.</p>
+
+      <h2>What makes a word search easy or hard</h2>
+      <ul>
+        <li><strong>Letter size.</strong> Small, crowded letters make every puzzle harder, whatever the words.
+        Large print and extra large print take the strain out of the search.</li>
+        <li><strong>Grid size.</strong> A small grid has fewer places to hide a word. Every extra row and column
+        adds letters to scan.</li>
+        <li><strong>Number of words.</strong> Ten words is a quick puzzle; thirty words is an afternoon.</li>
+        <li><strong>Directions.</strong> Words that only run left to right and top to bottom are the easiest.
+        Diagonals come next, and backwards words (right to left, bottom to top) are the real challenge.</li>
+        <li><strong>Word length.</strong> Long words stand out. Short words of three or four letters hide
+        everywhere, especially when the grid repeats the same letters.</li>
+        <li><strong>The theme.</strong> Familiar words are found faster. A theme you love (Christmas, gardening,
+        farm animals) makes even a big puzzle feel lighter.</li>
+      </ul>
+
+      <h2>Pick the right level for every solver</h2>
+      <ul>
+        <li><strong>Ages 4 to 6, early readers:</strong> a small grid, six to ten short words, across and down
+        only, big letters. Picture clues help non-readers join in.</li>
+        <li><strong>Ages 7 to 10:</strong> a medium grid, ten to fifteen words, with some diagonals. Color-the-letters
+        puzzles add a second activity once the words are found.</li>
+        <li><strong>Teens and adults:</strong> a full-page grid, twenty to thirty words, all eight directions.</li>
+        <li><strong>Seniors and anyone with tired eyes:</strong> choose by eyesight first, ability second. Large
+        print with one puzzle per page suits most people; extra large (jumbo) print is the right choice for low
+        vision, cataracts or anyone who removes their glasses to rest.</li>
+        <li><strong>Puzzle fans who find everything too easy:</strong> keep the large print for comfort, but add
+        a challenge from the list below.</li>
+      </ul>
+
+      <h2>Too easy? 6 ways to make any word search harder</h2>
+      <ol>
+        <li><strong>Time yourself</strong> and try to beat your score on the next puzzle.</li>
+        <li><strong>Cover the word list.</strong> Read it once, fold it under, and find as many words as you can
+        from memory.</li>
+        <li><strong>Find the words in order,</strong> or alphabetically, instead of the easy ones first.</li>
+        <li><strong>Backwards only.</strong> Look for the words that run right to left or bottom to top before the others.</li>
+        <li><strong>No circling.</strong> Find each word and write down the row and column of its first letter instead.</li>
+        <li><strong>Race a partner</strong> on two copies of the same puzzle.</li>
+      </ol>
+
+      <h2>Too hard? 6 ways to make it easier</h2>
+      <ol>
+        <li><strong>Hunt for the first letter.</strong> Scan for every "Q", "Z" or "X" in the grid: rare letters
+        lead straight to their words.</li>
+        <li><strong>One direction at a time.</strong> Look only across, then only down, then the diagonals.</li>
+        <li><strong>Use a ruler or a card</strong> under each row so your eyes don't jump lines.</li>
+        <li><strong>Print it bigger.</strong> Printing at 120 to 130% or on larger paper makes a real difference
+        (we explain how in our guide to word searches that are hard to read).</li>
+        <li><strong>Cross off as you go</strong> so you never look for the same word twice.</li>
+        <li><strong>Solve in pairs.</strong> One person reads the list, the other searches. It is also a lovely
+        way to do puzzles with a grandchild or a grandparent.</li>
+      </ol>
+
+      <h2>Free word searches at three levels</h2>
+      <p>Try our free printables below at three levels: an extra large print Christmas word search for tired
+      eyes, a large print Christmas puzzle for adults, and a bug word search for kids aged 4 to 10. If one
+      level fits, our books keep it going: Jumbo Christmas Word Search in extra large print, Cozy Christmas Word
+      Search in large print, and Bug Hunt Word Search for young solvers.</p>
+
   - slug: thanksgiving-kids-table-activities
     title: "Thanksgiving Kids' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner"
     description: >-
@@ -26,6 +128,21 @@ articles:
         alt: Rows of sharpened colored pencils in every color of the rainbow
     related: [life-on-the-farm, cute-farm-days, bug-hunt]
     printables: [free-printable-thanksgiving-word-search, free-printable-farm-word-search-for-kids, free-printable-puppy-kitten-coloring-page]
+    social:
+      tags: "#thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables"
+      pins:
+        - {photo: hero, design: panel, kicker: From our blog}
+        - {photo: table, design: top, kicker: Thanksgiving with kids, headline: "Restless Kids Before Thanksgiving Dinner? 8 Quiet Activities for Ages 4 to 12"}
+        - {photo: crayons, design: list, kicker: Thanksgiving checklist, headline: "Pack a Kids' Table Kit for Thanksgiving", from: "Pack a kids' table kit"}
+      instagram:
+        headline: Keep the kids' table calm until dinner
+        list_title: Pack a kids' table kit
+        from: "Pack a kids' table kit"
+        caption: |-
+          The turkey needs another hour and the kids' table is getting loud? 🦃
+          Our new article has 8 quiet, screen-free Thanksgiving activities for ages 4 to 12, a simple kids' table kit, and free printable word searches and coloring pages.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables
     body: |
       <p>Every Thanksgiving has the same hour. The turkey needs "just a little longer", the adults are busy in
       the kitchen, and the kids' table is getting louder by the minute. A four-year-old and a twelve-year-old
