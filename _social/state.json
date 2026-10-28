@@ -462,7 +462,10 @@
     "approved": "2026-10-26T19:25:25.848Z"
   },
   "ig-cozy-christmas-coloring": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-17T12:56:00-05:00",
+    "first_planned": "2026-11-17T12:56:00-05:00",
+    "approved": "2026-10-28T15:57:29.097Z"
   },
   "pin-christmas-activities-for-seniors": {
     "status": "published",
