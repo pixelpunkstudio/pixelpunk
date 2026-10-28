@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0WLJJBGB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"]});
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'granted'});
+  gtag('js', new Date());
+  gtag('config', 'G-VD0WLJJBGB');
+</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search | Pixel Punk Studio</title>
+<meta name="description" content="Search Pixel Punk Studio&#x27;s puzzle books, free printables and articles.">
+<link rel="canonical" href="https://pixelpunkstudio.shop/search.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pixel Punk Studio">
+<meta property="og:title" content="Search | Pixel Punk Studio">
+<meta property="og:description" content="Search Pixel Punk Studio&#x27;s puzzle books, free printables and articles.">
+<meta property="og:url" content="https://pixelpunkstudio.shop/search.html">
+<meta property="og:image" content="https://pixelpunkstudio.shop/media/og-home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Search | Pixel Punk Studio">
+<meta name="twitter:description" content="Search Pixel Punk Studio&#x27;s puzzle books, free printables and articles.">
+<meta name="twitter:image" content="https://pixelpunkstudio.shop/media/og-home.jpg">
+<link rel="icon" href="logo.png">
+<link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
+<link rel="stylesheet" href="style.css?v=b02d7689">
+
+<meta name="robots" content="noindex">
+</head><body><main class="wide">
+<header class="top">
+  <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
+  <nav class="menu" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html">Blog</a></nav>
+  <form class="search-form search-top" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <a class="btn small-btn" href="#newsletter">Free monthly puzzle</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
+</header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <form class="search-form search-panel" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search puzzles, books and tips" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <nav class="panel-links" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html">Blog</a></nav>
+  
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
+<h1 class="page">Search</h1>
+<form class="search-form search-page" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search puzzles, books and tips" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+<p class="intro" id="search-info" role="status"></p>
+<div class="results" id="results"></div>
+<section><h2>Popular searches</h2><div class="chips"><a class="chip" href="search.html?q=Christmas">Christmas</a><a class="chip" href="search.html?q=Large%20print">Large print</a><a class="chip" href="search.html?q=Seniors">Seniors</a><a class="chip" href="search.html?q=Kids">Kids</a><a class="chip" href="search.html?q=Coloring">Coloring</a><a class="chip" href="search.html?q=Farm">Farm</a><a class="chip" href="search.html?q=Bugs">Bugs</a><a class="chip" href="search.html?q=Free%20printable">Free printable</a></div></section>
+<script>
+// Search in the browser: search.json holds every book, free printable and article. All the words typed must
+// appear (a word also matches its plural and longer forms: "bug" finds "bugs"); title matches rank first.
+(async () => {
+  const q = (new URLSearchParams(location.search).get("q") || "").trim();
+  const out = document.getElementById("results"), info = document.getElementById("search-info");
+  document.querySelectorAll('.search-form input[name="q"]').forEach(i => { i.value = q; });
+  if (!q) { info.textContent = "Type a word above: a theme (Christmas, farm, bugs), an audience (seniors, kids) or a topic (large print, coloring)."; return; }
+  let items = [];
+  try { items = await (await fetch("search.json", {cache: "no-cache"})).json(); }
+  catch (e) { info.textContent = "Search is not available right now. Please try again later."; return; }
+  const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ");
+  const stem = w => w.length > 3 ? w.replace(/ies$/, "").replace(/([^s])s$/, "$1") : w;  // bugs -> bug, puppies -> pupp
+  const terms = norm(q).split(" ").filter(w => w && !["the", "a", "an", "for", "and", "of", "to", "in"].includes(w)).map(stem);
+  const scored = items.map(it => {
+    const t = " " + norm(it.title) + " ", d = " " + norm(it.desc) + " ", x = " " + norm(it.text) + " ";
+    let score = 0;
+    for (const w of terms) {
+      const re = new RegExp("\\b" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+      const s = (re.test(t) ? 10 : 0) + (re.test(d) ? 4 : 0) + (re.test(x) ? 1 : 0);
+      if (!s) return null;
+      score += s;
+    }
+    return {it, score};
+  }).filter(Boolean).sort((a, b) => b.score - a.score);
+  info.textContent = scored.length ? `${scored.length} result${scored.length > 1 ? "s" : ""} for “${q}”`
+                                   : `Nothing found for “${q}”. Try a shorter or more general word, or browse below.`;
+  const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+  out.innerHTML = scored.map(({it}) => {
+    const ext = it.url.startsWith("http");
+    return `<a class="result" href="${esc(it.url)}"${ext ? ' target="_blank" rel="noopener"' : ""}>
+      ${it.img ? `<img src="${esc(it.img)}" alt="" loading="lazy">` : ""}
+      <span><em class="kind">${esc(it.kind)}${ext ? " · on Amazon" : ""}</em><strong>${esc(it.title)}</strong>
+      <span class="snippet">${esc(it.desc)}</span></span></a>`;
+  }).join("");
+})();
+</script>
+<nav>Questions? <a href="mailto:hello@pixelpunkstudio.shop">hello@pixelpunkstudio.shop</a><br>
+<a href="free-printables.html">Free printables</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · © 2026 Pixel Punk Studio</nav>
+</main></body>
+</html>
