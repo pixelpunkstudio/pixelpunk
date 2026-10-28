@@ -519,13 +519,22 @@
     "approved": "article rule 2026-10-28T05:37:48-04:00"
   },
   "pin-jumbo-christmas-cover": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-01T08:07:00-05:00",
+    "first_planned": "2026-11-01T08:07:00-05:00",
+    "approved": "2026-10-28T15:16:10.153Z"
   },
   "pin-jumbo-christmas-inside": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-12T11:33:00-05:00",
+    "first_planned": "2026-11-12T11:33:00-05:00",
+    "approved": "2026-10-28T15:16:10.153Z"
   },
   "pin-jumbo-christmas-free": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-07T08:29:00-05:00",
+    "first_planned": "2026-11-07T08:29:00-05:00",
+    "approved": "2026-10-28T15:16:10.153Z"
   },
   "ig-jumbo-christmas": {
     "status": "draft"
