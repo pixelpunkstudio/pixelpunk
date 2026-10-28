@@ -444,10 +444,16 @@
     ]
   },
   "pin-cozy-christmas-coloring-cover": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-08T08:02:00-05:00",
+    "first_planned": "2026-11-08T08:02:00-05:00",
+    "approved": "2026-10-28T15:57:18.163Z"
   },
   "pin-cozy-christmas-coloring-inside": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-13T14:35:00-05:00",
+    "first_planned": "2026-11-13T14:35:00-05:00",
+    "approved": "2026-10-28T15:57:18.163Z"
   },
   "pin-cozy-christmas-coloring-free": {
     "status": "scheduled",
