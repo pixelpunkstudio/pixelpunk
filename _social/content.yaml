@@ -867,3 +867,16 @@ items:
   description: 'Does your child give up on coloring pages after two minutes? 8 easy ways to turn a bug coloring
     page into a game, a story or a backyard bug hunt, plus tips for little hands and a free ladybug coloring page.
     #kidscoloring #bugs #kidsactivities #preschool #screenfree'
+- key: pin-thanksgiving-kids-table-activities
+  platform: pinterest
+  kind: article
+  book: thanksgiving-kids-table-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
+  priority: 1
+  until: '2026-11-24'
+  title: 'Thanksgiving Kids'' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner'
+  alt: 'A Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks'
+  description: 'The turkey needs another hour and the kids'' table is getting loud? 8 calm, screen-free Thanksgiving
+    activities for ages 4 to 12, a simple kids'' table kit and free printable word searches and coloring pages.
+    #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'

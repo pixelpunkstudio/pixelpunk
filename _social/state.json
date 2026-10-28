@@ -461,5 +461,8 @@
     "when": "2026-11-04T11:04:00-05:00",
     "first_planned": "2026-11-04T11:04:00-05:00",
     "approved": "2026-10-26T19:25:25.848Z"
+  },
+  "pin-thanksgiving-kids-table-activities": {
+    "status": "draft"
   }
 }
