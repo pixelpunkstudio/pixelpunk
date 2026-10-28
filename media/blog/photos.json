@@ -179,6 +179,42 @@
    "width": 1000
   }
  },
+ "thanksgiving-kids-table-activities": {
+  "crayons": {
+   "file": "media/blog/thanksgiving-kids-table-activities-crayons.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/color-color-lead-pencil-draw-kit-1744816/",
+   "pixabay_id": 1744816,
+   "puzzle": false,
+   "query": "crayons colored pencils",
+   "user": "YEYEQINQIN",
+   "user_page": "https://pixabay.com/users/YEYEQINQIN-3533307/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/thanksgiving-kids-table-activities-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
+   "pixabay_id": 7036168,
+   "puzzle": true,
+   "query": "light wood planks background",
+   "user": "Alexandra_Koch",
+   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
+   "wide": "media/blog/thanksgiving-kids-table-activities-hero-wide.jpg",
+   "width": 1000
+  },
+  "table": {
+   "file": "media/blog/thanksgiving-kids-table-activities-table.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/thanksgiving-cookies-pumpkin-pie-6755475/",
+   "pixabay_id": 6755475,
+   "puzzle": false,
+   "query": "thanksgiving table autumn pumpkins",
+   "user": "JillWellington",
+   "user_page": "https://pixabay.com/users/JillWellington-334088/",
+   "width": 1000
+  }
+ },
  "word-search-activities-for-seniors": {
   "hero": {
    "file": "media/blog/word-search-activities-for-seniors-hero.jpg",

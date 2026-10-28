@@ -3,6 +3,94 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: thanksgiving-kids-table-activities
+    title: "Thanksgiving Kids' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner"
+    description: >-
+      The turkey needs another hour and the kids' table is getting loud? 8 calm, screen-free Thanksgiving
+      activities for ages 4 to 12, a simple kids' table kit and free printable word searches and coloring pages.
+    date: 2026-10-28
+    topics: [Seasonal ideas, Activity ideas, Kids & coloring]
+    photos:
+      - slot: hero
+        query: light wood planks background
+        compose: {printable: thanksgiving-word-search, solved: 6, seed: 7, scale: [80, 1], at: [0.5, 0.47], angle: -3, shadow: [0.4, 0.9]}
+        wide_focus: [0.5, 0.4]
+        alt: A Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks
+      - slot: table
+        after: 8 quiet Thanksgiving activities for kids
+        query: thanksgiving table autumn pumpkins
+        alt: Thanksgiving cookies shaped like pumpkins and leaves around a pumpkin pie cookie that says Happy Thanksgiving, with a cornucopia of pears and apples and two pumpkin mugs of cider
+      - slot: crayons
+        after: Pack a kids' table kit
+        query: crayons colored pencils
+        alt: Rows of sharpened colored pencils in every color of the rainbow
+    related: [life-on-the-farm, cute-farm-days, bug-hunt]
+    printables: [free-printable-thanksgiving-word-search, free-printable-farm-word-search-for-kids, free-printable-puppy-kitten-coloring-page]
+    body: |
+      <p>Every Thanksgiving has the same hour. The turkey needs "just a little longer", the adults are busy in
+      the kitchen, and the kids' table is getting louder by the minute. A four-year-old and a twelve-year-old
+      don't want the same thing, and handing out phones means nobody looks up again until pie. The fix is not
+      a big craft project: it is a few quiet activities that each age can do on its own, ready before the
+      first guest arrives. Here are eight that work at a crowded table with no mess and no screens.</p>
+
+      <h2>Why the kids' table falls apart before dinner</h2>
+      <ul>
+        <li><strong>Hungry and waiting.</strong> Kids are told to sit down long before the food arrives.
+        Waiting with nothing to do is the hardest part of the day.</li>
+        <li><strong>One activity for every age.</strong> A coloring page bores a ten-year-old, and a word search
+        frustrates a preschooler. Each age needs its own level.</li>
+        <li><strong>Too much setup.</strong> Paint, glue and glitter don't belong near a tablecloth and a
+        gravy boat. The best activities need a pencil and a sheet of paper.</li>
+      </ul>
+
+      <h2>8 quiet Thanksgiving activities for kids</h2>
+      <ol>
+        <li><strong>Word search placemats.</strong> Tape a Thanksgiving word search at each older child's
+        place before they sit down. They start searching on their own, and the paper protects the tablecloth
+        too. Readers aged 7 and up can usually manage a full puzzle; give younger readers a list of five words
+        to find instead of all of them.</li>
+        <li><strong>Big helps little.</strong> Pair an older child with a younger one. The big kid reads each
+        word out loud, the little one hunts for its first letter and circles it. Both stay busy, and the older
+        child feels trusted instead of stuck at the "baby table".</li>
+        <li><strong>A coloring corner for the youngest.</strong> Ages 3 to 6 need bold lines and big spaces,
+        not detailed pages. A cute animal page they can finish in ten minutes is better than an elaborate one
+        they abandon.</li>
+        <li><strong>Place card job.</strong> Before dinner, give the kids a stack of folded cards and the guest
+        list. They write (or draw) every guest's name and decorate the cards. It takes a while, it feels like a
+        real job, and the grown-ups love finding their card.</li>
+        <li><strong>The thankful leaf chain.</strong> Cut strips or leaf shapes from orange, red and yellow
+        paper. Each child writes or draws one thing they are thankful for on each strip, then links them into
+        a chain to hang above the table. Read a few out loud before the meal.</li>
+        <li><strong>Farm animal word hunt.</strong> Turkeys live on farms, so a farm word search fits right in.
+        Kids aged 6 to 10 can race to find the animals, then guess which animal makes which sound for the
+        younger ones.</li>
+        <li><strong>The fun fact quiz.</strong> Read a fact and let the table guess: did you know wild turkeys
+        can run up to about 25 miles per hour and fly short distances? Kids love catching the adults out with a
+        fact they didn't know.</li>
+        <li><strong>One puzzle until the turkey.</strong> Announce that dinner arrives "when the puzzle is
+        done". Kids who finish early can start a second one, and nobody asks "how much longer?" every two
+        minutes.</li>
+      </ol>
+
+      <h2>Pack a kids' table kit</h2>
+      <ul>
+        <li><strong>Pencils and crayons, not markers.</strong> Markers bleed through paper onto the tablecloth.
+        Sharpened pencils and chunky crayons are quieter and cleaner.</li>
+        <li><strong>One activity per age band.</strong> Print coloring pages for the under-sixes, kids' word
+        searches for ages 6 to 10, and a full large print word search for older kids and any grown-up who
+        wants to join.</li>
+        <li><strong>A clipboard or a book to lean on</strong> for kids who end up on the sofa or the floor.</li>
+        <li><strong>Print a few spares.</strong> Someone always wants the puzzle their cousin has.</li>
+        <li><strong>Set it out before guests arrive.</strong> Kids who find something on their plate start
+        right away, before boredom sets in.</li>
+      </ul>
+
+      <h2>Free Thanksgiving printables for the kids' table</h2>
+      <p>Print our free Thanksgiving word search below for the older kids, a farm animal word search for
+      ages 6 to 10, and a puppy and kitten coloring page for the little ones: three levels, one quiet table.
+      For the long weekend, Life on the Farm Word Search for Kids and the Cute Farm Days Coloring Book have
+      dozens more pages, each with a fun fact to share at dinner.</p>
+
   - slug: christmas-activities-for-seniors
     title: "Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care"
     description: >-
