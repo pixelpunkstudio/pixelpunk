@@ -469,16 +469,28 @@
     "approved": "article rule 2026-10-28T05:37:48-04:00"
   },
   "pin-word-search-difficulty-levels": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-06T08:45:00-05:00",
+    "first_planned": "2026-11-06T08:45:00-05:00",
+    "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
   "pin-word-search-difficulty-levels-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-13T14:29:00-05:00",
+    "first_planned": "2026-11-13T14:29:00-05:00",
+    "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
   "pin-word-search-difficulty-levels-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-20T14:07:00-05:00",
+    "first_planned": "2026-11-20T14:07:00-05:00",
+    "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
   "ig-word-search-difficulty-levels": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-11T12:14:00-05:00",
+    "first_planned": "2026-11-11T12:14:00-05:00",
+    "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
   "pin-thanksgiving-kids-table-activities-2": {
     "status": "scheduled",
