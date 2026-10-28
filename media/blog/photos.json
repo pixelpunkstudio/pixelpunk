@@ -194,24 +194,24 @@
   "hero": {
    "file": "media/blog/thanksgiving-kids-table-activities-hero.jpg",
    "height": 1500,
-   "page": "https://pixabay.com/photos/wood-boards-old-texture-plank-7036168/",
-   "pixabay_id": 7036168,
-   "puzzle": true,
-   "query": "light wood planks background",
-   "user": "Alexandra_Koch",
-   "user_page": "https://pixabay.com/users/Alexandra_Koch-621802/",
-   "wide": "media/blog/thanksgiving-kids-table-activities-hero-wide.jpg",
-   "width": 1000
-  },
-  "table": {
-   "file": "media/blog/thanksgiving-kids-table-activities-table.jpg",
-   "height": 1500,
    "page": "https://pixabay.com/photos/thanksgiving-cookies-pumpkin-pie-6755475/",
    "pixabay_id": 6755475,
    "puzzle": false,
    "query": "thanksgiving table autumn pumpkins",
    "user": "JillWellington",
    "user_page": "https://pixabay.com/users/JillWellington-334088/",
+   "wide": "media/blog/thanksgiving-kids-table-activities-hero-wide.jpg",
+   "width": 1000
+  },
+  "leaves": {
+   "file": "media/blog/thanksgiving-kids-table-activities-leaves.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/autumn-pumpkin-snail-halloween-5687698/",
+   "pixabay_id": 5687698,
+   "puzzle": false,
+   "query": "autumn leaves acorns pinecones flat lay",
+   "user": "ymkaaaaaa",
+   "user_page": "https://pixabay.com/users/ymkaaaaaa-9656577/",
    "width": 1000
   }
  },
@@ -252,20 +252,19 @@
   }
  },
  "word-search-difficulty-levels": {
-  "hero": {
-   "file": "media/blog/word-search-difficulty-levels-hero.jpg",
+  "glasses": {
+   "file": "media/blog/word-search-difficulty-levels-glasses.jpg",
    "height": 1500,
-   "page": "https://pixabay.com/photos/dirty-high-angle-shot-panel-pumpkin-1867817/",
-   "pixabay_id": 1867817,
-   "puzzle": true,
-   "query": "wood texture top view",
-   "user": "Pexels",
-   "user_page": "https://pixabay.com/users/Pexels-2286921/",
-   "wide": "media/blog/word-search-difficulty-levels-hero-wide.jpg",
+   "page": "https://pixabay.com/photos/eyeglasses-reading-book-glasses-7137804/",
+   "pixabay_id": 7137804,
+   "puzzle": false,
+   "query": "reading glasses open book",
+   "user": "RuslanSikunov",
+   "user_page": "https://pixabay.com/users/RuslanSikunov-11647343/",
    "width": 1000
   },
-  "pencil": {
-   "file": "media/blog/word-search-difficulty-levels-pencil.jpg",
+  "hero": {
+   "file": "media/blog/word-search-difficulty-levels-hero.jpg",
    "height": 1500,
    "page": "https://pixabay.com/photos/school-office-pencil-education-3865201/",
    "pixabay_id": 3865201,
@@ -273,6 +272,7 @@
    "query": "pencil eraser paper desk",
    "user": "AbsolutVision",
    "user_page": "https://pixabay.com/users/AbsolutVision-6158753/",
+   "wide": "media/blog/word-search-difficulty-levels-hero-wide.jpg",
    "width": 1000
   },
   "tea": {

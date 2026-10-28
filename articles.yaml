@@ -12,14 +12,13 @@ articles:
     topics: [Puzzle tips, Seniors & groups]
     photos:
       - slot: hero
-        query: wood texture top view
-        compose: {printable: christmas-word-search, solved: 8, seed: 21, scale: [360, 5.5], at: [0.5, 0.34], angle: -4, shadow: [-0.4, 0.9]}
-        wide_focus: [0.5, 0.32]
-        alt: A large print Christmas word search, partly solved in pencil, on dark wooden planks next to a small white pumpkin
-      - slot: pencil
-        after: What makes a word search easy or hard
         query: pencil eraser paper desk
+        wide_focus: [0.5, 0.55]
         alt: A freshly sharpened blue pencil next to a metal sharpener and a curl of pencil shavings on white paper
+      - slot: glasses
+        after: Pick the right level for every solver
+        query: reading glasses open book
+        alt: Round reading glasses resting on the pages of an open book in warm lamplight
       - slot: tea
         after: Too hard? 6 ways to make it easier
         query: cup of tea glasses table
@@ -28,8 +27,11 @@ articles:
     printables: [free-printable-jumbo-christmas-word-search, free-printable-christmas-word-search, free-printable-bug-word-search-for-kids]
     social:
       pins:
-        - {photo: hero, design: panel, kicker: From our blog}
-        - {photo: pencil, design: top, kicker: Puzzle tips, headline: "Is Your Word Search Too Easy or Too Hard? Find Your Perfect Level"}
+        - {photo: hero, design: top, kicker: Puzzle tips, headline: "Is Your Word Search Too Easy or Too Hard? Find Your Perfect Level"}
+        - design: pages
+          kicker: Free printables at 3 levels
+          headline: "Which Word Search Level Is Right for You?"
+          pages: [{page: bug-hunt, label: Kids}, {page: christmas-word-search, label: Large print}, {page: jumbo-christmas, label: Jumbo print}]
         - {photo: tea, design: list, kicker: Make any puzzle easier, headline: "6 Tricks When a Word Search Feels Too Hard", from: "Too hard? 6 ways to make it easier"}
       instagram:
         headline: Too easy or too hard?
@@ -114,14 +116,13 @@ articles:
     topics: [Seasonal ideas, Activity ideas, Kids & coloring]
     photos:
       - slot: hero
-        query: light wood planks background
-        compose: {printable: thanksgiving-word-search, solved: 6, seed: 7, scale: [80, 1], at: [0.5, 0.47], angle: -3, shadow: [0.4, 0.9]}
-        wide_focus: [0.5, 0.4]
-        alt: A Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks
-      - slot: table
-        after: 8 quiet Thanksgiving activities for kids
         query: thanksgiving table autumn pumpkins
+        wide_focus: [0.5, 0.62]
         alt: Thanksgiving cookies shaped like pumpkins and leaves around a pumpkin pie cookie that says Happy Thanksgiving, with a cornucopia of pears and apples and two pumpkin mugs of cider
+      - slot: leaves
+        after: 8 quiet Thanksgiving activities for kids
+        query: autumn leaves acorns pinecones flat lay
+        alt: Halved orange pumpkins with their seeds, pinecones and fallen autumn leaves on a dark table
       - slot: crayons
         after: Pack a kids' table kit
         query: crayons colored pencils
@@ -132,7 +133,10 @@ articles:
       tags: "#thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables"
       pins:
         - {photo: hero, design: panel, kicker: From our blog}
-        - {photo: table, design: top, kicker: Thanksgiving with kids, headline: "Restless Kids Before Thanksgiving Dinner? 8 Quiet Activities for Ages 4 to 12"}
+        - design: pages
+          kicker: Free printables for every age
+          headline: "3 Free Printables for the Thanksgiving Kids' Table"
+          pages: [{page: cute-farm-days, label: Ages 4-8}, {page: life-on-the-farm, label: Ages 6-10}, {page: thanksgiving-word-search, label: Ages 10+}]
         - {photo: crayons, design: list, kicker: Thanksgiving checklist, headline: "Pack a Kids' Table Kit for Thanksgiving", from: "Pack a kids' table kit"}
       instagram:
         headline: Keep the kids' table calm until dinner

@@ -873,15 +873,14 @@ items:
   book: word-search-difficulty-levels
   board: Cozy Activities for Adults
   link: https://pixelpunkstudio.shop/word-search-difficulty-levels.html
-  title: Word Search Too Easy or Too Hard? How to Pick the Right Level for Every Solver
-  alt: A large print Christmas word search, partly solved in pencil, on dark wooden planks next to a small white
-    pumpkin
+  title: Is Your Word Search Too Easy or Too Hard? Find Your Perfect Level
+  alt: A freshly sharpened blue pencil next to a metal sharpener and a curl of pencil shavings on white paper
   description: 'Bored after two minutes, or stuck staring at the grid? What really makes a word search easy or hard,
     the right level for kids, adults and seniors, and simple tricks to make any puzzle easier or harder. #wordsearch
     #puzzletips #largeprint #cozyactivities'
-  design: panel
+  design: top
   photo: hero
-  kicker: From our blog
+  kicker: Puzzle tips
   items: []
   start: '2026-10-28'
   priority: 3
@@ -891,15 +890,22 @@ items:
   book: word-search-difficulty-levels
   board: Cozy Activities for Adults
   link: https://pixelpunkstudio.shop/word-search-difficulty-levels.html
-  title: Is Your Word Search Too Easy or Too Hard? Find Your Perfect Level
+  title: Which Word Search Level Is Right for You?
   alt: A freshly sharpened blue pencil next to a metal sharpener and a curl of pencil shavings on white paper
   description: 'Bored after two minutes, or stuck staring at the grid? What really makes a word search easy or hard,
     the right level for kids, adults and seniors, and simple tricks to make any puzzle easier or harder. #wordsearch
     #puzzletips #largeprint #cozyactivities'
-  design: top
-  photo: pencil
-  kicker: Puzzle tips
+  design: pages
+  photo: hero
+  kicker: Free printables at 3 levels
   items: []
+  pages:
+  - page: bug-hunt
+    label: Kids
+  - page: christmas-word-search
+    label: Large print
+  - page: jumbo-christmas
+    label: Jumbo print
   start: '2026-11-04'
   priority: 3
 - key: pin-word-search-difficulty-levels-3
@@ -958,7 +964,8 @@ items:
   board: Kids Coloring & Activity Books
   link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
   title: 'Thanksgiving Kids'' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner'
-  alt: A Thanksgiving word search puzzle, partly solved in pencil, on weathered wooden planks
+  alt: Thanksgiving cookies shaped like pumpkins and leaves around a pumpkin pie cookie that says Happy Thanksgiving,
+    with a cornucopia of pears and apples and two pumpkin mugs of cider
   description: 'The turkey needs another hour and the kids'' table is getting loud? 8 calm, screen-free Thanksgiving
     activities for ages 4 to 12, a simple kids'' table kit and free printable word searches and coloring pages.
     #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'
@@ -975,16 +982,23 @@ items:
   book: thanksgiving-kids-table-activities
   board: Kids Coloring & Activity Books
   link: https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html
-  title: Restless Kids Before Thanksgiving Dinner? 8 Quiet Activities for Ages 4 to 12
+  title: 3 Free Printables for the Thanksgiving Kids' Table
   alt: Thanksgiving cookies shaped like pumpkins and leaves around a pumpkin pie cookie that says Happy Thanksgiving,
     with a cornucopia of pears and apples and two pumpkin mugs of cider
   description: 'The turkey needs another hour and the kids'' table is getting loud? 8 calm, screen-free Thanksgiving
     activities for ages 4 to 12, a simple kids'' table kit and free printable word searches and coloring pages.
     #thanksgivingactivities #kidsactivities #screenfree #thanksgivingforkids #printables'
-  design: top
-  photo: table
-  kicker: Thanksgiving with kids
+  design: pages
+  photo: hero
+  kicker: Free printables for every age
   items: []
+  pages:
+  - page: cute-farm-days
+    label: Ages 4-8
+  - page: life-on-the-farm
+    label: Ages 6-10
+  - page: thanksgiving-word-search
+    label: Ages 10+
   start: '2026-11-04'
   priority: 1
   until: '2026-11-24'
