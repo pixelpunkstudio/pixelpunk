@@ -334,6 +334,13 @@ def publish_ig(it: dict) -> str:
 
 # ---------------------------------------------------------------- run
 
+def page_live(url: str) -> bool:
+    try:
+        return requests.head(url, timeout=20, allow_redirects=True).status_code == 200
+    except requests.RequestException:
+        return False
+
+
 def run() -> bool:
     st, its = load_state(), items()
     now = dt.datetime.now(TZ)
@@ -345,6 +352,9 @@ def run() -> bool:
             continue
         k = due[0][1]  # one item per platform per run: the next one waits for its own time
         s = st[k]
+        if its[k].get("kind") in ("article", "article carousel") and not page_live(its[k]["link"]):
+            log(f"waiting for {its[k]['link']} to be online before {k}")  # article written ahead, site not yet published
+            continue
         try:
             url = publish(its[k])
             s.update(status="published", url=url, published_at=now.isoformat(timespec="minutes"))

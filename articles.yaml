@@ -3,6 +3,92 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: make-your-own-word-search
+    title: "How to Make Your Own Word Search Puzzle by Hand (in About 15 Minutes)"
+    description: >-
+      Want a word search with your family's names, your class's spelling words or a friend's inside jokes? How to
+      make one by hand in 8 simple steps, with grid sizes for every age, an easy answer key trick and free printables.
+    date: 2026-10-31
+    topics: [Puzzle tips, Activity ideas]
+    photos:
+      - slot: hero
+        query: graph paper notebook pencil top view
+        wide_focus: [0.5, 0.5]
+        alt: An open notebook, a pen, reading glasses and a black coffee cup on a white marble table
+      - slot: markers
+        after: 8 steps to make a word search
+        query: colored markers paper desk
+        alt: A spiral notebook with blank pages, two pastel pens and a small plant on a light wooden desk
+      - slot: party
+        after: Ideas that make it more fun
+        query: birthday party table decorations
+        alt: A white frosted birthday cake under a small burlap and linen bunting
+    related: [cozy-christmas, bug-hunt, retirement]
+    printables: [free-printable-christmas-word-search, free-printable-bug-word-search-for-kids, free-printable-retirement-word-search]
+    social:
+      pins:
+        - {photo: hero, design: top, kicker: Puzzle tips, headline: "How to Make Your Own Word Search Puzzle in 15 Minutes"}
+        - design: pages
+          kicker: Or print one for free
+          headline: "Free Word Searches for Every Age"
+          pages: [{page: bug-hunt, label: Kids}, {page: christmas-word-search, label: Adults}, {page: jumbo-christmas, label: Seniors}]
+        - {photo: markers, design: list, kicker: Step by step, headline: "Make a Personalized Word Search", from: "8 steps to make a word search"}
+      instagram:
+        headline: Make your own word search
+        list_title: How to make one   # the slide shows 6 of the 8 steps: no count in the title
+        from: "8 steps to make a word search"
+        caption: |-
+          Names of the whole family, this week's spelling words, a friend's inside jokes... 🖍️
+          A homemade word search takes about 15 minutes. Our new article shows the 8 steps, the right grid size for every age and a simple answer key trick.
+          Read it (and print free puzzles): link in bio 👉 pixelpunkstudio.shop
+          #wordsearch #diyactivities #puzzletips #partyideas #printables
+    body: |
+      <p>A store-bought word search is fun, but it can't hold your family's names, this week's spelling words or
+      the inside jokes from a friend's 60th birthday. A homemade one can, and it takes about fifteen minutes with
+      a pencil and a sheet of graph paper. Here is how to make a word search that is fun to solve, the right size
+      for the person who will get it, and easy to check.</p>
+
+      <h2>What you need</h2>
+      <ul>
+        <li><strong>Graph paper</strong> with large squares, or plain paper and a ruler to draw your own grid.</li>
+        <li><strong>A pencil and an eraser</strong> for placing words, and a fine black pen for the final version.</li>
+        <li><strong>A list of 10 to 20 words</strong> on one theme: names, places, hobbies, holiday words or
+        a class's vocabulary.</li>
+      </ul>
+
+      <h2>8 steps to make a word search</h2>
+      <ol>
+        <li><strong>Choose a theme and your words.</strong> Keep them on one subject so the list makes sense. For
+        young children, pick 6 to 10 short words; for adults, 15 to 20.</li>
+        <li><strong>Pick the grid size.</strong> About 10 x 10 squares for kids and 15 x 15 for adults. The grid
+        should be at least two squares longer than your longest word.</li>
+        <li><strong>Make the squares big enough.</strong> For seniors or tired eyes, use squares of at least half an
+        inch and write capital letters that fill them. Big letters change everything.</li>
+        <li><strong>Place the longest words first,</strong> in pencil. Mix directions: across and down for kids,
+        add diagonals for adults, and save backwards words for puzzle fans.</li>
+        <li><strong>Let a few words cross</strong> at a shared letter. It saves space and makes the grid look like a
+        real puzzle.</li>
+        <li><strong>Take a photo of the grid now.</strong> Before you fill the gaps, this picture is your answer key.</li>
+        <li><strong>Fill the empty squares</strong> with random letters, mostly ones that already appear in your
+        words, so the answers don't stand out. Read the rows once to be sure you didn't spell anything silly.</li>
+        <li><strong>Ink it and test it.</strong> Go over the letters in pen, write the word list under the grid, and
+        ask someone to solve it before the big day.</li>
+      </ol>
+
+      <h2>Ideas that make it more fun</h2>
+      <ul>
+        <li><strong>Hide a secret message.</strong> Instead of random letters, fill the leftover squares in order
+        with a short message ("happy birthday grandma"). Solvers read it once every word is found.</li>
+        <li><strong>Make it personal.</strong> Use the person's name as the title and add small drawings around the border.</li>
+        <li><strong>Print on card or slip it in a sheet protector</strong> so it can be solved again with a dry-erase marker.</li>
+        <li><strong>Make one for each table</strong> at a party or a family reunion and race to finish first.</li>
+      </ul>
+
+      <h2>Short on time? Print one instead</h2>
+      <p>If the party is tonight, our free printables are ready in seconds: a bug word search for kids, a large print
+      Christmas puzzle for adults and a retirement word search, each with its answer key. When you want a whole
+      book of puzzles, Cozy Christmas Word Search, Bug Hunt Word Search and Retirement Word Search have dozens more.</p>
+
   - slug: word-search-difficulty-levels
     title: "Word Search Too Easy or Too Hard? How to Pick the Right Level for Every Solver"
     description: >-

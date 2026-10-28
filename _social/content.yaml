@@ -1114,3 +1114,97 @@ items:
   link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
   priority: 2
   until: '2026-12-22'
+- key: pin-make-your-own-word-search
+  platform: pinterest
+  kind: article
+  book: make-your-own-word-search
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/make-your-own-word-search.html
+  title: How to Make Your Own Word Search Puzzle in 15 Minutes
+  alt: An open notebook, a pen, reading glasses and a black coffee cup on a white marble table
+  description: 'Want a word search with your family''s names, your class''s spelling words or a friend''s inside
+    jokes? How to make one by hand in 8 simple steps, with grid sizes for every age, an easy answer key trick and
+    free printables. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: hero
+  kicker: Puzzle tips
+  items: []
+  start: '2026-10-31'
+  priority: 3
+- key: pin-make-your-own-word-search-2
+  platform: pinterest
+  kind: article
+  book: make-your-own-word-search
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/make-your-own-word-search.html
+  title: Free Word Searches for Every Age
+  alt: An open notebook, a pen, reading glasses and a black coffee cup on a white marble table
+  description: 'Want a word search with your family''s names, your class''s spelling words or a friend''s inside
+    jokes? How to make one by hand in 8 simple steps, with grid sizes for every age, an easy answer key trick and
+    free printables. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: Or print one for free
+  items: []
+  pages:
+  - page: bug-hunt
+    label: Kids
+  - page: christmas-word-search
+    label: Adults
+  - page: jumbo-christmas
+    label: Seniors
+  start: '2026-11-07'
+  priority: 3
+- key: pin-make-your-own-word-search-3
+  platform: pinterest
+  kind: article
+  book: make-your-own-word-search
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/make-your-own-word-search.html
+  title: Make a Personalized Word Search
+  alt: A spiral notebook with blank pages, two pastel pens and a small plant on a light wooden desk
+  description: 'Want a word search with your family''s names, your class''s spelling words or a friend''s inside
+    jokes? How to make one by hand in 8 simple steps, with grid sizes for every age, an easy answer key trick and
+    free printables. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: markers
+  kicker: Step by step
+  items:
+  - Choose a theme and your words
+  - Pick the grid size
+  - Make the squares big enough
+  - Place the longest words first
+  - Let a few words cross
+  - Take a photo of the grid now
+  - Fill the empty squares
+  - Ink it and test it
+  start: '2026-11-14'
+  priority: 3
+- key: ig-make-your-own-word-search
+  platform: instagram
+  kind: article carousel
+  book: make-your-own-word-search
+  link: https://pixelpunkstudio.shop/make-your-own-word-search.html
+  title: How to Make Your Own Word Search Puzzle by Hand (in About 15 Minutes)
+  headline: Make your own word search
+  kicker: New on the blog
+  items:
+  - Choose a theme and your words
+  - Pick the grid size
+  - Make the squares big enough
+  - Place the longest words first
+  - Let a few words cross
+  - Take a photo of the grid now
+  - Fill the empty squares
+  - Ink it and test it
+  list_title: How to make one
+  caption: 'Names of the whole family, this week''s spelling words, a friend''s inside jokes... 🖍️
+
+    A homemade word search takes about 15 minutes. Our new article shows the 8 steps, the right grid size for every
+    age and a simple answer key trick.
+
+    Read it (and print free puzzles): link in bio 👉 pixelpunkstudio.shop
+
+    #wordsearch #diyactivities #puzzletips #partyideas #printables'
+  start: '2026-10-31'
+  priority: 3

@@ -541,5 +541,29 @@
     "when": "2026-11-13T12:36:00-05:00",
     "first_planned": "2026-11-13T12:36:00-05:00",
     "approved": "2026-10-28T15:16:23.359Z"
+  },
+  "pin-make-your-own-word-search": {
+    "status": "scheduled",
+    "when": "2026-11-08T11:28:00-05:00",
+    "first_planned": "2026-11-08T11:28:00-05:00",
+    "approved": "article rule 2026-10-28T11:21:54-04:00"
+  },
+  "pin-make-your-own-word-search-2": {
+    "status": "scheduled",
+    "when": "2026-11-15T14:08:00-05:00",
+    "first_planned": "2026-11-15T14:08:00-05:00",
+    "approved": "article rule 2026-10-28T11:21:54-04:00"
+  },
+  "pin-make-your-own-word-search-3": {
+    "status": "scheduled",
+    "when": "2026-11-22T14:52:00-05:00",
+    "first_planned": "2026-11-22T14:52:00-05:00",
+    "approved": "article rule 2026-10-28T11:21:54-04:00"
+  },
+  "ig-make-your-own-word-search": {
+    "status": "scheduled",
+    "when": "2026-11-15T12:26:00-05:00",
+    "first_planned": "2026-11-15T12:26:00-05:00",
+    "approved": "article rule 2026-10-28T11:21:54-04:00"
   }
 }

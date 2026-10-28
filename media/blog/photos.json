@@ -179,6 +179,42 @@
    "width": 1000
   }
  },
+ "make-your-own-word-search": {
+  "hero": {
+   "file": "media/blog/make-your-own-word-search-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/cup-black-coffee-espresso-notebook-2571161/",
+   "pixabay_id": 2571161,
+   "puzzle": false,
+   "query": "graph paper notebook pencil top view",
+   "user": "StockSnap",
+   "user_page": "https://pixabay.com/users/StockSnap-894430/",
+   "wide": "media/blog/make-your-own-word-search-hero-wide.jpg",
+   "width": 1000
+  },
+  "markers": {
+   "file": "media/blog/make-your-own-word-search-markers.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/notebook-desk-office-writing-5433224/",
+   "pixabay_id": 5433224,
+   "puzzle": false,
+   "query": "colored markers paper desk",
+   "user": "jrmlalmeida",
+   "user_page": "https://pixabay.com/users/jrmlalmeida-16491584/",
+   "width": 1000
+  },
+  "party": {
+   "file": "media/blog/make-your-own-word-search-party.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/cake-party-celebration-dessert-828259/",
+   "pixabay_id": 828259,
+   "puzzle": false,
+   "query": "birthday party table decorations",
+   "user": "rmt",
+   "user_page": "https://pixabay.com/users/rmt-1169676/",
+   "width": 1000
+  }
+ },
  "thanksgiving-kids-table-activities": {
   "crayons": {
    "file": "media/blog/thanksgiving-kids-table-activities-crayons.jpg",
