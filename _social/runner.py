@@ -10,6 +10,7 @@ PINTEREST_APP_SECRET, PINTEREST_REFRESH_TOKEN, PINTEREST_SANDBOX_TOKEN, META_PAG
 
     python _social/runner.py            publish what is due (and re-plan what was missed)
     python _social/runner.py --check    connections only, nothing published
+    python _social/runner.py --boards   save published pins to topic boards they are missing (--dry: list only)
 """
 from __future__ import annotations
 
@@ -204,13 +205,98 @@ def pin_call(method: str, path: str, **kw) -> dict:
     raise RuntimeError(f"{method} {path}: " + " | ".join(errors or ["no Pinterest token"]))
 
 
+# Each pin goes to its main board (content.yaml `board`), then is saved to up to two topic boards (`also` in
+# content.yaml, else topic_boards()). Missing boards are created with these descriptions; empty ones are filled in.
+BOARD_INFO = {
+    "Word Search Puzzle Books": "Large print word search puzzle books for adults, seniors and teens: cozy, seasonal and "
+                                "holiday themes, one puzzle per page, solutions included. Gift ideas for puzzle lovers.",
+    "Cozy Activities for Adults": "Cozy, relaxing activities for adults and seniors: word search tips, bold and easy "
+                                  "coloring, sudoku and slow-living ideas for calm evenings at home.",
+    "Free Printable Puzzles": "Free printable word search puzzles and activity pages to download and print at home on "
+                              "letter paper: large print, holiday and seasonal themes, answer keys included.",
+    "Kids Coloring & Activity Books": "Coloring books and word searches for kids: cute animals and bugs with fun facts, "
+                                      "bold easy lines, free printable pages. Screen-free fun for preschool and school ages.",
+    "Christmas Activities & Gift Ideas": "Christmas word searches, holiday coloring pages and free printables, plus cozy "
+                                         "stocking stuffer ideas for puzzle lovers, adults and seniors.",
+    "Thanksgiving Activities": "Thanksgiving word searches and free printable activities for the whole family: games "
+                               "for the kids' table, seniors and a cozy holiday afternoon.",
+    "Fall Activities": "Autumn word searches, fall printables and cozy activities for crisp evenings: apple picking, "
+                       "harvest and pumpkin season puzzles.",
+    "Winter Activities & Hygge": "Cozy winter activities and hygge ideas: snowy day word searches, candlelit puzzle "
+                                 "evenings and calm indoor fun for adults and seniors.",
+    "Spring Activities": "Spring word searches and printable activities: gardens, blossoms and picnics.",
+    "Summer Activities": "Summer word searches and printable activities for long sunny days, road trips and the beach.",
+    "Valentine's Day Gift Ideas": "Valentine's Day gift ideas for puzzle lovers: romantic sudoku and cozy activities to share.",
+    "Retirement Gift Ideas": "Retirement gift ideas and activities for a happy, active retirement: large print puzzles, "
+                             "hobbies and travel.",
+    "Bug & Insect Activities for Kids": "Bug and insect coloring pages, word searches and fun facts for kids: ladybugs, "
+                                        "bees and butterflies. Screen-free activities for preschool and homeschool.",
+    "Farm Animal Activities for Kids": "Farm animal coloring pages, word searches and fun facts for kids: cows, pigs, "
+                                       "chicks and life on the farm. Screen-free activities for preschool and homeschool.",
+    "Large Print Activities for Seniors": "Large print word searches, bold and easy coloring and brain games for "
+                                          "seniors and anyone who wants easy-to-read puzzles. Tips for low vision readers.",
+}
+TOPICS = [  # (words in the pin's key or book, topic board), first matches first
+    (("christmas",), "Christmas Activities & Gift Ideas"), (("thanksgiving",), "Thanksgiving Activities"),
+    (("fall-",), "Fall Activities"), (("winter", "hygge", "snowy"), "Winter Activities & Hygge"),
+    (("spring",), "Spring Activities"), (("summer",), "Summer Activities"),
+    (("sudoku-of-love", "valentine"), "Valentine's Day Gift Ideas"), (("retirement",), "Retirement Gift Ideas"),
+    (("bug",), "Bug & Insect Activities for Kids"), (("farm",), "Farm Animal Activities for Kids"),
+]
+SENIORS = "Large Print Activities for Seniors"
+_boards = {}
+
+
+def topic_boards(it: dict) -> list[str]:
+    """Up to two topic boards for a pin besides its main board: the season or holiday, then seniors for large print
+    content outside the kids board."""
+    if "also" in it:
+        return [b for b in it["also"] if b != it["board"]][:2]
+    words = f"{it['key']} {it.get('book', '')}"
+    out = [b for keys, b in TOPICS if any(w in words for w in keys)][:1]
+    text = f"{it['title']} {it.get('description', '')}".lower()
+    if it["board"] != "Kids Coloring & Activity Books" and ("senior" in text or "large print" in text):
+        out.append(SENIORS)
+    return [b for b in out if b != it["board"]][:2]
+
+
+def board_id(name: str) -> str:
+    """The board's id, creating it (public, with its description) when missing; an empty description is filled."""
+    if not _boards:
+        for b in pin_call("GET", "/boards", params={"page_size": 100}).get("items", []):
+            _boards[b["name"]] = b
+    b = _boards.get(name)
+    desc = BOARD_INFO.get(name, "")
+    if not b:
+        b = _boards[name] = pin_call("POST", "/boards", json={"name": name, "description": desc, "privacy": "PUBLIC"})
+        log(f"board created: {name}")
+    elif desc and not b.get("description"):
+        b["description"] = desc
+        pin_call("PATCH", f"/boards/{b['id']}", json={"description": desc})
+        log(f"board description added: {name}")
+    return b["id"]
+
+
+def save_to_topics(it: dict, s: dict):
+    """Saves a published pin to its topic boards not done yet; the boards it reached go to state (`boards`)."""
+    pin = s["url"].rstrip("/").rsplit("/", 1)[-1]
+    done = s.setdefault("boards", [it["board"]])
+    for name in topic_boards(it):
+        if name in done:
+            continue
+        try:
+            pin_call("POST", f"/pins/{pin}/save", json={"board_id": board_id(name)})
+            done.append(name)
+            log(f"saved {it['key']} to {name}")
+        except Exception as e:
+            s["board_error"] = str(e)[:300]
+            log(f"FAILED saving {it['key']} to {name}: {str(e)[:200]}")
+
+
 def publish_pin(it: dict) -> str:
-    boards = {b["name"]: b["id"] for b in pin_call("GET", "/boards", params={"page_size": 100}).get("items", [])}
-    if it["board"] not in boards:
-        boards[it["board"]] = pin_call("POST", "/boards", json={"name": it["board"]})["id"]
     data = base64.b64encode(images_of(it)[0].read_bytes()).decode()
     made = pin_call("POST", "/pins", json={
-        "board_id": boards[it["board"]], "title": it["title"][:100], "description": it["description"][:500],
+        "board_id": board_id(it["board"]), "title": it["title"][:100], "description": it["description"][:500],
         "link": it["link"], "alt_text": it.get("alt", "")[:500],
         "media_source": {"source_type": "image_base64", "content_type": "image/jpeg", "data": data}})
     return f"https://www.pinterest.com/pin/{made['id']}/"
@@ -266,6 +352,8 @@ def run() -> bool:
         except Exception as e:
             s.update(status="failed", error=str(e)[:300])
             log(f"FAILED {k}: {str(e)[:200]}")
+        if platform == "pinterest" and s["status"] == "published":
+            save_to_topics(its[k], s)
         changed = True
     if changed:
         save_state(st)
@@ -283,5 +371,29 @@ def check():
     print("scheduled:", sum(1 for s in st.values() if s.get("status") == "scheduled"))
 
 
+def fill_boards(dry: bool) -> bool:
+    """Published pins that are not on all their topic boards yet: saves them there (dry: only lists them)."""
+    st, its = load_state(), items()
+    changed = False
+    for k, s in st.items():
+        it = its.get(k, {})
+        if it.get("platform") != "pinterest" or s.get("status") != "published" or not s.get("url"):
+            continue
+        todo = [b for b in topic_boards(it) if b not in s.get("boards", [it["board"]])]
+        if todo:
+            print(k, "->", ", ".join(todo))
+            if not dry:
+                save_to_topics(it, s)
+                changed = True
+    if changed:
+        save_state(st)
+    return changed
+
+
 if __name__ == "__main__":
-    check() if "--check" in sys.argv else print("changed" if run() else "nothing due")
+    if "--check" in sys.argv:
+        check()
+    elif "--boards" in sys.argv:
+        fill_boards(dry="--dry" in sys.argv)
+    else:
+        print("changed" if run() else "nothing due")
