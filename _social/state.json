@@ -94,13 +94,13 @@
   },
   "pin-winter-snowy-days-inside": {
     "status": "scheduled",
-    "when": "2026-11-01T14:19:00-05:00",
+    "when": "2026-11-03T14:19:00-05:00",
     "first_planned": "2026-11-01T14:19:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-winter-snowy-days-free": {
     "status": "scheduled",
-    "when": "2026-10-28T14:25:00-04:00",
+    "when": "2026-10-30T11:25:00-04:00",
     "first_planned": "2026-10-28T14:25:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -160,19 +160,19 @@
   },
   "pin-fall-crisp-leaves-cover": {
     "status": "scheduled",
-    "when": "2026-10-29T08:37:00-04:00",
+    "when": "2026-11-02T14:37:00-05:00",
     "first_planned": "2026-10-28T08:37:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-fall-crisp-leaves-inside": {
     "status": "scheduled",
-    "when": "2026-11-06T14:35:00-05:00",
+    "when": "2026-11-10T14:35:00-05:00",
     "first_planned": "2026-11-05T14:35:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-fall-crisp-leaves-free": {
     "status": "scheduled",
-    "when": "2026-11-02T11:05:00-05:00",
+    "when": "2026-11-06T14:05:00-05:00",
     "first_planned": "2026-11-01T11:05:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -184,19 +184,19 @@
   },
   "pin-life-on-the-farm-cover": {
     "status": "scheduled",
-    "when": "2026-10-30T08:55:00-04:00",
+    "when": "2026-11-02T08:55:00-05:00",
     "first_planned": "2026-10-29T08:55:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-life-on-the-farm-inside": {
     "status": "scheduled",
-    "when": "2026-11-07T14:17:00-05:00",
+    "when": "2026-11-10T11:17:00-05:00",
     "first_planned": "2026-11-06T14:17:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-life-on-the-farm-free": {
     "status": "scheduled",
-    "when": "2026-11-03T14:26:00-05:00",
+    "when": "2026-11-06T08:26:00-05:00",
     "first_planned": "2026-11-02T11:26:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -220,13 +220,13 @@
   },
   "pin-bug-hunt-inside": {
     "status": "scheduled",
-    "when": "2026-11-02T14:37:00-05:00",
+    "when": "2026-11-05T08:37:00-05:00",
     "first_planned": "2026-11-02T14:37:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-bug-hunt-free": {
     "status": "scheduled",
-    "when": "2026-10-29T14:27:00-04:00",
+    "when": "2026-11-01T11:27:00-05:00",
     "first_planned": "2026-10-29T14:27:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -238,19 +238,27 @@
   },
   "pin-cute-farm-days-cover": {
     "status": "scheduled",
-    "when": "2026-10-28T08:59:00-04:00",
+    "when": "2026-10-30T08:24:00-04:00",
     "first_planned": "2026-10-27T08:59:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "history": [
+      {
+        "missed": "2026-10-28T08:59:00-04:00",
+        "noticed": "2026-10-28T09:59-04:00",
+        "moved_to": "2026-10-30T08:24:00-04:00"
+      }
+    ],
+    "moves": 1
   },
   "pin-cute-farm-days-inside": {
     "status": "scheduled",
-    "when": "2026-11-05T14:14:00-05:00",
+    "when": "2026-11-07T14:14:00-05:00",
     "first_planned": "2026-11-04T14:14:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-cute-farm-days-free": {
     "status": "scheduled",
-    "when": "2026-11-01T08:56:00-05:00",
+    "when": "2026-11-03T08:56:00-05:00",
     "first_planned": "2026-10-31T08:56:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -308,19 +316,19 @@
   },
   "pin-retirement-cover": {
     "status": "scheduled",
-    "when": "2026-11-03T08:47:00-05:00",
+    "when": "2026-11-04T08:47:00-05:00",
     "first_planned": "2026-11-03T14:47:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-retirement-inside": {
     "status": "scheduled",
-    "when": "2026-11-11T14:58:00-05:00",
+    "when": "2026-11-12T14:58:00-05:00",
     "first_planned": "2026-11-11T14:58:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-retirement-free": {
     "status": "scheduled",
-    "when": "2026-11-07T08:48:00-05:00",
+    "when": "2026-11-08T14:48:00-05:00",
     "first_planned": "2026-11-07T14:48:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -443,7 +451,7 @@
   },
   "pin-cozy-christmas-coloring-free": {
     "status": "scheduled",
-    "when": "2026-11-02T08:02:00-05:00",
+    "when": "2026-10-29T14:02:00-04:00",
     "first_planned": "2026-11-02T08:02:00-05:00",
     "approved": "2026-10-26T19:25:25.848Z"
   },
@@ -452,37 +460,37 @@
   },
   "pin-christmas-activities-for-seniors": {
     "status": "scheduled",
-    "when": "2026-11-04T14:37:00-05:00",
+    "when": "2026-10-28T11:37:00-04:00",
     "first_planned": "2026-11-04T14:37:00-05:00",
     "approved": "2026-10-26T19:25:25.848Z"
   },
   "pin-bug-coloring-activities-for-kids": {
     "status": "scheduled",
-    "when": "2026-11-04T11:04:00-05:00",
+    "when": "2026-10-29T08:04:00-04:00",
     "first_planned": "2026-11-04T11:04:00-05:00",
     "approved": "2026-10-26T19:25:25.848Z"
   },
   "pin-thanksgiving-kids-table-activities": {
     "status": "scheduled",
-    "when": "2026-11-05T08:42:00-05:00",
+    "when": "2026-10-28T14:42:00-04:00",
     "first_planned": "2026-11-05T08:42:00-05:00",
     "approved": "article rule 2026-10-28T05:37:48-04:00"
   },
   "pin-word-search-difficulty-levels": {
     "status": "scheduled",
-    "when": "2026-11-06T08:45:00-05:00",
+    "when": "2026-11-01T14:45:00-05:00",
     "first_planned": "2026-11-06T08:45:00-05:00",
     "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
   "pin-word-search-difficulty-levels-2": {
     "status": "scheduled",
-    "when": "2026-11-13T14:29:00-05:00",
+    "when": "2026-11-05T14:29:00-05:00",
     "first_planned": "2026-11-13T14:29:00-05:00",
     "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
   "pin-word-search-difficulty-levels-3": {
     "status": "scheduled",
-    "when": "2026-11-20T14:07:00-05:00",
+    "when": "2026-11-11T08:07:00-05:00",
     "first_planned": "2026-11-20T14:07:00-05:00",
     "approved": "article rule 2026-10-28T05:38:02-04:00"
   },
@@ -494,13 +502,13 @@
   },
   "pin-thanksgiving-kids-table-activities-2": {
     "status": "scheduled",
-    "when": "2026-11-12T14:02:00-05:00",
+    "when": "2026-11-04T14:02:00-05:00",
     "first_planned": "2026-11-12T14:02:00-05:00",
     "approved": "article rule 2026-10-28T05:37:48-04:00"
   },
   "pin-thanksgiving-kids-table-activities-3": {
     "status": "scheduled",
-    "when": "2026-11-19T14:03:00-05:00",
+    "when": "2026-11-11T14:03:00-05:00",
     "first_planned": "2026-11-19T14:03:00-05:00",
     "approved": "article rule 2026-10-28T05:37:48-04:00"
   },
