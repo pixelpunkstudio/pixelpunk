@@ -5,7 +5,12 @@
     "first_planned": "2026-10-22T11:02:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023702903/",
-    "published_at": "2026-10-22T11:38-04:00"
+    "published_at": "2026-10-22T11:38-04:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-cozy-christmas-inside": {
     "status": "scheduled",
@@ -19,7 +24,12 @@
     "first_planned": "2026-10-26T14:05:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613024115761/",
-    "published_at": "2026-10-26T14:48-04:00"
+    "published_at": "2026-10-26T14:48-04:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-cozy-christmas": {
     "status": "published",
@@ -35,7 +45,12 @@
     "first_planned": "2026-10-23T14:47:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023818267/",
-    "published_at": "2026-10-23T15:03-04:00"
+    "published_at": "2026-10-23T15:03-04:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Winter Activities & Hygge",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-cozy-winter-hygge-inside": {
     "status": "scheduled",
@@ -49,7 +64,12 @@
     "first_planned": "2026-10-27T14:14:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613024200521/",
-    "published_at": "2026-10-27T14:16-04:00"
+    "published_at": "2026-10-27T14:16-04:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Winter Activities & Hygge",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-cozy-winter-hygge": {
     "status": "published",
@@ -65,7 +85,12 @@
     "first_planned": "2026-10-24T11:36:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023903945/",
-    "published_at": "2026-10-24T12:02-04:00"
+    "published_at": "2026-10-24T12:02-04:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Winter Activities & Hygge",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-winter-snowy-days-inside": {
     "status": "scheduled",
@@ -187,7 +212,11 @@
     "first_planned": "2026-10-25T08:45:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023993828/",
-    "published_at": "2026-10-25T09:21-04:00"
+    "published_at": "2026-10-25T09:21-04:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Bug & Insect Activities for Kids"
+    ]
   },
   "pin-bug-hunt-inside": {
     "status": "scheduled",
@@ -237,7 +266,11 @@
     "first_planned": "2026-10-22T08:02:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023689772/",
-    "published_at": "2026-10-22T08:43-04:00"
+    "published_at": "2026-10-22T08:43-04:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Bug & Insect Activities for Kids"
+    ]
   },
   "pin-cute-bug-days-inside": {
     "status": "scheduled",
@@ -259,7 +292,11 @@
     ],
     "moves": 1,
     "url": "https://www.pinterest.com/pin/1127166613024177670/",
-    "published_at": "2026-10-27T09:17-04:00"
+    "published_at": "2026-10-27T09:17-04:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Bug & Insect Activities for Kids"
+    ]
   },
   "ig-cute-bug-days": {
     "status": "published",
@@ -323,17 +360,32 @@
     "first_planned": "2026-10-22T14:40:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023717112/",
-    "published_at": "2026-10-22T14:41-04:00"
+    "published_at": "2026-10-22T14:41-04:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Thanksgiving Activities",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-christmas-word-search-free": {
     "status": "published",
     "url": "https://www.pinterest.com/pin/1127166613023611459/",
-    "published": "2026-10-21"
+    "published": "2026-10-21",
+    "boards": [
+      "Free Printable Puzzles",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-christmas-word-search-games": {
     "status": "published",
     "url": "https://www.pinterest.com/pin/1127166613023611981/",
-    "published": "2026-10-21"
+    "published": "2026-10-21",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-word-search-hard-to-read": {
     "status": "published",
@@ -341,7 +393,11 @@
     "first_planned": "2026-10-25T14:40:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613024024132/",
-    "published_at": "2026-10-25T15:07-04:00"
+    "published_at": "2026-10-25T15:07-04:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-word-search-activities-for-seniors": {
     "status": "published",
@@ -349,7 +405,11 @@
     "first_planned": "2026-10-24T08:25:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023885997/",
-    "published_at": "2026-10-24T08:39-04:00"
+    "published_at": "2026-10-24T08:39-04:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-hygge-winter-activities": {
     "status": "published",
@@ -357,7 +417,11 @@
     "first_planned": "2026-10-24T14:48:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023919444/",
-    "published_at": "2026-10-24T15:06-04:00"
+    "published_at": "2026-10-24T15:06-04:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Winter Activities & Hygge"
+    ]
   },
   "pin-how-to-solve-word-search-puzzles": {
     "status": "published",
@@ -365,7 +429,11 @@
     "first_planned": "2026-10-23T11:04:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "url": "https://www.pinterest.com/pin/1127166613023799711/",
-    "published_at": "2026-10-23T11:12-04:00"
+    "published_at": "2026-10-23T11:12-04:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-cozy-christmas-coloring-cover": {
     "status": "draft"
