@@ -75,7 +75,8 @@ sections:
         title: Cozy Christmas Coloring Book for Adults and Seniors
         subtitle: 50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page
         tags: [Bold & easy, 8.5 x 8.5, Adults & seniors]
-        amazon:
+        amazon: B0HPLFLS75
+        published: 2026-10-28
         sample:
           pdf: "books/cozy-christmas-coloring/output"
           pages: [45, 44]
