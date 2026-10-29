@@ -464,10 +464,17 @@
     "approved": "2026-10-28T15:57:18.163Z"
   },
   "pin-cozy-christmas-coloring-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-29T14:02:00-04:00",
     "first_planned": "2026-11-02T08:02:00-05:00",
-    "approved": "2026-10-26T19:25:25.848Z"
+    "approved": "2026-10-26T19:25:25.848Z",
+    "url": "https://www.pinterest.com/pin/1127166613024380282/",
+    "published_at": "2026-10-29T14:28-04:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-cozy-christmas-coloring": {
     "status": "scheduled",
