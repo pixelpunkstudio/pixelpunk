@@ -245,7 +245,7 @@
     "approved": "2026-10-21T18:04:53.999Z"
   },
   "pin-cute-farm-days-cover": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-30T08:24:00-04:00",
     "first_planned": "2026-10-27T08:59:00-04:00",
     "approved": "2026-10-21T18:04:40.259Z",
@@ -256,7 +256,13 @@
         "moved_to": "2026-10-30T08:24:00-04:00"
       }
     ],
-    "moves": 1
+    "moves": 1,
+    "url": "https://www.pinterest.com/pin/1127166613024443452/",
+    "published_at": "2026-10-30T08:58-04:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Farm Animal Activities for Kids"
+    ]
   },
   "pin-cute-farm-days-inside": {
     "status": "scheduled",
