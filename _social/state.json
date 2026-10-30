@@ -99,10 +99,17 @@
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-winter-snowy-days-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-30T11:25:00-04:00",
     "first_planned": "2026-10-28T14:25:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613024456687/",
+    "published_at": "2026-10-30T11:52-04:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Winter Activities & Hygge",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-winter-snowy-days": {
     "status": "scheduled",
