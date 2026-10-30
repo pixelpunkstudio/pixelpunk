@@ -13,10 +13,17 @@
     ]
   },
   "pin-cozy-christmas-inside": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-30T14:31:00-04:00",
     "first_planned": "2026-10-30T14:31:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613024471855/",
+    "published_at": "2026-10-30T15:11-04:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-cozy-christmas-free": {
     "status": "published",
