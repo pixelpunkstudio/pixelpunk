@@ -60,10 +60,17 @@
     ]
   },
   "pin-cozy-winter-hygge-inside": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-10-31T14:24:00-04:00",
     "first_planned": "2026-10-31T14:24:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613024555412/",
+    "published_at": "2026-10-31T14:26-04:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Winter Activities & Hygge",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-cozy-winter-hygge-free": {
     "status": "published",
