@@ -668,16 +668,28 @@
     "status": "draft"
   },
   "pin-word-search-game-night-for-groups": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-12T08:28:00-05:00",
+    "first_planned": "2026-11-12T08:28:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:34-05:00"
   },
   "pin-word-search-game-night-for-groups-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-19T14:19:00-05:00",
+    "first_planned": "2026-11-19T14:19:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:34-05:00"
   },
   "pin-word-search-game-night-for-groups-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-26T14:49:00-05:00",
+    "first_planned": "2026-11-26T14:49:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:34-05:00"
   },
   "ig-word-search-game-night-for-groups": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-12T12:28:00-05:00",
+    "first_planned": "2026-11-12T12:28:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:34-05:00"
   },
   "pin-after-school-screen-free-activities": {
     "status": "scheduled",
