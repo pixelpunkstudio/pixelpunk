@@ -630,10 +630,12 @@
     "approved": "2026-10-28T15:16:10.153Z"
   },
   "ig-jumbo-christmas": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-01T12:36:00-05:00",
     "first_planned": "2026-11-13T12:36:00-05:00",
-    "approved": "2026-10-28T15:16:23.359Z"
+    "approved": "2026-10-28T15:16:23.359Z",
+    "url": "https://www.instagram.com/p/DfNSI1AGp0Q/",
+    "published_at": "2026-11-01T12:36-05:00"
   },
   "pin-make-your-own-word-search": {
     "status": "scheduled",
