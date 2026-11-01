@@ -704,15 +704,27 @@
     "status": "draft"
   },
   "pin-visiting-parent-assisted-living-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-09T14:09:00-05:00",
+    "first_planned": "2026-11-09T14:09:00-05:00",
+    "approved": "article rule 2026-11-01T07:40:53-05:00"
   },
   "pin-visiting-parent-assisted-living-activities-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-16T14:15:00-05:00",
+    "first_planned": "2026-11-16T14:15:00-05:00",
+    "approved": "article rule 2026-11-01T07:40:53-05:00"
   },
   "pin-visiting-parent-assisted-living-activities-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-23T14:06:00-05:00",
+    "first_planned": "2026-11-23T14:06:00-05:00",
+    "approved": "article rule 2026-11-01T07:40:53-05:00"
   },
   "ig-visiting-parent-assisted-living-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-04T12:11:00-05:00",
+    "first_planned": "2026-11-04T12:11:00-05:00",
+    "approved": "article rule 2026-11-01T07:40:53-05:00"
   }
 }
