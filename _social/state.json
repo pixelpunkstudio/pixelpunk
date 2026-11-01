@@ -647,16 +647,28 @@
     "approved": "article rule 2026-10-28T11:21:54-04:00"
   },
   "pin-large-print-vs-jumbo-print": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-15T11:08:00-05:00",
+    "first_planned": "2026-11-15T11:08:00-05:00",
+    "approved": "article rule 2026-11-01T07:42:02-05:00"
   },
   "pin-large-print-vs-jumbo-print-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-22T08:58:00-05:00",
+    "first_planned": "2026-11-22T08:58:00-05:00",
+    "approved": "article rule 2026-11-01T07:42:02-05:00"
   },
   "pin-large-print-vs-jumbo-print-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-29T14:01:00-05:00",
+    "first_planned": "2026-11-29T14:01:00-05:00",
+    "approved": "article rule 2026-11-01T07:42:02-05:00"
   },
   "ig-large-print-vs-jumbo-print": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-16T12:54:00-05:00",
+    "first_planned": "2026-11-16T12:54:00-05:00",
+    "approved": "article rule 2026-11-01T07:42:02-05:00"
   },
   "pin-thanksgiving-activities-for-seniors": {
     "status": "scheduled",
