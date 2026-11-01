@@ -680,16 +680,28 @@
     "status": "draft"
   },
   "pin-after-school-screen-free-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-13T08:46:00-05:00",
+    "first_planned": "2026-11-13T08:46:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:20-05:00"
   },
   "pin-after-school-screen-free-activities-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-20T14:03:00-05:00",
+    "first_planned": "2026-11-20T14:03:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:20-05:00"
   },
   "pin-after-school-screen-free-activities-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-27T14:39:00-05:00",
+    "first_planned": "2026-11-27T14:39:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:20-05:00"
   },
   "ig-after-school-screen-free-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-10T12:34:00-05:00",
+    "first_planned": "2026-11-10T12:34:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:20-05:00"
   },
   "pin-fall-activities-for-seniors-indoors": {
     "status": "scheduled",
