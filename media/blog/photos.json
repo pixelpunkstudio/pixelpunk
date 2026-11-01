@@ -1,4 +1,40 @@
 {
+ "after-school-screen-free-activities": {
+  "blocks": {
+   "file": "media/blog/after-school-screen-free-activities-blocks.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/bricks-building-blocks-tower-6902606/",
+   "pixabay_id": 6902606,
+   "puzzle": false,
+   "query": "wooden toy blocks",
+   "user": "VetVisst",
+   "user_page": "https://pixabay.com/users/VetVisst-24721095/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/after-school-screen-free-activities-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/color-circle-watercolor-coral-blue-4109552/",
+   "pixabay_id": 4109552,
+   "puzzle": false,
+   "query": "watercolor paint brushes paper",
+   "user": "stux",
+   "user_page": "https://pixabay.com/users/stux-12364/",
+   "wide": "media/blog/after-school-screen-free-activities-hero-wide.jpg",
+   "width": 1000
+  },
+  "snack": {
+   "file": "media/blog/after-school-screen-free-activities-snack.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/apples-fruits-red-ripe-vitamins-634572/",
+   "pixabay_id": 634572,
+   "puzzle": false,
+   "query": "apple slices snack plate",
+   "user": "Desertrose7",
+   "user_page": "https://pixabay.com/users/Desertrose7-752536/",
+   "width": 1000
+  }
+ },
  "bug-coloring-activities-for-kids": {
   "crayons": {
    "file": "media/blog/bug-coloring-activities-for-kids-crayons.jpg",
@@ -107,6 +143,42 @@
    "width": 1000
   }
  },
+ "fall-activities-for-seniors-indoors": {
+  "apples": {
+   "file": "media/blog/fall-activities-for-seniors-indoors-apples.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/pie-apples-fruit-sweet-cake-5601654/",
+   "pixabay_id": 5601654,
+   "puzzle": false,
+   "query": "apples basket autumn",
+   "user": "congerdesign",
+   "user_page": "https://pixabay.com/users/congerdesign-509903/",
+   "width": 1000
+  },
+  "blanket": {
+   "file": "media/blog/fall-activities-for-seniors-indoors-blanket.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/book-autumn-cotton-nuts-tree-mood-4539970/",
+   "pixabay_id": 4539970,
+   "puzzle": false,
+   "query": "knitted blanket book",
+   "user": "Be_Stasya",
+   "user_page": "https://pixabay.com/users/Be_Stasya-11197808/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/fall-activities-for-seniors-indoors-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/tea-cup-drink-drinking-autumn-8184148/",
+   "pixabay_id": 8184148,
+   "puzzle": false,
+   "query": "autumn leaves window cup tea",
+   "user": "Ylanite",
+   "user_page": "https://pixabay.com/users/Ylanite-2218222/",
+   "wide": "media/blog/fall-activities-for-seniors-indoors-hero-wide.jpg",
+   "width": 1000
+  }
+ },
  "how-to-solve-word-search-puzzles": {
   "hero": {
    "file": "media/blog/how-to-solve-word-search-puzzles-hero.jpg",
@@ -179,6 +251,31 @@
    "width": 1000
   }
  },
+ "large-print-vs-jumbo-print": {
+  "hero": {
+   "file": "media/blog/large-print-vs-jumbo-print-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/glasses-book-apple-fruit-5868861/",
+   "pixabay_id": 5868861,
+   "puzzle": false,
+   "query": "magnifying glass reading glasses",
+   "user": "sammy1990",
+   "user_page": "https://pixabay.com/users/sammy1990-19694381/",
+   "wide": "media/blog/large-print-vs-jumbo-print-hero-wide.jpg",
+   "width": 1000
+  },
+  "lamp": {
+   "file": "media/blog/large-print-vs-jumbo-print-lamp.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/armchair-chair-furniture-room-3740226/",
+   "pixabay_id": 3740226,
+   "puzzle": false,
+   "query": "reading lamp armchair cozy",
+   "user": "Engin_Akyurt",
+   "user_page": "https://pixabay.com/users/Engin_Akyurt-3656355/",
+   "width": 1000
+  }
+ },
  "make-your-own-word-search": {
   "hero": {
    "file": "media/blog/make-your-own-word-search-hero.jpg",
@@ -215,6 +312,31 @@
    "width": 1000
   }
  },
+ "thanksgiving-activities-for-seniors": {
+  "hero": {
+   "file": "media/blog/thanksgiving-activities-for-seniors-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/pumpkin-pie-autumn-pumpkin-orange-1887230/",
+   "pixabay_id": 1887230,
+   "puzzle": false,
+   "query": "pumpkin pie autumn table",
+   "user": "Daria-Yakovleva",
+   "user_page": "https://pixabay.com/users/Daria-Yakovleva-3938704/",
+   "wide": "media/blog/thanksgiving-activities-for-seniors-hero-wide.jpg",
+   "width": 1000
+  },
+  "table": {
+   "file": "media/blog/thanksgiving-activities-for-seniors-table.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/thanksgiving-dinner-thanksgiving-8396730/",
+   "pixabay_id": 8396730,
+   "puzzle": false,
+   "query": "autumn table setting candles",
+   "user": "JillWellington",
+   "user_page": "https://pixabay.com/users/JillWellington-334088/",
+   "width": 1000
+  }
+ },
  "thanksgiving-kids-table-activities": {
   "crayons": {
    "file": "media/blog/thanksgiving-kids-table-activities-crayons.jpg",
@@ -248,6 +370,42 @@
    "query": "autumn leaves acorns pinecones flat lay",
    "user": "ymkaaaaaa",
    "user_page": "https://pixabay.com/users/ymkaaaaaa-9656577/",
+   "width": 1000
+  }
+ },
+ "visiting-parent-assisted-living-activities": {
+  "album": {
+   "file": "media/blog/visiting-parent-assisted-living-activities-album.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/family-anno-anno-family-19-year-1318682/",
+   "pixabay_id": 1318682,
+   "puzzle": false,
+   "query": "old photo album",
+   "user": "ha11ok",
+   "user_page": "https://pixabay.com/users/ha11ok-1785462/",
+   "width": 1000
+  },
+  "cards": {
+   "file": "media/blog/visiting-parent-assisted-living-activities-cards.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/play-cards-game-fun-playing-cards-932773/",
+   "pixabay_id": 932773,
+   "puzzle": false,
+   "query": "playing cards table",
+   "user": "tookapic",
+   "user_page": "https://pixabay.com/users/tookapic-1386459/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/visiting-parent-assisted-living-activities-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/tea-cup-drink-evening-window-7571673/",
+   "pixabay_id": 7571673,
+   "puzzle": false,
+   "query": "two cups of tea table window",
+   "user": "Penelope883",
+   "user_page": "https://pixabay.com/users/Penelope883-25973697/",
+   "wide": "media/blog/visiting-parent-assisted-living-activities-hero-wide.jpg",
    "width": 1000
   }
  },
@@ -320,6 +478,31 @@
    "query": "cup of tea glasses table",
    "user": "Kartashova",
    "user_page": "https://pixabay.com/users/Kartashova-15610394/",
+   "width": 1000
+  }
+ },
+ "word-search-game-night-for-groups": {
+  "hero": {
+   "file": "media/blog/word-search-game-night-for-groups-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/time-sand-pass-away-clock-deadline-7453407/",
+   "pixabay_id": 7453407,
+   "puzzle": false,
+   "query": "hourglass sand timer",
+   "user": "viarami",
+   "user_page": "https://pixabay.com/users/viarami-13458823/",
+   "wide": "media/blog/word-search-game-night-for-groups-hero-wide.jpg",
+   "width": 1000
+  },
+  "prizes": {
+   "file": "media/blog/word-search-game-night-for-groups-prizes.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/gift-parcel-package-ribbon-570792/",
+   "pixabay_id": 570792,
+   "puzzle": false,
+   "query": "small gift box ribbon",
+   "user": "blickpixel",
+   "user_page": "https://pixabay.com/users/blickpixel-52945/",
    "width": 1000
   }
  },

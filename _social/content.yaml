@@ -1208,3 +1208,522 @@ items:
     #wordsearch #diyactivities #puzzletips #partyideas #printables'
   start: '2026-10-31'
   priority: 3
+- key: pin-large-print-vs-jumbo-print
+  platform: pinterest
+  kind: article
+  book: large-print-vs-jumbo-print
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/large-print-vs-jumbo-print.html
+  title: Large Print or Jumbo Print? How to Choose the Right Puzzle Book
+  alt: Reading glasses resting on a stack of books beside a green apple, against a dark background
+  description: 'Bought a "large print" puzzle book that still felt too small? What large print and jumbo print really
+    mean, who each one suits, how to check a book before you buy, and free pages to compare both at home. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: hero
+  kicker: Puzzle tips
+  items: []
+  start: '2026-11-15'
+  priority: 3
+- key: pin-large-print-vs-jumbo-print-2
+  platform: pinterest
+  kind: article
+  book: large-print-vs-jumbo-print
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/large-print-vs-jumbo-print.html
+  title: Large Print vs Jumbo Print Word Search
+  alt: Reading glasses resting on a stack of books beside a green apple, against a dark background
+  description: 'Bought a "large print" puzzle book that still felt too small? What large print and jumbo print really
+    mean, who each one suits, how to check a book before you buy, and free pages to compare both at home. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: Compare both for free
+  items: []
+  pages:
+  - page: christmas-word-search
+    label: Large print
+  - page: jumbo-christmas
+    label: Jumbo print
+  start: '2026-11-22'
+  priority: 3
+- key: pin-large-print-vs-jumbo-print-3
+  platform: pinterest
+  kind: article
+  book: large-print-vs-jumbo-print
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/large-print-vs-jumbo-print.html
+  title: 5 Checks Before You Buy a Large Print Puzzle Book
+  alt: A cream armchair with a yellow cushion and an open magazine under an angled reading lamp
+  description: 'Bought a "large print" puzzle book that still felt too small? What large print and jumbo print really
+    mean, who each one suits, how to check a book before you buy, and free pages to compare both at home. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: lamp
+  kicker: Before you buy
+  items:
+  - Look for a number, not just a label
+  - Use the "Look inside" pages
+  - Count the squares across
+  - Check the page size
+  - Read the reviews for "too small"
+  start: '2026-11-29'
+  priority: 3
+- key: ig-large-print-vs-jumbo-print
+  platform: instagram
+  kind: article carousel
+  book: large-print-vs-jumbo-print
+  link: https://pixelpunkstudio.shop/large-print-vs-jumbo-print.html
+  title: Large Print or Jumbo Print? How to Choose a Puzzle Book for Tired or Low Vision Eyes
+  headline: Large print or jumbo print?
+  kicker: New on the blog
+  items:
+  - Look for a number, not just a label
+  - Use the "Look inside" pages
+  - Count the squares across
+  - Check the page size
+  - Read the reviews for "too small"
+  list_title: Check before you buy
+  caption: 'Bought a "large print" puzzle book that still felt too small? 👓
+
+    Large print and jumbo print are not the same thing. Our new article explains the difference, who each one suits
+    and what to check before you buy, with free pages to compare both at home.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #largeprint #jumboprint #wordsearch #puzzlesforseniors #lowvision'
+  start: '2026-11-15'
+  priority: 3
+- key: pin-thanksgiving-activities-for-seniors
+  platform: pinterest
+  kind: article
+  book: thanksgiving-activities-for-seniors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html
+  title: 'Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day'
+  alt: A slice of pumpkin pie with whipped cream beside two orange pumpkins, cinnamon sticks and autumn leaves
+  description: 'Grandma ends up alone in an armchair while the noise goes on around her? 8 easy Thanksgiving games
+    for seniors, simple jobs that keep grandparents involved, small changes that help, and a free large print Thanksgiving
+    word search. #thanksgivingactivities #activitiesforseniors #thanksgivinggames #largeprint #printables'
+  design: panel
+  photo: hero
+  kicker: From our blog
+  items: []
+  start: '2026-11-13'
+  priority: 1
+  until: '2026-11-24'
+- key: pin-thanksgiving-activities-for-seniors-2
+  platform: pinterest
+  kind: article
+  book: thanksgiving-activities-for-seniors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html
+  title: Easy Jobs That Keep Grandparents Part of Thanksgiving
+  alt: A Thanksgiving table set with gold chargers, a glass of red wine, a pear and candlelight
+  description: 'Grandma ends up alone in an armchair while the noise goes on around her? 8 easy Thanksgiving games
+    for seniors, simple jobs that keep grandparents involved, small changes that help, and a free large print Thanksgiving
+    word search. #thanksgivingactivities #activitiesforseniors #thanksgivinggames #largeprint #printables'
+  design: list
+  photo: table
+  kicker: Thanksgiving with grandparents
+  items:
+  - Chief taster
+  - Table folding
+  - Recipe keeper
+  - Grace or the toast
+  - Kids' table helper
+  start: '2026-11-20'
+  priority: 1
+  until: '2026-11-24'
+- key: ig-thanksgiving-activities-for-seniors
+  platform: instagram
+  kind: article carousel
+  book: thanksgiving-activities-for-seniors
+  link: https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html
+  title: 'Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day'
+  headline: Keep grandparents part of Thanksgiving
+  kicker: New on the blog
+  items:
+  - A large print Thanksgiving word search
+  - Thanksgiving memories jar
+  - '"When I was your age."'
+  - Gratitude alphabet
+  - Guess the pie
+  - Card games
+  - Old photo guessing game
+  - Family trivia
+  list_title: Easy Thanksgiving games
+  caption: 'Every Thanksgiving someone ends up alone in an armchair while the noise goes on around them. 🦃
+
+    Our new article has 8 easy games that keep grandparents part of the day, simple jobs they''ll enjoy, and a free
+    large print Thanksgiving word search.
+
+    Read it and print the free page: link in bio 👉 pixelpunkstudio.shop
+
+    #thanksgivingactivities #activitiesforseniors #thanksgivinggames #largeprint #printables'
+  start: '2026-11-13'
+  priority: 1
+  until: '2026-11-24'
+- key: pin-word-search-game-night-for-groups
+  platform: pinterest
+  kind: article
+  book: word-search-game-night-for-groups
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-game-night-for-groups.html
+  title: How to Run a Word Search Game Night for a Group
+  alt: A glass hourglass with bright green sand on a white marble surface
+  description: 'Want a group game where nobody feels left behind or rushed? How to run a word search game night
+    for family, friends or a senior center: what you need, a 60-minute plan, 4 game formats, fair rules and small
+    prizes. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: hero
+  kicker: Group activity
+  items: []
+  start: '2026-11-11'
+  priority: 3
+- key: pin-word-search-game-night-for-groups-2
+  platform: pinterest
+  kind: article
+  book: word-search-game-night-for-groups
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-game-night-for-groups.html
+  title: 3 Free Word Searches for Your Next Game Night
+  alt: A glass hourglass with bright green sand on a white marble surface
+  description: 'Want a group game where nobody feels left behind or rushed? How to run a word search game night
+    for family, friends or a senior center: what you need, a 60-minute plan, 4 game formats, fair rules and small
+    prizes. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: Free puzzles for game night
+  items: []
+  pages:
+  - page: christmas-word-search
+    label: Christmas
+  - page: retirement
+    label: Retirement
+  - page: cozy-winter-hygge
+    label: Cozy winter
+  start: '2026-11-18'
+  priority: 3
+- key: pin-word-search-game-night-for-groups-3
+  platform: pinterest
+  kind: article
+  book: word-search-game-night-for-groups
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/word-search-game-night-for-groups.html
+  title: A 60-Minute Word Search Game Night Plan
+  alt: Three small gift boxes in red, pink and green stacked with ribbons
+  description: 'Want a group game where nobody feels left behind or rushed? How to run a word search game night
+    for family, friends or a senior center: what you need, a 60-minute plan, 4 game formats, fair rules and small
+    prizes. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: prizes
+  kicker: Game night plan
+  items:
+  - Welcome and warm-up (5 minutes)
+  - Form teams (5 minutes)
+  - Round one (15 minutes)
+  - Break (10 minutes)
+  - Round two (15 minutes)
+  - Prizes and answers (10 minutes)
+  start: '2026-11-25'
+  priority: 3
+- key: ig-word-search-game-night-for-groups
+  platform: instagram
+  kind: article carousel
+  book: word-search-game-night-for-groups
+  link: https://pixelpunkstudio.shop/word-search-game-night-for-groups.html
+  title: 'How to Run a Word Search Game Night for a Group: Rules, Timing and Small Prizes'
+  headline: Word search game night
+  kicker: New on the blog
+  items:
+  - Team relay
+  - Word bingo
+  - Mystery word
+  - Points per word
+  list_title: 4 game formats
+  caption: 'Looking for a group game where nobody feels rushed or left behind? ⏳
+
+    Our new article shows how to run a word search game night for family, friends or a senior center: a 60-minute
+    plan, 4 game formats, fair rules and small prizes.
+
+    Read it and print the free puzzles: link in bio 👉 pixelpunkstudio.shop
+
+    #wordsearch #gamenight #seniorcenteractivities #groupgames #printables'
+  start: '2026-11-11'
+  priority: 3
+- key: pin-after-school-screen-free-activities
+  platform: pinterest
+  kind: article
+  book: after-school-screen-free-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/after-school-screen-free-activities.html
+  title: 7 Calm 15-Minute Activities for After School
+  alt: A watercolor paint box, two water cups and brushes beside a sheet with two painted circles
+  description: 'Does the after-school hour turn into a fight over tablets? 7 calm, screen-free activities kids can
+    do in 15 minutes, how to make them easy to start, and free printable coloring pages and word searches for ages
+    4 to 10. #kidsactivities #screenfree #printables #familyactivities'
+  design: top
+  photo: hero
+  kicker: Screen-free ideas
+  items: []
+  start: '2026-11-09'
+  priority: 3
+- key: pin-after-school-screen-free-activities-2
+  platform: pinterest
+  kind: article
+  book: after-school-screen-free-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/after-school-screen-free-activities.html
+  title: Free Pages for a Screen-Free Afternoon
+  alt: A watercolor paint box, two water cups and brushes beside a sheet with two painted circles
+  description: 'Does the after-school hour turn into a fight over tablets? 7 calm, screen-free activities kids can
+    do in 15 minutes, how to make them easy to start, and free printable coloring pages and word searches for ages
+    4 to 10. #kidsactivities #screenfree #printables #familyactivities'
+  design: pages
+  photo: hero
+  kicker: Free printables for kids
+  items: []
+  pages:
+  - page: cute-bug-days
+    label: Coloring
+  - page: bug-hunt
+    label: Ages 6-10
+  - page: life-on-the-farm
+    label: Word search
+  start: '2026-11-16'
+  priority: 3
+- key: pin-after-school-screen-free-activities-3
+  platform: pinterest
+  kind: article
+  book: after-school-screen-free-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/after-school-screen-free-activities.html
+  title: How to Make Screen-Free Time Easy to Start
+  alt: A row of red apples on a wooden table, the first one with a bite taken out
+  description: 'Does the after-school hour turn into a fight over tablets? 7 calm, screen-free activities kids can
+    do in 15 minutes, how to make them easy to start, and free printable coloring pages and word searches for ages
+    4 to 10. #kidsactivities #screenfree #printables #familyactivities'
+  design: list
+  photo: snack
+  kicker: After-school tips
+  items:
+  - Keep a calm basket ready
+  - Snack first
+  - Offer two choices
+  - Sit down for the first two minutes
+  - Keep screen time for later
+  start: '2026-11-23'
+  priority: 3
+- key: ig-after-school-screen-free-activities
+  platform: instagram
+  kind: article carousel
+  book: after-school-screen-free-activities
+  link: https://pixelpunkstudio.shop/after-school-screen-free-activities.html
+  title: Kids Asking for Screens After School? 7 Calm 15-Minute Activities That Work
+  headline: The after-school screen fight
+  kicker: New on the blog
+  items:
+  - One coloring page
+  - A kids' word search
+  - Building blocks or a small construction challenge
+  - Draw today
+  - An audiobook or a story podcast
+  - Play dough or clay
+  - A short outdoor job
+  list_title: Calm 15-minute activities
+  caption: 'Home from school, tired, hungry and asking for the tablet? 📚
+
+    Our new article has 7 calm activities kids can do in 15 minutes, simple ways to make them easy to start, and
+    free printable coloring pages and word searches for ages 4 to 10.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #kidsactivities #screenfree #afterschool #quiettime #printables'
+  start: '2026-11-09'
+  priority: 3
+- key: pin-fall-activities-for-seniors-indoors
+  platform: pinterest
+  kind: article
+  book: fall-activities-for-seniors-indoors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html
+  title: Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home
+  alt: A mug of tea with an orange slice and a cinnamon stick among autumn leaves, pinecones and a small candle
+  description: 'Shorter days and colder weather mean more time indoors and fewer outdoor routines. 9 cozy fall activities
+    for seniors at home, how to build a simple autumn routine, tips for tired hands and eyes, and a free fall word
+    search. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: panel
+  photo: hero
+  kicker: From our blog
+  items: []
+  start: '2026-11-06'
+  priority: 3
+- key: pin-fall-activities-for-seniors-indoors-2
+  platform: pinterest
+  kind: article
+  book: fall-activities-for-seniors-indoors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html
+  title: Cozy Fall Puzzles for Seniors to Print at Home
+  alt: A mug of tea with an orange slice and a cinnamon stick among autumn leaves, pinecones and a small candle
+  description: 'Shorter days and colder weather mean more time indoors and fewer outdoor routines. 9 cozy fall activities
+    for seniors at home, how to build a simple autumn routine, tips for tired hands and eyes, and a free fall word
+    search. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: Free fall printables
+  items: []
+  pages:
+  - page: fall-crisp-leaves
+    label: Fall
+  - page: cozy-winter-hygge
+    label: Cozy winter
+  - page: jumbo-christmas
+    label: Jumbo print
+  start: '2026-11-13'
+  priority: 3
+- key: pin-fall-activities-for-seniors-indoors-3
+  platform: pinterest
+  kind: article
+  book: fall-activities-for-seniors-indoors
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html
+  title: A Simple Autumn Routine for Seniors at Home
+  alt: An open book with dried flowers on a chunky knitted blanket with cotton flowers and walnuts
+  description: 'Shorter days and colder weather mean more time indoors and fewer outdoor routines. 9 cozy fall activities
+    for seniors at home, how to build a simple autumn routine, tips for tired hands and eyes, and a free fall word
+    search. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: blanket
+  kicker: Fall routine
+  items:
+  - Morning light
+  - A short walk at noon
+  - One project a week
+  - A quiet hour
+  - Lamps on early
+  start: '2026-11-20'
+  priority: 3
+- key: ig-fall-activities-for-seniors-indoors
+  platform: instagram
+  kind: article carousel
+  book: fall-activities-for-seniors-indoors
+  link: https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html
+  title: Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home
+  headline: Too cold to go out?
+  kicker: New on the blog
+  items:
+  - A fall word search with the morning coffee
+  - Bake something with apples
+  - Watch the birds
+  - Press leaves
+  - Start a fall playlist
+  - Sort the photo box
+  - Plant bulbs in a pot
+  - Write letters or cards
+  - A weekly phone date
+  list_title: Cozy fall activities
+  caption: 'Shorter days, colder mornings, and suddenly the daily walk and the garden are over for the year. 🍂
+
+    Our new article has 9 cozy fall activities for seniors at home, a simple autumn routine, tips for tired hands
+    and eyes, and a free fall word search.
+
+    Read it and print the free page: link in bio 👉 pixelpunkstudio.shop
+
+    #fallactivities #activitiesforseniors #cozyfall #wordsearch #printables'
+  start: '2026-11-06'
+  priority: 3
+- key: pin-visiting-parent-assisted-living-activities
+  platform: pinterest
+  kind: article
+  book: visiting-parent-assisted-living-activities
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/visiting-parent-assisted-living-activities.html
+  title: 10 Easy Things to Do With a Parent in Assisted Living
+  alt: A cup of tea on a saucer by a window in warm evening light
+  description: 'Do your visits drift into silence or the TV? 10 easy things to do with a parent in assisted living
+    in an hour, what to pack in a small visit bag, what to do when a visit gets hard, and free large print printables
+    to bring along. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: hero
+  kicker: Visiting a parent
+  items: []
+  start: '2026-11-03'
+  priority: 3
+- key: pin-visiting-parent-assisted-living-activities-2
+  platform: pinterest
+  kind: article
+  book: visiting-parent-assisted-living-activities
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/visiting-parent-assisted-living-activities.html
+  title: Free Puzzles to Bring on Your Next Visit
+  alt: A cup of tea on a saucer by a window in warm evening light
+  description: 'Do your visits drift into silence or the TV? 10 easy things to do with a parent in assisted living
+    in an hour, what to pack in a small visit bag, what to do when a visit gets hard, and free large print printables
+    to bring along. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: Free large print printables
+  items: []
+  pages:
+  - page: retirement
+    label: Word search
+  - page: jumbo-christmas
+    label: Jumbo print
+  - page: cozy-winter-hygge
+    label: Large print
+  start: '2026-11-10'
+  priority: 3
+- key: pin-visiting-parent-assisted-living-activities-3
+  platform: pinterest
+  kind: article
+  book: visiting-parent-assisted-living-activities
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/visiting-parent-assisted-living-activities.html
+  title: What to Pack for a Visit to Assisted Living
+  alt: A fan of playing cards on a wooden table
+  description: 'Do your visits drift into silence or the TV? 10 easy things to do with a parent in assisted living
+    in an hour, what to pack in a small visit bag, what to do when a visit gets hard, and free large print printables
+    to bring along. #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: cards
+  kicker: Visit checklist
+  items:
+  - Two or three large print puzzles
+  - A deck of playing cards
+  - A few photos
+  - A treat to share
+  - Something to leave behind
+  start: '2026-11-17'
+  priority: 3
+- key: ig-visiting-parent-assisted-living-activities
+  platform: instagram
+  kind: article carousel
+  book: visiting-parent-assisted-living-activities
+  link: https://pixelpunkstudio.shop/visiting-parent-assisted-living-activities.html
+  title: Visiting a Parent in Assisted Living? 10 Easy Things to Do Together in an Hour
+  headline: Visiting a parent in assisted living?
+  kicker: New on the blog
+  items:
+  - Solve a word search together
+  - Play a simple card game
+  - Look through old photos
+  - Record a story
+  - Read aloud
+  - Listen to their music
+  - Do their nails or a hand massage
+  - Take a slow walk
+  - Write cards together
+  - Plan the next visit
+  list_title: Things to do together
+  caption: 'Do your visits drift into silence, or end in front of the TV? 🫖
+
+    Our new article has 10 easy things to do with a parent in assisted living in about an hour, what to pack in
+    a small visit bag, and free large print printables to bring along.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #assistedliving #activitiesforseniors #agingparents #caregiving #largeprint'
+  start: '2026-11-03'
+  priority: 3

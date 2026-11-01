@@ -645,5 +645,74 @@
     "when": "2026-11-03T12:26:00-05:00",
     "first_planned": "2026-11-15T12:26:00-05:00",
     "approved": "article rule 2026-10-28T11:21:54-04:00"
+  },
+  "pin-large-print-vs-jumbo-print": {
+    "status": "draft"
+  },
+  "pin-large-print-vs-jumbo-print-2": {
+    "status": "draft"
+  },
+  "pin-large-print-vs-jumbo-print-3": {
+    "status": "draft"
+  },
+  "ig-large-print-vs-jumbo-print": {
+    "status": "draft"
+  },
+  "pin-thanksgiving-activities-for-seniors": {
+    "status": "draft"
+  },
+  "pin-thanksgiving-activities-for-seniors-2": {
+    "status": "draft"
+  },
+  "ig-thanksgiving-activities-for-seniors": {
+    "status": "draft"
+  },
+  "pin-word-search-game-night-for-groups": {
+    "status": "draft"
+  },
+  "pin-word-search-game-night-for-groups-2": {
+    "status": "draft"
+  },
+  "pin-word-search-game-night-for-groups-3": {
+    "status": "draft"
+  },
+  "ig-word-search-game-night-for-groups": {
+    "status": "draft"
+  },
+  "pin-after-school-screen-free-activities": {
+    "status": "draft"
+  },
+  "pin-after-school-screen-free-activities-2": {
+    "status": "draft"
+  },
+  "pin-after-school-screen-free-activities-3": {
+    "status": "draft"
+  },
+  "ig-after-school-screen-free-activities": {
+    "status": "draft"
+  },
+  "pin-fall-activities-for-seniors-indoors": {
+    "status": "draft"
+  },
+  "pin-fall-activities-for-seniors-indoors-2": {
+    "status": "draft"
+  },
+  "pin-fall-activities-for-seniors-indoors-3": {
+    "status": "draft"
+  },
+  "ig-fall-activities-for-seniors-indoors": {
+    "status": "draft"
+  },
+  "pin-visiting-parent-assisted-living-activities": {
+    "status": "draft"
+  },
+  "pin-visiting-parent-assisted-living-activities-2": {
+    "status": "draft"
+  },
+  "pin-visiting-parent-assisted-living-activities-3": {
+    "status": "draft"
+  },
+  "ig-visiting-parent-assisted-living-activities": {
+    "status": "draft"
   }
 }

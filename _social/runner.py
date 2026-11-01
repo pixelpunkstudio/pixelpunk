@@ -36,7 +36,7 @@ TZ = ZoneInfo("America/New_York")
 # picked to fall in the afternoon and evening in Switzerland.
 RULES = {
     "pinterest": {"times": ["14", "11", "8"], "per_day": 3, "gap_hours": 3, "same_book_days": 4},
-    "instagram": {"times": ["12", "9", "13"], "per_day": 1, "gap_hours": 4, "same_book_days": 6, "every_days": 2},
+    "instagram": {"times": ["12", "9", "13"], "per_day": 1, "gap_hours": 4, "same_book_days": 6, "every_days": 1},
 }
 GRACE = dt.timedelta(minutes=45)  # a slot found this late is still published as planned; later = missed
 LOCAL_NAMES = {"PINTEREST_APP_ID": "PINTEREST_PPS_APP_ID", "PINTEREST_APP_SECRET": "PINTEREST_PPS_APP_SECRET",
