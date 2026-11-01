@@ -254,10 +254,16 @@
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-bug-hunt-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-01T11:27:00-05:00",
     "first_planned": "2026-10-29T14:27:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613024634633/",
+    "published_at": "2026-11-01T11:59-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Bug & Insect Activities for Kids"
+    ]
   },
   "ig-bug-hunt": {
     "status": "scheduled",
