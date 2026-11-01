@@ -659,13 +659,22 @@
     "status": "draft"
   },
   "pin-thanksgiving-activities-for-seniors": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-14T14:22:00-05:00",
+    "first_planned": "2026-11-14T14:22:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:48-05:00"
   },
   "pin-thanksgiving-activities-for-seniors-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-21T14:33:00-05:00",
+    "first_planned": "2026-11-21T14:33:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:48-05:00"
   },
   "ig-thanksgiving-activities-for-seniors": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-14T12:20:00-05:00",
+    "first_planned": "2026-11-14T12:20:00-05:00",
+    "approved": "article rule 2026-11-01T07:41:48-05:00"
   },
   "pin-word-search-game-night-for-groups": {
     "status": "scheduled",
