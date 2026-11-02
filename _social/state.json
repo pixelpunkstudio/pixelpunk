@@ -188,10 +188,17 @@
     "approved": "2026-10-21T18:04:53.999Z"
   },
   "pin-fall-crisp-leaves-cover": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-02T14:37:00-05:00",
     "first_planned": "2026-10-28T08:37:00-04:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613024735217/",
+    "published_at": "2026-11-02T14:54-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Fall Activities",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-fall-crisp-leaves-inside": {
     "status": "scheduled",
