@@ -892,5 +892,11 @@
     ],
     "url": "tiktok inbox draft p_inbox_url~v2.7703979597838469142 (SEND_TO_USER_INBOX)",
     "published_at": "2026-11-03T11:16-05:00"
+  },
+  "tt-cozy-christmas-evening-for-me": {
+    "status": "scheduled",
+    "when": "2026-11-04T11:51:00-05:00",
+    "first_planned": "2026-11-04T11:51:00-05:00",
+    "approved": "2026-11-03T18:43:34"
   }
 }

@@ -1945,3 +1945,22 @@ items:
   - media/social/tiktok/coloring-mom-needs-nothing-2.jpg
   - media/social/tiktok/coloring-mom-needs-nothing-3.jpg
   until: '2026-12-22'
+- key: tt-cozy-christmas-evening-for-me
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: 'POV: The gifts are wrapped and I finally have an evening just for me'
+  caption: 'Tea, fairy lights and one puzzle before bed. That''s the whole plan 🕯️✏️
+
+    Cozy Christmas Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #puzzletok #cozychristmas #largeprint #christmasathome'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-evening-for-me-1.jpg
+  - media/social/tiktok/cozy-christmas-evening-for-me-2.jpg
+  - media/social/tiktok/cozy-christmas-evening-for-me-3.jpg
+  until: '2026-12-22'
