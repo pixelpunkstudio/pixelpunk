@@ -92,3 +92,4 @@
 2026-11-03 08:56 NY  published pin-cute-farm-days-free -> https://www.pinterest.com/pin/1127166613024794932/
 2026-11-03 08:56 NY  saved pin-cute-farm-days-free to Farm Animal Activities for Kids
 2026-11-03 09:57 NY  FAILED tt-coloring-mom-needs-nothing: /post/publish/content/init/ -> 403: {'code': 'url_ownership_unverified', 'message': 'Please review our URL ownership verification rules at https://developers.tiktok.com/doc/content-posting-api-media-t
+2026-11-03 11:16 NY  published tt-coloring-mom-needs-nothing -> tiktok inbox draft p_inbox_url~v2.7703979597838469142 (SEND_TO_USER_INBOX) (sent by hand from the PC)

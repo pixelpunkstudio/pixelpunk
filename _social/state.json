@@ -879,7 +879,7 @@
     "approved": "2026-11-03T15:10:03"
   },
   "tt-coloring-mom-needs-nothing": {
-    "status": "failed",
+    "status": "published",
     "when": "2026-11-03T09:17:00-05:00",
     "first_planned": "2026-11-04T11:44:00-05:00",
     "approved": "2026-11-03T15:10:03",
@@ -890,6 +890,7 @@
         "why": "first test, user asked"
       }
     ],
-    "error": "/post/publish/content/init/ -> 403: {'code': 'url_ownership_unverified', 'message': 'Please review our URL ownership verification rules at https://developers.tiktok.com/doc/content-posting-api-media-transfer-guide/#pull_from_url', 'log_id': '20261103145733CC408E5A8975ABACB726'}"
+    "url": "tiktok inbox draft p_inbox_url~v2.7703979597838469142 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-03T11:16-05:00"
   }
 }
