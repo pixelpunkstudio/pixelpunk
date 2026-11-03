@@ -68,6 +68,25 @@ sections:
             Christmas Cookie Swap: an extra large print Christmas word search in 30-point letters with 18 words, from spritz, pizzelle and biscotti to sprinkles, frosting and the cookie exchange.
         more: There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search for Seniors.
 
+  - title: Word Search for Art Lovers
+    intro: Large print word searches with a famous painting, the painter's story and a fun fact beside every puzzle. A gallery tour for adults and seniors.
+    books:
+      - slug: art-lovers-word-search
+        title: Art Lover's Word Search
+        subtitle: 55 large print puzzles about great painters and their famous paintings, with art history fun facts
+        tags: [Large print, 8.5 x 11, Adults & seniors]
+        amazon:
+        sample:
+          pdf: "books/art-lovers-word-search/output"
+          pages: [10, 11, 119]
+          label: Free printable puzzle
+          page: free-printable-leonardo-da-vinci-word-search
+          seo_title: "Free Printable Leonardo da Vinci Word Search for Adults (Large Print, Mona Lisa)"
+          pin_title: "Leonardo da Vinci Word Search"
+          about: >-
+            Leonardo da Vinci: the Mona Lisa, the story of the painter and the day the painting was stolen from the Louvre, facing a large print word search with 30 words, from Gioconda and sfumato to notebooks, helicopter and the Last Supper.
+        more: There are 54 more painters, each with a famous painting, a fun fact and a large print puzzle, in Art Lover's Word Search.
+
   - title: Bold & Easy Coloring for Adults
     intro: Relaxing coloring books for adults and seniors, with thick lines, big simple shapes and a fun fact beside every picture.
     books:
@@ -87,6 +106,22 @@ sections:
           about: >-
             Cardinals at the Bird Feeder: two cardinals on a snowy bird feeder, drawn in bold, easy lines for adults and seniors, with a "Did you know?" fun fact about why both cardinals sing.
         more: There are 49 more cozy Christmas scenes to color, each with a fun fact, in Cozy Christmas Coloring Book for Adults and Seniors.
+      - slug: nostalgic-christmas-coloring
+        title: Nostalgic Christmas Coloring Book for Seniors
+        subtitle: 50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page
+        tags: [Bold & easy, 8.5 x 8.5, Seniors]
+        amazon: B0HQ8F1JXV
+        published: 2026-11-03
+        sample:
+          pdf: "books/nostalgic-christmas-coloring/output"
+          pages: [21, 20]
+          label: Free coloring page
+          page: free-printable-vintage-christmas-tv-coloring-page
+          seo_title: "Free Printable Vintage Christmas Coloring Page for Seniors (1950s TV, Bold and Easy)"
+          pin_title: "1950s Christmas TV Coloring Page"
+          about: >-
+            Christmas on TV: a 1950s living room with a rabbit-ear television showing a snowy village, a bowl of popcorn and the tree in the corner, drawn in bold, easy lines for seniors, with a fun fact and a memory question.
+        more: There are 49 more old-fashioned Christmas scenes to color, each with a fun fact and a memory question, in Nostalgic Christmas Coloring Book for Seniors.
 
   - title: Cozy Seasons Word Search
     intro: Large print word searches for teens, adults and seniors, one cozy season at a time.
