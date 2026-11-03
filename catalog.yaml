@@ -75,7 +75,8 @@ sections:
         title: Art Lover's Word Search
         subtitle: 55 large print puzzles about great painters and their famous paintings, with art history fun facts
         tags: [Large print, 8.5 x 11, Adults & seniors]
-        amazon:
+        amazon: B0HQ8L5DMG
+        published: 2026-11-03
         sample:
           pdf: "books/art-lovers-word-search/output"
           pages: [10, 11, 119]
