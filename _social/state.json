@@ -681,10 +681,12 @@
     "approved": "article rule 2026-10-28T11:21:54-04:00"
   },
   "ig-make-your-own-word-search": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-03T12:26:00-05:00",
     "first_planned": "2026-11-15T12:26:00-05:00",
-    "approved": "article rule 2026-10-28T11:21:54-04:00"
+    "approved": "article rule 2026-10-28T11:21:54-04:00",
+    "url": "https://www.instagram.com/p/DfSdfDsFUaA/",
+    "published_at": "2026-11-03T12:51-05:00"
   },
   "pin-large-print-vs-jumbo-print": {
     "status": "scheduled",
