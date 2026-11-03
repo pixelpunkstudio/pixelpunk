@@ -1,4 +1,4 @@
-# Publishes the scheduled Pinterest pins and Instagram posts that are due (site/_social), every 15 minutes,
+# Publishes the scheduled Pinterest pins, Instagram posts and TikTok inbox drafts that are due (site/_social), every 15 minutes,
 # so the PC can be off. Missed slots are re-planned by the runner, never published in a burst.
 name: Social publisher
 
@@ -37,6 +37,9 @@ jobs:
           PINTEREST_SANDBOX_TOKEN: ${{ secrets.PINTEREST_SANDBOX_TOKEN }}
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
         run: python _social/runner.py ${{ inputs.check && '--check' || '' }}
       - name: Save the results
         run: |

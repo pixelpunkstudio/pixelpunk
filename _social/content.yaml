@@ -1905,3 +1905,43 @@ items:
     #giftsforgrandparents #grandmagifts #christmasgifts #giftideas #clutterfree'
   start: '2026-11-17'
   priority: 3
+- key: tt-jumbo-grandma-small-print
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: 'POV: Grandma still loves her puzzles, but the print got too small for her'
+  caption: 'The morning newspaper puzzle, until she needed a magnifier for it 👓
+
+    This one has 100 Christmas word searches in 30-point letters, big enough to read without one 🎄
+
+    Jumbo Christmas Word Search for Seniors, on Amazon.
+
+
+    #wordsearch #puzzletok #largeprint #giftsforgrandma #christmasgifts #booktok'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-grandma-small-print-1.jpg
+  - media/social/tiktok/jumbo-grandma-small-print-2.jpg
+  - media/social/tiktok/jumbo-grandma-small-print-3.jpg
+  until: '2026-12-22'
+- key: tt-coloring-mom-needs-nothing
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: 'POV: Mom says she doesn''t need anything for Christmas'
+  caption: 'She''ll say "you shouldn''t have" and then color for three hours 🎨🎄
+
+    Cozy Christmas Coloring Book: 50 bold and easy holiday scenes, on Amazon.
+
+
+    #coloringbook #adultcoloring #cozychristmas #giftsformom #christmasgifts #booktok'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-mom-needs-nothing-1.jpg
+  - media/social/tiktok/coloring-mom-needs-nothing-2.jpg
+  - media/social/tiktok/coloring-mom-needs-nothing-3.jpg
+  until: '2026-12-22'

@@ -871,5 +871,17 @@
     "when": "2026-11-18T12:22:00-05:00",
     "first_planned": "2026-11-18T12:22:00-05:00",
     "approved": "article rule 2026-11-03T08:34:25-05:00"
+  },
+  "tt-jumbo-grandma-small-print": {
+    "status": "scheduled",
+    "when": "2026-11-05T11:22:00-05:00",
+    "first_planned": "2026-11-05T11:22:00-05:00",
+    "approved": "2026-11-03T15:10:03"
+  },
+  "tt-coloring-mom-needs-nothing": {
+    "status": "scheduled",
+    "when": "2026-11-04T11:44:00-05:00",
+    "first_planned": "2026-11-04T11:44:00-05:00",
+    "approved": "2026-11-03T15:10:03"
   }
 }

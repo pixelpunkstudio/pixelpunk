@@ -1,4 +1,5 @@
-"""Pixel Punk Studio social publisher: publishes the scheduled Pinterest pins and Instagram posts that are due.
+"""Pixel Punk Studio social publisher: publishes the scheduled Pinterest pins, Instagram posts and TikTok carousels
+that are due (TikTok: sent to the account's inbox as a draft; the user adds a sound and the AI label, then posts).
 
 Runs on GitHub every 15 minutes (.github/workflows/social.yml) so the PC can be off; the PC's scripts/social.py
 plans, renders and schedules, and imports this file for the shared rules. Everything it needs is in this
@@ -6,7 +7,8 @@ repository: content.yaml (texts), state.json (status, planned and published time
 media/. Missed slots are re-planned first (catch_up), never published in a burst.
 
 Secrets (GitHub repository secrets; on the PC, the Windows variables in LOCAL_NAMES): PINTEREST_APP_ID,
-PINTEREST_APP_SECRET, PINTEREST_REFRESH_TOKEN, PINTEREST_SANDBOX_TOKEN, META_PAGE_TOKEN, IG_USER_ID.
+PINTEREST_APP_SECRET, PINTEREST_REFRESH_TOKEN, PINTEREST_SANDBOX_TOKEN, META_PAGE_TOKEN, IG_USER_ID,
+TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET, TIKTOK_REFRESH_TOKEN.
 
     python _social/runner.py            publish what is due (and re-plan what was missed)
     python _social/runner.py --check    connections only, nothing published
@@ -37,11 +39,15 @@ TZ = ZoneInfo("America/New_York")
 RULES = {
     "pinterest": {"times": ["14", "11", "8"], "per_day": 3, "gap_hours": 3, "same_book_days": 4},
     "instagram": {"times": ["12", "9", "13"], "per_day": 1, "gap_hours": 4, "same_book_days": 6, "every_days": 1},
+    # inbox drafts: they land in the Swiss afternoon (11:00 NY = 17:00 CH) so the user can post them that evening
+    "tiktok": {"times": ["11", "10", "12"], "per_day": 1, "gap_hours": 4, "same_book_days": 2, "every_days": 1},
 }
 GRACE = dt.timedelta(minutes=45)  # a slot found this late is still published as planned; later = missed
 LOCAL_NAMES = {"PINTEREST_APP_ID": "PINTEREST_PPS_APP_ID", "PINTEREST_APP_SECRET": "PINTEREST_PPS_APP_SECRET",
                "PINTEREST_SANDBOX_TOKEN": "PINTEREST_PPS_SANDBOX_TOKEN", "META_PAGE_TOKEN": "META_PAGE_TOKEN_PIXELPUNK",
-               "IG_USER_ID": "IG_USER_ID_PIXELPUNK"}
+               "IG_USER_ID": "IG_USER_ID_PIXELPUNK", "TIKTOK_CLIENT_KEY": "TIKTOK_CLIENT_KEY_PIXELPUNK",
+               "TIKTOK_CLIENT_SECRET": "TIKTOK_CLIENT_SECRET_PIXELPUNK",
+               "TIKTOK_REFRESH_TOKEN": "TIKTOK_REFRESH_TOKEN_PIXELPUNK"}
 
 
 def secret(name: str) -> str:
@@ -80,6 +86,8 @@ def save_state(st: dict):
 def images_of(it: dict) -> list[Path]:
     if it["platform"] == "instagram":
         return [SITE / "media" / "social" / "instagram" / f"{it['key']}-{n}.jpg" for n in (1, 2, 3)]
+    if it["platform"] == "tiktok":
+        return [SITE / f for f in it["images"]]
     return [SITE / it["image"]] if it.get("image") else [SITE / "media" / "social" / "pins" / f"{it['key']}.jpg"]
 
 
@@ -123,7 +131,7 @@ def assign(platform: str, keys: list[str], st: dict, its: dict, earliest: dt.dat
                 break
             near = [d + dt.timedelta(days=x) for x in range(-r["same_book_days"] + 1, r["same_book_days"])]
             spaced = all(it["book"] not in books.get(x, set()) for x in near)
-            if platform == "instagram" and taken:
+            if platform in ("instagram", "tiktok") and taken:
                 spaced = spaced and all(abs((d - x).days) >= r.get("every_days", 1) for x in taken)
             if len(taken.get(d, [])) < r["per_day"] and spaced:
                 slot = next((t0 for t0 in (dt.datetime(d.year, d.month, d.day, int(h), minute, tzinfo=TZ) for h in r["times"])
@@ -332,6 +340,56 @@ def publish_ig(it: dict) -> str:
     return graph("GET", f"/{media}", fields="permalink").get("permalink", media)
 
 
+# ---------------------------------------------------------------- TikTok (Content Posting API, inbox drafts)
+# The app has video.upload only: carousels go to the creator's inbox (post_mode MEDIA_UPLOAD); TikTok then lets the
+# user add a sound, the "AI-generated content" label and post. Photos are pulled from pixelpunkstudio.shop (a URL
+# property verified in the TikTok developer portal). Access tokens last a day: one is made from the refresh token
+# (valid a year, to 2027-10) on every run.
+
+TT_API = "https://open.tiktokapis.com/v2"
+
+
+def tt_token() -> str:
+    r = requests.post(f"{TT_API}/oauth/token/", timeout=30, data={
+        "client_key": secret("TIKTOK_CLIENT_KEY"), "client_secret": secret("TIKTOK_CLIENT_SECRET"),
+        "grant_type": "refresh_token", "refresh_token": secret("TIKTOK_REFRESH_TOKEN")})
+    j = r.json()
+    if "access_token" not in j:
+        raise RuntimeError(f"TikTok token refresh failed: {str(j)[:200]}")
+    if j.get("refresh_token") and j["refresh_token"] != secret("TIKTOK_REFRESH_TOKEN"):
+        log("TikTok issued a NEW refresh token: store it again (Windows variable + GitHub secret)")
+    return j["access_token"]
+
+
+def tt_call(token: str, path: str, body: dict) -> dict:
+    r = requests.post(f"{TT_API}{path}", json=body, timeout=60,
+                      headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8"})
+    j = r.json()
+    if r.status_code >= 400 or j.get("error", {}).get("code", "ok") != "ok":
+        raise RuntimeError(f"{path} -> {r.status_code}: {str(j.get('error', j))[:300]}")
+    return j.get("data", {})
+
+
+def publish_tt(it: dict) -> str:
+    urls = [SITE_URL + f.relative_to(SITE).as_posix() for f in images_of(it)]
+    for u in urls:  # the slides must be online (they are published with the website)
+        requests.head(u, timeout=30).raise_for_status()
+    token = tt_token()
+    pid = tt_call(token, "/post/publish/content/init/", {
+        "post_info": {"title": it["title"][:90], "description": it["caption"][:4000]},
+        "source_info": {"source": "PULL_FROM_URL", "photo_cover_index": 0, "photo_images": urls},
+        "post_mode": "MEDIA_UPLOAD", "media_type": "PHOTO"})["publish_id"]
+    status = ""
+    for _ in range(20):  # TikTok fetches the photos, then sends the draft to the inbox
+        status = tt_call(token, "/post/publish/status/fetch/", {"publish_id": pid}).get("status", "")
+        if status in ("SEND_TO_USER_INBOX", "PUBLISH_COMPLETE") or status == "FAILED":
+            break
+        time.sleep(6)
+    if status == "FAILED":
+        raise RuntimeError(f"TikTok could not take the carousel (publish_id {pid})")
+    return f"tiktok inbox draft {pid} ({status or 'processing'})"
+
+
 # ---------------------------------------------------------------- run
 
 def page_live(url: str) -> bool:
@@ -345,7 +403,7 @@ def run() -> bool:
     st, its = load_state(), items()
     now = dt.datetime.now(TZ)
     changed = bool(catch_up(st, its, now))
-    for platform, publish in (("pinterest", publish_pin), ("instagram", publish_ig)):
+    for platform, publish in (("pinterest", publish_pin), ("instagram", publish_ig), ("tiktok", publish_tt)):
         due = sorted((when_of(s), k) for k, s in st.items() if s.get("status") == "scheduled"
                      and its.get(k, {}).get("platform") == platform and when_of(s) and now - GRACE <= when_of(s) <= now)
         if not due:
@@ -377,6 +435,12 @@ def check():
         print(f"Pinterest {'sandbox' if sandbox else 'sign-in'} token:", r.status_code, r.json().get("username") if r.ok else r.text[:120])
     me = graph("GET", f"/{secret('IG_USER_ID')}", fields="username")
     print("Instagram:", me.get("username"))
+    try:
+        r = requests.get(f"{TT_API}/user/info/?fields=display_name", timeout=30,
+                         headers={"Authorization": f"Bearer {tt_token()}"})
+        print("TikTok:", r.json().get("data", {}).get("user", {}).get("display_name") or r.text[:120])
+    except Exception as e:
+        print("TikTok:", str(e)[:160])
     st = load_state()
     print("scheduled:", sum(1 for s in st.values() if s.get("status") == "scheduled"))
 
