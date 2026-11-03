@@ -1727,3 +1727,181 @@ items:
     #assistedliving #activitiesforseniors #agingparents #caregiving #largeprint'
   start: '2026-11-03'
   priority: 3
+- key: pin-stocking-stuffers-for-puzzle-lovers
+  platform: pinterest
+  kind: article
+  book: stocking-stuffers-for-puzzle-lovers
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/stocking-stuffers-for-puzzle-lovers.html
+  title: How to Choose the Right Puzzle Book for Everyone on Your List
+  alt: Four Christmas stockings hanging from a garland-trimmed brick mantel above a crackling fire
+  description: 'Puzzle books all look alike on the shelf. Four questions to ask before you buy, which book suits
+    a grandparent, a teen or a child, what to tuck in beside it, and free pages to test the print size first. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: hero
+  kicker: Stocking stuffers
+  items: []
+  start: '2026-11-18'
+  priority: 3
+- key: pin-stocking-stuffers-for-puzzle-lovers-2
+  platform: pinterest
+  kind: article
+  book: stocking-stuffers-for-puzzle-lovers
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/stocking-stuffers-for-puzzle-lovers.html
+  title: Which Puzzle Book for Which Person?
+  alt: Four Christmas stockings hanging from a garland-trimmed brick mantel above a crackling fire
+  description: 'Puzzle books all look alike on the shelf. Four questions to ask before you buy, which book suits
+    a grandparent, a teen or a child, what to tuck in beside it, and free pages to test the print size first. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: Pick by print size
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Large print
+  - page: cozy-christmas-coloring
+    label: Bold and easy
+  - page: cute-bug-days
+    label: For kids
+  start: '2026-11-25'
+  priority: 3
+- key: pin-stocking-stuffers-for-puzzle-lovers-3
+  platform: pinterest
+  kind: article
+  book: stocking-stuffers-for-puzzle-lovers
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/stocking-stuffers-for-puzzle-lovers.html
+  title: What to Tuck in Beside a Puzzle Book
+  alt: A round pot of sharpened colored pencils seen from above on a pale table
+  description: 'Puzzle books all look alike on the shelf. Four questions to ask before you buy, which book suits
+    a grandparent, a teen or a child, what to tuck in beside it, and free pages to test the print size first. #wordsearch
+    #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: pencils
+  kicker: Stocking stuffers
+  items:
+  - Two good pencils
+  - A highlighter
+  - Colored pencils or fine markers
+  - A clip-on book light
+  - A small lap board
+  - A handwritten note
+  start: '2026-12-02'
+  priority: 3
+- key: ig-stocking-stuffers-for-puzzle-lovers
+  platform: instagram
+  kind: article carousel
+  book: stocking-stuffers-for-puzzle-lovers
+  link: https://pixelpunkstudio.shop/stocking-stuffers-for-puzzle-lovers.html
+  title: Stuck on Stocking Stuffers? How to Choose the Right Puzzle Book for Each Person on Your List
+  headline: Stuck on stocking stuffers?
+  kicker: New on the blog
+  items:
+  - Grandparents with tired eyes
+  - Anyone with low vision
+  - A parent who needs to unwind
+  - A teen
+  - A child of 4 to 8
+  - The whole family
+  list_title: Who gets which book
+  caption: 'Puzzle books all look alike on the shelf, so which one goes in whose stocking? 🎄
+
+    Our new article has four questions to ask before you buy, the right book for a grandparent, a teen or a child,
+    and what to tuck in beside it. Plus free pages to test the print size first.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #stockingstuffers #puzzlebooks #giftideas #largeprint #christmasgifts'
+  start: '2026-11-18'
+  priority: 3
+- key: pin-gifts-for-grandparents-who-want-nothing
+  platform: pinterest
+  kind: article
+  book: gifts-for-grandparents-who-want-nothing
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/gifts-for-grandparents-who-want-nothing.html
+  title: Gift Ideas for Grandparents Who Say They Want Nothing
+  alt: A gift wrapped in brown kraft paper and red twine among fir branches
+  description: '"Don''t buy me anything" usually means "don''t buy me clutter". Gift ideas for grandparents who
+    have everything: things they use up, gifts of time, gifts that keep memories, and how to choose the right one.
+    #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: top
+  photo: hero
+  kicker: Gift ideas
+  items: []
+  start: '2026-11-17'
+  priority: 3
+- key: pin-gifts-for-grandparents-who-want-nothing-2
+  platform: pinterest
+  kind: article
+  book: gifts-for-grandparents-who-want-nothing
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/gifts-for-grandparents-who-want-nothing.html
+  title: Gifts of Time for Grandparents Who Have Everything
+  alt: An old handwritten letter with vintage stamps and three pink carnations
+  description: '"Don''t buy me anything" usually means "don''t buy me clutter". Gift ideas for grandparents who
+    have everything: things they use up, gifts of time, gifts that keep memories, and how to choose the right one.
+    #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: list
+  photo: letters
+  kicker: Gifts of time
+  items:
+  - A standing date
+  - A chore coupon book
+  - A video call schedule
+  - A cooking afternoon
+  - A small outing
+  start: '2026-11-24'
+  priority: 3
+- key: pin-gifts-for-grandparents-who-want-nothing-3
+  platform: pinterest
+  kind: article
+  book: gifts-for-grandparents-who-want-nothing
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/gifts-for-grandparents-who-want-nothing.html
+  title: Puzzle Gifts for Grandparents Who Want Nothing
+  alt: A gift wrapped in brown kraft paper and red twine among fir branches
+  description: '"Don''t buy me anything" usually means "don''t buy me clutter". Gift ideas for grandparents who
+    have everything: things they use up, gifts of time, gifts that keep memories, and how to choose the right one.
+    #wordsearch #puzzletips #largeprint #cozyactivities'
+  design: pages
+  photo: hero
+  kicker: A small gift that gets used
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Large print
+  - page: jumbo-christmas
+    label: Jumbo print
+  - page: cozy-christmas-coloring
+    label: Coloring
+  start: '2026-12-01'
+  priority: 3
+- key: ig-gifts-for-grandparents-who-want-nothing
+  platform: instagram
+  kind: article carousel
+  book: gifts-for-grandparents-who-want-nothing
+  link: https://pixelpunkstudio.shop/gifts-for-grandparents-who-want-nothing.html
+  title: Gift Ideas for Grandparents Who Say They Want Nothing
+  headline: Grandparents who want nothing?
+  kicker: New on the blog
+  items:
+  - Their favorite treat
+  - A puzzle or coloring book
+  - Stamps and pretty cards
+  - Seed for the bird feeder
+  - A refill of something they love
+  list_title: Gifts they will use up
+  caption: '"Don''t buy me anything this year." Sound familiar? 🎁
+
+    It usually means "don''t buy me clutter". Our new article has gift ideas for grandparents who have everything:
+    things they use up, gifts of time, gifts that keep memories, and how to pick the right one.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #giftsforgrandparents #grandmagifts #christmasgifts #giftideas #clutterfree'
+  start: '2026-11-17'
+  priority: 3

@@ -3,6 +3,208 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: stocking-stuffers-for-puzzle-lovers
+    title: "Stuck on Stocking Stuffers? How to Choose the Right Puzzle Book for Each Person on Your List"
+    description: >-
+      Puzzle books all look alike on the shelf. Four questions to ask before you buy, which book suits a
+      grandparent, a teen or a child, what to tuck in beside it, and free pages to test the print size first.
+    date: 2026-11-18
+    topics: [Seasonal ideas, Puzzle tips]
+    photos:
+      - slot: hero
+        query: christmas stockings fireplace
+        wide_focus: [0.5, 0.5]
+        alt: Four Christmas stockings hanging from a garland-trimmed brick mantel above a crackling fire
+      - slot: pencils
+        after: Make it a complete stocking stuffer
+        query: colored pencils christmas
+        alt: A round pot of sharpened colored pencils seen from above on a pale table
+    related: [cozy-christmas, jumbo-christmas, cozy-christmas-coloring, cute-bug-days]
+    printables: [free-printable-christmas-word-search, free-printable-jumbo-christmas-word-search, free-printable-cardinal-christmas-coloring-page]
+    social:
+      pins:
+        - {photo: hero, design: top, kicker: Stocking stuffers, headline: "How to Choose the Right Puzzle Book for Everyone on Your List"}
+        - design: pages
+          kicker: Pick by print size
+          headline: "Which Puzzle Book for Which Person?"
+          pages: [{page: cozy-christmas, label: Large print}, {page: cozy-christmas-coloring, label: Bold and easy}, {page: cute-bug-days, label: For kids}]
+        - {photo: pencils, design: list, kicker: Stocking stuffers, headline: "What to Tuck in Beside a Puzzle Book", from: "Make it a complete stocking stuffer"}
+      instagram:
+        headline: Stuck on stocking stuffers?
+        list_title: Who gets which book
+        from: "Who gets which book"
+        caption: |-
+          Puzzle books all look alike on the shelf, so which one goes in whose stocking? 🎄
+          Our new article has four questions to ask before you buy, the right book for a grandparent, a teen or a child, and what to tuck in beside it. Plus free pages to test the print size first.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #stockingstuffers #puzzlebooks #giftideas #largeprint #christmasgifts
+    body: |
+      <p>A puzzle book is one of the easiest stocking stuffers there is: it costs little, it suits almost every
+      age, and it keeps someone happily busy long after the wrapping paper is gone. The hard part is choosing.
+      On the shelf they all look alike, yet the wrong one ends up in a drawer: letters too small for grandma,
+      puzzles too easy for a teen, pages too detailed for a six-year-old. A few minutes of thinking about the
+      person, not the cover, makes all the difference.</p>
+
+      <h2>Four questions before you buy</h2>
+      <ol>
+        <li><strong>What do they already enjoy?</strong> Word searches, coloring, sudoku or crosswords. A new
+        theme is a nice surprise; a new kind of puzzle is a gamble.</li>
+        <li><strong>How are their eyes?</strong> Someone who needs glasses for the newspaper will be happier with
+        large print, and someone who uses a magnifier needs jumbo print.</li>
+        <li><strong>How much challenge do they want?</strong> Some people solve to relax, others want to be
+        stuck for a while. Look at the grid size and the number of words, not only the age on the cover.</li>
+        <li><strong>Will it fit the stocking?</strong> Most large print books are 8.5 x 11 inches and won't
+        slide into a small stocking. Stand it behind the stocking with a bow, or wrap it and let the pencils
+        go inside.</li>
+      </ol>
+
+      <h2>Who gets which book</h2>
+      <ul>
+        <li><strong>Grandparents with tired eyes:</strong> a large print word search with dark letters and
+        single-sided pages.</li>
+        <li><strong>Anyone with low vision:</strong> jumbo print, with letters of 24 points or more and fewer
+        words per puzzle.</li>
+        <li><strong>A parent who needs to unwind:</strong> a bold and easy coloring book, with big shapes that
+        finish in one sitting.</li>
+        <li><strong>A teen:</strong> bigger grids, words hidden backwards and diagonally, or a sudoku book that
+        gets harder as it goes.</li>
+        <li><strong>A child of 4 to 8:</strong> big, simple coloring pages, or a kids' word search with short
+        words and no backwards ones.</li>
+        <li><strong>The whole family:</strong> one book left on the coffee table, so anyone can add a word
+        between visits.</li>
+      </ul>
+
+      <h2>Make it a complete stocking stuffer</h2>
+      <ul>
+        <li><strong>Two good pencils</strong> with erasers, or a pencil sharpener shaped like something fun.</li>
+        <li><strong>A highlighter</strong> in a soft color, for word searches.</li>
+        <li><strong>Colored pencils or fine markers</strong> for a coloring book.</li>
+        <li><strong>A clip-on book light</strong> for solving in bed or in a dim corner.</li>
+        <li><strong>A small lap board</strong> or clipboard, so the book can be used from an armchair.</li>
+        <li><strong>A handwritten note</strong> saying which puzzle you want them to solve first.</li>
+      </ul>
+
+      <h2>Mistakes to avoid</h2>
+      <ul>
+        <li><strong>Trusting "large print" alone:</strong> check the letters in the "Look inside" pages or the
+        reviews.</li>
+        <li><strong>Buying "for adults" for a child:</strong> long words and backwards ones frustrate early
+        readers.</li>
+        <li><strong>Double-sided coloring pages for marker fans:</strong> ink bleeds through and ruins the next
+        picture.</li>
+        <li><strong>A theme they don't care about:</strong> a cozy Christmas book suits most people in
+        December; a niche hobby book only suits fans of that hobby.</li>
+      </ul>
+
+      <h2>Try the print size before you buy</h2>
+      <p>Not sure which size or style is right? Print our free large print Christmas word search, the jumbo print
+      page and the cardinal coloring page, and see which one they reach for. Then pick the book to match: Cozy
+      Christmas Word Search for large print, Jumbo Christmas Word Search for 30 point letters, Cozy Christmas
+      Coloring Book for bold and easy designs, and Cute Bug Days for children from 3 to 10.</p>
+
+  - slug: gifts-for-grandparents-who-want-nothing
+    title: "Gift Ideas for Grandparents Who Say They Want Nothing"
+    description: >-
+      "Don't buy me anything" usually means "don't buy me clutter". Gift ideas for grandparents who have
+      everything: things they use up, gifts of time, gifts that keep memories, and how to choose the right one.
+    date: 2026-11-17
+    topics: [Seasonal ideas, Seniors & groups]
+    photos:
+      - slot: hero
+        query: gift box kraft paper twine
+        wide_focus: [0.5, 0.5]
+        alt: A gift wrapped in brown kraft paper and red twine among fir branches
+      - slot: letters
+        after: Gifts that keep memories
+        query: old letters handwritten
+        alt: An old handwritten letter with vintage stamps and three pink carnations
+    related: [cozy-christmas, cozy-christmas-coloring, jumbo-christmas]
+    printables: [free-printable-christmas-word-search, free-printable-cardinal-christmas-coloring-page, free-printable-jumbo-christmas-word-search]
+    social:
+      pins:
+        - {photo: hero, design: top, kicker: Gift ideas, headline: "Gift Ideas for Grandparents Who Say They Want Nothing"}
+        - {photo: letters, design: list, kicker: Gifts of time, headline: "Gifts of Time for Grandparents Who Have Everything", from: "Gifts of time"}
+        - design: pages
+          kicker: A small gift that gets used
+          headline: "Puzzle Gifts for Grandparents Who Want Nothing"
+          pages: [{page: cozy-christmas, label: Large print}, {page: jumbo-christmas, label: Jumbo print}, {page: cozy-christmas-coloring, label: Coloring}]
+      instagram:
+        headline: Grandparents who want nothing?
+        list_title: Gifts they will use up
+        from: "Gifts they will use up"
+        caption: |-
+          "Don't buy me anything this year." Sound familiar? 🎁
+          It usually means "don't buy me clutter". Our new article has gift ideas for grandparents who have everything: things they use up, gifts of time, gifts that keep memories, and how to pick the right one.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #giftsforgrandparents #grandmagifts #christmasgifts #giftideas #clutterfree
+    body: |
+      <p>Every year it's the same conversation. "What would you like for Christmas?" "Oh, nothing, I have
+      everything I need." Most grandparents mean it, and they are often right: the cupboards are full, the
+      shelves are full, and one more scented candle won't change that. But you still want to give them
+      something, and the grandchildren want to see them open a present. The answer is not a bigger gift, it's a
+      different kind of gift.</p>
+
+      <h2>What "I want nothing" usually means</h2>
+      <ul>
+        <li><strong>No clutter:</strong> nothing to dust, store or feel guilty about giving away.</li>
+        <li><strong>No fuss over money:</strong> they don't want you to spend much on them.</li>
+        <li><strong>More of you:</strong> what they really miss is time, news and company.</li>
+      </ul>
+      <p>So the best gifts get used up, get shared, or keep a memory. Here are ideas in each group.</p>
+
+      <h2>Gifts they will use up</h2>
+      <ul>
+        <li><strong>Their favorite treat,</strong> but the good version: the coffee, tea, jam or chocolate they
+        would never buy for themselves.</li>
+        <li><strong>A puzzle or coloring book</strong> in the right print size, with good pencils, for the
+        quiet hours of January.</li>
+        <li><strong>Stamps and pretty cards,</strong> so writing to friends is easy all year.</li>
+        <li><strong>Seed for the bird feeder</strong> or bulbs for the spring.</li>
+        <li><strong>A refill of something they love:</strong> their hand cream, a favorite soap, a new book by
+        the author they always read.</li>
+      </ul>
+
+      <h2>Gifts of time</h2>
+      <ul>
+        <li><strong>A standing date:</strong> lunch on the first Sunday of every month, written on a card.</li>
+        <li><strong>A chore coupon book:</strong> one garden afternoon, one window cleaning, one trip to the
+        store.</li>
+        <li><strong>A video call schedule</strong> with each grandchild taking a week.</li>
+        <li><strong>A cooking afternoon</strong> where they teach you their best recipe.</li>
+        <li><strong>A small outing</strong> they would not organize alone: a concert, a garden, a drive to a
+        place from their childhood.</li>
+      </ul>
+
+      <h2>Gifts that keep memories</h2>
+      <ul>
+        <li><strong>A letter from each grandchild,</strong> handwritten or drawn, collected in one envelope.</li>
+        <li><strong>Their stories, recorded:</strong> ask one question per visit and keep the recordings for the
+        family.</li>
+        <li><strong>A small photo book</strong> of the past year, with large captions.</li>
+        <li><strong>A framed drawing</strong> by the youngest grandchild.</li>
+        <li><strong>Their recipes, typed up</strong> and printed in large type for the whole family.</li>
+      </ul>
+
+      <h2>How to choose the right one</h2>
+      <ol>
+        <li><strong>Listen in November.</strong> Small complaints ("this pen is awful", "I've run out of
+        stamps") are gift ideas.</li>
+        <li><strong>Think about eyes and hands.</strong> Large print, easy-to-open packaging and thick pencils
+        make a gift usable.</li>
+        <li><strong>Think about space.</strong> In a small apartment or assisted living, small and useful beats
+        big and decorative.</li>
+        <li><strong>Fit their routine.</strong> A morning coffee drinker gets the coffee; a puzzle-after-lunch
+        person gets the puzzle book.</li>
+        <li><strong>Add a note.</strong> A few lines about why you chose it is often the part they keep.</li>
+      </ol>
+
+      <h2>A small gift that gets used</h2>
+      <p>A puzzle or coloring book is one of the rare gifts that is used up, fits in a drawer and fills the quiet
+      afternoons after the holidays. Print one of our free pages first to check the print size: the large print
+      Christmas word search, the jumbo print page or the cardinal coloring page. Then pick the book: Cozy
+      Christmas Word Search, Jumbo Christmas Word Search in 30 point print, or Cozy Christmas Coloring Book with
+      bold and easy designs.</p>
+
   - slug: large-print-vs-jumbo-print
     title: "Large Print or Jumbo Print? How to Choose a Puzzle Book for Tired or Low Vision Eyes"
     description: >-

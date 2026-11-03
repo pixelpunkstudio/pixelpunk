@@ -179,6 +179,31 @@
    "width": 1000
   }
  },
+ "gifts-for-grandparents-who-want-nothing": {
+  "hero": {
+   "file": "media/blog/gifts-for-grandparents-who-want-nothing-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-gift-decoration-present-2992019/",
+   "pixabay_id": 2992019,
+   "puzzle": false,
+   "query": "gift box kraft paper twine",
+   "user": "monicore",
+   "user_page": "https://pixabay.com/users/monicore-1499084/",
+   "wide": "media/blog/gifts-for-grandparents-who-want-nothing-hero-wide.jpg",
+   "width": 1000
+  },
+  "letters": {
+   "file": "media/blog/gifts-for-grandparents-who-want-nothing-letters.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/letter-envelope-pink-carnations-1390586/",
+   "pixabay_id": 1390586,
+   "puzzle": false,
+   "query": "old letters handwritten",
+   "user": "Pezibear",
+   "user_page": "https://pixabay.com/users/Pezibear-526143/",
+   "width": 1000
+  }
+ },
  "how-to-solve-word-search-puzzles": {
   "hero": {
    "file": "media/blog/how-to-solve-word-search-puzzles-hero.jpg",
@@ -309,6 +334,31 @@
    "query": "birthday party table decorations",
    "user": "rmt",
    "user_page": "https://pixabay.com/users/rmt-1169676/",
+   "width": 1000
+  }
+ },
+ "stocking-stuffers-for-puzzle-lovers": {
+  "hero": {
+   "file": "media/blog/stocking-stuffers-for-puzzle-lovers-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-fireplace-fire-in-fireplace-1875871/",
+   "pixabay_id": 1875871,
+   "puzzle": false,
+   "query": "christmas stockings fireplace",
+   "user": "JillWellington",
+   "user_page": "https://pixabay.com/users/JillWellington-334088/",
+   "wide": "media/blog/stocking-stuffers-for-puzzle-lovers-hero-wide.jpg",
+   "width": 1000
+  },
+  "pencils": {
+   "file": "media/blog/stocking-stuffers-for-puzzle-lovers-pencils.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/pencil-creative-creativity-drawing-599116/",
+   "pixabay_id": 599116,
+   "puzzle": false,
+   "query": "colored pencils christmas",
+   "user": "Bolette",
+   "user_page": "https://pixabay.com/users/Bolette-361389/",
    "width": 1000
   }
  },
