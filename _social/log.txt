@@ -91,3 +91,4 @@
 2026-11-02 14:54 NY  saved pin-fall-crisp-leaves-cover to Large Print Activities for Seniors
 2026-11-03 08:56 NY  published pin-cute-farm-days-free -> https://www.pinterest.com/pin/1127166613024794932/
 2026-11-03 08:56 NY  saved pin-cute-farm-days-free to Farm Animal Activities for Kids
+2026-11-03 09:57 NY  FAILED tt-coloring-mom-needs-nothing: /post/publish/content/init/ -> 403: {'code': 'url_ownership_unverified', 'message': 'Please review our URL ownership verification rules at https://developers.tiktok.com/doc/content-posting-api-media-t
