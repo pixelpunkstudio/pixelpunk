@@ -107,10 +107,17 @@
     ]
   },
   "pin-winter-snowy-days-inside": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-03T14:19:00-05:00",
     "first_planned": "2026-11-01T14:19:00-05:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613024819743/",
+    "published_at": "2026-11-03T14:30-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Winter Activities & Hygge",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-winter-snowy-days-free": {
     "status": "published",
