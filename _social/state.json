@@ -819,16 +819,28 @@
     "approved": "article rule 2026-11-01T07:40:53-05:00"
   },
   "pin-stocking-stuffers-for-puzzle-lovers": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-18T14:47:00-05:00",
+    "first_planned": "2026-11-18T14:47:00-05:00",
+    "approved": "article rule 2026-11-03T08:34:41-05:00"
   },
   "pin-stocking-stuffers-for-puzzle-lovers-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-25T14:36:00-05:00",
+    "first_planned": "2026-11-25T14:36:00-05:00",
+    "approved": "article rule 2026-11-03T08:34:41-05:00"
   },
   "pin-stocking-stuffers-for-puzzle-lovers-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-02T14:28:00-05:00",
+    "first_planned": "2026-12-02T14:28:00-05:00",
+    "approved": "article rule 2026-11-03T08:34:41-05:00"
   },
   "ig-stocking-stuffers-for-puzzle-lovers": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-19T12:47:00-05:00",
+    "first_planned": "2026-11-19T12:47:00-05:00",
+    "approved": "article rule 2026-11-03T08:34:41-05:00"
   },
   "pin-gifts-for-grandparents-who-want-nothing": {
     "status": "scheduled",
