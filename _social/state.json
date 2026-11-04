@@ -909,16 +909,28 @@
     "approved": "2026-11-03T18:43:34"
   },
   "pin-car-ride-activities-for-kids-printable": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-24T08:54:00-05:00",
+    "first_planned": "2026-11-24T08:54:00-05:00",
+    "approved": "article rule 2026-11-04T05:51:52-05:00"
   },
   "pin-car-ride-activities-for-kids-printable-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-01T08:57:00-05:00",
+    "first_planned": "2026-12-01T08:57:00-05:00",
+    "approved": "article rule 2026-11-04T05:51:52-05:00"
   },
   "pin-car-ride-activities-for-kids-printable-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-08T14:04:00-05:00",
+    "first_planned": "2026-12-08T14:04:00-05:00",
+    "approved": "article rule 2026-11-04T05:51:52-05:00"
   },
   "ig-car-ride-activities-for-kids-printable": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-22T12:03:00-05:00",
+    "first_planned": "2026-11-22T12:03:00-05:00",
+    "approved": "article rule 2026-11-04T05:51:52-05:00"
   },
   "pin-coloring-with-grandkids": {
     "status": "scheduled",
