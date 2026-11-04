@@ -216,6 +216,8 @@ def pin_call(method: str, path: str, **kw) -> dict:
 # Each pin goes to its main board (content.yaml `board`), then is saved to up to two topic boards (`also` in
 # content.yaml, else topic_boards()). Missing boards are created with these descriptions; empty ones are filled in.
 BOARD_INFO = {
+    "Art Lover Activities & Gift Ideas": "Art word searches, free printables and gift ideas for art lovers and museum goers: "
+                                         "famous paintings, great painters and art history fun facts in large print.",
     "Word Search Puzzle Books": "Large print word search puzzle books for adults, seniors and teens: cozy, seasonal and "
                                 "holiday themes, one puzzle per page, solutions included. Gift ideas for puzzle lovers.",
     "Cozy Activities for Adults": "Cozy, relaxing activities for adults and seniors: word search tips, bold and easy "
@@ -250,6 +252,7 @@ TOPICS = [  # (words in the pin's key or book, topic board), first matches first
     (("spring",), "Spring Activities"), (("summer",), "Summer Activities"),
     (("sudoku-of-love", "valentine"), "Valentine's Day Gift Ideas"), (("retirement",), "Retirement Gift Ideas"),
     (("bug",), "Bug & Insect Activities for Kids"), (("farm",), "Farm Animal Activities for Kids"),
+    (("art-lovers",), "Art Lover Activities & Gift Ideas"),
 ]
 SENIORS = "Large Print Activities for Seniors"
 _boards = {}

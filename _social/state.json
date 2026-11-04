@@ -955,5 +955,47 @@
     "when": "2026-11-20T12:04:00-05:00",
     "first_planned": "2026-11-20T12:04:00-05:00",
     "approved": "article rule 2026-11-04T05:51:09-05:00"
+  },
+  "pin-nostalgic-christmas-coloring-cover": {
+    "status": "scheduled",
+    "when": "2026-11-16T08:11:00-05:00",
+    "first_planned": "2026-11-16T08:11:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "pin-nostalgic-christmas-coloring-inside": {
+    "status": "scheduled",
+    "when": "2026-11-25T08:59:00-05:00",
+    "first_planned": "2026-11-25T08:59:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "pin-nostalgic-christmas-coloring-free": {
+    "status": "scheduled",
+    "when": "2026-11-21T11:15:00-05:00",
+    "first_planned": "2026-11-21T11:15:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "ig-nostalgic-christmas-coloring": {
+    "status": "draft"
+  },
+  "pin-art-lovers-word-search-cover": {
+    "status": "scheduled",
+    "when": "2026-11-14T08:25:00-05:00",
+    "first_planned": "2026-11-14T08:25:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "pin-art-lovers-word-search-inside": {
+    "status": "scheduled",
+    "when": "2026-11-18T11:00:00-05:00",
+    "first_planned": "2026-11-18T11:00:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "pin-art-lovers-word-search-free": {
+    "status": "scheduled",
+    "when": "2026-11-10T08:17:00-05:00",
+    "first_planned": "2026-11-10T08:17:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "ig-art-lovers-word-search": {
+    "status": "draft"
   }
 }

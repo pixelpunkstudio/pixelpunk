@@ -2146,3 +2146,127 @@ items:
     #coloringwithgrandkids #grandparents #boldandeasy #coloringpages #familytime'
   start: '2026-11-20'
   priority: 3
+- key: pin-nostalgic-christmas-coloring-cover
+  platform: pinterest
+  kind: book cover
+  board: Cozy Activities for Adults
+  needs_amazon: true
+  title: 'Nostalgic Christmas Coloring Book for Seniors: Bold and Easy 1950s Holiday Scenes'
+  description: '50 bold and easy Christmas scenes from the 1950s and 60s: bubble lights, a station wagon bringing
+    home the tree, milk bottles on the porch and the family television. Single-sided pages, with a fun fact and
+    a memory question beside every picture to start conversations across the generations. Try a free vintage Christmas
+    TV coloring page on our website. #nostalgicchristmas #coloringforseniors #boldandeasy #vintagechristmas #giftsforseniors'
+  alt: 'Cover of Nostalgic Christmas Coloring Book for Seniors: Color your way back to a 1950s Christmas'
+  book: nostalgic-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-nostalgic-christmas-coloring-inside
+  platform: pinterest
+  kind: peek inside
+  board: Cozy Activities for Adults
+  needs_amazon: true
+  title: 'Look Inside: Nostalgic Christmas Coloring Book for Seniors'
+  description: 'A real page from Nostalgic Christmas Coloring Book for Seniors. 50 bold and easy Christmas scenes
+    from the 1950s and 60s: bubble lights, a station wagon bringing home the tree, milk bottles on the porch and
+    the family television. Single-sided pages, with a fun fact and a memory question beside every picture to start
+    conversations across the generations. Try a free vintage Christmas TV coloring page on our website. #nostalgicchristmas
+    #coloringforseniors #boldandeasy #vintagechristmas #giftsforseniors'
+  alt: A page from Nostalgic Christmas Coloring Book for Seniors next to its cover
+  book: nostalgic-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-nostalgic-christmas-coloring-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Vintage Christmas Coloring Page for Seniors (1950s TV, Bold and Easy)
+  description: 'Christmas on TV: a 1950s living room with a rabbit-ear television showing a snowy village, a bowl
+    of popcorn and the tree in the corner, drawn in bold, easy lines for seniors, with a fun fact and a memory question.
+    Free to download and print at home. There are 49 more old-fashioned Christmas scenes to color, each with a fun
+    fact and a memory question, in Nostalgic Christmas Coloring Book for Seniors. #nostalgicchristmas #coloringforseniors
+    #boldandeasy #vintagechristmas #giftsforseniors'
+  alt: Free Printable Vintage Christmas Coloring Page for Seniors (1950s TV, Bold and Easy)
+  image: media/pins/nostalgic-christmas-coloring.jpg
+  book: nostalgic-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: ig-nostalgic-christmas-coloring
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Nostalgic Christmas Coloring Book for Seniors
+  caption: 'Color your way back to a 1950s Christmas ✏️
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 bold and easy 1950s holiday scenes, with a fun fact and a
+    memory question beside every page.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+
+    #nostalgicchristmas #coloringforseniors #boldandeasy #vintagechristmas #giftsforseniors'
+  book: nostalgic-christmas-coloring
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  until: '2026-12-22'
+- key: pin-art-lovers-word-search-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Art Lover''s Word Search: 55 Large Print Puzzles About Great Painters and Famous Paintings'
+  description: 'A gallery tour through six centuries of art: every puzzle faces a famous painting, the painter''s
+    story and a surprising fun fact, from the day the Mona Lisa was stolen to the story behind The Starry Night.
+    55 large print word searches and 1,650 words that never repeat. A thoughtful gift for art lovers. Try a free
+    Leonardo da Vinci puzzle on our website. #artlovers #arthistory #wordsearch #largeprint #giftsforartlovers'
+  alt: 'Cover of Art Lover''s Word Search: Six centuries of art in 55 puzzles'
+  book: art-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+- key: pin-art-lovers-word-search-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Art Lover''s Word Search'
+  description: 'A real page from Art Lover''s Word Search. A gallery tour through six centuries of art: every puzzle
+    faces a famous painting, the painter''s story and a surprising fun fact, from the day the Mona Lisa was stolen
+    to the story behind The Starry Night. 55 large print word searches and 1,650 words that never repeat. A thoughtful
+    gift for art lovers. Try a free Leonardo da Vinci puzzle on our website. #artlovers #arthistory #wordsearch
+    #largeprint #giftsforartlovers'
+  alt: A page from Art Lover's Word Search next to its cover
+  book: art-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+- key: pin-art-lovers-word-search-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Leonardo da Vinci Word Search for Adults (Large Print, Mona Lisa)
+  description: 'Leonardo da Vinci: the Mona Lisa, the story of the painter and the day the painting was stolen from
+    the Louvre, facing a large print word search with 30 words, from Gioconda and sfumato to notebooks, helicopter
+    and the Last Supper. Free to download and print at home. There are 54 more painters, each with a famous painting,
+    a fun fact and a large print puzzle, in Art Lover''s Word Search. #artlovers #arthistory #wordsearch #largeprint
+    #giftsforartlovers'
+  alt: Free Printable Leonardo da Vinci Word Search for Adults (Large Print, Mona Lisa)
+  image: media/pins/art-lovers-word-search.jpg
+  book: art-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+- key: ig-art-lovers-word-search
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Art Lover's Word Search
+  caption: 'Six centuries of art in 55 puzzles ✏️
+
+    Art Lover''s Word Search: 55 large print puzzles about great painters and their famous paintings, with art history
+    fun facts.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+
+    #artlovers #arthistory #wordsearch #largeprint #giftsforartlovers'
+  book: art-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
