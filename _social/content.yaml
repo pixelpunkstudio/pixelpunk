@@ -1964,3 +1964,185 @@ items:
   - media/social/tiktok/cozy-christmas-evening-for-me-2.jpg
   - media/social/tiktok/cozy-christmas-evening-for-me-3.jpg
   until: '2026-12-22'
+- key: pin-car-ride-activities-for-kids-printable
+  platform: pinterest
+  kind: article
+  book: car-ride-activities-for-kids-printable
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/car-ride-activities-for-kids-printable.html
+  title: Printable Car Activities That Don't Make Kids Carsick
+  alt: An empty road curving through a forest of tall pines and orange autumn trees
+  description: 'Looking down at a page is what makes many kids queasy in the car. Six eyes-up printable games for
+    the road, which pages to save for rest stops, what to pack, and what to do when a child starts to feel sick.
+    #kidsactivities #screenfree #printables #familyactivities'
+  design: top
+  photo: hero
+  kicker: Holiday travel
+  items: []
+  start: '2026-11-22'
+  priority: 3
+- key: pin-car-ride-activities-for-kids-printable-2
+  platform: pinterest
+  kind: article
+  book: car-ride-activities-for-kids-printable
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/car-ride-activities-for-kids-printable.html
+  title: 6 Eyes-Up Car Games to Print Before You Leave
+  alt: A wooden picnic table with benches among tall pine trees at a forest rest area
+  description: 'Looking down at a page is what makes many kids queasy in the car. Six eyes-up printable games for
+    the road, which pages to save for rest stops, what to pack, and what to do when a child starts to feel sick.
+    #kidsactivities #screenfree #printables #familyactivities'
+  design: list
+  photo: stop
+  kicker: Road trip printables
+  items:
+  - Window bingo
+  - Road scavenger list
+  - License plate tally
+  - Fun fact guessing
+  - Word list challenge
+  - Story cards
+  start: '2026-11-29'
+  priority: 3
+- key: pin-car-ride-activities-for-kids-printable-3
+  platform: pinterest
+  kind: article
+  book: car-ride-activities-for-kids-printable
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/car-ride-activities-for-kids-printable.html
+  title: Free Puzzle Pages for the Trip to Grandma's
+  alt: An empty road curving through a forest of tall pines and orange autumn trees
+  description: 'Looking down at a page is what makes many kids queasy in the car. Six eyes-up printable games for
+    the road, which pages to save for rest stops, what to pack, and what to do when a child starts to feel sick.
+    #kidsactivities #screenfree #printables #familyactivities'
+  design: pages
+  photo: hero
+  kicker: Save these for rest stops
+  items: []
+  pages:
+  - page: bug-hunt
+    label: Ages 4-10
+  - page: life-on-the-farm
+    label: Ages 6-10
+  - page: cute-bug-days
+    label: Coloring
+  start: '2026-12-06'
+  priority: 3
+- key: ig-car-ride-activities-for-kids-printable
+  platform: instagram
+  kind: article carousel
+  book: car-ride-activities-for-kids-printable
+  link: https://pixelpunkstudio.shop/car-ride-activities-for-kids-printable.html
+  title: Long Car Ride to Grandma's? Printable Travel Activities That Don't Make Kids Carsick
+  headline: Long car ride to Grandma's?
+  kicker: New on the blog
+  items:
+  - Window bingo
+  - Road scavenger list
+  - License plate tally
+  - Fun fact guessing
+  - Word list challenge
+  - Story cards
+  list_title: 6 eyes-up car games
+  caption: '"I don''t feel good" is the last thing you want to hear an hour from Grandma''s 🚗
+
+    Looking down at a page is what makes many kids queasy. Our new article has six printable car games that keep
+    their eyes up, which pages to save for rest stops, and what to do if a child starts to feel sick.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #roadtripwithkids #carsick #thanksgivingtravel #kidsactivities #printables'
+  start: '2026-11-22'
+  priority: 3
+- key: pin-coloring-with-grandkids
+  platform: pinterest
+  kind: article
+  book: coloring-with-grandkids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/coloring-with-grandkids.html
+  title: 'Coloring With Grandkids: How to Pick Pages Both Ages Enjoy'
+  alt: A bold and easy coloring page of two cardinals at a bird feeder, partly colored in red, on festive kraft
+    paper with iced Christmas cookies and dried orange slices
+  description: 'Kids'' pages bore adults and adult pages frustrate kids. How to choose coloring pages that work
+    for both ages, six ways to color together, how to set up the table, and free pages to print and try. #kidsactivities
+    #screenfree #printables #familyactivities'
+  design: top
+  photo: hero
+  kicker: Grandparents and grandkids
+  items: []
+  start: '2026-11-20'
+  priority: 3
+- key: pin-coloring-with-grandkids-2
+  platform: pinterest
+  kind: article
+  book: coloring-with-grandkids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/coloring-with-grandkids.html
+  title: Coloring Pages Grandparents and Grandkids Can Share
+  alt: A bold and easy coloring page of two cardinals at a bird feeder, partly colored in red, on festive kraft
+    paper with iced Christmas cookies and dried orange slices
+  description: 'Kids'' pages bore adults and adult pages frustrate kids. How to choose coloring pages that work
+    for both ages, six ways to color together, how to set up the table, and free pages to print and try. #kidsactivities
+    #screenfree #printables #familyactivities'
+  design: pages
+  photo: hero
+  kicker: One table, two ages
+  items: []
+  pages:
+  - page: cozy-christmas-coloring
+    label: Grown-ups
+  - page: nostalgic-christmas-coloring
+    label: Memories
+  - page: cute-bug-days
+    label: Kids
+  start: '2026-11-27'
+  priority: 3
+- key: pin-coloring-with-grandkids-3
+  platform: pinterest
+  kind: article
+  book: coloring-with-grandkids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/coloring-with-grandkids.html
+  title: 6 Ways to Color Together With Your Grandkids
+  alt: A wire mesh pot full of sharpened colored pencils on a white background
+  description: 'Kids'' pages bore adults and adult pages frustrate kids. How to choose coloring pages that work
+    for both ages, six ways to color together, how to set up the table, and free pages to print and try. #kidsactivities
+    #screenfree #printables #familyactivities'
+  design: list
+  photo: pencils
+  kicker: Color side by side
+  items:
+  - Swap halfway
+  - Same page, two palettes
+  - The color boss
+  - Guess the fact
+  - '"When I was little..."'
+  - A two-generation gallery
+  start: '2026-12-04'
+  priority: 3
+- key: ig-coloring-with-grandkids
+  platform: instagram
+  kind: article carousel
+  book: coloring-with-grandkids
+  link: https://pixelpunkstudio.shop/coloring-with-grandkids.html
+  title: 'Coloring With Grandkids: How to Pick Pages Both Ages Enjoy'
+  headline: Coloring with the grandkids?
+  kicker: New on the blog
+  items:
+  - Swap halfway
+  - Same page, two palettes
+  - The color boss
+  - Guess the fact
+  - '"When I was little..."'
+  - A two-generation gallery
+  list_title: 6 ways to color together
+  caption: 'Kids'' pages can bore a grown-up, and grown-up pages can make a six-year-old give up 🖍️
+
+    Our new article shows how to pick coloring pages both ages enjoy, six ways to color together, and how to set
+    up the table so everyone is comfortable. Plus free pages to print and try.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #coloringwithgrandkids #grandparents #boldandeasy #coloringpages #familytime'
+  start: '2026-11-20'
+  priority: 3

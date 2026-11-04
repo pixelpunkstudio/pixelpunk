@@ -71,6 +71,31 @@
    "width": 1000
   }
  },
+ "car-ride-activities-for-kids-printable": {
+  "hero": {
+   "file": "media/blog/car-ride-activities-for-kids-printable-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/curved-road-autumn-forest-10072702/",
+   "pixabay_id": 10072702,
+   "puzzle": false,
+   "query": "road trip car window countryside",
+   "user": "ahmetyuksek",
+   "user_page": "https://pixabay.com/users/ahmetyuksek-45995253/",
+   "wide": "media/blog/car-ride-activities-for-kids-printable-hero-wide.jpg",
+   "width": 1000
+  },
+  "stop": {
+   "file": "media/blog/car-ride-activities-for-kids-printable-stop.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/picnic-area-park-forest-landscape-7492313/",
+   "pixabay_id": 7492313,
+   "puzzle": false,
+   "query": "crayons paper picnic table",
+   "user": "Josem80",
+   "user_page": "https://pixabay.com/users/Josem80-21712568/",
+   "width": 1000
+  }
+ },
  "christmas-activities-for-seniors": {
   "cookies": {
    "file": "media/blog/christmas-activities-for-seniors-cookies.jpg",
@@ -140,6 +165,31 @@
    "query": "christmas cookies table",
    "user": "13729238",
    "user_page": "https://pixabay.com/users/13729238-13729238/",
+   "width": 1000
+  }
+ },
+ "coloring-with-grandkids": {
+  "hero": {
+   "file": "media/blog/coloring-with-grandkids-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/background-baked-brown-celebration-7671998/",
+   "pixabay_id": 7671998,
+   "puzzle": true,
+   "query": "christmas flat lay wood copy space",
+   "user": "niki_emmert",
+   "user_page": "https://pixabay.com/users/niki_emmert-13526667/",
+   "wide": "media/blog/coloring-with-grandkids-hero-wide.jpg",
+   "width": 1000
+  },
+  "pencils": {
+   "file": "media/blog/coloring-with-grandkids-pencils.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/artistic-bright-color-colored-2068/",
+   "pixabay_id": 2068,
+   "puzzle": false,
+   "query": "colored pencils cup desk",
+   "user": "PublicDomainPictures",
+   "user_page": "https://pixabay.com/users/PublicDomainPictures-14/",
    "width": 1000
   }
  },
