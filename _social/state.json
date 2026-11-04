@@ -975,7 +975,10 @@
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
   "ig-nostalgic-christmas-coloring": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-21T12:25:00-05:00",
+    "first_planned": "2026-11-21T12:25:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
   "pin-art-lovers-word-search-cover": {
     "status": "scheduled",
@@ -996,6 +999,9 @@
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
   "ig-art-lovers-word-search": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-08T12:54:00-05:00",
+    "first_planned": "2026-11-08T12:54:00-05:00",
+    "approved": "2026-11-04 user OK in chat: schedule all 8"
   }
 }
