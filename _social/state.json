@@ -133,7 +133,7 @@
     ]
   },
   "ig-winter-snowy-days": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-05T12:22:00-05:00",
     "first_planned": "2026-10-28T12:04:00-04:00",
     "approved": "2026-10-21T18:04:53.999Z",
@@ -144,7 +144,9 @@
         "moved_to": "2026-11-05T12:22:00-05:00"
       }
     ],
-    "moves": 1
+    "moves": 1,
+    "url": "https://www.instagram.com/p/DfXmJtWE08k/",
+    "published_at": "2026-11-05T12:43-05:00"
   },
   "pin-spring-fresh-blooms-cover": {
     "status": "scheduled",
