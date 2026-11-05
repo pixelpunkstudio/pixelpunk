@@ -1054,5 +1054,89 @@
     "when": "2026-11-08T12:54:00-05:00",
     "first_planned": "2026-11-08T12:54:00-05:00",
     "approved": "2026-11-04 user OK in chat: schedule all 8"
+  },
+  "tt-jumbo-grandpa-wont-admit": {
+    "status": "scheduled",
+    "when": "2026-11-07T11:16:00-05:00",
+    "first_planned": "2026-11-07T11:16:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-jumbo-quiet-days-assisted-living": {
+    "status": "scheduled",
+    "when": "2026-11-09T11:20:00-05:00",
+    "first_planned": "2026-11-09T11:20:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-cozy-christmas-sister-swap": {
+    "status": "scheduled",
+    "when": "2026-11-18T11:49:00-05:00",
+    "first_planned": "2026-11-18T11:49:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-coloring-no-more-tiny-mandalas": {
+    "status": "scheduled",
+    "when": "2026-11-19T11:01:00-05:00",
+    "first_planned": "2026-11-19T11:01:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-nostalgic-mom-kitchen-phone": {
+    "status": "scheduled",
+    "when": "2026-11-06T11:29:00-05:00",
+    "first_planned": "2026-11-06T11:29:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-art-mom-every-museum": {
+    "status": "scheduled",
+    "when": "2026-11-10T11:58:00-05:00",
+    "first_planned": "2026-11-10T11:58:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-hygge-dark-at-five": {
+    "status": "scheduled",
+    "when": "2026-11-13T11:10:00-05:00",
+    "first_planned": "2026-11-13T11:10:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-bugs-grandkid-knows-everything": {
+    "status": "scheduled",
+    "when": "2026-11-08T11:41:00-05:00",
+    "first_planned": "2026-11-08T11:41:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-winter-snow-day-cancelled": {
+    "status": "scheduled",
+    "when": "2026-11-15T11:00:00-05:00",
+    "first_planned": "2026-11-15T11:00:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-retirement-dad-my-garage": {
+    "status": "scheduled",
+    "when": "2026-11-16T11:11:00-05:00",
+    "first_planned": "2026-11-16T11:11:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-farm-goats-can-talk": {
+    "status": "scheduled",
+    "when": "2026-11-11T11:47:00-05:00",
+    "first_planned": "2026-11-11T11:47:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-bughunt-stridulate": {
+    "status": "scheduled",
+    "when": "2026-11-14T11:03:00-05:00",
+    "first_planned": "2026-11-14T11:03:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-cutefarm-rainy-saturday": {
+    "status": "scheduled",
+    "when": "2026-11-17T11:55:00-05:00",
+    "first_planned": "2026-11-17T11:55:00-05:00",
+    "approved": "2026-11-05T21:59:49"
+  },
+  "tt-fall-lost-in-corn-maze": {
+    "status": "scheduled",
+    "when": "2026-11-12T11:40:00-05:00",
+    "first_planned": "2026-11-12T11:40:00-05:00",
+    "approved": "2026-11-05T21:59:49"
   }
 }

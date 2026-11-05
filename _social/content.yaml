@@ -2270,3 +2270,262 @@ items:
   book: art-lovers-word-search
   link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
   priority: 2
+- key: tt-jumbo-grandpa-wont-admit
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: 'POV: Grandpa will never admit the crossword print got too small'
+  caption: 'He''ll say he didn''t need it. He''ll also finish three puzzles before lunch 👓
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30-point letters, on Amazon.
+
+
+    #wordsearch #largeprint #giftsforgrandpa #christmasgifts #puzzletok'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-grandpa-wont-admit-1.jpg
+  - media/social/tiktok/jumbo-grandpa-wont-admit-2.jpg
+  - media/social/tiktok/jumbo-grandpa-wont-admit-3.jpg
+  until: '2026-12-22'
+- key: tt-jumbo-quiet-days-assisted-living
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: 'POV: Grandma moved to assisted living and her afternoons got quiet'
+  caption: 'Now she saves up the fun facts to tell me when I come 💛
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30-point letters, on Amazon.
+
+
+    #wordsearch #largeprint #giftsforgrandma #assistedliving #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-quiet-days-assisted-living-1.jpg
+  - media/social/tiktok/jumbo-quiet-days-assisted-living-2.jpg
+  - media/social/tiktok/jumbo-quiet-days-assisted-living-3.jpg
+  until: '2026-12-22'
+- key: tt-cozy-christmas-sister-swap
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: Every Christmas my sister and I swap one small gift
+  caption: 'Twenty years of candles. She''s going to be so relieved 🎁
+
+    Cozy Christmas Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #puzzletok #giftsforsister #stockingstuffers #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-sister-swap-1.jpg
+  - media/social/tiktok/cozy-christmas-sister-swap-2.jpg
+  - media/social/tiktok/cozy-christmas-sister-swap-3.jpg
+  until: '2026-12-22'
+- key: tt-coloring-no-more-tiny-mandalas
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: The coloring book was supposed to relax me, not make me squint
+  caption: 'Turns out coloring is relaxing when you can see the lines 🎨
+
+    Cozy Christmas Coloring Book for Adults and Seniors: 50 bold and easy scenes, on Amazon.
+
+
+    #adultcoloring #coloringbook #boldandeasy #cozychristmas #coloringforseniors'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-no-more-tiny-mandalas-1.jpg
+  - media/social/tiktok/coloring-no-more-tiny-mandalas-2.jpg
+  - media/social/tiktok/coloring-no-more-tiny-mandalas-3.jpg
+  until: '2026-12-22'
+- key: tt-nostalgic-mom-kitchen-phone
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: 'POV: Mom tells the same 1950s Christmas stories every year, and I never want her to stop'
+  caption: 'Now the stories come with the page she''s coloring 📞🎄
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 bold and easy 1950s scenes, on Amazon.
+
+
+    #coloringbook #nostalgia #giftsformom #1950s #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-mom-kitchen-phone-1.jpg
+  - media/social/tiktok/nostalgic-mom-kitchen-phone-2.jpg
+  - media/social/tiktok/nostalgic-mom-kitchen-phone-3.jpg
+  until: '2026-12-22'
+- key: tt-art-mom-every-museum
+  platform: tiktok
+  kind: tiktok carousel
+  book: art-lovers-word-search
+  title: 'POV: Your mom took you to every museum on every family vacation'
+  caption: 'She''d tell you the story behind this painting anyway. Now the book does too 🖼️
+
+    Art Lover''s Word Search: 55 large print puzzles about great painters, on Amazon.
+
+
+    #wordsearch #arthistory #giftsformom #artlovers #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/art-mom-every-museum-1.jpg
+  - media/social/tiktok/art-mom-every-museum-2.jpg
+  - media/social/tiktok/art-mom-every-museum-3.jpg
+- key: tt-hygge-dark-at-five
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-winter-hygge
+  title: It's dark at 5 pm. I've stopped fighting it
+  caption: 'Winter called. We''re not going out 🕯️
+
+    Cozy Winter Hygge Word Search: 55 large print puzzles, on Amazon.
+
+
+    #hygge #wordsearch #cozyseason #winterathome #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/hygge-dark-at-five-1.jpg
+  - media/social/tiktok/hygge-dark-at-five-2.jpg
+  - media/social/tiktok/hygge-dark-at-five-3.jpg
+- key: tt-bugs-grandkid-knows-everything
+  platform: tiktok
+  kind: tiktok carousel
+  book: cute-bug-days
+  title: 'POV: You sent your niece a bug coloring book. This came back in the mail'
+  caption: 'This one''s going on my fridge forever 🐞🖍️
+
+    Cute Bug Days Coloring Book for ages 3-10: 50 bugs, a fun fact on every page, on Amazon.
+
+
+    #coloringbook #kidsactivities #giftsforkids #thankyounote #bugs'
+  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/bugs-grandkid-knows-everything-1.jpg
+  - media/social/tiktok/bugs-grandkid-knows-everything-2.jpg
+  - media/social/tiktok/bugs-grandkid-knows-everything-3.jpg
+- key: tt-winter-snow-day-cancelled
+  platform: tiktok
+  kind: tiktok carousel
+  book: winter-snowy-days
+  title: Snow day. Everything's cancelled. Nobody's complaining
+  caption: 'School''s closed. The roads can stay closed a little longer too ❄️☕
+
+    Snowy Days Winter Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #snowday #largeprint #winterathome #puzzletok'
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/winter-snow-day-cancelled-1.jpg
+  - media/social/tiktok/winter-snow-day-cancelled-2.jpg
+  - media/social/tiktok/winter-snow-day-cancelled-3.jpg
+  until: '2027-02-20'
+- key: tt-retirement-dad-my-garage
+  platform: tiktok
+  kind: tiktok carousel
+  book: retirement
+  title: Day 3 of Dad's retirement. He has reorganized my garage
+  caption: 'He labeled my screws by size. I needed a plan 🔧😅
+
+    Retirement Word Search: 55 large print puzzles, on Amazon.
+
+
+    #retirement #wordsearch #retirementgift #giftsfordad #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/retirement-dad-my-garage-1.jpg
+  - media/social/tiktok/retirement-dad-my-garage-2.jpg
+  - media/social/tiktok/retirement-dad-my-garage-3.jpg
+- key: tt-farm-goats-can-talk
+  platform: tiktok
+  kind: tiktok carousel
+  book: life-on-the-farm
+  title: '"Did you know goats can talk to each other?" I do now. I''ve been told four times'
+  caption: 'Next week: why turkeys have super hearing. I''ve been warned 🐐
+
+    Life on the Farm Word Search for Kids, ages 6-10: 50 puzzles with fun facts, on Amazon.
+
+
+    #wordsearch #kidsactivities #screenfree #farmanimals #homeschool'
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/farm-goats-can-talk-1.jpg
+  - media/social/tiktok/farm-goats-can-talk-2.jpg
+  - media/social/tiktok/farm-goats-can-talk-3.jpg
+- key: tt-bughunt-stridulate
+  platform: tiktok
+  kind: tiktok carousel
+  book: bug-hunt
+  title: I said crickets chirp. My kid said the word is actually "stridulate"
+  caption: 'She''s six. I had to look it up 🦗
+
+    Bug Hunt Word Search Coloring Book for kids: 55 puzzles, on Amazon.
+
+
+    #wordsearch #kidsactivities #bugs #funnykids #screenfree'
+  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/bughunt-stridulate-1.jpg
+  - media/social/tiktok/bughunt-stridulate-2.jpg
+  - media/social/tiktok/bughunt-stridulate-3.jpg
+- key: tt-cutefarm-rainy-saturday
+  platform: tiktok
+  kind: tiktok carousel
+  book: cute-farm-days
+  title: Rainy Saturday, 9 am. Already asked for the tablet twice
+  caption: 'Third farm animal so far. The tablet is still charging. I''m not saying a word 🐶🖍️
+
+    Cute Farm Days Coloring Book, ages 4-8: adorable animals with fun facts, on Amazon.
+
+
+    #coloringbook #kidsactivities #screenfree #rainydayactivities #farmanimals'
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cutefarm-rainy-saturday-1.jpg
+  - media/social/tiktok/cutefarm-rainy-saturday-2.jpg
+  - media/social/tiktok/cutefarm-rainy-saturday-3.jpg
+- key: tt-fall-lost-in-corn-maze
+  platform: tiktok
+  kind: tiktok carousel
+  book: fall-crisp-leaves
+  title: Every fall we get lost in the same corn maze
+  caption: 'Every year we swear we remember the way. We do not 🌽🍂
+
+    Crisp Leaves Fall Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #fallvibes #cornmaze #largeprint #cozyseason'
+  link: https://pixelpunkstudio.shop/free-printable-fall-word-search.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/fall-lost-in-corn-maze-1.jpg
+  - media/social/tiktok/fall-lost-in-corn-maze-2.jpg
+  - media/social/tiktok/fall-lost-in-corn-maze-3.jpg
+  until: '2026-11-20'
