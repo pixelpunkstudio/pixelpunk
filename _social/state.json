@@ -389,7 +389,7 @@
   },
   "pin-retirement-cover": {
     "status": "scheduled",
-    "when": "2026-11-12T08:02:00-05:00",
+    "when": "2026-11-19T08:47:00-05:00",
     "first_planned": "2026-11-03T14:47:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z",
     "history": [
@@ -403,13 +403,13 @@
   },
   "pin-retirement-inside": {
     "status": "scheduled",
-    "when": "2026-11-24T08:58:00-05:00",
+    "when": "2026-11-28T14:58:00-05:00",
     "first_planned": "2026-11-11T14:58:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "pin-retirement-free": {
     "status": "scheduled",
-    "when": "2026-11-19T08:48:00-05:00",
+    "when": "2026-11-24T08:48:00-05:00",
     "first_planned": "2026-11-07T14:48:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -672,15 +672,23 @@
   },
   "pin-jumbo-christmas-inside": {
     "status": "scheduled",
-    "when": "2026-11-09T08:33:00-05:00",
+    "when": "2026-11-10T14:33:00-05:00",
     "first_planned": "2026-11-12T11:33:00-05:00",
     "approved": "2026-10-28T15:16:10.153Z"
   },
   "pin-jumbo-christmas-free": {
     "status": "scheduled",
-    "when": "2026-11-05T08:29:00-05:00",
+    "when": "2026-11-06T14:38:00-05:00",
     "first_planned": "2026-11-07T08:29:00-05:00",
-    "approved": "2026-10-28T15:16:10.153Z"
+    "approved": "2026-10-28T15:16:10.153Z",
+    "history": [
+      {
+        "missed": "2026-11-05T08:29:00-05:00",
+        "noticed": "2026-11-05T09:29-05:00",
+        "moved_to": "2026-11-06T14:38:00-05:00"
+      }
+    ],
+    "moves": 1
   },
   "ig-jumbo-christmas": {
     "status": "published",
@@ -983,7 +991,7 @@
   },
   "pin-nostalgic-christmas-coloring-cover": {
     "status": "scheduled",
-    "when": "2026-11-06T14:11:00-05:00",
+    "when": "2026-11-05T11:11:00-05:00",
     "first_planned": "2026-11-16T08:11:00-05:00",
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
@@ -995,7 +1003,7 @@
   },
   "pin-nostalgic-christmas-coloring-free": {
     "status": "scheduled",
-    "when": "2026-11-10T14:15:00-05:00",
+    "when": "2026-11-09T11:15:00-05:00",
     "first_planned": "2026-11-21T11:15:00-05:00",
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
