@@ -913,10 +913,12 @@
     "approved": "article rule 2026-11-03T08:34:25-05:00"
   },
   "tt-jumbo-grandma-small-print": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-05T11:22:00-05:00",
     "first_planned": "2026-11-05T11:22:00-05:00",
-    "approved": "2026-11-03T15:10:03"
+    "approved": "2026-11-03T15:10:03",
+    "url": "tiktok inbox draft p_inbox_url~v2.7704727861521139734 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-05T11:39-05:00"
   },
   "tt-coloring-mom-needs-nothing": {
     "status": "published",
@@ -990,10 +992,17 @@
     "approved": "article rule 2026-11-04T05:51:09-05:00"
   },
   "pin-nostalgic-christmas-coloring-cover": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-05T11:11:00-05:00",
     "first_planned": "2026-11-16T08:11:00-05:00",
-    "approved": "2026-11-04 user OK in chat: schedule all 8"
+    "approved": "2026-11-04 user OK in chat: schedule all 8",
+    "url": "https://www.pinterest.com/pin/1127166613024969631/",
+    "published_at": "2026-11-05T11:39-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-nostalgic-christmas-coloring-inside": {
     "status": "scheduled",
