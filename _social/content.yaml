@@ -2630,7 +2630,7 @@ items:
   photo: hero
   kicker: Thanksgiving weekend
   items: []
-  start: '2026-11-24'
+  start: '2026-11-16'
   priority: 1
   until: '2026-11-24'
 - key: pin-day-after-thanksgiving-activities-2
@@ -2653,32 +2653,7 @@ items:
   - A leftovers buffet
   - One group activity
   - Cocoa and the paper chain
-  start: '2026-12-01'
-  priority: 1
-  until: '2026-11-24'
-- key: pin-day-after-thanksgiving-activities-3
-  platform: pinterest
-  kind: article
-  book: day-after-thanksgiving-activities
-  board: Kids Coloring & Activity Books
-  link: https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html
-  title: Free Puzzles for the Long Thanksgiving Weekend
-  alt: A bear-shaped mug of hot chocolate with marshmallows on a knitted blanket among autumn leaves and pine cones
-  description: 'A full house, a long weekend and too many leftovers. Eight calm activities that work for every age,
-    a simple plan for the day, and free pages to print before everyone wakes up. #kidsactivities #screenfree #printables
-    #familyactivities'
-  design: pages
-  photo: hero
-  kicker: Print before they wake up
-  items: []
-  pages:
-  - page: thanksgiving-word-search
-    label: Ages 10+
-  - page: cozy-winter-hygge
-    label: Grown-ups
-  - page: cute-farm-days
-    label: Ages 4-8
-  start: '2026-12-08'
+  start: '2026-11-23'
   priority: 1
   until: '2026-11-24'
 - key: ig-day-after-thanksgiving-activities
@@ -2704,6 +2679,6 @@ items:
     Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
 
     #thanksgivingweekend #familyactivities #screenfree #blackfridayathome #printables'
-  start: '2026-11-24'
+  start: '2026-11-16'
   priority: 1
   until: '2026-11-24'

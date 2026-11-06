@@ -1164,18 +1164,18 @@
     "approved": "article rule 2026-11-06T08:01:56-05:00"
   },
   "pin-day-after-thanksgiving-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-21T11:27:00-05:00",
+    "first_planned": "2026-11-21T11:27:00-05:00",
+    "approved": "article rule 2026-11-06T08:04:02-05:00"
   },
   "pin-day-after-thanksgiving-activities-2": {
     "status": "draft"
   },
-  "pin-day-after-thanksgiving-activities-3": {
-    "status": "draft"
-  },
   "ig-day-after-thanksgiving-activities": {
     "status": "scheduled",
-    "when": "2026-11-24T12:05:00-05:00",
-    "first_planned": "2026-11-24T12:05:00-05:00",
-    "approved": "article rule 2026-11-06T08:02:16-05:00"
+    "when": "2026-11-23T12:05:00-05:00",
+    "first_planned": "2026-11-23T12:05:00-05:00",
+    "approved": "article rule 2026-11-06T08:04:02-05:00"
   }
 }
