@@ -842,10 +842,12 @@
     "approved": "article rule 2026-11-01T07:41:06-05:00"
   },
   "ig-fall-activities-for-seniors-indoors": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-06T12:33:00-05:00",
     "first_planned": "2026-11-06T12:33:00-05:00",
-    "approved": "article rule 2026-11-01T07:41:06-05:00"
+    "approved": "article rule 2026-11-01T07:41:06-05:00",
+    "url": "https://www.instagram.com/p/DfaJ8d-kbcC/",
+    "published_at": "2026-11-06T12:34-05:00"
   },
   "pin-visiting-parent-assisted-living-activities": {
     "status": "scheduled",
