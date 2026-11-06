@@ -88,6 +88,25 @@ sections:
             Leonardo da Vinci: the Mona Lisa, the story of the painter and the day the painting was stolen from the Louvre, facing a large print word search with 30 words, from Gioconda and sfumato to notebooks, helicopter and the Last Supper.
         more: There are 54 more painters, each with a famous painting, a fun fact and a large print puzzle, in Art Lover's Word Search.
 
+  - title: Word Search for Book Lovers
+    intro: Large print word searches with a great author's portrait, a famous quote, their story and a fun fact beside every puzzle. A library tour for adults and seniors.
+    books:
+      - slug: literature-lovers-word-search
+        title: Literature Lover's Word Search
+        subtitle: 55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each
+        tags: [Large print, 8.5 x 11, Adults & seniors]
+        amazon:
+        sample:
+          pdf: "books/literature-lovers-word-search/output"
+          pages: [32, 33, 130]
+          label: Free printable puzzle
+          page: free-printable-jane-austen-word-search
+          seo_title: "Free Printable Jane Austen Word Search for Adults (Large Print, Pride and Prejudice)"
+          pin_title: "Jane Austen Word Search"
+          about: >-
+            Jane Austen: her portrait, the famous first line of Pride and Prejudice and the story of the author whose name never appeared on her novels during her lifetime, facing a large print word search with 30 words, from Darcy and Pemberley to Chawton, Regency and Lyme Regis.
+        more: There are 54 more great authors, each with a portrait, a famous quote, a fun fact and a large print puzzle, in Literature Lover's Word Search.
+
   - title: Bold & Easy Coloring for Adults
     intro: Relaxing coloring books for adults and seniors, with thick lines, big simple shapes and a fun fact beside every picture.
     books:
