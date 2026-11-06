@@ -2529,3 +2529,181 @@ items:
   - media/social/tiktok/fall-lost-in-corn-maze-2.jpg
   - media/social/tiktok/fall-lost-in-corn-maze-3.jpg
   until: '2026-11-20'
+- key: pin-coloring-for-adults-feels-hard
+  platform: pinterest
+  kind: article
+  book: coloring-for-adults-feels-hard
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/coloring-for-adults-feels-hard.html
+  title: Adult Coloring Feels Hard? 7 Tips for Easier Pages
+  alt: A row of sharpened colored pencils in rainbow colors on a plain white surface
+  description: 'Tiny spaces, fine lines and too many choices can make adult coloring feel like work. Seven tips
+    for easier pages, the tools that help tired hands and eyes, and free bold and easy pages to print and try. #kidsactivities
+    #screenfree #printables #familyactivities'
+  design: top
+  photo: hero
+  kicker: Coloring for beginners
+  items: []
+  start: '2026-11-25'
+  priority: 3
+- key: pin-coloring-for-adults-feels-hard-2
+  platform: pinterest
+  kind: article
+  book: coloring-for-adults-feels-hard
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/coloring-for-adults-feels-hard.html
+  title: Coloring Tools That Help Tired or Shaky Hands
+  alt: A close-up of thick colored pencils with chunky wooden tips
+  description: 'Tiny spaces, fine lines and too many choices can make adult coloring feel like work. Seven tips
+    for easier pages, the tools that help tired hands and eyes, and free bold and easy pages to print and try. #kidsactivities
+    #screenfree #printables #familyactivities'
+  design: list
+  photo: tools
+  kicker: Shaky hands welcome
+  items:
+  - Thick barrel pencils or chunky crayons
+  - Foam pencil grips
+  - Soft-core pencils
+  - A clipboard or non-slip mat
+  - A rested arm
+  start: '2026-12-02'
+  priority: 3
+- key: pin-coloring-for-adults-feels-hard-3
+  platform: pinterest
+  kind: article
+  book: coloring-for-adults-feels-hard
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/coloring-for-adults-feels-hard.html
+  title: Free Bold and Easy Coloring Pages for Adults
+  alt: A row of sharpened colored pencils in rainbow colors on a plain white surface
+  description: 'Tiny spaces, fine lines and too many choices can make adult coloring feel like work. Seven tips
+    for easier pages, the tools that help tired hands and eyes, and free bold and easy pages to print and try. #kidsactivities
+    #screenfree #printables #familyactivities'
+  design: pages
+  photo: hero
+  kicker: Thick lines, big shapes
+  items: []
+  pages:
+  - page: cozy-christmas-coloring
+    label: Cozy scenes
+  - page: nostalgic-christmas-coloring
+    label: Memories
+  start: '2026-12-09'
+  priority: 3
+- key: ig-coloring-for-adults-feels-hard
+  platform: instagram
+  kind: article carousel
+  book: coloring-for-adults-feels-hard
+  link: https://pixelpunkstudio.shop/coloring-for-adults-feels-hard.html
+  title: Adult Coloring Feels Hard? 7 Tips for Bold and Easy Pages (Shaky Hands and Tired Eyes Welcome)
+  headline: Adult coloring feels hard?
+  kicker: New on the blog
+  items:
+  - Thick barrel pencils or chunky crayons
+  - Foam pencil grips
+  - Soft-core pencils
+  - A clipboard or non-slip mat
+  - A rested arm
+  list_title: Tools for tired hands
+  caption: 'Tiny spaces, fine lines, and somehow it''s supposed to be relaxing? 🖍️
+
+    If you gave up on a detailed coloring book, the trouble was probably the book. Our new article has seven tips
+    for easier pages, plus the tools that help with shaky hands and tired eyes.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #boldandeasy #adultcoloring #coloringforseniors #coloringtips #coloringpages'
+  start: '2026-11-25'
+  priority: 3
+- key: pin-day-after-thanksgiving-activities
+  platform: pinterest
+  kind: article
+  book: day-after-thanksgiving-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html
+  title: 'The Day After Thanksgiving: 8 Cozy Screen-Free Activities'
+  alt: A bear-shaped mug of hot chocolate with marshmallows on a knitted blanket among autumn leaves and pine cones
+  description: 'A full house, a long weekend and too many leftovers. Eight calm activities that work for every age,
+    a simple plan for the day, and free pages to print before everyone wakes up. #kidsactivities #screenfree #printables
+    #familyactivities'
+  design: top
+  photo: hero
+  kicker: Thanksgiving weekend
+  items: []
+  start: '2026-11-24'
+  priority: 1
+  until: '2026-11-24'
+- key: pin-day-after-thanksgiving-activities-2
+  platform: pinterest
+  kind: article
+  book: day-after-thanksgiving-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html
+  title: How to Plan a Calm Day After Thanksgiving
+  alt: A quiet forest path covered with fallen orange leaves between tall autumn trees
+  description: 'A full house, a long weekend and too many leftovers. Eight calm activities that work for every age,
+    a simple plan for the day, and free pages to print before everyone wakes up. #kidsactivities #screenfree #printables
+    #familyactivities'
+  design: list
+  photo: walk
+  kicker: Full house
+  items:
+  - Morning puzzles
+  - A walk before lunch
+  - A leftovers buffet
+  - One group activity
+  - Cocoa and the paper chain
+  start: '2026-12-01'
+  priority: 1
+  until: '2026-11-24'
+- key: pin-day-after-thanksgiving-activities-3
+  platform: pinterest
+  kind: article
+  book: day-after-thanksgiving-activities
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html
+  title: Free Puzzles for the Long Thanksgiving Weekend
+  alt: A bear-shaped mug of hot chocolate with marshmallows on a knitted blanket among autumn leaves and pine cones
+  description: 'A full house, a long weekend and too many leftovers. Eight calm activities that work for every age,
+    a simple plan for the day, and free pages to print before everyone wakes up. #kidsactivities #screenfree #printables
+    #familyactivities'
+  design: pages
+  photo: hero
+  kicker: Print before they wake up
+  items: []
+  pages:
+  - page: thanksgiving-word-search
+    label: Ages 10+
+  - page: cozy-winter-hygge
+    label: Grown-ups
+  - page: cute-farm-days
+    label: Ages 4-8
+  start: '2026-12-08'
+  priority: 1
+  until: '2026-11-24'
+- key: ig-day-after-thanksgiving-activities
+  platform: instagram
+  kind: article carousel
+  book: day-after-thanksgiving-activities
+  link: https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html
+  title: 'The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family'
+  headline: The day after Thanksgiving
+  kicker: New on the blog
+  items:
+  - Morning puzzles
+  - A walk before lunch
+  - A leftovers buffet
+  - One group activity
+  - Cocoa and the paper chain
+  list_title: A calm day, step by step
+  caption: 'The dishes are done, the house is still full, and everyone is asking what''s for lunch 🦃
+
+    Our new article has eight cozy, screen-free activities for every age, plus a simple plan for the day that keeps
+    things calm until the leftovers run out.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #thanksgivingweekend #familyactivities #screenfree #blackfridayathome #printables'
+  start: '2026-11-24'
+  priority: 1
+  until: '2026-11-24'

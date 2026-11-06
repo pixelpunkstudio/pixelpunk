@@ -3,6 +3,197 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: coloring-for-adults-feels-hard
+    title: "Adult Coloring Feels Hard? 7 Tips for Bold and Easy Pages (Shaky Hands and Tired Eyes Welcome)"
+    description: >-
+      Tiny spaces, fine lines and too many choices can make adult coloring feel like work. Seven tips for easier pages,
+      the tools that help tired hands and eyes, and free bold and easy pages to print and try.
+    date: 2026-11-25
+    topics: [Kids & coloring, Seniors & groups]
+    photos:
+      - slot: hero
+        query: colored pencils still life white
+        wide_focus: [0.5, 0.5]
+        alt: A row of sharpened colored pencils in rainbow colors on a plain white surface
+      - slot: tools
+        after: Tools that help tired or shaky hands
+        query: pencil crayons wooden table lamp
+        alt: A close-up of thick colored pencils with chunky wooden tips
+    related: [cozy-christmas-coloring, nostalgic-christmas-coloring]
+    printables: [free-printable-cardinal-christmas-coloring-page, free-printable-vintage-christmas-tv-coloring-page, free-printable-puppy-kitten-coloring-page]
+    social:
+      pins:
+        - {photo: hero, design: top, kicker: Coloring for beginners, headline: "Adult Coloring Feels Hard? 7 Tips for Easier Pages"}
+        - {photo: tools, design: list, kicker: Shaky hands welcome, headline: "Coloring Tools That Help Tired or Shaky Hands", from: "Tools that help tired or shaky hands"}
+        - design: pages
+          kicker: Thick lines, big shapes
+          headline: "Free Bold and Easy Coloring Pages for Adults"
+          pages: [{page: cozy-christmas-coloring, label: Cozy scenes}, {page: nostalgic-christmas-coloring, label: Memories}]
+      instagram:
+        headline: Adult coloring feels hard?
+        list_title: Tools for tired hands
+        from: "Tools that help tired or shaky hands"
+        caption: |-
+          Tiny spaces, fine lines, and somehow it's supposed to be relaxing? 🖍️
+          If you gave up on a detailed coloring book, the trouble was probably the book. Our new article has seven tips for easier pages, plus the tools that help with shaky hands and tired eyes.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #boldandeasy #adultcoloring #coloringforseniors #coloringtips #coloringpages
+    body: |
+      <p>You bought the beautiful adult coloring book everyone said was so relaxing. Twenty minutes later your eyes
+      are tired, your hand aches, you have gone over the lines three times, and you have barely filled one petal. So
+      you close it and decide coloring isn't for you. Very often the real problem is the page. Many adult books are
+      full of tiny spaces and fine lines, which is hard work for anyone, and harder with tired eyes or less steady
+      hands. A few simple changes can make coloring feel easy again.</p>
+
+      <h2>7 tips for easier coloring</h2>
+      <ol>
+        <li><strong>Choose bold and easy pages.</strong> Look for thick outlines and big shapes, often labeled "bold
+        and easy" or "large print". Thick lines are easier to see and more forgiving when you stray.</li>
+        <li><strong>Check the smallest space before you buy.</strong> Look inside the book online. If you can't
+        imagine filling the smallest shape with the tool you plan to use, keep looking.</li>
+        <li><strong>Start with a subject you love.</strong> A garden bird, a snowy street or an old family car holds
+        your interest far longer than a pattern you feel you ought to finish.</li>
+        <li><strong>Limit yourself to three or four colors.</strong> Too much choice is tiring. Pick a few that look
+        good together before you begin, and the page will hold together by itself.</li>
+        <li><strong>Color the big shapes first.</strong> Once the largest areas are filled, the page already looks
+        nearly done, and the small details can wait or be skipped.</li>
+        <li><strong>Stop before you get tired.</strong> Ten or fifteen minutes is plenty. Leave the page out with the
+        pencils beside it, so that picking it up again is easy.</li>
+        <li><strong>Forget about the lines.</strong> Nobody is grading this. Going over a line is how a page starts
+        to look like yours, and a thick outline hides most slips anyway.</li>
+      </ol>
+
+      <h2>Tools that help tired or shaky hands</h2>
+      <ul>
+        <li><strong>Thick barrel pencils or chunky crayons,</strong> which take a much lighter grip than thin
+        pencils.</li>
+        <li><strong>Foam pencil grips,</strong> sold cheaply in office supply stores, to make any pencil wider and
+        softer to hold.</li>
+        <li><strong>Soft-core pencils,</strong> which lay down color with very little pressure.</li>
+        <li><strong>A clipboard or non-slip mat,</strong> so the page stays put and you need only one hand.</li>
+        <li><strong>A rested arm.</strong> Sit at a table with your forearm on its surface. Color with your whole
+        arm for big areas rather than only your fingers.</li>
+      </ul>
+      <p>If your hands have started shaking only recently, or the shaking is getting worse, mention it to your
+      doctor. Coloring doesn't need steady hands, but your doctor will want to know.</p>
+
+      <h2>Make it easier on tired eyes</h2>
+      <ul>
+        <li><strong>Add light from the side.</strong> A daylight window or a lamp placed on the side of your
+        non-coloring hand keeps your own shadow off the page.</li>
+        <li><strong>Raise the page.</strong> A slanted board or a stack of books brings the page closer without
+        bending your neck.</li>
+        <li><strong>Wear your reading glasses,</strong> and if the book is still hard to see, print a page larger
+        on a sheet of letter paper.</li>
+        <li><strong>Choose strong colors for the first layer.</strong> Pale yellow on white is hard to see. Deeper
+        colors show you clearly what you have already filled.</li>
+      </ul>
+
+      <h2>Stuck on which colors to pick?</h2>
+      <p>Use a simple recipe: one main color for the biggest shape, one that sits close to it on the color wheel, and
+      one small accent. For a cardinal, that could be red for the bird, a deep orange for the shading and a dark green
+      for the branch. Test them on the margin first. If you still can't decide, color the real thing as you remember
+      it. Nobody will argue with your memory of a red barn.</p>
+
+      <h2>Free bold and easy pages to try</h2>
+      <p>Before you buy anything, print a page and see how it feels. Our free cardinals at the bird feeder and 1950s
+      Christmas TV pages are drawn in bold lines for grown-ups, and the puppy and kitten page is an even simpler
+      start. If you enjoy them, Cozy Christmas Coloring Book has 50 peaceful scenes with a fun fact beside every page,
+      and Nostalgic Christmas Coloring Book has 50 more with a memory question to talk about.</p>
+
+  - slug: day-after-thanksgiving-activities
+    title: "The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family"
+    description: >-
+      A full house, a long weekend and too many leftovers. Eight calm activities that work for every age, a simple plan
+      for the day, and free pages to print before everyone wakes up.
+    date: 2026-11-24
+    topics: [Seasonal ideas, Kids & coloring]
+    photos:
+      - slot: hero
+        query: autumn leaves mug blanket cozy
+        wide_focus: [0.5, 0.5]
+        alt: A bear-shaped mug of hot chocolate with marshmallows on a knitted blanket among autumn leaves and pine cones
+      - slot: walk
+        after: A simple plan for the day
+        query: autumn path fallen leaves forest
+        alt: A quiet forest path covered with fallen orange leaves between tall autumn trees
+    related: [cozy-winter-hygge, cute-farm-days]
+    printables: [free-printable-thanksgiving-word-search, free-printable-hygge-word-search, free-printable-puppy-kitten-coloring-page]
+    social:
+      pins:
+        - {photo: hero, design: top, kicker: Thanksgiving weekend, headline: "The Day After Thanksgiving: 8 Cozy Screen-Free Activities"}
+        - {photo: walk, design: list, kicker: Full house, headline: "How to Plan a Calm Day After Thanksgiving", from: "A simple plan for the day"}
+        - design: pages
+          kicker: Print before they wake up
+          headline: "Free Puzzles for the Long Thanksgiving Weekend"
+          pages: [{page: thanksgiving-word-search, label: Ages 10+}, {page: cozy-winter-hygge, label: Grown-ups}, {page: cute-farm-days, label: Ages 4-8}]
+      instagram:
+        headline: The day after Thanksgiving
+        list_title: A calm day, step by step
+        from: "A simple plan for the day"
+        caption: |-
+          The dishes are done, the house is still full, and everyone is asking what's for lunch 🦃
+          Our new article has eight cozy, screen-free activities for every age, plus a simple plan for the day that keeps things calm until the leftovers run out.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #thanksgivingweekend #familyactivities #screenfree #blackfridayathome #printables
+    body: |
+      <p>The big meal is over, the dishes are finally done, and you wake up on Friday with a full house and nothing
+      planned. The kids are restless by nine, the teenagers have vanished into their phones, and Grandpa is wondering
+      what happens next. You could brave the stores, or you could do almost nothing at all, with just enough on the
+      table to keep every age happy. The day after Thanksgiving is one of the few days when nobody has anywhere to be.
+      A little planning is all it takes to make the most of it.</p>
+
+      <h2>8 cozy, screen-free activities</h2>
+      <ol>
+        <li><strong>Build-your-own leftovers lunch.</strong> Put the turkey, rolls, stuffing and cranberry sauce on
+        the counter and let everyone make their own sandwich. Nobody has to cook, and the kids can help set it up.</li>
+        <li><strong>A word search race in pairs.</strong> Print one puzzle per team, pairing an older solver with a
+        younger one. The first pair to find ten words wins the last slice of pie.</li>
+        <li><strong>A slow family walk.</strong> Everyone needs to get out after yesterday. Give the kids a list of
+        things to find: a red leaf, an acorn, a feather, something round.</li>
+        <li><strong>Leaf rubbings.</strong> Back at the table, put the leaves from your walk under thin paper and rub
+        them gently with the side of a crayon. Even toddlers can do it, and it costs nothing.</li>
+        <li><strong>The old photo box.</strong> Bring out the albums and ask the oldest person in the room to tell
+        the story behind one picture. Let the youngest choose it.</li>
+        <li><strong>An all-day coloring table.</strong> Leave out pages for every age with a pot of crayons and
+        pencils. People wander over, color for a while and drift off, which suits a slow day.</li>
+        <li><strong>A cocoa bar.</strong> Make a big pot of hot chocolate and set out marshmallows, cinnamon and
+        crushed candy canes. It marks the afternoon as an occasion, with almost no work.</li>
+        <li><strong>A paper chain countdown to Christmas.</strong> Cut strips of paper, write a small activity on
+        each one, and link 24 of them together. Then hang the chain and take off one link each day from December 1.</li>
+      </ol>
+
+      <h2>A simple plan for the day</h2>
+      <ul>
+        <li><strong>Morning puzzles.</strong> Leave out the coloring pages and puzzles the night before, so early risers
+        have something quiet to do.</li>
+        <li><strong>A walk before lunch.</strong> Go out in the late morning, before anyone settles in for the day.</li>
+        <li><strong>A leftovers buffet.</strong> Put it all on the counter and let everyone help themselves.</li>
+        <li><strong>One group activity.</strong> In the afternoon, bring out the word search race or the photo box, then
+        let people rest.</li>
+        <li><strong>Cocoa and the paper chain.</strong> Finish the evening with both, and call it a day.</li>
+      </ul>
+
+      <h2>Keeping every age happy</h2>
+      <ul>
+        <li><strong>Little ones:</strong> a simple coloring page, a job at the lunch counter and a list for the
+        walk.</li>
+        <li><strong>Ages 6 to 10:</strong> the leaf rubbings and a word search with a fun fact to read aloud to the
+        room.</li>
+        <li><strong>Teens:</strong> give them a role rather than a worksheet. They can run the race, keep score or
+        photograph the old photos for the family.</li>
+        <li><strong>Grandparents:</strong> a comfortable chair by the table, a large print puzzle and an invitation
+        to tell the story. Being asked is the best part.</li>
+      </ul>
+      <p>Don't try to do all eight. Two or three is plenty, and a nap is a perfectly good activity.</p>
+
+      <h2>Free pages to print tonight</h2>
+      <p>Print them on Thanksgiving night, while the printer still works and everyone is busy with pie. Our free
+      Thanksgiving word search suits older kids and grown-ups, the Candlelit Evenings puzzle from our hygge book is a
+      calm large print page for adults, and the puppy and kitten coloring page is ready for little hands. For the rest
+      of the winter, Cozy Winter Hygge Word Search has 55 large print puzzles and Cute Farm Days has 50 farm animals to
+      color, each with a fun fact to read together.</p>
+
   - slug: car-ride-activities-for-kids-printable
     title: "Long Car Ride to Grandma's? Printable Travel Activities That Don't Make Kids Carsick"
     description: >-

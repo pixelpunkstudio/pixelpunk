@@ -1138,5 +1138,41 @@
     "when": "2026-11-12T11:40:00-05:00",
     "first_planned": "2026-11-12T11:40:00-05:00",
     "approved": "2026-11-05T21:59:49"
+  },
+  "pin-coloring-for-adults-feels-hard": {
+    "status": "scheduled",
+    "when": "2026-11-26T14:50:00-05:00",
+    "first_planned": "2026-11-26T14:50:00-05:00",
+    "approved": "article rule 2026-11-06T08:01:56-05:00"
+  },
+  "pin-coloring-for-adults-feels-hard-2": {
+    "status": "scheduled",
+    "when": "2026-12-03T14:30:00-05:00",
+    "first_planned": "2026-12-03T14:30:00-05:00",
+    "approved": "article rule 2026-11-06T08:01:56-05:00"
+  },
+  "pin-coloring-for-adults-feels-hard-3": {
+    "status": "scheduled",
+    "when": "2026-12-10T14:03:00-05:00",
+    "first_planned": "2026-12-10T14:03:00-05:00",
+    "approved": "article rule 2026-11-06T08:01:56-05:00"
+  },
+  "ig-coloring-for-adults-feels-hard": {
+    "status": "scheduled",
+    "when": "2026-11-25T12:25:00-05:00",
+    "first_planned": "2026-11-25T12:25:00-05:00",
+    "approved": "article rule 2026-11-06T08:01:56-05:00"
+  },
+  "pin-day-after-thanksgiving-activities": {
+    "status": "draft"
+  },
+  "pin-day-after-thanksgiving-activities-2": {
+    "status": "draft"
+  },
+  "pin-day-after-thanksgiving-activities-3": {
+    "status": "draft"
+  },
+  "ig-day-after-thanksgiving-activities": {
+    "status": "draft"
   }
 }

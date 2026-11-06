@@ -168,6 +168,31 @@
    "width": 1000
   }
  },
+ "coloring-for-adults-feels-hard": {
+  "hero": {
+   "file": "media/blog/coloring-for-adults-feels-hard-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/color-pencil-school-paint-colorful-5237470/",
+   "pixabay_id": 5237470,
+   "puzzle": false,
+   "query": "colored pencils still life white",
+   "user": "lucasgeorgewendt",
+   "user_page": "https://pixabay.com/users/lucasgeorgewendt-15638399/",
+   "wide": "media/blog/coloring-for-adults-feels-hard-hero-wide.jpg",
+   "width": 1000
+  },
+  "tools": {
+   "file": "media/blog/coloring-for-adults-feels-hard-tools.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/art-creative-school-creativity-1284384/",
+   "pixabay_id": 1284384,
+   "puzzle": false,
+   "query": "pencil crayons wooden table lamp",
+   "user": "Pexels",
+   "user_page": "https://pixabay.com/users/Pexels-2286921/",
+   "width": 1000
+  }
+ },
  "coloring-with-grandkids": {
   "hero": {
    "file": "media/blog/coloring-with-grandkids-hero.jpg",
@@ -190,6 +215,31 @@
    "query": "colored pencils cup desk",
    "user": "PublicDomainPictures",
    "user_page": "https://pixabay.com/users/PublicDomainPictures-14/",
+   "width": 1000
+  }
+ },
+ "day-after-thanksgiving-activities": {
+  "hero": {
+   "file": "media/blog/day-after-thanksgiving-activities-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/marshmallows-drink-coffee-leaves-8231216/",
+   "pixabay_id": 8231216,
+   "puzzle": false,
+   "query": "autumn leaves mug blanket cozy",
+   "user": "Ylanite",
+   "user_page": "https://pixabay.com/users/Ylanite-2218222/",
+   "wide": "media/blog/day-after-thanksgiving-activities-hero-wide.jpg",
+   "width": 1000
+  },
+  "walk": {
+   "file": "media/blog/day-after-thanksgiving-activities-walk.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/forest-path-fall-leaves-trees-7591324/",
+   "pixabay_id": 7591324,
+   "puzzle": false,
+   "query": "autumn path fallen leaves forest",
+   "user": "experimentMR",
+   "user_page": "https://pixabay.com/users/experimentMR-22646995/",
    "width": 1000
   }
  },
