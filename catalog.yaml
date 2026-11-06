@@ -68,8 +68,8 @@ sections:
             Christmas Cookie Swap: an extra large print Christmas word search in 30-point letters with 18 words, from spritz, pizzelle and biscotti to sprinkles, frosting and the cookie exchange.
         more: There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search for Seniors.
 
-  - title: Word Search for Art Lovers
-    intro: Large print word searches with a famous painting, the painter's story and a fun fact beside every puzzle. A gallery tour for adults and seniors.
+  - title: Culture Lovers Word Search
+    intro: Large print word searches with a great artist or author, their story and a fun fact beside every puzzle. A tour of the world's culture for adults and seniors.
     books:
       - slug: art-lovers-word-search
         title: Art Lover's Word Search
@@ -87,10 +87,6 @@ sections:
           about: >-
             Leonardo da Vinci: the Mona Lisa, the story of the painter and the day the painting was stolen from the Louvre, facing a large print word search with 30 words, from Gioconda and sfumato to notebooks, helicopter and the Last Supper.
         more: There are 54 more painters, each with a famous painting, a fun fact and a large print puzzle, in Art Lover's Word Search.
-
-  - title: Word Search for Book Lovers
-    intro: Large print word searches with a great author's portrait, a famous quote, their story and a fun fact beside every puzzle. A library tour for adults and seniors.
-    books:
       - slug: literature-lovers-word-search
         title: Literature Lover's Word Search
         subtitle: 55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each
