@@ -411,7 +411,7 @@
   },
   "pin-retirement-free": {
     "status": "scheduled",
-    "when": "2026-11-24T08:48:00-05:00",
+    "when": "2026-11-27T08:48:00-05:00",
     "first_planned": "2026-11-07T14:48:00-05:00",
     "approved": "2026-10-21T18:04:40.259Z"
   },
@@ -854,7 +854,7 @@
   },
   "pin-visiting-parent-assisted-living-activities-3": {
     "status": "scheduled",
-    "when": "2026-11-17T11:06:00-05:00",
+    "when": "2026-11-21T11:27:00-05:00",
     "first_planned": "2026-11-23T14:06:00-05:00",
     "approved": "article rule 2026-11-01T07:40:53-05:00"
   },
@@ -1165,12 +1165,15 @@
   },
   "pin-day-after-thanksgiving-activities": {
     "status": "scheduled",
-    "when": "2026-11-21T11:27:00-05:00",
-    "first_planned": "2026-11-21T11:27:00-05:00",
+    "when": "2026-11-17T11:06:00-05:00",
+    "first_planned": "2026-11-17T11:06:00-05:00",
     "approved": "article rule 2026-11-06T08:04:02-05:00"
   },
   "pin-day-after-thanksgiving-activities-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-24T08:48:00-05:00",
+    "first_planned": "2026-11-24T08:48:00-05:00",
+    "approved": "article rule 2026-11-06T14:05:39+01:00"
   },
   "ig-day-after-thanksgiving-activities": {
     "status": "scheduled",
