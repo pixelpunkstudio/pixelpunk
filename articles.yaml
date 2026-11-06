@@ -530,9 +530,9 @@ articles:
     topics: [Seasonal ideas, Kids & coloring]
     photos:
       - slot: hero
-        query: autumn leaves mug blanket cozy
-        wide_focus: [0.5, 0.5]
-        alt: A bear-shaped mug of hot chocolate with marshmallows on a knitted blanket among autumn leaves and pine cones
+        query: autumn porch pumpkins
+        wide_focus: [0.5, 0.68]
+        alt: Stone front steps decorated for fall with a big red pumpkin, small squash, dried corn, ivy and pots of golden chrysanthemums
       - slot: walk
         after: A simple plan for the day
         query: autumn path fallen leaves forest
@@ -985,9 +985,9 @@ articles:
     topics: [Seasonal ideas, Activity ideas, Seniors & groups]
     photos:
       - slot: hero
-        query: autumn leaves window cup tea
-        wide_focus: [0.5, 0.5]
-        alt: A mug of tea with an orange slice and a cinnamon stick among autumn leaves, pinecones and a small candle
+        query: bird feeder autumn
+        wide_focus: [0.5, 0.72]
+        alt: A wooden bird feeder hanging from a branch among bright red autumn leaves
       - slot: apples
         after: 9 cozy fall activities to do at home
         query: apples basket autumn
@@ -1076,9 +1076,9 @@ articles:
     topics: [Activity ideas, Seniors & groups]
     photos:
       - slot: hero
-        query: two cups of tea table window
+        query: garden bench flowers
         wide_focus: [0.5, 0.5]
-        alt: A cup of tea on a saucer by a window in warm evening light
+        alt: A wooden garden bench with a basket of pink flowers, seen through an arch of green ivy
       - slot: cards
         after: "Before you go: pack a small visit bag"
         query: playing cards table
@@ -1171,9 +1171,9 @@ articles:
     topics: [Puzzle tips, Activity ideas]
     photos:
       - slot: hero
-        query: graph paper notebook pencil top view
-        wide_focus: [0.5, 0.5]
-        alt: An open notebook, a pen, reading glasses and a black coffee cup on a white marble table
+        query: hand writing pencil paper
+        wide_focus: [0.5, 0.55]
+        alt: A pad of grid paper curling open with a sharpened red pencil, against a blue background
       - slot: markers
         after: 8 steps to make a word search
         query: colored markers paper desk
@@ -1645,8 +1645,9 @@ articles:
     image: media/printables/christmas-word-search.jpg
     photos:
       - slot: hero
-        query: christmas hot chocolate cozy lights
-        alt: A Santa mug of hot chocolate and iced Christmas cookies on a red knit blanket, with a fire glowing behind
+        query: christmas tree living room
+        wide_focus: [0.5, 0.5]
+        alt: A cream fireplace with a wreath and garland beside a Christmas tree with red and white ornaments and wrapped gifts
         wide_focus: [0.5, 0.57]
       - slot: puzzle
         after: 8 Christmas word search games
@@ -1872,8 +1873,9 @@ articles:
     image: media/printables/cozy-winter-hygge.jpg
     photos:
       - slot: hero
-        query: candles cozy blanket winter
-        alt: A warm spiced drink and a glowing candle lantern on a wooden table with a soft fur throw
+        query: candles window winter evening
+        wide_focus: [0.5, 0.55]
+        alt: A vase of dried flowers on a windowsill between warm curtains, with a snowy garden outside
         wide_focus: [0.5, 0.68]
       - slot: home
         after: Make your home feel warm
