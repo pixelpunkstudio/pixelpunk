@@ -29,7 +29,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/fall-activities-for-seniors-indoors-hero.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=b02d7689">
+<link rel="stylesheet" href="style.css?v=4fb37728">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Blog", "name": "Pixel Punk Studio blog", "description": "Puzzle tips, cozy seasonal ideas and activity ideas for adults, seniors and kids, with free printable word searches.", "url": "https://pixelpunkstudio.shop/blog.html", "blogPost": [{"@type": "BlogPosting", "headline": "Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home", "url": "https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html", "datePublished": "2026-11-06"}, {"@type": "BlogPosting", "headline": "Visiting a Parent in Assisted Living? 10 Easy Things to Do Together in an Hour", "url": "https://pixelpunkstudio.shop/visiting-parent-assisted-living-activities.html", "datePublished": "2026-11-03"}, {"@type": "BlogPosting", "headline": "How to Make Your Own Word Search Puzzle by Hand (in About 15 Minutes)", "url": "https://pixelpunkstudio.shop/make-your-own-word-search.html", "datePublished": "2026-10-31"}, {"@type": "BlogPosting", "headline": "Word Search Too Easy or Too Hard? How to Pick the Right Level for Every Solver", "url": "https://pixelpunkstudio.shop/word-search-difficulty-levels.html", "datePublished": "2026-10-28"}, {"@type": "BlogPosting", "headline": "Thanksgiving Kids' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner", "url": "https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html", "datePublished": "2026-10-28"}, {"@type": "BlogPosting", "headline": "Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care", "url": "https://pixelpunkstudio.shop/christmas-activities-for-seniors.html", "datePublished": "2026-10-25"}, {"@type": "BlogPosting", "headline": "Kids Bored of Coloring? 8 Bug Coloring Activities That Keep Them Busy", "url": "https://pixelpunkstudio.shop/bug-coloring-activities-for-kids.html", "datePublished": "2026-10-25"}, {"@type": "BlogPosting", "headline": "Christmas Word Search Games: 8 Easy Ideas for Family Gatherings", "url": "https://pixelpunkstudio.shop/christmas-word-search-games.html", "datePublished": "2026-10-21"}, {"@type": "BlogPosting", "headline": "Word Searches Hard to Read? How to Choose Large Print Puzzles and Print Them Bigger", "url": "https://pixelpunkstudio.shop/word-search-hard-to-read.html", "datePublished": "2026-10-21"}, {"@type": "BlogPosting", "headline": "Word Search Activities for Seniors: 10 Ideas for Home, Family and Senior Centers", "url": "https://pixelpunkstudio.shop/word-search-activities-for-seniors.html", "datePublished": "2026-10-12"}, {"@type": "BlogPosting", "headline": "15 Cozy Hygge Winter Activities to Enjoy at Home", "url": "https://pixelpunkstudio.shop/hygge-winter-activities.html", "datePublished": "2026-10-12"}, {"@type": "BlogPosting", "headline": "How to Solve Word Search Puzzles Faster: 9 Simple Tips", "url": "https://pixelpunkstudio.shop/how-to-solve-word-search-puzzles.html", "datePublished": "2026-10-12"}]}</script>
 </head><body><main class="wide">
 <header class="top">
@@ -183,19 +183,38 @@
     </article>
 </div>
 <p class="small" id="no-posts" hidden>No articles on this topic yet.</p>
+<nav class="blog-pages" id="blog-pages" aria-label="Blog pages" hidden></nav>
 <script>
-// Topic filter: blog.html#<topic> shows only that topic (topic links on articles land here filtered).
+// Topic filter + pages. blog.html#<topic> shows only that topic (topic links on articles land here filtered);
+// blog.html?page=2 shows the second 10. All cards stay in the HTML: crawlers and readers without scripts get them all.
+const PER_PAGE = 10;
+function pageLink(n, label, cls, current) {
+  const hash = location.hash;
+  const href = "blog.html" + (n > 1 ? "?page=" + n : "") + hash;
+  return `<a class="${cls}" href="${href}"${current ? ' aria-current="page"' : ""}>${label}</a>`;
+}
 function filterPosts() {
   const t = decodeURIComponent(location.hash.slice(1)) || "all";
-  let shown = 0;
-  document.querySelectorAll(".post").forEach(p => {
-    const on = t === "all" || p.dataset.topics.split(" ").includes(t);
-    p.hidden = !on; shown += on;
-  });
+  const posts = [...document.querySelectorAll(".post")];
+  const match = posts.filter(p => t === "all" || p.dataset.topics.split(" ").includes(t));
+  const pages = Math.max(1, Math.ceil(match.length / PER_PAGE));
+  const asked = parseInt(new URLSearchParams(location.search).get("page"), 10) || 1;
+  const page = Math.min(Math.max(asked, 1), pages);
+  const from = (page - 1) * PER_PAGE;
+  posts.forEach(p => { p.hidden = true; });
+  match.slice(from, from + PER_PAGE).forEach(p => { p.hidden = false; });
   document.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.topic === t));
-  document.getElementById("no-posts").hidden = shown > 0;
+  document.getElementById("no-posts").hidden = match.length > 0;
+  const nav = document.getElementById("blog-pages");
+  nav.hidden = pages < 2;
+  let links = page > 1 ? pageLink(page - 1, "← Newer", "step") : "";
+  for (let n = 1; n <= pages; n++) links += pageLink(n, n, "num", n === page);
+  if (page < pages) links += pageLink(page + 1, "Older →", "step");
+  nav.innerHTML = links;
 }
-addEventListener("hashchange", filterPosts); filterPosts();
+// a new topic starts again at its first page
+addEventListener("hashchange", () => { history.replaceState(null, "", "blog.html" + location.hash); filterPosts(); });
+filterPosts();
 </script>
 <section id="newsletter" class="band">
   <h2>Get a free puzzle every month</h2>
