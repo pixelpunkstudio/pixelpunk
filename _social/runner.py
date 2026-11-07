@@ -42,7 +42,7 @@ RULES = {
     # inbox drafts: they land in the Swiss afternoon (11:00 NY = 17:00 CH) so the user can post them that evening
     "tiktok": {"times": ["11", "10", "12"], "per_day": 1, "gap_hours": 4, "same_book_days": 2, "every_days": 1},
 }
-GRACE = dt.timedelta(minutes=45)  # a slot found this late is still published as planned; later = missed
+GRACE = dt.timedelta(hours=8)  # a slot found this late is still published, late; later = missed (GitHub runs can be ~7 h apart)
 LOCAL_NAMES = {"PINTEREST_APP_ID": "PINTEREST_PPS_APP_ID", "PINTEREST_APP_SECRET": "PINTEREST_PPS_APP_SECRET",
                "PINTEREST_SANDBOX_TOKEN": "PINTEREST_PPS_SANDBOX_TOKEN", "META_PAGE_TOKEN": "META_PAGE_TOKEN_PIXELPUNK",
                "IG_USER_ID": "IG_USER_ID_PIXELPUNK", "TIKTOK_CLIENT_KEY": "TIKTOK_CLIENT_KEY_PIXELPUNK",
