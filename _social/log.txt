@@ -122,3 +122,6 @@
 2026-11-06 12:35 NY  published ig-fall-activities-for-seniors-indoors -> https://www.instagram.com/p/DfaJ8d-kbcC/
 2026-11-06 17:22 NY  missed pin-jumbo-christmas-free (2026-11-06T14:38) -> moved to 2026-11-07 14:32
 2026-11-07 10:37 NY  missed pin-visiting-parent-assisted-living-activities (2026-11-07T08:09) -> moved to 2026-11-08 08:38
+2026-11-07 12:40 NY  missed pin-make-your-own-word-search (2026-11-07T11:28) -> moved to 2026-11-08 11:02
+2026-11-07 12:40 NY  published ig-word-search-difficulty-levels -> https://www.instagram.com/p/DfcvWudjctU/
+2026-11-07 12:40 NY  published tt-jumbo-grandpa-wont-admit -> tiktok inbox draft p_inbox_url~v2.7705485749038106646 (SEND_TO_USER_INBOX)
