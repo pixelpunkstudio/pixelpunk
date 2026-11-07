@@ -3,6 +3,110 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: puzzle-advent-calendar
+    title: "Make a Puzzle Advent Calendar: One Printable a Day Until Christmas"
+    description: >-
+      Store-bought Advent calendars are pricey and full of sugar. Build a paper one in an evening instead: what you need,
+      six simple steps, a 24-day plan of free printable puzzles and coloring pages, and how to adapt it for every age.
+    date: 2026-11-27
+    topics: [Seasonal ideas, Kids & coloring]
+    photos:
+      - slot: hero
+        query: advent calendar paper bags numbers
+        wide_focus: [0.5, 0.5]
+        alt: A handmade Advent calendar of small white paper bags with children's drawings, hanging from red ribbons
+      - slot: plan
+        after: A 24-day plan with free pages
+        query: christmas village snow evening lights
+        alt: A snow-covered cabin among fir trees in a mountain valley, with a small lit Christmas tree beside it
+    related: [cozy-christmas, jumbo-christmas, cozy-christmas-coloring, cute-farm-days]
+    printables: [free-printable-christmas-word-search, free-printable-nativity-word-search, free-printable-jumbo-christmas-word-search]
+    social:
+      pins:
+        - {photo: hero, design: top, kicker: Christmas countdown, headline: "Make a Puzzle Advent Calendar for Almost Nothing"}
+        - {photo: plan, design: list, kicker: One evening is enough, headline: "How to Build a Printable Advent Calendar in 6 Steps", from: "How to build it in one evening"}
+        - design: pages
+          kicker: One page a day until Christmas
+          headline: "Free Printable Pages for Your Advent Calendar"
+          pages: [{page: cozy-christmas, label: Word search}, {page: jumbo-christmas, label: Jumbo print}, {page: cozy-christmas-coloring, label: Coloring}]
+      instagram:
+        headline: An Advent calendar without the sugar
+        list_title: Build it in 6 steps
+        from: "How to build it in one evening"
+        caption: |-
+          Advent calendars keep getting pricier, and most of them are just more sugar 🎄
+          This year, make one from paper: a small page to open every day until Christmas. Our new article has six simple steps and a 24-day plan of free puzzles and coloring pages for every age.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #adventcalendar #christmascountdown #printables #christmasactivities #wordsearch
+    body: |
+      <p>The Advent calendars in the stores keep getting more expensive, and most of them hold 24 more pieces of sugar
+      in a month that already has plenty. Yet the part everyone loves costs nothing: opening one small surprise every
+      day and counting down together. A paper calendar keeps that part. With a stack of envelopes and a few printed
+      pages, you can build one in an evening, and it suits anyone from a five-year-old to a grandparent.</p>
+
+      <h2>What you need</h2>
+      <ul>
+        <li><strong>24 small envelopes or paper bags,</strong> or just 24 sheets of paper folded and tied with string.</li>
+        <li><strong>Printed pages.</strong> Plain letter paper is fine, and the plan below uses free pages only.</li>
+        <li><strong>Numbers from 1 to 24,</strong> written by hand or added with stickers by the kids.</li>
+        <li><strong>A place to hang or stack them:</strong> a string with clothespins, a basket or a shelf.</li>
+        <li><strong>Pencils and crayons</strong> kept beside the calendar, so nobody has to go looking.</li>
+      </ul>
+
+      <h2>How to build it in one evening</h2>
+      <ol>
+        <li><strong>Choose your start date.</strong> Most calendars run from December 1 to 24, so that is the simplest
+        choice. If you start late, make fewer envelopes and count down from there.</li>
+        <li><strong>Print the pages.</strong> Print a set of each page per person who will take part, and print a
+        little ahead of time in case the printer runs out of ink.</li>
+        <li><strong>Fold each page in thirds.</strong> A letter sheet folded this way fits a standard business envelope;
+        fold it once more for smaller ones. Take out any solution pages and keep them in one folder.</li>
+        <li><strong>Mix in small treats.</strong> Add a slip of paper to some envelopes: "pick tonight's movie" or "bake
+        cookies this weekend". A treat you can do together costs little and adds variety.</li>
+        <li><strong>Number the envelopes.</strong> Put quick pages on school or work days, and longer ones on weekends.</li>
+        <li><strong>Hang them where you'll see them.</strong> By the breakfast table or the tree is ideal, because a
+        calendar you walk past every day is one you won't forget.</li>
+      </ol>
+
+      <h2>A 24-day plan with free pages</h2>
+      <p>Our free pages can fill the calendar, with homemade fun on the other days. Every puzzle and coloring page below
+      is free to print from our website, and some are worth printing twice.</p>
+      <ul>
+        <li><strong>December 1 to 6, easy start:</strong> Christmas Cookie Swap jumbo word search, a puppy and kitten
+        coloring page, a family joke slip, Candlelit Evenings word search, a "make a paper chain" slip, and a very easy
+        sudoku for the weekend.</li>
+        <li><strong>December 7 to 12, winter week:</strong> Stargazing word search (then go outside and look up),
+        cardinals coloring page, a "write a card to someone" slip, the bug word search for little ones, a "hot chocolate
+        tonight" slip, and a Highland cow word search with its fun fact to read aloud.</li>
+        <li><strong>December 13 to 18, make your own:</strong> a blank page and <a href="make-your-own-word-search.html">our guide to making a word
+        search by hand</a> so that each person can make one for another, the ladybug coloring page, a "sing one carol" slip, a
+        second very easy sudoku, a "decorate one window" slip, and the Leonardo da Vinci word search for curious grown-ups.</li>
+        <li><strong>December 19 to 24, the last stretch:</strong> the 1950s Christmas TV coloring page with its memory
+        question, a "family movie" slip, a homemade word search from last week, a "bake something" slip, the Nativity
+        word search, and the Christmas Eve word search to finish together on the 24th.</li>
+      </ul>
+
+      <h2>Adapt it for every age</h2>
+      <ul>
+        <li><strong>Ages 4 to 7:</strong> mostly coloring pages and the 8-word bug word search, with a grown-up reading the
+        words aloud.</li>
+        <li><strong>Ages 8 to 12:</strong> the farm word search and sudoku, plus a race against a grown-up on weekends.</li>
+        <li><strong>Teens:</strong> let them swap envelopes, or set a family record for the fastest word search.</li>
+        <li><strong>Seniors:</strong> choose large print or the 30-point jumbo page, and mail a calendar to a grandparent
+        with a note to call you on the day you've both opened the same page.</li>
+      </ul>
+
+      <h2>When life gets in the way</h2>
+      <p>You will miss a day or two, and that's fine. Let the envelopes wait and open two together on the weekend. A calendar
+      is meant to be a small pleasure and shouldn't feel like one more December chore. If a page doesn't appeal to
+      anyone, swap it for a treat slip and move on.</p>
+
+      <h2>Free pages to print tonight</h2>
+      <p>Start with the Christmas Eve, Nativity and Cookie Swap word searches, which all come free. If you'd rather have a whole
+      book of them, or need a Christmas gift for a puzzler, Cozy Christmas Word Search has 55 large print
+      puzzles, Jumbo Christmas Word Search has 100 puzzles in 30-point letters, and Cozy Christmas Coloring Book has 50
+      peaceful scenes to color.</p>
+
   - slug: coloring-for-adults-feels-hard
     title: "Adult Coloring Feels Hard? 7 Tips for Bold and Easy Pages (Shaky Hands and Tired Eyes Welcome)"
     description: >-

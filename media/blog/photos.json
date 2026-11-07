@@ -437,6 +437,31 @@
    "width": 1000
   }
  },
+ "puzzle-advent-calendar": {
+  "hero": {
+   "file": "media/blog/puzzle-advent-calendar-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/advent-calendar-tinkering-homemade-3858327/",
+   "pixabay_id": 3858327,
+   "puzzle": false,
+   "query": "advent calendar paper bags numbers",
+   "user": "congerdesign",
+   "user_page": "https://pixabay.com/users/congerdesign-509903/",
+   "wide": "media/blog/puzzle-advent-calendar-hero-wide.jpg",
+   "width": 1000
+  },
+  "plan": {
+   "file": "media/blog/puzzle-advent-calendar-plan.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/winter-christmas-snow-nature-hut-6890764/",
+   "pixabay_id": 6890764,
+   "puzzle": false,
+   "query": "christmas village snow evening lights",
+   "user": "Pezibear",
+   "user_page": "https://pixabay.com/users/Pezibear-526143/",
+   "width": 1000
+  }
+ },
  "stocking-stuffers-for-puzzle-lovers": {
   "hero": {
    "file": "media/blog/stocking-stuffers-for-puzzle-lovers-hero.jpg",

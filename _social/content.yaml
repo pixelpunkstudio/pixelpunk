@@ -2683,3 +2683,93 @@ items:
   start: '2026-11-16'
   priority: 1
   until: '2026-11-24'
+- key: pin-puzzle-advent-calendar
+  platform: pinterest
+  kind: article
+  book: puzzle-advent-calendar
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/puzzle-advent-calendar.html
+  title: Make a Puzzle Advent Calendar for Almost Nothing
+  alt: A handmade Advent calendar of small white paper bags with children's drawings, hanging from red ribbons
+  description: 'Store-bought Advent calendars are pricey and full of sugar. Build a paper one in an evening instead:
+    what you need, six simple steps, a 24-day plan of free printable puzzles and coloring pages, and how to adapt
+    it for every age. #kidsactivities #screenfree #printables #familyactivities'
+  design: top
+  photo: hero
+  kicker: Christmas countdown
+  items: []
+  start: '2026-11-27'
+  priority: 3
+- key: pin-puzzle-advent-calendar-2
+  platform: pinterest
+  kind: article
+  book: puzzle-advent-calendar
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/puzzle-advent-calendar.html
+  title: How to Build a Printable Advent Calendar in 6 Steps
+  alt: A snow-covered cabin among fir trees in a mountain valley, with a small lit Christmas tree beside it
+  description: 'Store-bought Advent calendars are pricey and full of sugar. Build a paper one in an evening instead:
+    what you need, six simple steps, a 24-day plan of free printable puzzles and coloring pages, and how to adapt
+    it for every age. #kidsactivities #screenfree #printables #familyactivities'
+  design: list
+  photo: plan
+  kicker: One evening is enough
+  items:
+  - Choose your start date
+  - Print the pages
+  - Fold each page in thirds
+  - Mix in small treats
+  - Number the envelopes
+  - Hang them where you'll see them
+  start: '2026-12-04'
+  priority: 3
+- key: pin-puzzle-advent-calendar-3
+  platform: pinterest
+  kind: article
+  book: puzzle-advent-calendar
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/puzzle-advent-calendar.html
+  title: Free Printable Pages for Your Advent Calendar
+  alt: A handmade Advent calendar of small white paper bags with children's drawings, hanging from red ribbons
+  description: 'Store-bought Advent calendars are pricey and full of sugar. Build a paper one in an evening instead:
+    what you need, six simple steps, a 24-day plan of free printable puzzles and coloring pages, and how to adapt
+    it for every age. #kidsactivities #screenfree #printables #familyactivities'
+  design: pages
+  photo: hero
+  kicker: One page a day until Christmas
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Word search
+  - page: jumbo-christmas
+    label: Jumbo print
+  - page: cozy-christmas-coloring
+    label: Coloring
+  start: '2026-12-11'
+  priority: 3
+- key: ig-puzzle-advent-calendar
+  platform: instagram
+  kind: article carousel
+  book: puzzle-advent-calendar
+  link: https://pixelpunkstudio.shop/puzzle-advent-calendar.html
+  title: 'Make a Puzzle Advent Calendar: One Printable a Day Until Christmas'
+  headline: An Advent calendar without the sugar
+  kicker: New on the blog
+  items:
+  - Choose your start date
+  - Print the pages
+  - Fold each page in thirds
+  - Mix in small treats
+  - Number the envelopes
+  - Hang them where you'll see them
+  list_title: Build it in 6 steps
+  caption: 'Advent calendars keep getting pricier, and most of them are just more sugar 🎄
+
+    This year, make one from paper: a small page to open every day until Christmas. Our new article has six simple
+    steps and a 24-day plan of free puzzles and coloring pages for every age.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #adventcalendar #christmascountdown #printables #christmasactivities #wordsearch'
+  start: '2026-11-27'
+  priority: 3
