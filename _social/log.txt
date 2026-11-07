@@ -121,3 +121,4 @@
 2026-11-06 11:38 NY  published tt-nostalgic-mom-kitchen-phone -> tiktok inbox draft p_inbox_url~v2.7705098634467559446 (SEND_TO_USER_INBOX)
 2026-11-06 12:35 NY  published ig-fall-activities-for-seniors-indoors -> https://www.instagram.com/p/DfaJ8d-kbcC/
 2026-11-06 17:22 NY  missed pin-jumbo-christmas-free (2026-11-06T14:38) -> moved to 2026-11-07 14:32
+2026-11-07 10:37 NY  missed pin-visiting-parent-assisted-living-activities (2026-11-07T08:09) -> moved to 2026-11-08 08:38
