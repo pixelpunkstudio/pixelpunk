@@ -681,7 +681,7 @@
     "approved": "2026-10-28T15:16:10.153Z"
   },
   "pin-jumbo-christmas-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-07T14:29:00-05:00",
     "first_planned": "2026-11-07T08:29:00-05:00",
     "approved": "2026-10-28T15:16:10.153Z",
@@ -697,7 +697,14 @@
         "moved_to": "2026-11-07T14:32:00-05:00"
       }
     ],
-    "moves": 2
+    "moves": 2,
+    "url": "https://www.pinterest.com/pin/1127166613025153511/",
+    "published_at": "2026-11-07T14:41-05:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-jumbo-christmas": {
     "status": "published",
