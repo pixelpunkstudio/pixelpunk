@@ -1247,5 +1247,14 @@
     "when": "2026-11-27T12:50:00-05:00",
     "first_planned": "2026-11-27T12:50:00-05:00",
     "approved": "article rule 2026-11-07T12:47:26-05:00"
+  },
+  "pin-thanksgiving-break-classroom-activities": {
+    "status": "draft"
+  },
+  "ig-thanksgiving-break-classroom-activities": {
+    "status": "scheduled",
+    "when": "2026-11-24T12:52:00-05:00",
+    "first_planned": "2026-11-24T12:52:00-05:00",
+    "approved": "article rule 2026-11-08T06:25:50-05:00"
   }
 }

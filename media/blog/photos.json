@@ -512,6 +512,31 @@
    "width": 1000
   }
  },
+ "thanksgiving-break-classroom-activities": {
+  "hero": {
+   "file": "media/blog/thanksgiving-break-classroom-activities-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/school-desk-schooldesk-backtoschool-4578848/",
+   "pixabay_id": 4578848,
+   "puzzle": false,
+   "query": "school classroom desk autumn",
+   "user": "Mishelved",
+   "user_page": "https://pixabay.com/users/Mishelved-5482594/",
+   "wide": "media/blog/thanksgiving-break-classroom-activities-hero-wide.jpg",
+   "width": 1000
+  },
+  "leaves": {
+   "file": "media/blog/thanksgiving-break-classroom-activities-leaves.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/autumn-leaves-foliage-fall-111315/",
+   "pixabay_id": 111315,
+   "puzzle": false,
+   "query": "colorful maple leaves collection",
+   "user": "geralt",
+   "user_page": "https://pixabay.com/users/geralt-9301/",
+   "width": 1000
+  }
+ },
  "thanksgiving-kids-table-activities": {
   "crayons": {
    "file": "media/blog/thanksgiving-kids-table-activities-crayons.jpg",
