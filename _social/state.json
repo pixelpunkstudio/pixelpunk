@@ -540,10 +540,17 @@
     ]
   },
   "pin-cozy-christmas-coloring-inside": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-08T14:35:00-05:00",
     "first_planned": "2026-11-13T14:35:00-05:00",
-    "approved": "2026-10-28T15:57:18.163Z"
+    "approved": "2026-10-28T15:57:18.163Z",
+    "url": "https://www.pinterest.com/pin/1127166613025249404/",
+    "published_at": "2026-11-08T15:12-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-cozy-christmas-coloring-free": {
     "status": "published",
@@ -1094,10 +1101,12 @@
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
   "ig-art-lovers-word-search": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-08T12:54:00-05:00",
     "first_planned": "2026-11-08T12:54:00-05:00",
-    "approved": "2026-11-04 user OK in chat: schedule all 8"
+    "approved": "2026-11-04 user OK in chat: schedule all 8",
+    "url": "https://www.instagram.com/p/DfflolhmDx1/",
+    "published_at": "2026-11-08T15:12-05:00"
   },
   "tt-jumbo-grandpa-wont-admit": {
     "status": "published",
@@ -1146,10 +1155,12 @@
     "approved": "2026-11-05T21:59:49"
   },
   "tt-bugs-grandkid-knows-everything": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-08T11:41:00-05:00",
     "first_planned": "2026-11-08T11:41:00-05:00",
-    "approved": "2026-11-05T21:59:49"
+    "approved": "2026-11-05T21:59:49",
+    "url": "tiktok inbox draft p_inbox_url~v2.7705896206577289238 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-08T15:12-05:00"
   },
   "tt-winter-snow-day-cancelled": {
     "status": "scheduled",
