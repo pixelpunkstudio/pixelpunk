@@ -884,7 +884,7 @@
     "published_at": "2026-11-06T12:34-05:00"
   },
   "pin-visiting-parent-assisted-living-activities": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-09T08:09:00-05:00",
     "first_planned": "2026-11-09T14:09:00-05:00",
     "approved": "article rule 2026-11-01T07:40:53-05:00",
@@ -895,7 +895,13 @@
         "moved_to": "2026-11-08T08:38:00-05:00"
       }
     ],
-    "moves": 1
+    "moves": 1,
+    "url": "https://www.pinterest.com/pin/1127166613025311606/",
+    "published_at": "2026-11-09T10:45-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-visiting-parent-assisted-living-activities-2": {
     "status": "scheduled",
