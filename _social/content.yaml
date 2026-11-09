@@ -2912,3 +2912,61 @@ items:
   start: '2026-11-29'
   priority: 2
   until: '2026-12-22'
+- key: tt-nostalgic-grandpa-tree-on-the-wagon
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: 'POV: Grandpa starts every Christmas story with "back when we tied the tree to the wagon"'
+  caption: 'He has told this one 40 times. I still ask 🌲🚙
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 bold and easy 1950s scenes, on Amazon.
+
+
+    #coloringbook #nostalgia #giftsforgrandpa #1950s #grandparents'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-grandpa-tree-on-the-wagon-1.jpg
+  - media/social/tiktok/nostalgic-grandpa-tree-on-the-wagon-2.jpg
+  - media/social/tiktok/nostalgic-grandpa-tree-on-the-wagon-3.jpg
+  until: '2026-12-22'
+- key: tt-nostalgic-visit-small-talk
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: 'POV: You visit Mom every week, and you''ve both run out of small talk'
+  caption: 'Last week I learned who the family checkers champion was. 60 years and nobody told me ♟️
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 scenes with a memory question beside each, on Amazon.
+
+
+    #coloringbook #nostalgia #agingparents #giftsformom #seniors'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-visit-small-talk-1.jpg
+  - media/social/tiktok/nostalgic-visit-small-talk-2.jpg
+  - media/social/tiktok/nostalgic-visit-small-talk-3.jpg
+  until: '2026-12-22'
+- key: tt-sudoku-valentine-one-pen
+  platform: tiktok
+  kind: tiktok carousel
+  book: sudoku-of-love
+  title: 27 years married. Romance now means racing to finish the puzzle first
+  caption: 'Flowers die. Bragging rights are forever ❤️✏️
+
+    Sudoku of Love: 500+ puzzles, very easy to hard, with solutions, on Amazon.
+
+
+    #sudoku #valentinesgift #giftsforhim #puzzletok #marriedlife'
+  link: https://pixelpunkstudio.shop/free-printable-easy-sudoku-puzzles.html
+  priority: 5
+  needs_amazon: true
+  images:
+  - media/social/tiktok/sudoku-valentine-one-pen-1.jpg
+  - media/social/tiktok/sudoku-valentine-one-pen-2.jpg
+  - media/social/tiktok/sudoku-valentine-one-pen-3.jpg
+  start: '2027-01-05'
+  until: '2027-02-12'
