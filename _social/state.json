@@ -1110,10 +1110,17 @@
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
   "pin-art-lovers-word-search-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-09T14:17:00-05:00",
     "first_planned": "2026-11-10T08:17:00-05:00",
-    "approved": "2026-11-04 user OK in chat: schedule all 8"
+    "approved": "2026-11-04 user OK in chat: schedule all 8",
+    "url": "https://www.pinterest.com/pin/1127166613025327279/",
+    "published_at": "2026-11-09T14:30-05:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Art Lover Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-art-lovers-word-search": {
     "status": "published",
