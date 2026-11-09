@@ -69,7 +69,7 @@ sections:
         more: There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search for Seniors.
 
   - title: Culture Lovers Word Search
-    intro: Large print word searches with a great artist or author, their story and a fun fact beside every puzzle. A tour of the world's culture for adults and seniors.
+    intro: Large print word searches with a great painter, author or composer, their story and a fun fact beside every puzzle. A tour of art, literature and opera for adults and seniors.
     books:
       - slug: art-lovers-word-search
         title: Art Lover's Word Search
@@ -102,6 +102,11 @@ sections:
           about: >-
             Jane Austen: her portrait, the famous first line of Pride and Prejudice and the story of the author whose name never appeared on her novels during her lifetime, facing a large print word search with 30 words, from Darcy and Pemberley to Chawton, Regency and Lyme Regis.
         more: There are 54 more great authors, each with a portrait, a famous quote, a fun fact and a large print puzzle, in Literature Lover's Word Search.
+      - slug: opera-lovers-word-search
+        title: Opera Lover's Word Search
+        subtitle: 55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each
+        tags: [Large print, 8.5 x 11, Adults & seniors]
+        amazon:
 
   - title: Bold & Easy Coloring for Adults
     intro: Relaxing coloring books for adults and seniors, with thick lines, big simple shapes and a fun fact beside every picture.
