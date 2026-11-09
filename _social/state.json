@@ -1272,5 +1272,17 @@
     "when": "2026-11-24T12:52:00-05:00",
     "first_planned": "2026-11-24T12:52:00-05:00",
     "approved": "article rule 2026-11-08T06:25:50-05:00"
+  },
+  "pin-christmas-coloring-color-choices": {
+    "status": "draft"
+  },
+  "pin-christmas-coloring-color-choices-2": {
+    "status": "draft"
+  },
+  "pin-christmas-coloring-color-choices-3": {
+    "status": "draft"
+  },
+  "ig-christmas-coloring-color-choices": {
+    "status": "draft"
   }
 }

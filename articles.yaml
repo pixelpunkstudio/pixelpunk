@@ -3,6 +3,107 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-coloring-color-choices
+    title: "Christmas Coloring for Adults: How to Choose Colors That Look Cozy, Not Messy"
+    description: >-
+      Your Christmas page came out flat, loud or muddy? How to pick a small, warm holiday palette, six cozy color
+      schemes to try, a two-minute test before you start, and quick fixes for a page that went wrong.
+    date: 2026-11-29
+    topics: [Seasonal ideas, Kids & coloring]
+    photos:
+      - slot: hero
+        query: cardinal bird snow branch
+        wide_focus: [0.5, 0.45]
+        alt: A red cardinal perched on a bare winter branch against a soft gray sky
+      - slot: palettes
+        after: 6 cozy Christmas palettes to try
+        query: pine cones dried orange slices cinnamon
+        alt: Star-shaped Christmas cookies on a white plate beside pine branches, pine cones and red berries
+    related: [cozy-christmas-coloring, nostalgic-christmas-coloring, cozy-christmas, cozy-winter-hygge]
+    printables: [free-printable-cardinal-christmas-coloring-page, free-printable-vintage-christmas-tv-coloring-page]
+    social:
+      tags: "#christmascoloring #adultcoloring #coloringtips #colorpalette #coloringpages"
+      pins:
+        - {photo: hero, design: top, kicker: Coloring tips, headline: "How to Choose Christmas Colors That Look Cozy, Not Messy"}
+        - {photo: palettes, design: list, kicker: Save for your next page, headline: "6 Cozy Christmas Color Palettes for Adult Coloring", from: "6 cozy Christmas palettes to try"}
+        - design: pages
+          kicker: Free pages to practice on
+          headline: "Free Christmas Coloring Pages for Adults"
+          pages:
+            - {page: cozy-christmas-coloring, label: Cozy scenes}
+            - {page: nostalgic-christmas-coloring, label: Vintage Christmas}
+      instagram:
+        headline: Christmas coloring looks messy?
+        list_title: 6 cozy palettes to try
+        from: "6 cozy Christmas palettes to try"
+        caption: |-
+          Bright red, bright green, and somehow the page looks more like a candy wrapper than a cozy evening? 🎄
+          Our new article shows how to choose a small, warm Christmas palette, with six color schemes to try and quick fixes for a page that went wrong.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #christmascoloring #adultcoloring #coloringtips #colorpalette #coloringpages
+    body: |
+      <p>You picked a lovely Christmas page, grabbed the reddest red and the greenest green, and an hour later it
+      looks loud, flat or a little muddy. The drawing is fine and so is your hand. What usually goes wrong is the
+      palette: too many colors, all at full strength, with nothing light or dark to rest the eye. The good news is
+      that a cozy page follows a few simple rules, and you can plan it in two minutes before you start.</p>
+
+      <h2>Why Christmas pages go wrong</h2>
+      <p>Pure red and pure green sit opposite each other on the color wheel, so side by side they fight for
+      attention. Add a different color in every small space and the page has no calm place to look. The third
+      trouble is value: when every color is a medium tone, the bird, the tree and the background melt together.
+      Cozy pages do the opposite. They use a few colors, softened a little, with clear lights and darks.</p>
+
+      <h2>6 cozy Christmas palettes to try</h2>
+      <ul>
+        <li><strong>Classic, but softer:</strong> cranberry instead of fire-engine red, deep pine instead of grass
+        green, plus cream and a touch of gold.</li>
+        <li><strong>Candlelight:</strong> amber, honey yellow, warm brown and one deep red. Perfect for windows,
+        fireplaces and evening scenes.</li>
+        <li><strong>Nordic:</strong> muted red, slate blue, light gray and lots of white paper left showing.</li>
+        <li><strong>Woodland:</strong> moss green, rust orange, bark brown and berry red, like a winter walk.</li>
+        <li><strong>Vintage 1950s:</strong> soft pink, aqua, mint and silver gray, for retro ornaments and old TVs.</li>
+        <li><strong>Snowy evening:</strong> navy, lavender, pale blue and one warm yellow for the lit windows.</li>
+      </ul>
+
+      <h2>How to make a page look cozy, not messy</h2>
+      <ol>
+        <li><strong>Choose three colors and one accent.</strong> The three cover most of the page; the accent is
+        used in a few small places, like berries or a scarf.</li>
+        <li><strong>Give each color a light, a middle and a dark.</strong> A light and a dark red do more than three
+        different reds.</li>
+        <li><strong>Repeat every color at least three times.</strong> Red on the bird, the bow and one ornament ties
+        the page together.</li>
+        <li><strong>Warm up the light.</strong> Put yellow or orange near candles, lamps and windows, and the whole
+        scene feels like evening.</li>
+        <li><strong>Calm the greens.</strong> A light layer of brown or olive over a bright green turns it into a
+        real pine.</li>
+        <li><strong>Leave white paper for snow and shine.</strong> Shade snow with pale blue or gray only at the
+        edges.</li>
+        <li><strong>Color the background last, and lighter.</strong> A soft background keeps the main subject in
+        front.</li>
+      </ol>
+
+      <h2>Test your colors before the page</h2>
+      <p>Color a small square of each pencil in the margin or on scrap paper, side by side, in the order they will
+      sit on the page. Then squint. If two squares blur into one, push one lighter or darker. Another quick check
+      is a phone photo in black and white: a cozy page still shows clear lights and darks without its colors.</p>
+
+      <h2>Quick fixes for a page that went wrong</h2>
+      <ul>
+        <li><strong>Too bright:</strong> add a light layer of warm tan or gray over the loudest areas.</li>
+        <li><strong>Too flat:</strong> darken the shadows under the subject and between shapes.</li>
+        <li><strong>One area jumps out:</strong> repeat that color twice elsewhere on the page.</li>
+        <li><strong>Patchy:</strong> add a second, lighter layer in small circles in the same direction.</li>
+        <li><strong>Muddy:</strong> stop layering and add a few highlights with a white gel pen.</li>
+      </ul>
+
+      <h2>Free pages to practice on</h2>
+      <p>Try a palette on a free page before your favorite book. Our cardinals at the bird feeder suit the classic
+      and woodland palettes, and the 1950s Christmas TV page is made for the vintage one. If your hands or eyes get
+      tired, read <a href="coloring-for-adults-feels-hard.html">our tips for bold and easy coloring</a> too. For the
+      season, Cozy Christmas Coloring Book has 50 peaceful scenes with a fun fact beside every page, and Nostalgic
+      Christmas Coloring Book has 50 vintage moments to color in your own colors.</p>
+
   - slug: puzzle-advent-calendar
     title: "Make a Puzzle Advent Calendar: One Printable a Day Until Christmas"
     description: >-

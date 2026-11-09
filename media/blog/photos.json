@@ -132,6 +132,31 @@
    "width": 1000
   }
  },
+ "christmas-coloring-color-choices": {
+  "hero": {
+   "file": "media/blog/christmas-coloring-color-choices-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/northern-cardinal-songbird-wildlife-6162882/",
+   "pixabay_id": 6162882,
+   "puzzle": false,
+   "query": "cardinal bird snow branch",
+   "user": "GregSabin",
+   "user_page": "https://pixabay.com/users/GregSabin-20713506/",
+   "wide": "media/blog/christmas-coloring-color-choices-hero-wide.jpg",
+   "width": 1000
+  },
+  "palettes": {
+   "file": "media/blog/christmas-coloring-color-choices-palettes.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/cookies-christmas-cookies-advent-20725/",
+   "pixabay_id": 20725,
+   "puzzle": false,
+   "query": "pine cones dried orange slices cinnamon",
+   "user": "PublicDomainPictures",
+   "user_page": "https://pixabay.com/users/PublicDomainPictures-14/",
+   "width": 1000
+  }
+ },
  "christmas-word-search-games": {
   "hero": {
    "file": "media/blog/christmas-word-search-games-hero.jpg",

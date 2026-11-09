@@ -2819,3 +2819,96 @@ items:
   start: '2026-11-24'
   priority: 1
   until: '2026-11-24'
+- key: pin-christmas-coloring-color-choices
+  platform: pinterest
+  kind: article
+  book: christmas-coloring-color-choices
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-coloring-color-choices.html
+  title: How to Choose Christmas Colors That Look Cozy, Not Messy
+  alt: A red cardinal perched on a bare winter branch against a soft gray sky
+  description: 'Your Christmas page came out flat, loud or muddy? How to pick a small, warm holiday palette, five
+    cozy color schemes to try, a two-minute test before you start, and quick fixes for a page that went wrong. #christmascoloring
+    #adultcoloring #coloringtips #colorpalette #coloringpages'
+  design: top
+  photo: hero
+  kicker: Coloring tips
+  items: []
+  start: '2026-11-29'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-coloring-color-choices-2
+  platform: pinterest
+  kind: article
+  book: christmas-coloring-color-choices
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-coloring-color-choices.html
+  title: 6 Cozy Christmas Color Palettes for Adult Coloring
+  alt: Star-shaped Christmas cookies on a white plate beside pine branches, pine cones and red berries
+  description: 'Your Christmas page came out flat, loud or muddy? How to pick a small, warm holiday palette, five
+    cozy color schemes to try, a two-minute test before you start, and quick fixes for a page that went wrong. #christmascoloring
+    #adultcoloring #coloringtips #colorpalette #coloringpages'
+  design: list
+  photo: palettes
+  kicker: Save for your next page
+  items:
+  - Classic, but softer
+  - Candlelight
+  - Nordic
+  - Woodland
+  - Vintage 1950s
+  - Snowy evening
+  start: '2026-12-06'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-coloring-color-choices-3
+  platform: pinterest
+  kind: article
+  book: christmas-coloring-color-choices
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-coloring-color-choices.html
+  title: Free Christmas Coloring Pages for Adults
+  alt: A red cardinal perched on a bare winter branch against a soft gray sky
+  description: 'Your Christmas page came out flat, loud or muddy? How to pick a small, warm holiday palette, five
+    cozy color schemes to try, a two-minute test before you start, and quick fixes for a page that went wrong. #christmascoloring
+    #adultcoloring #coloringtips #colorpalette #coloringpages'
+  design: pages
+  photo: hero
+  kicker: Free pages to practice on
+  items: []
+  pages:
+  - page: cozy-christmas-coloring
+    label: Cozy scenes
+  - page: nostalgic-christmas-coloring
+    label: Vintage Christmas
+  start: '2026-12-13'
+  priority: 2
+  until: '2026-12-22'
+- key: ig-christmas-coloring-color-choices
+  platform: instagram
+  kind: article carousel
+  book: christmas-coloring-color-choices
+  link: https://pixelpunkstudio.shop/christmas-coloring-color-choices.html
+  title: 'Christmas Coloring for Adults: How to Choose Colors That Look Cozy, Not Messy'
+  headline: Christmas coloring looks messy?
+  kicker: New on the blog
+  items:
+  - Classic, but softer
+  - Candlelight
+  - Nordic
+  - Woodland
+  - Vintage 1950s
+  - Snowy evening
+  list_title: 6 cozy palettes to try
+  caption: 'Bright red, bright green, and somehow the page looks more like a candy wrapper than a cozy evening?
+    🎄
+
+    Our new article shows how to choose a small, warm Christmas palette, with six color schemes to try and quick
+    fixes for a page that went wrong.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #christmascoloring #adultcoloring #coloringtips #colorpalette #coloringpages'
+  start: '2026-11-29'
+  priority: 2
+  until: '2026-12-22'
