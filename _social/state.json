@@ -1130,10 +1130,12 @@
     "published_at": "2026-11-07T12:40-05:00"
   },
   "tt-jumbo-quiet-days-assisted-living": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-09T11:20:00-05:00",
     "first_planned": "2026-11-09T11:20:00-05:00",
-    "approved": "2026-11-05T21:59:49"
+    "approved": "2026-11-05T21:59:49",
+    "url": "tiktok inbox draft p_inbox_url~v2.7706210097776609302 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-09T11:31-05:00"
   },
   "tt-cozy-christmas-sister-swap": {
     "status": "scheduled",
