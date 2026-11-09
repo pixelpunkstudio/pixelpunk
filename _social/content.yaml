@@ -2970,3 +2970,39 @@ items:
   - media/social/tiktok/sudoku-valentine-one-pen-3.jpg
   start: '2027-01-05'
   until: '2027-02-12'
+- key: tt-art-aunt-corrects-the-guide
+  platform: tiktok
+  kind: tiktok carousel
+  book: art-lovers-word-search
+  title: My aunt corrected the museum tour guide. She was right
+  caption: 'She''ll still tell you what the book left out 🎨😂
+
+    Art Lover''s Word Search: 55 large print puzzles about great painters, on Amazon.
+
+
+    #wordsearch #arthistory #artlovers #giftideas #puzzletok'
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/art-aunt-corrects-the-guide-1.jpg
+  - media/social/tiktok/art-aunt-corrects-the-guide-2.jpg
+  - media/social/tiktok/art-aunt-corrects-the-guide-3.jpg
+- key: tt-hygge-no-phones-after-dinner
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-winter-hygge
+  title: No phones after dinner this winter. Day one
+  caption: 'Screen time down. Arguing about who found which word: up 📵✏️
+
+    Cozy Winter Hygge Word Search: 55 large print puzzles, on Amazon.
+
+
+    #hygge #wordsearch #screenfree #couplesactivities #cozynights'
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/hygge-no-phones-after-dinner-1.jpg
+  - media/social/tiktok/hygge-no-phones-after-dinner-2.jpg
+  - media/social/tiktok/hygge-no-phones-after-dinner-3.jpg
