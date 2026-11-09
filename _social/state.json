@@ -288,10 +288,12 @@
     ]
   },
   "ig-bug-hunt": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-09T12:08:00-05:00",
     "first_planned": "2026-10-30T12:08:00-04:00",
-    "approved": "2026-10-21T18:04:53.999Z"
+    "approved": "2026-10-21T18:04:53.999Z",
+    "url": "https://www.instagram.com/p/Dfh2I_7FBMW/",
+    "published_at": "2026-11-09T12:15-05:00"
   },
   "pin-cute-farm-days-cover": {
     "status": "published",
