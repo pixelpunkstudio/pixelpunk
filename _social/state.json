@@ -1402,7 +1402,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-jumbo-grandma-small-print": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-07T12:01:00-05:00",
+    "first_planned": "2026-12-07T12:01:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-cozy-christmas-evening-for-me-scene": {
     "status": "scheduled",
@@ -1417,7 +1420,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-cozy-christmas-evening-for-me": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-30T12:09:00-05:00",
+    "first_planned": "2026-11-30T12:09:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-coloring-mom-needs-nothing-scene": {
     "status": "scheduled",
@@ -1432,7 +1438,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-coloring-mom-needs-nothing": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-28T12:06:00-05:00",
+    "first_planned": "2026-11-28T12:06:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-jumbo-grandpa-wont-admit-scene": {
     "status": "scheduled",
@@ -1447,7 +1456,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-jumbo-grandpa-wont-admit": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-13T12:54:00-05:00",
+    "first_planned": "2026-12-13T12:54:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-jumbo-quiet-days-assisted-living-scene": {
     "status": "draft",
@@ -1458,7 +1470,10 @@
     "note": "no free date in its season"
   },
   "ig-jumbo-quiet-days-assisted-living": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-19T12:57:00-05:00",
+    "first_planned": "2026-12-19T12:57:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-cozy-christmas-sister-swap-scene": {
     "status": "scheduled",
@@ -1473,7 +1488,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-cozy-christmas-sister-swap": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-12T12:44:00-05:00",
+    "first_planned": "2026-12-12T12:44:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-coloring-no-more-tiny-mandalas-scene": {
     "status": "scheduled",
@@ -1485,7 +1503,10 @@
     "status": "draft"
   },
   "ig-coloring-no-more-tiny-mandalas": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-04T12:57:00-05:00",
+    "first_planned": "2026-12-04T12:57:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-nostalgic-mom-kitchen-phone-scene": {
     "status": "scheduled",
@@ -1500,7 +1521,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-nostalgic-mom-kitchen-phone": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-09T12:03:00-05:00",
+    "first_planned": "2026-12-09T12:03:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-nostalgic-grandpa-tree-on-the-wagon-scene": {
     "status": "scheduled",
@@ -1512,7 +1536,10 @@
     "status": "draft"
   },
   "ig-nostalgic-grandpa-tree-on-the-wagon": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-03T12:20:00-05:00",
+    "first_planned": "2026-12-03T12:20:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-nostalgic-visit-small-talk-scene": {
     "status": "scheduled",
@@ -1527,7 +1554,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-nostalgic-visit-small-talk": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-15T12:01:00-05:00",
+    "first_planned": "2026-12-15T12:01:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-art-mom-every-museum-scene": {
     "status": "scheduled",
@@ -1542,7 +1572,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-art-mom-every-museum": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-02T12:31:00-05:00",
+    "first_planned": "2026-12-02T12:31:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-art-aunt-corrects-the-guide-scene": {
     "status": "scheduled",
@@ -1557,7 +1590,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-art-aunt-corrects-the-guide": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-26T12:39:00-05:00",
+    "first_planned": "2026-11-26T12:39:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-hygge-dark-at-five-scene": {
     "status": "scheduled",
@@ -1572,7 +1608,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-hygge-dark-at-five": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-08T12:50:00-05:00",
+    "first_planned": "2026-12-08T12:50:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-hygge-no-phones-after-dinner-scene": {
     "status": "scheduled",
@@ -1587,7 +1626,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-hygge-no-phones-after-dinner": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-14T12:36:00-05:00",
+    "first_planned": "2026-12-14T12:36:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-bugs-grandkid-knows-everything-scene": {
     "status": "draft"
@@ -1614,7 +1656,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-winter-snow-day-cancelled": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-17T12:15:00-05:00",
+    "first_planned": "2026-12-17T12:15:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-retirement-dad-my-garage-scene": {
     "status": "scheduled",
@@ -1629,7 +1674,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-retirement-dad-my-garage": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-21T12:23:00-05:00",
+    "first_planned": "2026-12-21T12:23:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-farm-goats-can-talk-scene": {
     "status": "scheduled",
@@ -1644,7 +1692,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-farm-goats-can-talk": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-20T12:22:00-05:00",
+    "first_planned": "2026-12-20T12:22:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-bughunt-stridulate-scene": {
     "status": "scheduled",
@@ -1656,7 +1707,10 @@
     "status": "draft"
   },
   "ig-bughunt-stridulate": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-16T12:37:00-05:00",
+    "first_planned": "2026-12-16T12:37:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-cutefarm-rainy-saturday-scene": {
     "status": "scheduled",
@@ -1671,7 +1725,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-cutefarm-rainy-saturday": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-18T12:33:00-05:00",
+    "first_planned": "2026-12-18T12:33:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-sudoku-valentine-one-pen-scene": {
     "status": "scheduled",
@@ -1686,7 +1743,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-sudoku-valentine-one-pen": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2027-01-11T12:02:00-05:00",
+    "first_planned": "2027-01-11T12:02:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-fall-lost-in-corn-maze-scene": {
     "status": "draft",
@@ -1697,7 +1757,8 @@
     "note": "no free date in its season"
   },
   "ig-fall-lost-in-corn-maze": {
-    "status": "draft"
+    "status": "draft",
+    "note": "no free date in its season"
   },
   "pin-winter-ski-trip-non-skier-scene": {
     "status": "scheduled",
@@ -1712,7 +1773,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-winter-ski-trip-non-skier": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-11T12:00:00-05:00",
+    "first_planned": "2026-12-11T12:00:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-retirement-office-legend-scene": {
     "status": "scheduled",
@@ -1724,7 +1788,10 @@
     "status": "draft"
   },
   "ig-retirement-office-legend": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-27T12:49:00-05:00",
+    "first_planned": "2026-12-27T12:49:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-bugs-road-trip-no-tablet-scene": {
     "status": "scheduled",
@@ -1739,7 +1806,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-bugs-road-trip-no-tablet": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-05T12:12:00-05:00",
+    "first_planned": "2026-12-05T12:12:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-farm-grandpa-checks-the-facts-scene": {
     "status": "scheduled",
@@ -1754,7 +1824,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-farm-grandpa-checks-the-facts": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-26T12:01:00-05:00",
+    "first_planned": "2026-12-26T12:01:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-cozy-christmas-lights-weekend-scene": {
     "status": "scheduled",
@@ -1769,7 +1842,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-cozy-christmas-lights-weekend": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-06T12:51:00-05:00",
+    "first_planned": "2026-12-06T12:51:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-jumbo-cant-make-it-home-scene": {
     "status": "scheduled",
@@ -1784,7 +1860,10 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-jumbo-cant-make-it-home": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-01T12:13:00-05:00",
+    "first_planned": "2026-12-01T12:13:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-coloring-teen-exam-week-scene": {
     "status": "scheduled",
@@ -1799,6 +1878,9 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "ig-coloring-teen-exam-week": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-10T12:03:00-05:00",
+    "first_planned": "2026-12-10T12:03:00-05:00",
+    "approved": "2026-11-09T18:09:39.716Z"
   }
 }
