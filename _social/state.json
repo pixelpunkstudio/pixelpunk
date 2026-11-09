@@ -1329,5 +1329,47 @@
     "when": "2026-11-23T11:11:00-05:00",
     "first_planned": "2026-11-23T11:11:00-05:00",
     "approved": "2026-11-09T12:47:11"
+  },
+  "tt-winter-ski-trip-non-skier": {
+    "status": "scheduled",
+    "when": "2026-11-28T11:32:00-05:00",
+    "first_planned": "2026-11-28T11:32:00-05:00",
+    "approved": "2026-11-09T13:58:01"
+  },
+  "tt-retirement-office-legend": {
+    "status": "scheduled",
+    "when": "2026-11-30T11:46:00-05:00",
+    "first_planned": "2026-11-30T11:46:00-05:00",
+    "approved": "2026-11-09T13:58:01"
+  },
+  "tt-bugs-road-trip-no-tablet": {
+    "status": "scheduled",
+    "when": "2026-11-27T11:09:00-05:00",
+    "first_planned": "2026-11-27T11:09:00-05:00",
+    "approved": "2026-11-09T13:58:01"
+  },
+  "tt-farm-grandpa-checks-the-facts": {
+    "status": "scheduled",
+    "when": "2026-11-29T11:34:00-05:00",
+    "first_planned": "2026-11-29T11:34:00-05:00",
+    "approved": "2026-11-09T13:58:01"
+  },
+  "tt-cozy-christmas-lights-weekend": {
+    "status": "scheduled",
+    "when": "2026-11-25T11:50:00-05:00",
+    "first_planned": "2026-11-25T11:50:00-05:00",
+    "approved": "2026-11-09T13:58:01"
+  },
+  "tt-jumbo-cant-make-it-home": {
+    "status": "scheduled",
+    "when": "2026-11-26T11:24:00-05:00",
+    "first_planned": "2026-11-26T11:24:00-05:00",
+    "approved": "2026-11-09T13:58:01"
+  },
+  "tt-coloring-teen-exam-week": {
+    "status": "scheduled",
+    "when": "2026-11-24T11:08:00-05:00",
+    "first_planned": "2026-11-24T11:08:00-05:00",
+    "approved": "2026-11-09T13:58:01"
   }
 }

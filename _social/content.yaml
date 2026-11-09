@@ -3006,3 +3006,133 @@ items:
   - media/social/tiktok/hygge-no-phones-after-dinner-1.jpg
   - media/social/tiktok/hygge-no-phones-after-dinner-2.jpg
   - media/social/tiktok/hygge-no-phones-after-dinner-3.jpg
+- key: tt-winter-ski-trip-non-skier
+  platform: tiktok
+  kind: tiktok carousel
+  book: winter-snowy-days
+  title: Family ski trip. I don't ski
+  caption: 'They came back frozen. I came back with six puzzles done ⛷️❄️
+
+    Snowy Days Winter Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #skitrip #apresski #largeprint #puzzletok'
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/winter-ski-trip-non-skier-1.jpg
+  - media/social/tiktok/winter-ski-trip-non-skier-2.jpg
+  - media/social/tiktok/winter-ski-trip-non-skier-3.jpg
+  until: '2027-02-20'
+- key: tt-retirement-office-legend
+  platform: tiktok
+  kind: tiktok carousel
+  book: retirement
+  title: Our office legend retires Friday. 41 years. She trained all of us
+  caption: '41 years of covering for all of us. Her turn to slow down 💐
+
+    Retirement Word Search: 55 large print puzzles, on Amazon.
+
+
+    #retirement #retirementgift #coworkergift #wordsearch #officelife'
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/retirement-office-legend-1.jpg
+  - media/social/tiktok/retirement-office-legend-2.jpg
+  - media/social/tiktok/retirement-office-legend-3.jpg
+- key: tt-bugs-road-trip-no-tablet
+  platform: tiktok
+  kind: tiktok carousel
+  book: cute-bug-days
+  title: Road trip to Grandma's. No tablet this time
+  caption: 'Two whole hours without "are we there yet" 🐞🚗
+
+    Cute Bug Days Coloring Book for ages 3-10: 50 bugs, a fun fact on every page, on Amazon.
+
+
+    #roadtrip #kidsactivities #coloringbook #screenfree #momlife'
+  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/bugs-road-trip-no-tablet-1.jpg
+  - media/social/tiktok/bugs-road-trip-no-tablet-2.jpg
+  - media/social/tiktok/bugs-road-trip-no-tablet-3.jpg
+- key: tt-farm-grandpa-checks-the-facts
+  platform: tiktok
+  kind: tiktok carousel
+  book: life-on-the-farm
+  title: Grandpa grew up on a farm. Every animal comes with a story
+  caption: 'He fact-checked the alpaca page. It passed 🦙
+
+    Life on the Farm Word Search for Kids: 50 puzzles with fun facts, ages 6-10, on Amazon.
+
+
+    #grandpa #farmlife #kidsactivities #wordsearch #alpaca'
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/farm-grandpa-checks-the-facts-1.jpg
+  - media/social/tiktok/farm-grandpa-checks-the-facts-2.jpg
+  - media/social/tiktok/farm-grandpa-checks-the-facts-3.jpg
+- key: tt-cozy-christmas-lights-weekend
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: Weekend after Thanksgiving. He's been untangling the lights for 3 hours
+  caption: 'Four puzzles done. One strand of lights working. Teamwork 🎄💡
+
+    Cozy Christmas Word Search: 55 festive large print puzzles, on Amazon.
+
+
+    #christmaslights #wordsearch #cozychristmas #largeprint #puzzletok'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-lights-weekend-1.jpg
+  - media/social/tiktok/cozy-christmas-lights-weekend-2.jpg
+  - media/social/tiktok/cozy-christmas-lights-weekend-3.jpg
+  until: '2026-12-22'
+- key: tt-jumbo-cant-make-it-home
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: Can't make it home for Christmas this year. Grandma said it's fine
+  caption: 'She called to say page 47 made her think of her mother''s recipe box. Best phone call of the year 💌
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30 pt print, on Amazon.
+
+
+    #grandma #largeprint #wordsearch #giftsforgrandma #longdistancefamily'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-cant-make-it-home-1.jpg
+  - media/social/tiktok/jumbo-cant-make-it-home-2.jpg
+  - media/social/tiktok/jumbo-cant-make-it-home-3.jpg
+  until: '2026-12-22'
+- key: tt-coloring-teen-exam-week
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: Exam week. My 16-year-old hasn't left her desk in 3 days
+  caption: 'She finished the market stall, then went back to chemistry. Calmer 🎄🖍️
+
+    Cozy Christmas Coloring Book: bold and easy scenes with a fun fact beside each, on Amazon.
+
+
+    #coloringbook #examweek #teenlife #selfcare #christmascoloring'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-teen-exam-week-1.jpg
+  - media/social/tiktok/coloring-teen-exam-week-2.jpg
+  - media/social/tiktok/coloring-teen-exam-week-3.jpg
+  until: '2026-12-22'
