@@ -43,6 +43,7 @@ RULES = {
     "tiktok": {"times": ["11", "10", "12"], "per_day": 1, "gap_hours": 4, "same_book_days": 2, "every_days": 1},
 }
 GRACE = dt.timedelta(hours=8)  # a slot found this late is still published, late; later = missed (GitHub runs can be ~7 h apart)
+LATE_SECOND = dt.timedelta(hours=1)  # a second due item this late goes out in the same run (catch-up after slow runs)
 LOCAL_NAMES = {"PINTEREST_APP_ID": "PINTEREST_PPS_APP_ID", "PINTEREST_APP_SECRET": "PINTEREST_PPS_APP_SECRET",
                "PINTEREST_SANDBOX_TOKEN": "PINTEREST_PPS_SANDBOX_TOKEN", "META_PAGE_TOKEN": "META_PAGE_TOKEN_PIXELPUNK",
                "IG_USER_ID": "IG_USER_ID_PIXELPUNK", "TIKTOK_CLIENT_KEY": "TIKTOK_CLIENT_KEY_PIXELPUNK",
@@ -147,8 +148,10 @@ def assign(platform: str, keys: list[str], st: dict, its: dict, earliest: dt.dat
 
 
 def catch_up(st: dict, its: dict, now: dt.datetime) -> list[str]:
-    """Items whose time passed while nothing ran: missed and upcoming items are re-planned together by priority from
-    now on (same rules), so missed ones come back first and nothing goes out in a burst. Past its season: expired."""
+    """Items whose time passed while nothing ran: each missed item moves to the next free slot (same rules: daily cap,
+    gap, book spacing, season), around the items already planned. Upcoming items keep their dates (until 2026-11-09
+    they were re-planned together with the missed ones, which moved calendar dates without a trace). Past its
+    season: expired."""
     moved = []
     for platform in RULES:
         sched = [k for k, s in st.items() if s.get("status") == "scheduled" and its.get(k, {}).get("platform") == platform
@@ -156,14 +159,9 @@ def catch_up(st: dict, its: dict, now: dt.datetime) -> list[str]:
         missed = [k for k in sched if when_of(st[k]) < now - GRACE]
         if not missed:
             continue
-        upcoming = [k for k in sched if k not in missed and when_of(st[k]) > now + dt.timedelta(minutes=20)]
         stamp = now.strftime("%Y%m%d%H")
-        slots = assign(platform, missed + upcoming, st, its, earliest=now + dt.timedelta(minutes=20),
+        slots = assign(platform, missed, st, its, earliest=now + dt.timedelta(minutes=20),
                        salt={k: stamp for k in missed})
-        for k in upcoming:
-            if slots.get(k) and slots[k].isoformat() != st[k]["when"]:
-                st[k].setdefault("first_planned", st[k]["when"])
-                st[k]["when"] = slots[k].isoformat()
         for k in missed:
             s, old = st[k], st[k]["when"]
             s.setdefault("first_planned", old)
@@ -411,21 +409,25 @@ def run() -> bool:
                      and its.get(k, {}).get("platform") == platform and when_of(s) and now - GRACE <= when_of(s) <= now)
         if not due:
             continue
-        k = due[0][1]  # one item per platform per run: the next one waits for its own time
-        s = st[k]
-        if its[k].get("kind") in ("article", "article carousel") and not page_live(its[k]["link"]):
-            log(f"waiting for {its[k]['link']} to be online before {k}")  # article written ahead, site not yet published
-            continue
-        try:
-            url = publish(its[k])
-            s.update(status="published", url=url, published_at=now.isoformat(timespec="minutes"))
-            log(f"published {k} -> {url}")
-        except Exception as e:
-            s.update(status="failed", error=str(e)[:300])
-            log(f"FAILED {k}: {str(e)[:200]}")
-        if platform == "pinterest" and s["status"] == "published":
-            save_to_topics(its[k], s)
-        changed = True
+        # One item per platform per run, so nothing goes out in a burst. Exception (2026-11-09): when GitHub's runs come
+        # hours apart, a second item already over an hour late goes out too, so one slow run doesn't push it to the 8 h
+        # limit and another day. A third waits for the next run.
+        picks = [due[0][1]] + [k for t, k in due[1:2] if t <= now - LATE_SECOND]
+        for k in picks:
+            s = st[k]
+            if its[k].get("kind") in ("article", "article carousel") and not page_live(its[k]["link"]):
+                log(f"waiting for {its[k]['link']} to be online before {k}")  # article written ahead, site not yet published
+                continue
+            try:
+                url = publish(its[k])
+                s.update(status="published", url=url, published_at=now.isoformat(timespec="minutes"))
+                log(f"published {k} -> {url}" + (" (late, caught up)" if k != picks[0] else ""))
+            except Exception as e:
+                s.update(status="failed", error=str(e)[:300])
+                log(f"FAILED {k}: {str(e)[:200]}")
+            if platform == "pinterest" and s["status"] == "published":
+                save_to_topics(its[k], s)
+            changed = True
     if changed:
         save_state(st)
     return changed
