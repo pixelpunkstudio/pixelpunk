@@ -1070,10 +1070,17 @@
     "approved": "2026-11-04 user OK in chat: schedule all 8"
   },
   "pin-nostalgic-christmas-coloring-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-09T11:15:00-05:00",
     "first_planned": "2026-11-21T11:15:00-05:00",
-    "approved": "2026-11-04 user OK in chat: schedule all 8"
+    "approved": "2026-11-04 user OK in chat: schedule all 8",
+    "url": "https://www.pinterest.com/pin/1127166613025313641/",
+    "published_at": "2026-11-09T11:15-05:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-nostalgic-christmas-coloring": {
     "status": "scheduled",
