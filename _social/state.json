@@ -631,10 +631,16 @@
     ]
   },
   "pin-word-search-difficulty-levels-2": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-10T11:29:00-05:00",
     "first_planned": "2026-11-13T14:29:00-05:00",
-    "approved": "article rule 2026-10-28T05:38:02-04:00"
+    "approved": "article rule 2026-10-28T05:38:02-04:00",
+    "url": "https://www.pinterest.com/pin/1127166613025394420/",
+    "published_at": "2026-11-10T11:30-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-word-search-difficulty-levels-3": {
     "status": "scheduled",
