@@ -841,10 +841,15 @@
     "approved": "article rule 2026-11-01T07:41:34-05:00"
   },
   "pin-after-school-screen-free-activities": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-10T14:46:00-05:00",
     "first_planned": "2026-11-13T08:46:00-05:00",
-    "approved": "article rule 2026-11-01T07:41:20-05:00"
+    "approved": "article rule 2026-11-01T07:41:20-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613025408629/",
+    "published_at": "2026-11-10T15:01-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books"
+    ]
   },
   "pin-after-school-screen-free-activities-2": {
     "status": "scheduled",
