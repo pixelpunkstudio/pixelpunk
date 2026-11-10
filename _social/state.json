@@ -859,10 +859,12 @@
     "approved": "article rule 2026-11-01T07:41:20-05:00"
   },
   "ig-after-school-screen-free-activities": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-10T12:34:00-05:00",
     "first_planned": "2026-11-10T12:34:00-05:00",
-    "approved": "article rule 2026-11-01T07:41:20-05:00"
+    "approved": "article rule 2026-11-01T07:41:20-05:00",
+    "url": "https://www.instagram.com/p/DfkeXeRFC-W/",
+    "published_at": "2026-11-10T12:45-05:00"
   },
   "pin-fall-activities-for-seniors-indoors": {
     "status": "published",
