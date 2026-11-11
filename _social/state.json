@@ -696,10 +696,17 @@
     ]
   },
   "pin-jumbo-christmas-inside": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-11T08:33:00-05:00",
     "first_planned": "2026-11-12T11:33:00-05:00",
-    "approved": "2026-10-28T15:16:10.153Z"
+    "approved": "2026-10-28T15:16:10.153Z",
+    "url": "https://www.pinterest.com/pin/1127166613025463469/",
+    "published_at": "2026-11-11T08:45-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-jumbo-christmas-free": {
     "status": "published",
