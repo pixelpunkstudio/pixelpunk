@@ -1913,21 +1913,24 @@
   },
   "pin-nativity-activities-sunday-school": {
     "status": "scheduled",
-    "when": "2026-12-18T11:05:00-05:00",
-    "first_planned": "2026-12-18T11:05:00-05:00",
-    "approved": "article rule 2026-11-11T04:23:11-05:00"
+    "when": "2026-12-03T17:46:00-05:00",
+    "first_planned": "2026-12-03T17:46:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00",
+    "note": "moved by hand 2026-11-11: auto slots fell on Dec 18/25/Jan 1, too late for a Christmas topic"
   },
   "pin-nativity-activities-sunday-school-2": {
     "status": "scheduled",
-    "when": "2026-12-25T08:37:00-05:00",
-    "first_planned": "2026-12-25T08:37:00-05:00",
-    "approved": "article rule 2026-11-11T04:23:11-05:00"
+    "when": "2026-12-10T17:41:00-05:00",
+    "first_planned": "2026-12-10T17:41:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00",
+    "note": "moved by hand 2026-11-11: auto slots fell on Dec 18/25/Jan 1, too late for a Christmas topic"
   },
   "pin-nativity-activities-sunday-school-3": {
     "status": "scheduled",
-    "when": "2027-01-01T14:15:00-05:00",
-    "first_planned": "2027-01-01T14:15:00-05:00",
-    "approved": "article rule 2026-11-11T04:23:11-05:00"
+    "when": "2026-12-17T17:34:00-05:00",
+    "first_planned": "2026-12-17T17:34:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00",
+    "note": "moved by hand 2026-11-11: auto slots fell on Dec 18/25/Jan 1, too late for a Christmas topic"
   },
   "ig-nativity-activities-sunday-school": {
     "status": "scheduled",
