@@ -91,7 +91,8 @@ sections:
         title: Literature Lover's Word Search
         subtitle: 55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each
         tags: [Large print, 8.5 x 11, Adults & seniors]
-        amazon:
+        amazon: B0HR4Z43GG
+        published: 2026-11-11
         sample:
           pdf: "books/literature-lovers-word-search/output"
           pages: [32, 33, 130]
@@ -106,7 +107,8 @@ sections:
         title: Opera Lover's Word Search
         subtitle: 55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each
         tags: [Large print, 8.5 x 11, Adults & seniors]
-        amazon:
+        amazon: B0HR4BKYJQ
+        published: 2026-11-11
 
   - title: Bold & Easy Coloring for Adults
     intro: Relaxing coloring books for adults and seniors, with thick lines, big simple shapes and a fun fact beside every picture.
