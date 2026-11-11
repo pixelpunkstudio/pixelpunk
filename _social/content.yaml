@@ -4754,3 +4754,96 @@ items:
     #sundayschool #nativity #christmasactivities #churchgroup #christianchristmas'
   start: '2026-12-01'
   priority: 3
+- key: pin-make-printable-puzzles-last
+  platform: pinterest
+  kind: article
+  book: make-printable-puzzles-last
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/make-printable-puzzles-last.html
+  title: How to Print Puzzles So They Last (and Reuse Them All Year)
+  alt: An open ring binder with clear sleeves on a white desk, beside sticky tabs, pens, a notebook and a vase of
+    flowers
+  description: 'Tired of printing the same puzzle again and again? Which paper to pick, the sheet protector and
+    dry-erase trick, six ways to make a printable last for a class or a group, how to stop ghosting, and print settings
+    that save ink. #printables #reusablepuzzles #dryerase #teachertips #wordsearch'
+  design: top
+  photo: hero
+  kicker: Printable tips
+  items: []
+  start: '2026-12-02'
+  priority: 3
+- key: pin-make-printable-puzzles-last-2
+  platform: pinterest
+  kind: article
+  book: make-printable-puzzles-last
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/make-printable-puzzles-last.html
+  title: 6 Ways to Make a Printable Puzzle Last
+  alt: School supplies on a wooden table, with a blank squared notebook, a watercolor paint set, colored pencils,
+    pastels and scissors
+  description: 'Tired of printing the same puzzle again and again? Which paper to pick, the sheet protector and
+    dry-erase trick, six ways to make a printable last for a class or a group, how to stop ghosting, and print settings
+    that save ink. #printables #reusablepuzzles #dryerase #teachertips #wordsearch'
+  design: list
+  photo: ways
+  kicker: Print once, solve again
+  items:
+  - Sheet protectors
+  - Laminating
+  - Self-adhesive laminating sheets
+  - Dry-erase pockets
+  - A binder of sleeves
+  - Card and pencil
+  start: '2026-12-09'
+  priority: 3
+- key: pin-make-printable-puzzles-last-3
+  platform: pinterest
+  kind: article
+  book: make-printable-puzzles-last
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/make-printable-puzzles-last.html
+  title: Free Printable Puzzles for Every Age
+  alt: Three free printable pages fanned out, a bug word search for kids, a Nativity word search and a winter word
+    search
+  description: 'Tired of printing the same puzzle again and again? Which paper to pick, the sheet protector and
+    dry-erase trick, six ways to make a printable last for a class or a group, how to stop ghosting, and print settings
+    that save ink. #printables #reusablepuzzles #dryerase #teachertips #wordsearch'
+  design: pages
+  photo: hero
+  kicker: Free puzzles to try it on
+  items: []
+  pages:
+  - page: bug-hunt
+    label: Kids
+  - page: cozy-christmas
+    label: Christmas
+  - page: winter-snowy-days
+    label: Winter
+  start: '2026-12-16'
+  priority: 3
+- key: ig-make-printable-puzzles-last
+  platform: instagram
+  kind: article carousel
+  book: make-printable-puzzles-last
+  link: https://pixelpunkstudio.shop/make-printable-puzzles-last.html
+  title: 'How to Print Puzzles So They Last: Paper, Sheet Protectors and Dry-Erase Tricks'
+  headline: Print it once, solve it again
+  kicker: New on the blog
+  items:
+  - Sheet protectors
+  - Laminating
+  - Self-adhesive laminating sheets
+  - Dry-erase pockets
+  - A binder of sleeves
+  - Card and pencil
+  list_title: 6 ways to make it last
+  caption: 'Printing the same puzzle for every child, every week, and recycling a stack of paper on Friday? 🖨️
+
+    Our new article shows which paper to pick, the sheet protector and dry-erase trick, and five more ways to make
+    one printable last for a whole class or group.
+
+    Read it and print the free puzzles: link in bio 👉 pixelpunkstudio.shop
+
+    #printables #reusablepuzzles #dryerase #teachertips #wordsearch'
+  start: '2026-12-02'
+  priority: 3

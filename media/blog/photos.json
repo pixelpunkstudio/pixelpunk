@@ -426,6 +426,31 @@
    "width": 1000
   }
  },
+ "make-printable-puzzles-last": {
+  "hero": {
+   "file": "media/blog/make-printable-puzzles-last-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/planner-notebook-pen-office-desk-7108489/",
+   "pixabay_id": 7108489,
+   "puzzle": false,
+   "query": "ring binder office folders",
+   "user": "u_n37k94s5sg",
+   "user_page": "https://pixabay.com/users/u_n37k94s5sg-26407900/",
+   "wide": "media/blog/make-printable-puzzles-last-hero-wide.jpg",
+   "width": 1000
+  },
+  "ways": {
+   "file": "media/blog/make-printable-puzzles-last-ways.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/school-times-school-school-supplies-3599171/",
+   "pixabay_id": 3599171,
+   "puzzle": false,
+   "query": "school supplies flat lay",
+   "user": "adonyig",
+   "user_page": "https://pixabay.com/users/adonyig-4265448/",
+   "width": 1000
+  }
+ },
  "make-your-own-word-search": {
   "hero": {
    "file": "media/blog/make-your-own-word-search-hero.jpg",
