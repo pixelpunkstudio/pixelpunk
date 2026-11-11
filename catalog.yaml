@@ -108,6 +108,16 @@ sections:
         subtitle: 55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HR4BKYJQ
+        sample:
+          pdf: "books/opera-lovers-word-search/output"
+          pages: [28, 29, 128]
+          label: Free printable puzzle
+          page: free-printable-mozart-word-search
+          seo_title: "Free Printable Mozart Word Search for Adults (Large Print, The Magic Flute)"
+          pin_title: "Mozart Word Search"
+          about: >-
+            Wolfgang Amadeus Mozart: his portrait, The Magic Flute with its famous Queen of the Night aria and the story of the boy who wrote out a guarded Vatican work from memory at 14, facing a large print word search with 30 words, from Papageno and Sarastro to Salzburg, Don Giovanni and the Requiem.
+        more: There are 54 more great composers, each with a portrait, a famous aria, a fun fact and a large print puzzle, in Opera Lover's Word Search.
         published: 2026-11-11
 
   - title: Bold & Easy Coloring for Adults
