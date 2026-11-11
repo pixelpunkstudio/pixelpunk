@@ -4977,3 +4977,23 @@ items:
   - media/social/tiktok/cutefarm-waiting-for-christmas-1.jpg
   - media/social/tiktok/cutefarm-waiting-for-christmas-2.jpg
   - media/social/tiktok/cutefarm-waiting-for-christmas-3.jpg
+- key: tt-cozy-christmas-mail-carrier
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: Our mail carrier didn't miss a single day this year. Snow, ice, all of it
+  caption: 'She texted a photo of puzzle 13 done on her break 📬
+
+    Cozy Christmas Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #christmasgifts #thankyou #largeprint #kindness'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-mail-carrier-1.jpg
+  - media/social/tiktok/cozy-christmas-mail-carrier-2.jpg
+  - media/social/tiktok/cozy-christmas-mail-carrier-3.jpg
+  start: '2026-12-08'
+  until: '2026-12-10'
