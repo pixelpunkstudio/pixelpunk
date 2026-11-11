@@ -10,9 +10,90 @@
     analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"]});
   gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
     analytics_storage: 'granted'});
+
+(function () {
+  var KEY = 'pps_consent', DAYS = 180, tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  function load() {
+    try { var v = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (v && (v.c === 'granted' || v.c === 'denied') && Date.now() - v.t < DAYS * 864e5) return v.c;
+    } catch (e) {}
+    return null;
+  }
+  var choice = load();
+  if (choice) gtag('consent', 'update', {analytics_storage: choice});
+  var europe = !tz || /^(Europe|Arctic)\//.test(tz) ||
+    /^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(tz);
+
+  var STORES = {
+    'co.uk': /^Europe\/(London|Belfast|Guernsey|Jersey|Isle_of_Man|Gibraltar)$/,
+    'ie': /^Europe\/Dublin$/,
+    'de': /^Europe\/(Berlin|Vienna|Zurich|Busingen|Luxembourg|Vaduz)$/,
+    'fr': /^Europe\/(Paris|Monaco)$/,
+    'com.be': /^Europe\/Brussels$/,
+    'nl': /^Europe\/Amsterdam$/,
+    'es': /^(Europe\/Madrid|Atlantic\/Canary|Africa\/Ceuta)$/,
+    'it': /^Europe\/(Rome|Vatican|San_Marino|Malta)$/,
+    'pl': /^Europe\/Warsaw$/,
+    'se': /^Europe\/Stockholm$/,
+    'co.jp': /^Asia\/Tokyo$/,
+    'com.au': /^(Australia\/|Pacific\/(Auckland|Chatham)$)/,
+    'ca': /^America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Iqaluit|Yellowknife|Swift_Current|Atikokan|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Blanc-Sablon)$/
+  };
+  var store = 'com';
+  for (var d in STORES) if (STORES[d].test(tz)) { store = d; break; }
+
+  function save(c) {
+    try { localStorage.setItem(KEY, JSON.stringify({c: c, t: Date.now()})); } catch (e) {}
+    gtag('consent', 'update', {analytics_storage: c});
+    if (c === 'denied') document.cookie.split(';').forEach(function (k) {
+      var n = k.split('=')[0].trim();
+      if (/^_ga/.test(n)) ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')]
+        .forEach(function (dm) { document.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + dm; });
+    });
+    var b = document.getElementById('pps-cookie'); if (b) b.remove();
+  }
+  function banner() {
+    if (document.getElementById('pps-cookie')) return;
+    var b = document.createElement('div');
+    b.id = 'pps-cookie'; b.setAttribute('role', 'region'); b.setAttribute('aria-label', 'Cookie choice');
+    b.style.cssText = 'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;' +
+      'background:#fff;color:#23324a;border:2px solid #23324a;border-radius:12px;padding:16px 18px;' +
+      'box-shadow:0 6px 24px rgba(0,0,0,.18);font:15px/1.5 system-ui,sans-serif';
+    b.innerHTML = '<p style="margin:0 0 12px">We would like to use Google Analytics cookies to count visits and ' +
+      'see which puzzles and articles you enjoy. No advertising cookies, ever. ' +
+      '<a href="privacy.html#statistics" style="color:#b0702e">Privacy policy</a></p>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
+      '<button type="button" data-c="granted">Accept</button><button type="button" data-c="denied">Reject</button></div>';
+    [].forEach.call(b.querySelectorAll('button'), function (x) {
+      x.style.cssText = 'flex:1 1 140px;font:600 15px system-ui,sans-serif;padding:10px 14px;border-radius:8px;' +
+        'cursor:pointer;border:2px solid #23324a;background:#23324a;color:#fff';
+      x.onclick = function () { save(x.getAttribute('data-c')); };
+    });
+    document.body.appendChild(b);
+  }
+  window.ppsCookieSettings = banner;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+    });
+    [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
+      var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
+      p.parentNode.insertBefore(s, p.nextSibling); p.parentNode.insertBefore(document.createTextNode(' · '), s);
+    });
+    document.addEventListener('click', function (ev) {
+      var t = ev.target.closest && ev.target.closest('[data-cookie-settings]');
+      if (t) { ev.preventDefault(); banner(); }
+    });
+    if (!choice && europe) banner();
+  });
+})();
+
   gtag('js', new Date());
   gtag('config', 'G-VD0WLJJBGB');
 </script>
+<!-- /Google tag -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Free Printable Summer Word Search for Adults (Large Print) | Pixel Punk Studio</title>
 <meta name="description" content="Swim in the Ocean: 30 summer words about a day at the beach, from snorkeling and sandbars to coral reefs, high tide and lifeguards. Free to download and print at home on letter paper.">
