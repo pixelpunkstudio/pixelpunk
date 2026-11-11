@@ -462,6 +462,31 @@
    "width": 1000
   }
  },
+ "nativity-activities-sunday-school": {
+  "ages": {
+   "file": "media/blog/nativity-activities-sunday-school-ages.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/old-tree-sheep-winter-snow-6854081/",
+   "pixabay_id": 6854081,
+   "puzzle": false,
+   "query": "sheep winter field",
+   "user": "PLAUL",
+   "user_page": "https://pixabay.com/users/PLAUL-3817073/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/nativity-activities-sunday-school-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/crib-christmas-christ-child-542516/",
+   "pixabay_id": 542516,
+   "puzzle": false,
+   "query": "nativity scene wooden figures",
+   "user": "garten-gg",
+   "user_page": "https://pixabay.com/users/garten-gg-201217/",
+   "wide": "media/blog/nativity-activities-sunday-school-hero-wide.jpg",
+   "width": 1000
+  }
+ },
  "puzzle-advent-calendar": {
   "hero": {
    "file": "media/blog/puzzle-advent-calendar-hero.jpg",

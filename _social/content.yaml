@@ -4661,3 +4661,96 @@ items:
   needs_amazon: true
   tiktok: coloring-teen-exam-week
   until: '2026-12-22'
+- key: pin-nativity-activities-sunday-school
+  platform: pinterest
+  kind: article
+  book: nativity-activities-sunday-school
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/nativity-activities-sunday-school.html
+  title: Easy Nativity Activities for Mixed-Age Church Groups
+  alt: A carved Nativity scene in a straw-lined stable, with Mary kneeling beside the child in the manger, an ox,
+    a donkey and a small lantern glowing above
+  description: 'One group, ages 4 to 84, and no time to prepare? A calm 40-minute Nativity plan, an activity for
+    every age, a way to turn a word search into a story game, and printing tips for church groups, with free large
+    print printables. #sundayschool #nativity #christmasactivities #churchgroup #christianchristmas'
+  design: top
+  photo: hero
+  kicker: Sunday school ideas
+  items: []
+  start: '2026-12-01'
+  priority: 3
+- key: pin-nativity-activities-sunday-school-2
+  platform: pinterest
+  kind: article
+  book: nativity-activities-sunday-school
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/nativity-activities-sunday-school.html
+  title: Nativity Activities for Every Age, From 4 to 84
+  alt: A flock of sheep grazing in a frosty winter field beneath a large old oak tree
+  description: 'One group, ages 4 to 84, and no time to prepare? A calm 40-minute Nativity plan, an activity for
+    every age, a way to turn a word search into a story game, and printing tips for church groups, with free large
+    print printables. #sundayschool #nativity #christmasactivities #churchgroup #christianchristmas'
+  design: list
+  photo: ages
+  kicker: No prep needed
+  items:
+  - Ages 3 to 5
+  - Ages 5 to 7
+  - Ages 8 to 11
+  - Teens
+  - Adults and seniors
+  - The whole group
+  start: '2026-12-08'
+  priority: 3
+- key: pin-nativity-activities-sunday-school-3
+  platform: pinterest
+  kind: article
+  book: nativity-activities-sunday-school
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/nativity-activities-sunday-school.html
+  title: Free Christmas Printables for Sunday School
+  alt: Three free printable pages fanned out, a jumbo print Christmas word search, a Nativity word search and a
+    cardinal coloring page
+  description: 'One group, ages 4 to 84, and no time to prepare? A calm 40-minute Nativity plan, an activity for
+    every age, a way to turn a word search into a story game, and printing tips for church groups, with free large
+    print printables. #sundayschool #nativity #christmasactivities #churchgroup #christianchristmas'
+  design: pages
+  photo: hero
+  kicker: Free to print for your group
+  items: []
+  pages:
+  - page: jumbo-christmas
+    label: Big print
+  - page: cozy-christmas
+    label: Nativity
+  - page: cozy-christmas-coloring
+    label: Coloring
+  start: '2026-12-15'
+  priority: 3
+- key: ig-nativity-activities-sunday-school
+  platform: instagram
+  kind: article carousel
+  book: nativity-activities-sunday-school
+  link: https://pixelpunkstudio.shop/nativity-activities-sunday-school.html
+  title: 'Nativity Activities for Sunday School and Church Groups: Easy Printables for Every Age'
+  headline: One Nativity activity for every age
+  kicker: New on the blog
+  items:
+  - Ages 3 to 5
+  - Ages 5 to 7
+  - Ages 8 to 11
+  - Teens
+  - Adults and seniors
+  - The whole group
+  list_title: From 4 to 84
+  caption: 'A Sunday school group in December can be a four-year-old, a bored teenager and a few grandparents, all
+    at the same table ⭐
+
+    Our new article has a calm 40-minute Nativity plan with an activity for every age, a word search story game,
+    and free large print printables your group can copy.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #sundayschool #nativity #christmasactivities #churchgroup #christianchristmas'
+  start: '2026-12-01'
+  priority: 3

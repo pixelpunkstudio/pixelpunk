@@ -1910,5 +1910,29 @@
     "when": "2026-12-10T12:03:00-05:00",
     "first_planned": "2026-12-10T12:03:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
+  },
+  "pin-nativity-activities-sunday-school": {
+    "status": "scheduled",
+    "when": "2026-12-18T11:05:00-05:00",
+    "first_planned": "2026-12-18T11:05:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00"
+  },
+  "pin-nativity-activities-sunday-school-2": {
+    "status": "scheduled",
+    "when": "2026-12-25T08:37:00-05:00",
+    "first_planned": "2026-12-25T08:37:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00"
+  },
+  "pin-nativity-activities-sunday-school-3": {
+    "status": "scheduled",
+    "when": "2027-01-01T14:15:00-05:00",
+    "first_planned": "2027-01-01T14:15:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00"
+  },
+  "ig-nativity-activities-sunday-school": {
+    "status": "scheduled",
+    "when": "2026-12-22T12:05:00-05:00",
+    "first_planned": "2026-12-22T12:05:00-05:00",
+    "approved": "article rule 2026-11-11T04:23:11-05:00"
   }
 }
