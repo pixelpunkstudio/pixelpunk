@@ -1940,21 +1940,24 @@
   },
   "pin-make-printable-puzzles-last": {
     "status": "scheduled",
-    "when": "2026-12-18T08:16:00-05:00",
-    "first_planned": "2026-12-18T08:16:00-05:00",
-    "approved": "article rule 2026-11-11T04:51:07-05:00"
+    "when": "2026-12-04T17:52:00-05:00",
+    "first_planned": "2026-12-04T17:52:00-05:00",
+    "approved": "article rule 2026-11-11T04:51:07-05:00",
+    "note": "moved by hand 2026-11-11: auto slots fell on Dec 18/25/Jan 1"
   },
   "pin-make-printable-puzzles-last-2": {
     "status": "scheduled",
-    "when": "2026-12-25T11:00:00-05:00",
-    "first_planned": "2026-12-25T11:00:00-05:00",
-    "approved": "article rule 2026-11-11T04:51:07-05:00"
+    "when": "2026-12-11T17:47:00-05:00",
+    "first_planned": "2026-12-11T17:47:00-05:00",
+    "approved": "article rule 2026-11-11T04:51:07-05:00",
+    "note": "moved by hand 2026-11-11: auto slots fell on Dec 18/25/Jan 1"
   },
   "pin-make-printable-puzzles-last-3": {
     "status": "scheduled",
-    "when": "2027-01-01T14:24:00-05:00",
-    "first_planned": "2027-01-01T14:24:00-05:00",
-    "approved": "article rule 2026-11-11T04:51:07-05:00"
+    "when": "2026-12-20T17:39:00-05:00",
+    "first_planned": "2026-12-20T17:39:00-05:00",
+    "approved": "article rule 2026-11-11T04:51:07-05:00",
+    "note": "moved by hand 2026-11-11: auto slots fell on Dec 18/25/Jan 1"
   },
   "ig-make-printable-puzzles-last": {
     "status": "scheduled",
