@@ -4847,3 +4847,133 @@ items:
     #printables #reusablepuzzles #dryerase #teachertips #wordsearch'
   start: '2026-12-02'
   priority: 3
+- key: tt-nostalgic-ornament-boxes
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: December. The ornament boxes come down and Mom has a story for every one
+  caption: 'The blue one is from 1958. I know that now, and I know why 🎄
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 scenes with a memory question beside each, on Amazon.
+
+
+    #coloringbook #nostalgia #christmasornaments #giftsformom #seniors'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-ornament-boxes-1.jpg
+  - media/social/tiktok/nostalgic-ornament-boxes-2.jpg
+  - media/social/tiktok/nostalgic-ornament-boxes-3.jpg
+  until: '2026-12-22'
+- key: tt-cozy-christmas-secret-santa-teacher
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: Class Secret Santa. I drew the teacher
+  caption: 'She did one during lunch. And then another one 🎁✏️
+
+    Cozy Christmas Word Search: 55 festive large print puzzles, on Amazon.
+
+
+    #secretsanta #teachergift #wordsearch #highschool #christmasgift'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-secret-santa-teacher-1.jpg
+  - media/social/tiktok/cozy-christmas-secret-santa-teacher-2.jpg
+  - media/social/tiktok/cozy-christmas-secret-santa-teacher-3.jpg
+  until: '2026-12-22'
+- key: tt-jumbo-neighbor-shovels-his-walk
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: Our neighbor is 84 and still shovels his own walk. Before anyone else
+  caption: 'He shoveled our walk too, by the way. Of course he did ❄️
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30 pt print, on Amazon.
+
+
+    #largeprint #wordsearch #seniors #goodneighbors #snowday'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-neighbor-shovels-his-walk-1.jpg
+  - media/social/tiktok/jumbo-neighbor-shovels-his-walk-2.jpg
+  - media/social/tiktok/jumbo-neighbor-shovels-his-walk-3.jpg
+  until: '2026-12-22'
+- key: tt-coloring-book-club-december
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: Book club, December. Nobody finished the book. Again
+  caption: 'Same snacks, same gossip, zero homework 🍪🖍️
+
+    Cozy Christmas Coloring Book: bold and easy scenes with a fun fact beside each, on Amazon.
+
+
+    #bookclub #coloringbook #girlsnight #christmascoloring #adultcoloring'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-book-club-december-1.jpg
+  - media/social/tiktok/coloring-book-club-december-2.jpg
+  - media/social/tiktok/coloring-book-club-december-3.jpg
+  until: '2026-12-22'
+- key: tt-hygge-power-cut
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-winter-hygge
+  title: Winter storm. Power's out. Phone at 9%
+  caption: 'Power came back at 11. I pretended it hadn''t for another hour 🕯️
+
+    Cozy Winter Hygge Word Search: 55 large print puzzles, on Amazon.
+
+
+    #hygge #wordsearch #poweroutage #winterstorm #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/hygge-power-cut-1.jpg
+  - media/social/tiktok/hygge-power-cut-2.jpg
+  - media/social/tiktok/hygge-power-cut-3.jpg
+- key: tt-art-dad-paints-at-70
+  platform: tiktok
+  kind: tiktok carousel
+  book: art-lovers-word-search
+  title: Dad started painting at 70. Now every dinner is about Bruegel
+  caption: 'He has opinions about the dogs in "Hunters in the Snow." Strong ones 🎨
+
+    Art Lover''s Word Search: 55 large print puzzles about great painters, on Amazon.
+
+
+    #arthistory #wordsearch #giftsfordad #artlovers #retirementhobby'
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/art-dad-paints-at-70-1.jpg
+  - media/social/tiktok/art-dad-paints-at-70-2.jpg
+  - media/social/tiktok/art-dad-paints-at-70-3.jpg
+- key: tt-cutefarm-waiting-for-christmas
+  platform: tiktok
+  kind: tiktok carousel
+  book: cute-farm-days
+  title: She's 5. Christmas is still weeks away. She asks every hour
+  caption: 'Day 3: the donkey. She informed me donkeys were there when Jesus was born. Correct 🫏🖍️
+
+    Cute Farm Days Coloring Book, ages 4-8: adorable animals with fun facts, on Amazon.
+
+
+    #coloringbook #christmascountdown #kidsactivities #grandparents #farmanimals'
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cutefarm-waiting-for-christmas-1.jpg
+  - media/social/tiktok/cutefarm-waiting-for-christmas-2.jpg
+  - media/social/tiktok/cutefarm-waiting-for-christmas-3.jpg

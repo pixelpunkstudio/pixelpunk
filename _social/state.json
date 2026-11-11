@@ -1964,5 +1964,47 @@
     "when": "2026-12-23T12:33:00-05:00",
     "first_planned": "2026-12-23T12:33:00-05:00",
     "approved": "article rule 2026-11-11T04:51:07-05:00"
+  },
+  "tt-nostalgic-ornament-boxes": {
+    "status": "scheduled",
+    "when": "2026-12-05T11:42:00-05:00",
+    "first_planned": "2026-12-05T11:42:00-05:00",
+    "approved": "2026-11-11T12:06:35"
+  },
+  "tt-cozy-christmas-secret-santa-teacher": {
+    "status": "scheduled",
+    "when": "2026-12-03T11:42:00-05:00",
+    "first_planned": "2026-12-03T11:42:00-05:00",
+    "approved": "2026-11-11T12:06:35"
+  },
+  "tt-jumbo-neighbor-shovels-his-walk": {
+    "status": "scheduled",
+    "when": "2026-12-04T11:18:00-05:00",
+    "first_planned": "2026-12-04T11:18:00-05:00",
+    "approved": "2026-11-11T12:06:35"
+  },
+  "tt-coloring-book-club-december": {
+    "status": "scheduled",
+    "when": "2026-12-02T11:23:00-05:00",
+    "first_planned": "2026-12-02T11:23:00-05:00",
+    "approved": "2026-11-11T12:06:35"
+  },
+  "tt-hygge-power-cut": {
+    "status": "scheduled",
+    "when": "2026-12-06T11:07:00-05:00",
+    "first_planned": "2026-12-06T11:07:00-05:00",
+    "approved": "2026-11-11T12:06:35"
+  },
+  "tt-art-dad-paints-at-70": {
+    "status": "scheduled",
+    "when": "2026-12-01T11:15:00-05:00",
+    "first_planned": "2026-12-01T11:15:00-05:00",
+    "approved": "2026-11-11T12:06:35"
+  },
+  "tt-cutefarm-waiting-for-christmas": {
+    "status": "scheduled",
+    "when": "2026-12-07T11:54:00-05:00",
+    "first_planned": "2026-12-07T11:54:00-05:00",
+    "approved": "2026-11-11T12:06:35"
   }
 }
