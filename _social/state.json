@@ -1633,7 +1633,7 @@
   },
   "ig-art-mom-every-museum": {
     "status": "scheduled",
-    "when": "2026-12-02T12:31:00-05:00",
+    "when": "2026-12-28T12:14:00-05:00",
     "first_planned": "2026-12-02T12:31:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -1669,7 +1669,7 @@
   },
   "ig-hygge-dark-at-five": {
     "status": "scheduled",
-    "when": "2026-12-08T12:50:00-05:00",
+    "when": "2026-12-30T12:07:00-05:00",
     "first_planned": "2026-12-08T12:50:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -1834,7 +1834,7 @@
   },
   "ig-winter-ski-trip-non-skier": {
     "status": "scheduled",
-    "when": "2026-12-11T12:00:00-05:00",
+    "when": "2026-12-31T12:26:00-05:00",
     "first_planned": "2026-12-11T12:00:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -1867,7 +1867,7 @@
   },
   "ig-bugs-road-trip-no-tablet": {
     "status": "scheduled",
-    "when": "2026-12-05T12:12:00-05:00",
+    "when": "2026-12-29T12:38:00-05:00",
     "first_planned": "2026-12-05T12:12:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -2064,7 +2064,10 @@
     "approved": "article rule 2026-11-13T12:00:00-05:00"
   },
   "ig-christmas-around-the-world-quiz": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-02T12:31:00-05:00",
+    "first_planned": "2026-12-02T12:31:00-05:00",
+    "approved": "article rule 2026-11-13 (user: swap out book posts)"
   },
   "pin-christmas-cracker-word-search": {
     "status": "scheduled",
@@ -2085,7 +2088,10 @@
     "approved": "article rule 2026-11-13T12:00:00-05:00"
   },
   "ig-christmas-cracker-word-search": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-05T12:12:00-05:00",
+    "first_planned": "2026-12-05T12:12:00-05:00",
+    "approved": "article rule 2026-11-13 (user: swap out book posts)"
   },
   "pin-hot-summer-christmas-activities": {
     "status": "scheduled",
@@ -2106,7 +2112,10 @@
     "approved": "article rule 2026-11-13T12:00:00-05:00"
   },
   "ig-hot-summer-christmas-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-11T12:00:00-05:00",
+    "first_planned": "2026-12-11T12:00:00-05:00",
+    "approved": "article rule 2026-11-13 (user: swap out book posts)"
   },
   "pin-christmas-classroom-party-printables": {
     "status": "scheduled",
@@ -2127,6 +2136,9 @@
     "approved": "article rule 2026-11-13T05:46:15-05:00"
   },
   "ig-christmas-classroom-party-printables": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-08T12:50:00-05:00",
+    "first_planned": "2026-12-08T12:50:00-05:00",
+    "approved": "article rule 2026-11-13 (user: swap out book posts)"
   }
 }
