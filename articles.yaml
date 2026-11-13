@@ -3,6 +3,412 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-around-the-world-quiz
+    title: "Christmas Around the World Quiz: 30 Questions for Family, Pub or Classroom (With Answers)"
+    description: >-
+      Need a Christmas quiz that works for kids, grandparents and the pub crowd, wherever you live? 30 Christmas around
+      the world questions in three rounds, easy to hard, with answers, plus how to run it, fair scoring and a tie-breaker.
+    date: 2026-11-28
+    topics: [Seasonal ideas, Activity ideas, Puzzle tips]
+    photos:
+      - slot: hero
+        query: world globe christmas
+        wide_focus: [0.5, 0.5]
+        alt: A small globe ornament hanging on a Christmas tree beside glowing fairy lights
+      - slot: run
+        after: How to run the quiz
+        query: christmas market night lights
+        alt: A Christmas market at dusk on an old town square, with a tall lit Christmas tree, half-timbered houses and rows of glowing stalls
+    related: [cozy-christmas, jumbo-christmas, cozy-christmas-coloring, art-lovers-word-search]
+    printables: [free-printable-christmas-word-search, free-printable-jumbo-christmas-word-search, free-printable-nativity-word-search]
+    social:
+      tags: "#christmasquiz #christmastrivia #christmasaroundtheworld #familygames #quiznight"
+      pins:
+        - {photo: hero, design: top, kicker: Free Christmas quiz, headline: "Christmas Around the World Quiz: 30 Questions With Answers"}
+        - {photo: run, design: list, kicker: Quiz night tips, headline: "How to Run a Christmas Quiz for Mixed Ages", from: "How to run the quiz"}
+        - design: pages
+          kicker: Free bonus round to print
+          headline: "Free Christmas Word Searches for Your Quiz Night"
+          pages: [{page: cozy-christmas, label: Nativity}, {page: jumbo-christmas, label: Jumbo print}, {page: cozy-christmas-coloring, label: Coloring}]
+      instagram:
+        headline: A Christmas quiz for every table
+        list_title: How to run it
+        from: "How to run the quiz"
+        caption: |-
+          Which country eats fried chicken for Christmas dinner? Who brings the gifts in Italy? 🌍
+          Our new Christmas around the world quiz has 30 questions in three rounds, easy to hard, with answers, so kids, grandparents and the pub crowd can all play.
+          Read it and print the free bonus word search: link in bio 👉 pixelpunkstudio.shop
+          #christmasquiz #christmastrivia #christmasaroundtheworld #familygames #quiznight
+    body: |
+      <p>Most Christmas quizzes are written for one country. Half the questions are about a TV ad you have never
+      seen, a pop song from one chart, or a tradition nobody at your table follows. Kids give up after three
+      questions and grandparents wait politely for the round to end. A quiz about Christmas around the world fixes
+      that: nobody knows everything, every table learns something, and it works the same in Sydney, Dublin, Toronto,
+      Mumbai or Ohio. Here are 30 questions in three rounds, from easy to hard, with the answers right after each
+      question for the quizmaster.</p>
+
+      <h2>How to run the quiz</h2>
+      <ol>
+        <li><strong>Mix the teams:</strong> put children, parents and grandparents together, three to five people per team.</li>
+        <li><strong>One answer sheet per team:</strong> numbered 1 to 30, plus a line for the team name.</li>
+        <li><strong>Read each question twice,</strong> slowly, and give about 30 seconds to agree on an answer.</li>
+        <li><strong>Swap sheets to mark:</strong> teams mark each other's answers after each round.</li>
+        <li><strong>Take a break after round two</strong> for food, drinks and a look at the scores.</li>
+        <li><strong>Finish with the tie-breaker</strong> and a small prize for every team.</li>
+      </ol>
+
+      <h2>Round 1: Easy (good for kids)</h2>
+      <ol>
+        <li>In Australia and New Zealand, Christmas falls in which season? <strong>Answer: summer.</strong></li>
+        <li>What do British children traditionally call Santa Claus? <strong>Answer: Father Christmas.</strong></li>
+        <li>Which country started the tradition of bringing a Christmas tree into the home? <strong>Answer: Germany.</strong></li>
+        <li>What red and white sweet is shaped like a shepherd's crook? <strong>Answer: a candy cane.</strong></li>
+        <li>Which country sends a giant Christmas tree to Trafalgar Square in London every year? <strong>Answer: Norway.</strong></li>
+        <li>In France, which Christmas cake is shaped like a log? <strong>Answer: the bûche de Noël (Yule log).</strong></li>
+        <li>In Sweden, what does the girl chosen as Saint Lucia wear on her head on 13 December? <strong>Answer: a crown of candles.</strong></li>
+        <li>Which Finnish town in Lapland calls itself the official hometown of Santa Claus? <strong>Answer: Rovaniemi.</strong></li>
+        <li>In the Netherlands, Sinterklaas arrives in November on what kind of transport? <strong>Answer: a steamboat.</strong></li>
+        <li>What do people pull at the British Christmas table that goes bang? <strong>Answer: a Christmas cracker.</strong></li>
+      </ol>
+
+      <h2>Round 2: Medium (for the whole family)</h2>
+      <ol>
+        <li>In which country do many families order fried chicken from KFC for Christmas? <strong>Answer: Japan.</strong></li>
+        <li>In Italy, what is the name of the kind old woman who brings children gifts on the night of 5 January? <strong>Answer: La Befana.</strong></li>
+        <li>In Mexico, what are the nine nights of processions before Christmas called? <strong>Answer: Las Posadas.</strong></li>
+        <li>In the Philippines, what is the name of the star-shaped Christmas lantern hung outside homes? <strong>Answer: a parol.</strong></li>
+        <li>How many Yule Lads visit Icelandic children in the nights before Christmas? <strong>Answer: 13.</strong></li>
+        <li>In which country was "Silent Night" first sung, in 1818? <strong>Answer: Austria.</strong></li>
+        <li>What is the hot spiced wine sold at German Christmas markets called? <strong>Answer: Glühwein.</strong></li>
+        <li>In Ireland, what is traditionally placed in the front window on Christmas Eve to welcome Mary and Joseph? <strong>Answer: a lit candle.</strong></li>
+        <li>Which tree, covered in red flowers in December, is known as New Zealand's Christmas tree? <strong>Answer: the pōhutukawa.</strong></li>
+        <li>In India, what small clay oil lamps light up many homes and churches at Christmas, as they do at Diwali? <strong>Answer: diyas.</strong></li>
+      </ol>
+
+      <h2>Round 3: Hard (for the pub table)</h2>
+      <ol>
+        <li>In Catalonia, which smiling wooden log is "fed" by children and then gives out sweets? <strong>Answer: the Tió de Nadal (Caga Tió).</strong></li>
+        <li>In Iceland, what is the name of the "Christmas book flood", when books are given and read on Christmas Eve? <strong>Answer: Jólabókaflóð.</strong></li>
+        <li>What do many Norwegian families hide on Christmas Eve, so witches can't steal them? <strong>Answer: their brooms.</strong></li>
+        <li>In Poland, what is left empty at the Christmas Eve dinner table? <strong>Answer: a place setting for an unexpected guest.</strong></li>
+        <li>Which fish is often kept alive in the bathtub before Christmas Eve dinner in the Czech Republic? <strong>Answer: a carp.</strong></li>
+        <li>On which date do Ethiopian Orthodox Christians celebrate Christmas (Genna)? <strong>Answer: 7 January.</strong></li>
+        <li>In Greece, which saint traditionally brings children's gifts on New Year's Day? <strong>Answer: Saint Basil.</strong></li>
+        <li>In which year did Christmas Day become a public holiday in Scotland? <strong>Answer: 1958.</strong></li>
+        <li>What is the name of the Newfoundland and Labrador tradition of visiting homes nearby in disguise at Christmas? <strong>Answer: mummering (the mummers).</strong></li>
+        <li>What is the name of Spain's huge Christmas lottery, drawn on 22 December? <strong>Answer: El Gordo ("the fat one").</strong></li>
+      </ol>
+
+      <h2>Scoring and the tie-breaker</h2>
+      <ul>
+        <li><strong>One point per answer</strong> in rounds 1 and 2, two points per answer in round 3, so the hard
+        round matters.</li>
+        <li><strong>Half a point</strong> for a near miss, such as "a log" for the Tió de Nadal, if the quizmaster is
+        feeling generous.</li>
+        <li><strong>Tie-breaker:</strong> "In which year did Norway send its first Christmas tree to Trafalgar
+        Square, as a thank-you for Britain's help in the Second World War?" The answer is 1947; the closest guess
+        wins.</li>
+      </ul>
+
+      <h2>Make it work for every age</h2>
+      <ul>
+        <li><strong>Let the youngest player answer round 1</strong> for their team, with the adults only allowed to
+        nod.</li>
+        <li><strong>Give a choice of three answers</strong> in round 3 for teams with young children, written on a
+        card the quizmaster holds up.</li>
+        <li><strong>Add a picture or puzzle round</strong> between rounds 2 and 3: a word search raced against the
+        clock suits players who don't like being put on the spot.</li>
+        <li><strong>Read the answers with the story,</strong> not just the word. Children remember the carp in the
+        bathtub far longer than the score.</li>
+      </ul>
+
+      <h2>Print a free bonus round</h2>
+      <p>Our free Christmas word search makes a quick bonus round: one copy per team, ten minutes on the clock, and a
+      point for every word found. The jumbo print page suits grandparents and young readers, and the Nativity word
+      search fits a church hall or school quiz. They print on US Letter paper; on A4, choose "Fit" in the print
+      settings. For more rounds, Cozy Christmas Word Search has a whole set of Christmas around the world puzzles.</p>
+  - slug: christmas-cracker-word-search
+    title: "Tired of Bad Cracker Jokes? Make Christmas Crackers With a Mini Word Search Inside"
+    description: >-
+      Shop crackers full of groaning jokes and plastic toys that go straight in the bin? How to make homemade Christmas
+      crackers with a mini word search inside, what you need, step by step, other fillings people actually keep, and
+      how to print the puzzle small.
+    date: 2026-11-30
+    topics: [Seasonal ideas, Activity ideas, Puzzle tips]
+    photos:
+      - slot: hero
+        query: nutcracker christmas crackers
+        wide_focus: [0.5, 0.5]
+        alt: Two Christmas crackers decorated as nutcracker soldiers on a white table, with small gray and white paper stars
+      - slot: make
+        after: How to make a cracker, step by step
+        query: wrapping paper ribbon scissors
+        alt: Gold Christmas wrapping paper with a sheer gold ribbon bow, a red glitter bauble and a fir branch
+    related: [cozy-christmas, cozy-christmas-coloring, jumbo-christmas, nostalgic-christmas-coloring]
+    printables: [free-printable-christmas-word-search, free-printable-jumbo-christmas-word-search, free-printable-cardinal-christmas-coloring-page]
+    social:
+      tags: "#christmascrackers #diychristmas #christmastable #christmascrafts #printables"
+      pins:
+        - {photo: hero, design: top, kicker: DIY Christmas crackers, headline: "Homemade Christmas Crackers With a Mini Word Search Inside"}
+        - {photo: make, design: list, kicker: Make them at home, headline: "How to Make a Christmas Cracker, Step by Step", from: "How to make a cracker, step by step"}
+        - design: pages
+          kicker: Free puzzles to roll inside
+          headline: "Free Christmas Puzzles for Your Homemade Crackers"
+          pages: [{page: cozy-christmas, label: Word search}, {page: jumbo-christmas, label: Big print}, {page: cozy-christmas-coloring, label: Coloring}]
+      instagram:
+        headline: Better than a bad cracker joke
+        list_title: What to put inside
+        from: "Fillings people actually keep"
+        caption: |-
+          Pull, bang, a paper hat, a joke everyone has heard and a plastic toy that's in the bin by pudding? 🎄
+          Our new article shows how to make homemade Christmas crackers with a mini word search inside, step by step, plus other fillings people actually keep.
+          Read it and print the free puzzles: link in bio 👉 pixelpunkstudio.shop
+          #christmascrackers #diychristmas #christmastable #christmascrafts #printables
+    body: |
+      <p>Every year it is the same: pull, bang, a paper hat, a joke everyone has heard ten times, and a tiny plastic
+      comb or fortune fish that is in the bin before dessert. Homemade crackers fix all of that. You choose what goes
+      inside, so every guest gets something they will actually use at the table, and a mini word search keeps the
+      quiet moment between the main course and pudding happy for children and grandparents alike.</p>
+
+      <h2>What you need</h2>
+      <ul>
+        <li><strong>Cardboard tubes:</strong> toilet roll tubes, or kitchen roll tubes cut in half, one per cracker.</li>
+        <li><strong>Wrapping paper or crepe paper,</strong> about 12 x 7 in (30 x 18 cm) per cracker. Thin paper tears
+        best when pulled.</li>
+        <li><strong>Cracker snaps</strong> for the bang, sold in craft shops and online in packs of 50 or 100. Optional:
+        crackers are just as much fun without them.</li>
+        <li><strong>Ribbon or twine,</strong> clear tape and scissors.</li>
+        <li><strong>The fillings:</strong> a mini word search, a paper crown and one small treat or keepsake.</li>
+      </ul>
+
+      <h2>How to make a cracker, step by step</h2>
+      <ol>
+        <li><strong>Print and roll the puzzle:</strong> fold the mini word search in half and roll it loosely around a pencil.</li>
+        <li><strong>Fill the tube:</strong> slide the puzzle, a folded paper crown and a small treat inside.</li>
+        <li><strong>Add the snap:</strong> lay it along the tube so both ends stick out past the paper.</li>
+        <li><strong>Wrap the tube:</strong> roll the paper around it and tape the edge, with equal paper at each end.</li>
+        <li><strong>Twist and tie:</strong> pinch the paper close to each end of the tube, twist gently and tie with ribbon.</li>
+        <li><strong>Add a name tag</strong> so each cracker doubles as a place card.</li>
+      </ol>
+
+      <h2>How to print a mini word search</h2>
+      <p>Our free Christmas word search prints on one sheet with its answer key on a second page. To make it fit
+      inside a cracker:</p>
+      <ul>
+        <li><strong>Print two pages per sheet:</strong> in the print window, choose "Multiple" or "Pages per sheet: 2".
+        You get the puzzle and its answers side by side, half size. Cut them apart and keep the answers for the
+        quizmaster.</li>
+        <li><strong>Keep one full size</strong> for anyone with tired eyes: our jumbo print page is easy to read even
+        folded, and fits a kitchen roll tube.</li>
+        <li><strong>Use heavier paper</strong> if you have it: a puzzle on light card survives being rolled and
+        unrolled.</li>
+        <li><strong>On A4 paper,</strong> choose "Fit" in the print settings: the pages are made for US Letter.</li>
+      </ul>
+
+      <h2>Fillings people actually keep</h2>
+      <ul>
+        <li><strong>A mini word search or coloring page</strong> and a short pencil, for the lull before dessert.</li>
+        <li><strong>A handwritten note</strong> from the host: one thing you love about that guest.</li>
+        <li><strong>Seeds for the garden,</strong> a pressed flower bookmark or a sachet of hot chocolate.</li>
+        <li><strong>A table challenge:</strong> "Make everyone laugh before the plates are cleared."</li>
+        <li><strong>A homemade joke</strong> written by the children, bad on purpose, which is always funnier.</li>
+        <li><strong>One good chocolate</strong> instead of a plastic toy.</li>
+      </ul>
+
+      <h2>Make the puzzle a table game</h2>
+      <p>When everyone has opened their cracker, start a timer for five minutes: the first person to find every word
+      wins the last mince pie, or the job of serving dessert. Pair children with grandparents so speed doesn't
+      matter, and let whoever finishes first read out the answers.</p>
+
+      <h2>Print the free puzzles</h2>
+      <p>Our free Christmas word search, the jumbo print cookie swap puzzle and the cardinal coloring page all fit
+      inside homemade crackers, and you may print as many copies as you need for your table. For a different puzzle
+      in every cracker, Cozy Christmas Word Search and Cozy Christmas Coloring Book have dozens more festive pages
+      for every guest at the table.</p>
+
+  - slug: hot-summer-christmas-activities
+    title: "Too Hot to Go Out on Christmas Day? Cool, Calm Indoor Activities for an Australian Summer Christmas"
+    description: >-
+      Christmas lunch is over, it's 35 degrees outside and everyone is flopped in front of the fan? 9 cool, calm indoor
+      activities for an Australian or New Zealand summer Christmas, a simple plan for the hot hours, and free
+      printables for every age.
+    date: 2026-12-03
+    topics: [Seasonal ideas, Activity ideas, Kids & coloring]
+    photos:
+      - slot: hero
+        query: pohutukawa flowers
+        wide_focus: [0.5, 0.5]
+        alt: Bright red pohutukawa flowers against a blue summer sky
+      - slot: plan
+        after: A simple plan for the hottest hours
+        query: watermelon slices summer
+        alt: Fresh watermelon wedges piled with basil leaves
+    related: [cozy-christmas-coloring, cozy-christmas, summer-sunny-vibes, cute-bug-days]
+    printables: [free-printable-christmas-word-search, free-printable-summer-word-search, free-printable-cardinal-christmas-coloring-page, free-printable-ladybug-coloring-page]
+    social:
+      tags: "#australianchristmas #summerchristmas #christmasinaustralia #christmasday #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Summer Christmas ideas, headline: "Cool, Calm Indoor Activities for a Hot Christmas Day"}
+        - {photo: plan, design: list, kicker: Beat the Christmas heat, headline: "A Simple Plan for the Hottest Hours of Christmas Day", from: "A simple plan for the hottest hours"}
+        - design: pages
+          kicker: Free to print before the 25th
+          headline: "Free Printables for a Hot Christmas Afternoon"
+          pages: [{page: cozy-christmas-coloring, label: Coloring}, {page: summer-sunny-vibes, label: Summer}, {page: cozy-christmas, label: Word search}]
+      instagram:
+        headline: Too hot to go out on Christmas Day?
+        list_title: Cool, calm ideas
+        from: "9 cool, calm indoor activities"
+        caption: |-
+          Lunch is over, it's 35 degrees outside and the whole family is flopped in front of the fan ☀️🎄
+          Our new article has 9 cool, calm indoor activities for an Australian or New Zealand summer Christmas, a simple plan for the hottest hours, and free printables for every age.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #australianchristmas #summerchristmas #christmasinaustralia #christmasday #printables
+    body: |
+      <p>In Australia and New Zealand, Christmas lunch ends just as the day reaches its hottest. The prawns and the
+      pavlova are gone, it's well over 30 degrees outside, and the beach or the backyard cricket will have to wait
+      until the sun drops. So everyone ends up in the one cool room, flopped in front of the fan or the air
+      conditioner, with tired kids, full adults and nothing to do for three or four hours. A few calm activities,
+      set up before lunch, turn that slump into one of the nicest parts of the day.</p>
+
+      <h2>Why the afternoon is hard</h2>
+      <p>Most Christmas games come from the northern hemisphere and assume everyone will be stuck indoors because it's
+      cold. In a hot Christmas, the indoor hours come right after a big meal, energy is low and nobody wants anything
+      loud or active. The best activities are quiet, sit-down and easy to join or leave, so people can drift between
+      the table, the couch and a nap.</p>
+
+      <h2>9 cool, calm indoor activities</h2>
+      <ol>
+        <li><strong>A coloring table</strong> under the fan, with pencils for adults and crayons for kids. Bold, easy
+        designs suit everyone after a big lunch.</li>
+        <li><strong>A word search race:</strong> the same puzzle for each player or team, ten minutes on the clock.</li>
+        <li><strong>A Christmas quiz</strong> read out from the couch, with teams mixing kids and grandparents.</li>
+        <li><strong>A big jigsaw</strong> on a spare table that people can come back to all afternoon.</li>
+        <li><strong>Card games:</strong> Uno, rummy or Go Fish work for three generations and need no energy.</li>
+        <li><strong>Make ice blocks</strong> from leftover juice and fruit, ready for when the cricket starts.</li>
+        <li><strong>Thank-you cards</strong> drawn by the kids for the people who gave them presents.</li>
+        <li><strong>Movie or audiobook time</strong> with the blinds down, for anyone who needs to switch off.</li>
+        <li><strong>Plan next year:</strong> everyone writes one wish for next Christmas and it goes in a jar.</li>
+      </ol>
+
+      <h2>A simple plan for the hottest hours</h2>
+      <ol>
+        <li><strong>Set up before lunch:</strong> pencils, printed pages and cards on a table in the coolest room.</li>
+        <li><strong>Close blinds and curtains</strong> on the sunny side of the house before midday.</li>
+        <li><strong>Start with something quiet</strong> straight after lunch, while the dishes are done.</li>
+        <li><strong>Keep water on the table</strong> and a jug in the fridge, for kids and older guests especially.</li>
+        <li><strong>Go back outside after about 4 pm</strong>, when the UV drops, for cricket, a swim or a walk.</li>
+      </ol>
+
+      <h2>Make it work for every age</h2>
+      <ul>
+        <li><strong>Little kids:</strong> one simple coloring page at a time, a bug or a Christmas bird, with crayons
+        kept out of the sun so they don't melt.</li>
+        <li><strong>Older kids and teens:</strong> word searches against the clock, or running the quiz for the
+        adults.</li>
+        <li><strong>Grandparents:</strong> large print puzzles and a comfortable chair in the coolest spot, not the
+        sunny end of the couch.</li>
+        <li><strong>The cook:</strong> the best chair in front of the fan and a puzzle of their own. They have earned
+        it.</li>
+      </ul>
+
+      <h2>Print the free pages before the 25th</h2>
+      <p>Print a small stack before Christmas Eve, while the printer still has ink: our free large print Christmas
+      word search, a summer beach word search for something different, the cardinal Christmas coloring page and a
+      ladybug coloring page for little ones. The pages are made for US Letter; on A4, choose "Fit" in the print
+      settings. For a whole hot afternoon, Cozy Christmas Coloring Book and Sunny Vibes Summer Word Search have
+      dozens more pages to share around the table.</p>
+
+  - slug: christmas-classroom-party-printables
+    title: "Christmas Classroom Party Ideas Teachers Can Print in 5 Minutes"
+    description: >-
+      25 excited kids, a tiny budget and no time to prepare? A calm 45-minute class party plan, 6 printable station
+      ideas, ways to include every child, whatever they celebrate, and free printables teachers can copy in 5 minutes.
+    date: 2026-12-04
+    topics: [Seasonal ideas, Kids & coloring, Activity ideas]
+    photos:
+      - slot: hero
+        query: paper stars christmas craft
+        wide_focus: [0.5, 0.5]
+        alt: A purple folded paper star with white hearts, hanging on a gold thread against a white wall
+      - slot: stations
+        after: 6 printable station ideas
+        query: gingerbread cookies decorating
+        alt: A felt gingerbread man ornament with a green ribbon bow on weathered wood beside fir branches
+    related: [bug-hunt, cute-bug-days, winter-snowy-days, cute-farm-days]
+    printables: [free-printable-christmas-word-search, free-printable-winter-word-search, free-printable-bug-word-search-for-kids, free-printable-ladybug-coloring-page]
+    social:
+      tags: "#classroomparty #christmasclassroom #teachertips #classroomactivities #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Teacher tips, headline: "Christmas Classroom Party Ideas You Can Print in 5 Minutes"}
+        - {photo: stations, design: list, kicker: Easy class party, headline: "6 Printable Stations for a Calm Class Party", from: "6 printable station ideas"}
+        - design: pages
+          kicker: Free for your classroom
+          headline: "Free Printables for a Calm Class Party"
+          pages: [{page: bug-hunt, label: Ages 6-10}, {page: cute-bug-days, label: Coloring}, {page: winter-snowy-days, label: Winter}]
+      instagram:
+        headline: The class party, without the chaos
+        list_title: 6 printable stations
+        from: "6 printable station ideas"
+        caption: |-
+          25 excited kids, a tiny budget and a party in the last week of term 🎄
+          Our new article has a calm 45-minute class party plan, 6 printable station ideas, ways to include every child, and free printables teachers can copy in 5 minutes.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #classroomparty #christmasclassroom #teachertips #classroomactivities #printables
+    body: |
+      <p>The last week before the holidays: 25 children full of sugar and excitement, a party slot on the timetable, a
+      budget of almost nothing, and report cards still to finish. Room parents offer cupcakes and glitter, and you
+      picture the cleanup. A calm party is possible with very little: a simple plan, a few printed stations and
+      activities every child can join, whatever they celebrate at home.</p>
+
+      <h2>A calm 45-minute party plan</h2>
+      <ol>
+        <li><strong>Settle (5 minutes):</strong> music on, one printed page on every desk as children come in.</li>
+        <li><strong>Stations (25 minutes):</strong> small groups rotate between three or four stations, about 8 minutes
+        each, with a bell to move on.</li>
+        <li><strong>Snack (10 minutes):</strong> at desks, while you read a short winter story aloud.</li>
+        <li><strong>Wrap up (5 minutes):</strong> children tidy their station and take one finished page home.</li>
+      </ol>
+
+      <h2>6 printable station ideas</h2>
+      <ul>
+        <li><strong>Word search station:</strong> a kids' word search with big letters for ages 6 to 10, a harder one
+        for fast finishers.</li>
+        <li><strong>Coloring station:</strong> one big, simple animal per page, so it can be finished in 8 minutes.</li>
+        <li><strong>Card making:</strong> a sheet folded in half, a printed coloring page cut down to fit the front,
+        and a message for someone at home.</li>
+        <li><strong>Paper chain countdown:</strong> strips of colored paper, each with a word from the word search
+        written on it.</li>
+        <li><strong>Draw-your-own puzzle:</strong> a blank grid where children hide five winter words for a friend to
+        find.</li>
+        <li><strong>Story station:</strong> picture books on cushions, with a parent volunteer reading.</li>
+      </ul>
+
+      <h2>Include every child</h2>
+      <ul>
+        <li><strong>Use a winter theme</strong> for most stations, such as snow, animals and stars, so children who
+        don't celebrate Christmas can join in fully. Check your school's guidance too.</li>
+        <li><strong>Offer a choice</strong> of two pages at the coloring station: one Christmas, one winter or
+        animals.</li>
+        <li><strong>Mix reading levels</strong> in each group, so a confident reader can help with the word list.</li>
+        <li><strong>Avoid food at the stations</strong> because of allergies, and keep the snack to what the school
+        allows.</li>
+        <li><strong>Have a quiet corner</strong> with a book or a coloring page for children who find parties loud.</li>
+      </ul>
+
+      <h2>Print it in 5 minutes</h2>
+      <ul>
+        <li><strong>Print one master copy</strong> of each page, then photocopy a class set in grayscale.</li>
+        <li><strong>Print at actual size</strong> so the letters stay big for young readers.</li>
+        <li><strong>Put the answer keys in sheet protectors</strong> at the word search station so children can check
+        their own work.</li>
+        <li><strong>Make 5 spares</strong> of each page for spills and new arrivals.</li>
+      </ul>
+
+      <h2>Free printables for your classroom</h2>
+      <p>Our free printables are ready to copy for your class: a bug word search for kids, a ladybug coloring page, a
+      winter word search and a large print Christmas word search for older pupils. You may print as many copies as
+      you need for your classroom. For a whole term of calm activities, Bug Hunt Word Search Coloring Book and Cute
+      Bug Days Coloring Book have dozens more pages for quiet moments in class.</p>
   - slug: make-printable-puzzles-last
     title: "How to Print Puzzles So They Last: Paper, Sheet Protectors and Dry-Erase Tricks"
     description: >-

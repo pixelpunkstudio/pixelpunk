@@ -132,6 +132,56 @@
    "width": 1000
   }
  },
+ "christmas-around-the-world-quiz": {
+  "hero": {
+   "file": "media/blog/christmas-around-the-world-quiz-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/globe-christmas-ornament-decoration-5899486/",
+   "pixabay_id": 5899486,
+   "puzzle": false,
+   "query": "world globe christmas",
+   "user": "HeraVibes",
+   "user_page": "https://pixabay.com/users/HeraVibes-19811354/",
+   "wide": "media/blog/christmas-around-the-world-quiz-hero-wide.jpg",
+   "width": 1000
+  },
+  "run": {
+   "file": "media/blog/christmas-around-the-world-quiz-run.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-market-tree-1056244/",
+   "pixabay_id": 1056244,
+   "puzzle": false,
+   "query": "christmas market night lights",
+   "user": "martinhunscher",
+   "user_page": "https://pixabay.com/users/martinhunscher-1677272/",
+   "width": 1000
+  }
+ },
+ "christmas-classroom-party-printables": {
+  "hero": {
+   "file": "media/blog/christmas-classroom-party-printables-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/star-christmas-decoration-1091793/",
+   "pixabay_id": 1091793,
+   "puzzle": false,
+   "query": "paper stars christmas craft",
+   "user": "Erbs55",
+   "user_page": "https://pixabay.com/users/Erbs55-735405/",
+   "wide": "media/blog/christmas-classroom-party-printables-hero-wide.jpg",
+   "width": 1000
+  },
+  "stations": {
+   "file": "media/blog/christmas-classroom-party-printables-stations.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-decoration-holiday-xmas-2988546/",
+   "pixabay_id": 2988546,
+   "puzzle": false,
+   "query": "gingerbread cookies decorating",
+   "user": "monicore",
+   "user_page": "https://pixabay.com/users/monicore-1499084/",
+   "width": 1000
+  }
+ },
  "christmas-coloring-color-choices": {
   "hero": {
    "file": "media/blog/christmas-coloring-color-choices-hero.jpg",
@@ -154,6 +204,31 @@
    "query": "pine cones dried orange slices cinnamon",
    "user": "PublicDomainPictures",
    "user_page": "https://pixabay.com/users/PublicDomainPictures-14/",
+   "width": 1000
+  }
+ },
+ "christmas-cracker-word-search": {
+  "hero": {
+   "file": "media/blog/christmas-cracker-word-search-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/packaging-christmas-paper-9176499/",
+   "pixabay_id": 9176499,
+   "puzzle": false,
+   "query": "paper stars christmas craft",
+   "user": "Bellahu123",
+   "user_page": "https://pixabay.com/users/Bellahu123-10783290/",
+   "wide": "media/blog/christmas-cracker-word-search-hero-wide.jpg",
+   "width": 1000
+  },
+  "make": {
+   "file": "media/blog/christmas-cracker-word-search-make.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-motif-red-bauble-6885851/",
+   "pixabay_id": 6885851,
+   "puzzle": false,
+   "query": "wrapping paper ribbon scissors",
+   "user": "neelam279",
+   "user_page": "https://pixabay.com/users/neelam279-9820894/",
    "width": 1000
   }
  },
@@ -326,6 +401,31 @@
    "query": "old letters handwritten",
    "user": "Pezibear",
    "user_page": "https://pixabay.com/users/Pezibear-526143/",
+   "width": 1000
+  }
+ },
+ "hot-summer-christmas-activities": {
+  "hero": {
+   "file": "media/blog/hot-summer-christmas-activities-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/red-flower-nature-plant-sky-2602425/",
+   "pixabay_id": 2602425,
+   "puzzle": false,
+   "query": "pohutukawa flowers",
+   "user": "StockSnap",
+   "user_page": "https://pixabay.com/users/StockSnap-894430/",
+   "wide": "media/blog/hot-summer-christmas-activities-hero-wide.jpg",
+   "width": 1000
+  },
+  "plan": {
+   "file": "media/blog/hot-summer-christmas-activities-plan.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/watermelon-basil-fruit-fresh-7344602/",
+   "pixabay_id": 7344602,
+   "puzzle": false,
+   "query": "watermelon slices summer",
+   "user": "mariya_m",
+   "user_page": "https://pixabay.com/users/mariya_m-12752456/",
    "width": 1000
   }
  },
