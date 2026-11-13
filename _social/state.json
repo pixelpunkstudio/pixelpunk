@@ -2097,7 +2097,10 @@
     "status": "draft"
   },
   "pin-christmas-classroom-party-printables-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-22T08:24:00-05:00",
+    "first_planned": "2026-12-22T08:24:00-05:00",
+    "approved": "article rule 2026-11-13T05:46:15-05:00"
   },
   "ig-christmas-classroom-party-printables": {
     "status": "draft"
