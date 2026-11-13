@@ -2158,5 +2158,11 @@
     "when": "2026-12-12T11:00:00-05:00",
     "first_planned": "2026-12-12T11:00:00-05:00",
     "approved": "2026-11-13T12:12:58"
+  },
+  "tt-coloring-night-shift-nurse": {
+    "status": "scheduled",
+    "when": "2026-12-10T11:00:00-05:00",
+    "first_planned": "2026-12-10T11:00:00-05:00",
+    "approved": "2026-11-13T12:23:35"
   }
 }

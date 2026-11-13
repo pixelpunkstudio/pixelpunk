@@ -5442,3 +5442,23 @@ items:
   - media/social/tiktok/hygge-cabin-no-wifi-3.jpg
   start: '2026-12-12'
   until: '2026-12-14'
+- key: tt-coloring-night-shift-nurse
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: My sister works night shifts all December. Christmas Day too
+  caption: 'She colors one page, then sleeps like a rock. Her words 🖍️
+
+    Cozy Christmas Coloring Book: 50 bold and easy holiday scenes, on Amazon.
+
+
+    #coloringbook #nurselife #adultcoloring #christmasgifts #selfcare'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-night-shift-nurse-1.jpg
+  - media/social/tiktok/coloring-night-shift-nurse-2.jpg
+  - media/social/tiktok/coloring-night-shift-nurse-3.jpg
+  start: '2026-12-10'
+  until: '2026-12-12'
