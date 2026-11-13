@@ -222,10 +222,12 @@
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "ig-fall-crisp-leaves": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-13T12:16:00-05:00",
     "first_planned": "2026-11-03T12:16:00-05:00",
-    "approved": "2026-10-21T18:04:53.999Z"
+    "approved": "2026-10-21T18:04:53.999Z",
+    "url": "https://www.instagram.com/p/DfsLK9Lj_5F/",
+    "published_at": "2026-11-13T12:31-05:00"
   },
   "pin-life-on-the-farm-cover": {
     "status": "published",
