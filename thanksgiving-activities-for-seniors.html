@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0WLJJBGB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"]});
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'granted'});
+
+(function () {
+  var KEY = 'pps_consent', DAYS = 180, tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  function load() {
+    try { var v = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (v && (v.c === 'granted' || v.c === 'denied') && Date.now() - v.t < DAYS * 864e5) return v.c;
+    } catch (e) {}
+    return null;
+  }
+  var choice = load();
+  if (choice) gtag('consent', 'update', {analytics_storage: choice});
+  var europe = !tz || /^(Europe|Arctic)\//.test(tz) ||
+    /^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(tz);
+
+  var STORES = {
+    'co.uk': /^Europe\/(London|Belfast|Guernsey|Jersey|Isle_of_Man|Gibraltar)$/,
+    'ie': /^Europe\/Dublin$/,
+    'de': /^Europe\/(Berlin|Vienna|Zurich|Busingen|Luxembourg|Vaduz)$/,
+    'fr': /^Europe\/(Paris|Monaco)$/,
+    'com.be': /^Europe\/Brussels$/,
+    'nl': /^Europe\/Amsterdam$/,
+    'es': /^(Europe\/Madrid|Atlantic\/Canary|Africa\/Ceuta)$/,
+    'it': /^Europe\/(Rome|Vatican|San_Marino|Malta)$/,
+    'pl': /^Europe\/Warsaw$/,
+    'se': /^Europe\/Stockholm$/,
+    'co.jp': /^Asia\/Tokyo$/,
+    'com.au': /^(Australia\/|Pacific\/(Auckland|Chatham)$)/,
+    'ca': /^America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Iqaluit|Yellowknife|Swift_Current|Atikokan|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Blanc-Sablon)$/
+  };
+  var store = 'com';
+  for (var d in STORES) if (STORES[d].test(tz)) { store = d; break; }
+
+  function save(c) {
+    try { localStorage.setItem(KEY, JSON.stringify({c: c, t: Date.now()})); } catch (e) {}
+    gtag('consent', 'update', {analytics_storage: c});
+    if (c === 'denied') document.cookie.split(';').forEach(function (k) {
+      var n = k.split('=')[0].trim();
+      if (/^_ga/.test(n)) ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')]
+        .forEach(function (dm) { document.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + dm; });
+    });
+    var b = document.getElementById('pps-cookie'); if (b) b.remove();
+  }
+  function banner() {
+    if (document.getElementById('pps-cookie')) return;
+    var b = document.createElement('div');
+    b.id = 'pps-cookie'; b.setAttribute('role', 'region'); b.setAttribute('aria-label', 'Cookie choice');
+    b.style.cssText = 'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;' +
+      'background:#fff;color:#23324a;border:2px solid #23324a;border-radius:12px;padding:16px 18px;' +
+      'box-shadow:0 6px 24px rgba(0,0,0,.18);font:15px/1.5 system-ui,sans-serif';
+    b.innerHTML = '<p style="margin:0 0 12px">We would like to use Google Analytics cookies to count visits and ' +
+      'see which puzzles and articles you enjoy. No advertising cookies, ever. ' +
+      '<a href="privacy.html#statistics" style="color:#b0702e">Privacy policy</a></p>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
+      '<button type="button" data-c="granted">Accept</button><button type="button" data-c="denied">Reject</button></div>';
+    [].forEach.call(b.querySelectorAll('button'), function (x) {
+      x.style.cssText = 'flex:1 1 140px;font:600 15px system-ui,sans-serif;padding:10px 14px;border-radius:8px;' +
+        'cursor:pointer;border:2px solid #23324a;background:#23324a;color:#fff';
+      x.onclick = function () { save(x.getAttribute('data-c')); };
+    });
+    document.body.appendChild(b);
+  }
+  window.ppsCookieSettings = banner;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+    });
+    [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
+      var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
+      p.parentNode.insertBefore(s, p.nextSibling); p.parentNode.insertBefore(document.createTextNode(' · '), s);
+    });
+    document.addEventListener('click', function (ev) {
+      var t = ev.target.closest && ev.target.closest('[data-cookie-settings]');
+      if (t) { ev.preventDefault(); banner(); }
+    });
+    if (!choice && europe) banner();
+  });
+})();
+
+  gtag('js', new Date());
+  gtag('config', 'G-VD0WLJJBGB');
+</script>
+<!-- /Google tag -->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day | Pixel Punk Studio</title>
+<meta name="description" content="Grandma ends up alone in an armchair while the noise goes on around her? 8 easy Thanksgiving games for seniors, simple jobs that keep grandparents involved, small changes that help, and a free large print Thanksgiving word search.">
+<link rel="canonical" href="https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Pixel Punk Studio">
+<meta property="og:title" content="Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day | Pixel Punk Studio">
+<meta property="og:description" content="Grandma ends up alone in an armchair while the noise goes on around her? 8 easy Thanksgiving games for seniors, simple jobs that keep grandparents involved, small changes that help, and a free large print Thanksgiving word search.">
+<meta property="og:url" content="https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html">
+<meta property="og:image" content="https://pixelpunkstudio.shop/media/blog/thanksgiving-activities-for-seniors-hero-wide.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day | Pixel Punk Studio">
+<meta name="twitter:description" content="Grandma ends up alone in an armchair while the noise goes on around her? 8 easy Thanksgiving games for seniors, simple jobs that keep grandparents involved, small changes that help, and a free large print Thanksgiving word search.">
+<meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/thanksgiving-activities-for-seniors-hero-wide.jpg">
+<link rel="icon" href="logo.png">
+<link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
+<link rel="stylesheet" href="style.css?v=4fb37728">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day", "description": "Grandma ends up alone in an armchair while the noise goes on around her? 8 easy Thanksgiving games for seniors, simple jobs that keep grandparents involved, small changes that help, and a free large print Thanksgiving word search.", "image": "https://pixelpunkstudio.shop/media/blog/thanksgiving-activities-for-seniors-hero.jpg", "url": "https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html", "datePublished": "2026-11-13", "dateModified": "2026-11-13", "keywords": "Seasonal ideas, Seniors & groups, Activity ideas", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day", "item": "https://pixelpunkstudio.shop/thanksgiving-activities-for-seniors.html"}]}</script>
+</head><body><main class="wide">
+<header class="top">
+  <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
+  <nav class="menu" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  <form class="search-form search-top" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <a class="btn small-btn" href="#newsletter">Free monthly puzzle</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
+</header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <form class="search-form search-panel" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search puzzles, books and tips" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <nav class="panel-links" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  <div class="panel-article"><nav class="side-box toc" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#give-them-a-seat-in-the-middle">Give them a seat in the middle</a></li><li><a href="#8-easy-thanksgiving-games-for-grandparents">8 easy Thanksgiving games for grandparents</a></li><li><a href="#jobs-that-keep-grandparents-part-of-the-day">Jobs that keep grandparents part of the day</a></li><li><a href="#small-changes-that-help">Small changes that help</a></li><li><a href="#print-the-thanksgiving-word-search">Print the Thanksgiving word search</a></li></ol></nav>
+  <div class="side-box"><strong>Topics</strong><div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#seniors-groups">Seniors &amp; groups</a><a class="tag" href="blog.html#activity-ideas">Activity ideas</a></div></div>
+  <nav class="side-box" aria-label="More articles"><strong>More articles</strong><ul><li><a href="word-search-game-night-for-groups.html">How to Run a Word Search Game Night for a Group: Rules, Timing and Small Prizes</a></li><li><a href="after-school-screen-free-activities.html">Kids Asking for Screens After School? 7 Calm 15-Minute Activities That Work</a></li><li><a href="fall-activities-for-seniors-indoors.html">Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home</a></li><li><a href="visiting-parent-assisted-living-activities.html">Visiting a Parent in Assisted Living? 10 Easy Things to Do Together in an Hour</a></li><li><a href="make-your-own-word-search.html">How to Make Your Own Word Search Puzzle by Hand (in About 15 Minutes)</a></li></ul>
+    <a class="all" href="blog.html">All articles →</a></nav>
+  <div class="side-box cta"><strong>Free printables</strong><p>Large print puzzles with solutions, free to print at home.</p>
+    <a class="btn" href="free-printables.html">Browse free printables</a></div></div>
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
+<div class="article-layout">
+<div class="article-main">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> <span aria-hidden="true">›</span> <a href="blog.html">Blog</a> <span aria-hidden="true">›</span> <a href="blog.html#seasonal-ideas">Seasonal ideas</a></nav>
+<h1 class="page left">Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day</h1>
+<article class="card prose">
+<figure class="photo wide"><img src="media/blog/thanksgiving-activities-for-seniors-hero-wide.jpg" alt="A slice of pumpkin pie with whipped cream beside two orange pumpkins, cinnamon sticks and autumn leaves" width="1200" height="675" fetchpriority="high"><figcaption>Photo: <a href="https://pixabay.com/photos/pumpkin-pie-autumn-pumpkin-orange-1887230/" target="_blank" rel="noopener">Daria-Yakovleva / Pixabay</a></figcaption></figure>
+<p class="small left">November 13, 2026 · By Pixel Punk Studio</p>
+<div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#seniors-groups">Seniors &amp; groups</a><a class="tag" href="blog.html#activity-ideas">Activity ideas</a></div>
+<nav class="toc inline" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#give-them-a-seat-in-the-middle">Give them a seat in the middle</a></li><li><a href="#8-easy-thanksgiving-games-for-grandparents">8 easy Thanksgiving games for grandparents</a></li><li><a href="#jobs-that-keep-grandparents-part-of-the-day">Jobs that keep grandparents part of the day</a></li><li><a href="#small-changes-that-help">Small changes that help</a></li><li><a href="#print-the-thanksgiving-word-search">Print the Thanksgiving word search</a></li></ol></nav>
+<p>Thanksgiving is loud. The kitchen is busy, the kids are running, the game is on, and conversations
+happen in three rooms at once. For an older guest with tired ears or tired legs, it is easy to end up in
+the quiet armchair by the window, smiling, but outside the day. Nobody means for it to happen. A couple of
+easy games and a real job or two are often all it takes to keep grandparents in the middle of things.</p>
+
+<h2 id="give-them-a-seat-in-the-middle">Give them a seat in the middle</h2>
+<p>Before any game, think about the chair. Put a comfortable chair with arms where the action is, near the
+kitchen door or at the end of the table, not in the far corner. Add a small side table for a drink and
+a puzzle, and good light. Being part of the day starts with being where people walk past.</p>
+
+<h2 id="8-easy-thanksgiving-games-for-grandparents">8 easy Thanksgiving games for grandparents</h2>
+<ol>
+  <li><strong>A large print Thanksgiving word search.</strong> Print a few copies and let grandparents and
+  grandkids race, or solve one together while the turkey rests.</li>
+  <li><strong>Thanksgiving memories jar.</strong> Everyone writes a favorite Thanksgiving memory on a slip of
+  paper; grandparents draw them and read them out, and guess who wrote each one.</li>
+  <li><strong>"When I was your age."</strong> The grandkids ask questions from a list: first job, first car,
+  what Thanksgiving dinner looked like in 1965. The older the stories, the better.</li>
+  <li><strong>Gratitude alphabet.</strong> Go around the table and name something you are thankful for, from
+  A to Z. Easy to join from a chair.</li>
+  <li><strong>Guess the pie.</strong> Small tastes of each pie or side dish with eyes closed. Grandparents
+  make excellent judges.</li>
+  <li><strong>Card games.</strong> Rummy, crazy eights or go fish work across three generations. Large-number
+  playing cards help.</li>
+  <li><strong>Old photo guessing game.</strong> Bring out a few old family photos and let the grandparents
+  tell the story behind each one.</li>
+  <li><strong>Family trivia.</strong> Questions only the oldest guests know: where Grandpa proposed, the name
+  of the first family dog.</li>
+</ol>
+
+<h2 id="jobs-that-keep-grandparents-part-of-the-day">Jobs that keep grandparents part of the day</h2>
+<ul>
+  <li><strong>Chief taster</strong> for the gravy and the stuffing, seated at the kitchen counter.</li>
+  <li><strong>Table folding:</strong> napkins, place cards or a name on each card, done sitting down.</li>
+  <li><strong>Recipe keeper:</strong> the family recipe read out loud, step by step, for whoever is cooking.</li>
+  <li><strong>Grace or the toast,</strong> if they enjoy it.</li>
+  <li><strong>Kids' table helper:</strong> a grandparent with a stack of coloring pages and word searches
+  keeps the little ones calm.</li>
+</ul>
+<figure class="photo tall"><img src="media/blog/thanksgiving-activities-for-seniors-table.jpg" alt="A Thanksgiving table set with gold chargers, a glass of red wine, a pear and candlelight" width="1000" height="1500" loading="lazy"><figcaption>Photo: <a href="https://pixabay.com/photos/thanksgiving-dinner-thanksgiving-8396730/" target="_blank" rel="noopener">JillWellington / Pixabay</a></figcaption></figure>
+
+<h2 id="small-changes-that-help">Small changes that help</h2>
+<ul>
+  <li><strong>Turn the TV down</strong> during dinner: background noise makes conversation hard to follow.</li>
+  <li><strong>Large print everything:</strong> place cards, puzzles, even the menu if you make one.</li>
+  <li><strong>Plan the games before the meal,</strong> when energy is highest, not at 9 pm.</li>
+  <li><strong>Offer a quiet room</strong> with a blanket for a short rest, so leaving the table is not leaving the day.</li>
+  <li><strong>Sit someone next to them</strong> who will repeat the joke everyone laughed at.</li>
+</ul>
+
+<h2 id="print-the-thanksgiving-word-search">Print the Thanksgiving word search</h2>
+<p>Our free Thanksgiving word search is in large print with its answer key, ready to print on letter paper
+before the guests arrive. For guests who need even bigger letters, our free jumbo print page has 30 point
+print, and the retirement word search makes a fun second puzzle for grandparents who just stopped working.</p>
+
+<p class="back"><a href="blog.html">← Back to all articles</a></p>
+</article>
+<nav class="pager" aria-label="More articles"><a class="older" href="word-search-game-night-for-groups.html"><small>← Older</small>How to Run a Word Search Game Night for a Group: Rules, Timing and Small Prizes</a><span></span></nav>
+</div>
+<aside class="side" aria-label="Article navigation">
+  <nav class="side-box toc" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#give-them-a-seat-in-the-middle">Give them a seat in the middle</a></li><li><a href="#8-easy-thanksgiving-games-for-grandparents">8 easy Thanksgiving games for grandparents</a></li><li><a href="#jobs-that-keep-grandparents-part-of-the-day">Jobs that keep grandparents part of the day</a></li><li><a href="#small-changes-that-help">Small changes that help</a></li><li><a href="#print-the-thanksgiving-word-search">Print the Thanksgiving word search</a></li></ol></nav>
+  <div class="side-box"><strong>Topics</strong><div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#seniors-groups">Seniors &amp; groups</a><a class="tag" href="blog.html#activity-ideas">Activity ideas</a></div></div>
+  <nav class="side-box" aria-label="More articles"><strong>More articles</strong><ul><li><a href="word-search-game-night-for-groups.html">How to Run a Word Search Game Night for a Group: Rules, Timing and Small Prizes</a></li><li><a href="after-school-screen-free-activities.html">Kids Asking for Screens After School? 7 Calm 15-Minute Activities That Work</a></li><li><a href="fall-activities-for-seniors-indoors.html">Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home</a></li><li><a href="visiting-parent-assisted-living-activities.html">Visiting a Parent in Assisted Living? 10 Easy Things to Do Together in an Hour</a></li><li><a href="make-your-own-word-search.html">How to Make Your Own Word Search Puzzle by Hand (in About 15 Minutes)</a></li></ul>
+    <a class="all" href="blog.html">All articles →</a></nav>
+  <div class="side-box cta"><strong>Free printables</strong><p>Large print puzzles with solutions, free to print at home.</p>
+    <a class="btn" href="free-printables.html">Browse free printables</a></div>
+</aside>
+</div>
+<section>
+  <h2>Free printables to try</h2>
+  <div class="grid printables"><a class="printable" href="free-printable-thanksgiving-word-search.html">
+  <img src="media/printables/thanksgiving-word-search.jpg" alt="Free Printable Thanksgiving Word Search for Adults (Large Print)" loading="lazy">
+  <span>Thanksgiving Word Search</span>
+</a>
+<a class="printable" href="free-printable-jumbo-christmas-word-search.html">
+  <img src="media/printables/jumbo-christmas.jpg" alt="Free Printable Jumbo Christmas Word Search for Seniors (Extra Large Print)" loading="lazy">
+  <span>Jumbo Christmas Word Search</span>
+</a>
+<a class="printable" href="free-printable-retirement-word-search.html">
+  <img src="media/printables/retirement.jpg" alt="Free Printable Retirement Word Search (Large Print)" loading="lazy">
+  <span>Retirement Word Search</span>
+</a></div>
+</section>
+<section>
+  <h2>Books you might like</h2>
+  <div class="grid"><article class="book">
+  <img src="covers/retirement.jpg" alt="Cover of Retirement Word Search" loading="lazy">
+  <div class="info"><h3>Retirement Word Search</h3><p>55 fun puzzles inspired by hobbies, travel, creativity and wellness</p><a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <img src="covers/cozy-christmas.jpg" alt="Cover of Cozy Christmas Word Search" loading="lazy">
+  <div class="info"><h3>Cozy Christmas Word Search</h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <img src="covers/jumbo-christmas.jpg" alt="Cover of Jumbo Christmas Word Search for Seniors" loading="lazy">
+  <div class="info"><h3>Jumbo Christmas Word Search for Seniors</h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <img src="covers/fall-crisp-leaves.jpg" alt="Cover of Crisp Leaves Fall Word Search" loading="lazy">
+  <div class="info"><h3>Crisp Leaves Fall Word Search</h3><p>55 autumn puzzles with apple picking, hayrides and cozy campfires</p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M" target="_blank" rel="noopener">View on Amazon</a></div>
+</article></div>
+</section>
+<section id="newsletter" class="band">
+  <h2>Get a free puzzle every month</h2>
+  <p class="intro">Join the Pixel Punk Studio newsletter for exclusive printable puzzles, new releases
+  and launch-week deals.</p>
+  <form class="signup" id="signup" method="post" action="https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==" data-after="subscribed.html">
+      <input type="email" name="EMAIL" placeholder="Your email address" required autocomplete="email" aria-label="Email address">
+      <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+    <p class="small" id="signup-msg" role="status"></p>
+    <p class="small">One email a month at most: new books, free puzzles and gift ideas. Unsubscribe in one
+    click. See our <a href="privacy.html">privacy policy</a>.</p>
+    <script>
+    // Send the address to Brevo in the background, then open our own confirmation page.
+    document.getElementById("signup").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const f = ev.target, msg = document.getElementById("signup-msg"), btn = f.querySelector("button");
+      const email = f.EMAIL.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+        msg.textContent = "That email address doesn't look right. Please check it and try again."; return;
+      }
+      btn.disabled = true; btn.textContent = "Sending...";
+      try {
+        // isAjax=1 makes Brevo answer with JSON instead of redirecting (same as Brevo's own script)
+        const r = await fetch(f.action + "?isAjax=1", { method: "POST", body: new FormData(f) });
+        if (r.redirected) { location.href = f.dataset.after; return; }
+        let data = {};
+        try { data = await r.json(); } catch (_) {}
+        if (r.ok && data.success) { location.href = f.dataset.after; return; }
+        const why = data.errors ? Object.values(data.errors).join(" ") : "";
+        msg.textContent = why || "Something went wrong on our side. Please try again in a moment.";
+      } catch (e) {
+        msg.textContent = "Something went wrong on our side. Please try again in a moment.";
+      }
+      btn.disabled = false; btn.textContent = "Subscribe";
+    });
+    </script>
+</section>
+<nav>Questions? <a href="mailto:hello@pixelpunkstudio.shop">hello@pixelpunkstudio.shop</a><br>
+<a href="free-printables.html">Free printables</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · © 2026 Pixel Punk Studio</nav>
+</main></body>
+</html>
