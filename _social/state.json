@@ -1522,12 +1522,16 @@
     "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-jumbo-quiet-days-assisted-living-scene": {
-    "status": "draft",
-    "note": "no free date in its season"
+    "status": "scheduled",
+    "when": "2026-11-19T17:13:00-05:00",
+    "first_planned": "2026-11-19T17:13:00-05:00",
+    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change"
   },
   "pin-jumbo-quiet-days-assisted-living-open": {
-    "status": "draft",
-    "note": "no free date in its season"
+    "status": "scheduled",
+    "when": "2026-11-15T17:52:00-05:00",
+    "first_planned": "2026-11-15T17:52:00-05:00",
+    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change"
   },
   "ig-jumbo-quiet-days-assisted-living": {
     "status": "scheduled",
@@ -1813,8 +1817,10 @@
     "note": "no free date in its season"
   },
   "pin-fall-lost-in-corn-maze-open": {
-    "status": "draft",
-    "note": "no free date in its season"
+    "status": "scheduled",
+    "when": "2026-11-14T20:23:00-05:00",
+    "first_planned": "2026-11-14T20:23:00-05:00",
+    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change"
   },
   "ig-fall-lost-in-corn-maze": {
     "status": "draft",
