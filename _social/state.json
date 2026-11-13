@@ -2140,5 +2140,23 @@
     "when": "2026-12-08T12:50:00-05:00",
     "first_planned": "2026-12-08T12:50:00-05:00",
     "approved": "article rule 2026-11-13 (user: swap out book posts)"
+  },
+  "tt-jumbo-choir-friend-90": {
+    "status": "scheduled",
+    "when": "2026-12-09T11:11:00-05:00",
+    "first_planned": "2026-12-09T11:11:00-05:00",
+    "approved": "2026-11-13T12:12:58"
+  },
+  "tt-nostalgic-dad-diner-1958": {
+    "status": "scheduled",
+    "when": "2026-12-11T11:37:00-05:00",
+    "first_planned": "2026-12-11T11:37:00-05:00",
+    "approved": "2026-11-13T12:12:58"
+  },
+  "tt-hygge-cabin-no-wifi": {
+    "status": "scheduled",
+    "when": "2026-12-12T11:00:00-05:00",
+    "first_planned": "2026-12-12T11:00:00-05:00",
+    "approved": "2026-11-13T12:12:58"
   }
 }

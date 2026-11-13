@@ -5382,3 +5382,63 @@ items:
   start: '2026-12-04'
   priority: 2
   until: '2026-12-22'
+- key: tt-jumbo-choir-friend-90
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: Grandma's choir friend just turned 90. Still sings every single Sunday
+  caption: 'She found the choir puzzle first. Of course she did 🎶
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30 pt print, on Amazon.
+
+
+    #wordsearch #largeprint #giftsforgrandma #churchchoir #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-choir-friend-90-1.jpg
+  - media/social/tiktok/jumbo-choir-friend-90-2.jpg
+  - media/social/tiktok/jumbo-choir-friend-90-3.jpg
+  start: '2026-12-09'
+  until: '2026-12-11'
+- key: tt-nostalgic-dad-diner-1958
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: Dad still talks about the diner where he had his first job. 1958
+  caption: 'He colored the pie stand first. Then told us which pie was the best one 🥧
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 bold and easy 1950s scenes, on Amazon.
+
+
+    #coloringbook #nostalgia #giftsfordad #1950s #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-dad-diner-1958-1.jpg
+  - media/social/tiktok/nostalgic-dad-diner-1958-2.jpg
+  - media/social/tiktok/nostalgic-dad-diner-1958-3.jpg
+  start: '2026-12-11'
+  until: '2026-12-13'
+- key: tt-hygge-cabin-no-wifi
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-winter-hygge
+  title: Booked a cabin for the weekend. No wifi. My sister panicked
+  caption: 'By Sunday she''d stopped checking for signal. Mostly 🌲
+
+    Cozy Winter Hygge Word Search: 55 large print puzzles, on Amazon.
+
+
+    #hygge #wordsearch #cabinweekend #digitaldetox #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/hygge-cabin-no-wifi-1.jpg
+  - media/social/tiktok/hygge-cabin-no-wifi-2.jpg
+  - media/social/tiktok/hygge-cabin-no-wifi-3.jpg
+  start: '2026-12-12'
+  until: '2026-12-14'
