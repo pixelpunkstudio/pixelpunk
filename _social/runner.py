@@ -37,7 +37,7 @@ TZ = ZoneInfo("America/New_York")
 # A daily cap, hours apart, a book not twice in a row (same ideas as the Big Bang Pixels scheduler). New York hours,
 # picked to fall in the afternoon and evening in Switzerland.
 RULES = {
-    "pinterest": {"times": ["14", "11", "8"], "per_day": 3, "gap_hours": 3, "same_book_days": 4},
+    "pinterest": {"times": ["14", "11", "8", "17", "20"], "per_day": 5, "gap_hours": 3, "same_book_days": 4},
     "instagram": {"times": ["12", "9", "13"], "per_day": 1, "gap_hours": 4, "same_book_days": 6, "every_days": 1},
     # inbox drafts: they land in the Swiss afternoon (11:00 NY = 17:00 CH) so the user can post them that evening
     "tiktok": {"times": ["11", "10", "12"], "per_day": 1, "gap_hours": 4, "same_book_days": 2, "every_days": 1},
