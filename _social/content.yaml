@@ -3483,24 +3483,6 @@ items:
   needs_amazon: true
   tiktok: coloring-no-more-tiny-mandalas
   until: '2026-12-22'
-- key: pin-coloring-no-more-tiny-mandalas-open
-  platform: pinterest
-  kind: photo open
-  board: Cozy Activities for Adults
-  title: Big, bold shapes you can actually finish in one sitting | Cozy Christmas Coloring Book
-  hook: Big, bold shapes you can actually finish in one sitting
-  description: 'A real page from Cozy Christmas Coloring Book for Adults and Seniors. Big, bold shapes you can actually
-    finish in one sitting. 50 peaceful holiday scenes drawn in bold, easy lines for adults and seniors: cozy cottages,
-    cardinals at the feeder, gingerbread houses and sleepy cats by the fire. Single-sided pages and a "Did you know?"
-    fun fact beside every picture. Try a free cardinal coloring page on our website. #adultcoloring #christmascoloring
-    #boldandeasy #coloringforseniors #cozychristmas'
-  alt: Cozy Christmas Coloring Book for Adults and Seniors lying open at a real page
-  book: cozy-christmas-coloring
-  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
-  priority: 2
-  needs_amazon: true
-  tiktok: coloring-no-more-tiny-mandalas
-  until: '2026-12-22'
 - key: ig-coloring-no-more-tiny-mandalas
   platform: instagram
   kind: photo carousel
@@ -3587,24 +3569,6 @@ items:
     page on our website. #nostalgicchristmas #coloringforseniors #boldandeasy'
   alt: Nostalgic Christmas Coloring Book for Seniors, on a wooden coffee table in a living room, a cup of coffee
     and a small dish of nuts beside it, Christmas tree lights softly out of focus behind
-  book: nostalgic-christmas-coloring
-  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
-  priority: 2
-  needs_amazon: true
-  tiktok: nostalgic-grandpa-tree-on-the-wagon
-  until: '2026-12-22'
-- key: pin-nostalgic-grandpa-tree-on-the-wagon-open
-  platform: pinterest
-  kind: photo open
-  board: Cozy Activities for Adults
-  title: 50 vintage scenes, each with a memory question | Nostalgic Christmas Coloring Book for Seniors
-  hook: 50 vintage scenes, each with a memory question
-  description: 'A real page from Nostalgic Christmas Coloring Book for Seniors. 50 vintage scenes, each with a memory
-    question. 50 bold and easy Christmas scenes from the 1950s and 60s: bubble lights, a station wagon bringing
-    home the tree, milk bottles on the porch and the family television. Single-sided pages, with a fun fact and
-    a memory question beside every picture to start conversations across the generations. Try a free vintage Christmas
-    TV coloring page on our website. #nostalgicchristmas #coloringforse'
-  alt: Nostalgic Christmas Coloring Book for Seniors lying open at a real page
   book: nostalgic-christmas-coloring
   link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
   priority: 2
@@ -3888,23 +3852,6 @@ items:
   priority: 3
   needs_amazon: true
   tiktok: hygge-no-phones-after-dinner
-- key: pin-bugs-grandkid-knows-everything-scene
-  platform: pinterest
-  kind: photo scene
-  board: Kids Coloring & Activity Books
-  title: A gift for the child who loves bugs (expect a thank-you drawing) | Cute Bug Days Coloring Book
-  hook: A gift for the child who loves bugs (expect a thank-you drawing)
-  description: 'A gift for the child who loves bugs (expect a thank-you drawing). 50 adorable bugs and insects to
-    color, each in its own natural home, with a "Did you know?" fun fact on every page. Bold, thick lines, single-sided
-    pages and a story page beside every drawing. Try a free ladybug coloring page on our website. #coloringbook
-    #kidscoloring #bugs #insects #kidsactivities'
-  alt: Cute Bug Days Coloring Book, on a child's low wooden table, a few chunky crayons in red, green and yellow
-    and a small magnifying glass beside it, daylight
-  book: cute-bug-days
-  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
-  priority: 3
-  needs_amazon: true
-  tiktok: bugs-grandkid-knows-everything
 - key: pin-bugs-grandkid-knows-everything-open
   platform: pinterest
   kind: photo open
@@ -3916,23 +3863,6 @@ items:
     page. Bold, thick lines, single-sided pages and a story page beside every drawing. Try a free ladybug coloring
     page on our website. #coloringbook #kidscoloring #bugs #insects #kidsactivities'
   alt: Cute Bug Days Coloring Book lying open at a real page
-  book: cute-bug-days
-  link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
-  priority: 3
-  needs_amazon: true
-  tiktok: bugs-grandkid-knows-everything
-- key: ig-bugs-grandkid-knows-everything
-  platform: instagram
-  kind: photo carousel
-  title: Cute Bug Days Coloring Book
-  hook: A gift for the child who loves bugs (expect a thank-you drawing)
-  caption: 'A bug coloring book for a bug-loving kid, and the thank-you drawing that comes back 🐞🖍️
-
-    Cute Bug Days Coloring Book for ages 3-10: 50 bugs, a fun fact on every page, on Amazon.
-
-    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
-
-    #coloringbook #kidsactivities #giftsforkids #thankyounote #bugs'
   book: cute-bug-days
   link: https://pixelpunkstudio.shop/free-printable-ladybug-coloring-page.html
   priority: 3
@@ -4099,22 +4029,6 @@ items:
     and focus. Try a free bug puzzle on our website. #wordsearchforkids #bugs #kidsactivities #preschool #screenfree'
   alt: Bug Hunt Word Search Coloring Book, on a child's wooden table, a few chunky crayons in green, yellow and
     red beside it, daylight
-  book: bug-hunt
-  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
-  priority: 4
-  needs_amazon: true
-  tiktok: bughunt-stridulate
-- key: pin-bughunt-stridulate-open
-  platform: pinterest
-  kind: photo open
-  board: Kids Coloring & Activity Books
-  title: 55 bug word searches. Find the words, then color in the letters | Bug Hunt Word Search Coloring Book
-  hook: 55 bug word searches. Find the words, then color in the letters
-  description: 'A real page from Bug Hunt Word Search Coloring Book. 55 bug word searches. Find the words, then
-    color in the letters. 55 bug word searches for kids ages 4 to 10, with color-the-letters puzzles: find each
-    word, then color it in. Fun, screen-free practice for spelling and focus. Try a free bug puzzle on our website.
-    #wordsearchforkids #bugs #kidsactivities #preschool #screenfree'
-  alt: Bug Hunt Word Search Coloring Book lying open at a real page
   book: bug-hunt
   link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
   priority: 4
@@ -4359,22 +4273,6 @@ items:
     #giftsforseniors'
   alt: Retirement Word Search, on a tidy office desk by a big window, a small potted plant and a folded pair of
     reading glasses beside it, a cardboard box softly out of focus behind, daylight
-  book: retirement
-  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
-  priority: 4
-  needs_amazon: true
-  tiktok: retirement-office-legend
-- key: pin-retirement-office-legend-open
-  platform: pinterest
-  kind: photo open
-  board: Word Search Puzzle Books
-  title: 55 puzzles about the hobbies a retiree finally has time for | Retirement Word Search
-  hook: 55 puzzles about the hobbies a retiree finally has time for
-  description: 'A real page from Retirement Word Search. 55 puzzles about the hobbies a retiree finally has time
-    for. 55 fun puzzles inspired by hobbies, travel, creativity and wellness. A large print word search book for
-    a happy, active retirement, and a thoughtful retirement gift. Try a free retirement puzzle on our website. #retirementgift
-    #wordsearch #largeprint #retirement #giftsforseniors'
-  alt: Retirement Word Search lying open at a real page
   book: retirement
   link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
   priority: 4
