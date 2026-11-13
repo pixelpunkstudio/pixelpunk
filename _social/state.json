@@ -2076,7 +2076,10 @@
     "status": "draft"
   },
   "pin-hot-summer-christmas-activities": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-22T11:25:00-05:00",
+    "first_planned": "2026-12-22T11:25:00-05:00",
+    "approved": "article rule 2026-11-13T05:45:36-05:00"
   },
   "pin-hot-summer-christmas-activities-2": {
     "status": "draft"
