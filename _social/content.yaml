@@ -5360,3 +5360,43 @@ items:
   - media/social/tiktok/coloring-night-shift-nurse-3.jpg
   start: '2026-12-10'
   until: '2026-12-12'
+- key: tt-cozy-christmas-new-neighbors
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: New neighbors moved in last week. They don't know anyone here yet
+  caption: 'They brought cookies back. Now we have neighbors AND cookies 🎄
+
+    Cozy Christmas Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #christmasgifts #newneighbors #kindness #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-new-neighbors-1.jpg
+  - media/social/tiktok/cozy-christmas-new-neighbors-2.jpg
+  - media/social/tiktok/cozy-christmas-new-neighbors-3.jpg
+  start: '2026-12-13'
+  until: '2026-12-15'
+- key: tt-jumbo-grandpa-eye-doctor
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: Grandpa's eye doctor said 'bigger print.' He took it personally
+  caption: 'He says it''s ''for when he''s tired.'' He''s tired every afternoon now 👓
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30 pt print, on Amazon.
+
+
+    #wordsearch #largeprint #giftsforgrandpa #seniors #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-grandpa-eye-doctor-1.jpg
+  - media/social/tiktok/jumbo-grandpa-eye-doctor-2.jpg
+  - media/social/tiktok/jumbo-grandpa-eye-doctor-3.jpg
+  start: '2026-12-14'
+  until: '2026-12-16'

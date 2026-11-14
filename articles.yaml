@@ -3,6 +3,127 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-in-india-classroom
+    title: "Teaching Christmas in India: Stars, Diyas and Plum Cake, a Ready Classroom Activity With Free Printable"
+    description: >-
+      Want a respectful Christmas lesson that shows how India really celebrates? A ready 40-minute classroom activity
+      on Christmas in India, from paper stars and diyas to plum cake and carols, with a word list, a star craft and a
+      free printable word search.
+    date: 2026-12-05
+    topics: [Seasonal ideas, Kids & coloring, Activity ideas]
+    photos:
+      - slot: hero
+        query: diya oil lamp
+        wide_focus: [0.5, 0.5]
+        alt: A row of small lit clay diyas glowing on a dark ledge
+      - slot: lesson
+        after: A ready 40-minute lesson
+        query: star lantern christmas
+        alt: A glowing paper star lantern hanging outside a house at night
+    related: [cozy-christmas, cute-farm-days, cozy-christmas-coloring, bug-hunt]
+    printables: [free-printable-christmas-word-search, free-printable-farm-word-search-for-kids, free-printable-cardinal-christmas-coloring-page]
+    social:
+      tags: "#christmasinindia #christmasactivities #teachertips #classroomactivities #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Classroom activity, headline: "Teaching Christmas in India: Stars, Diyas and Plum Cake"}
+        - {photo: lesson, design: list, kicker: Ready to teach, headline: "A Ready 40-Minute Lesson on Christmas in India", from: "A ready 40-minute lesson"}
+        - design: pages
+          kicker: Free for your classroom
+          headline: "Free Christmas Printables for Your Class"
+          pages: [{page: cozy-christmas, label: Word search}, {page: cute-farm-days, label: Coloring}, {page: bug-hunt, label: Ages 6-10}]
+      instagram:
+        headline: How India celebrates Christmas
+        list_title: A ready 40-minute lesson
+        from: "A ready 40-minute lesson"
+        caption: |-
+          Paper stars over the door, clay diyas on the wall, plum cake and carols late into the night ⭐
+          Our new article is a ready 40-minute classroom activity on Christmas in India, with a word list, a paper star craft and a free printable word search.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #christmasinindia #christmasactivities #teachertips #classroomactivities #printables
+    body: |
+      <p>Most Christmas worksheets show snowmen, sledges and log fires. In a classroom in Chennai, Kochi or Delhi, that
+      feels far away, and it leaves out how Christmas is really celebrated in India: paper stars over the door, clay
+      diyas along the wall, plum cake shared with neighbours and carol singers out late in the cool evening. Here is a
+      ready 40-minute activity that teaches Christmas in India respectfully, works for a mixed class whatever children
+      celebrate at home, and needs only paper, a printer and a pencil.</p>
+
+      <h2>What to tell the class first</h2>
+      <ul>
+        <li><strong>Who celebrates:</strong> Christians are about 2 in every 100 people in India, but that is still
+        more than 25 million people, and many friends and neighbours of other faiths join in the lights and the cake.</li>
+        <li><strong>A national holiday:</strong> 25 December is a public holiday across India. In Hindi it is often
+        called Bada Din, "the Big Day".</li>
+        <li><strong>Where it is biggest:</strong> Kerala, Goa, Mumbai, Tamil Nadu and the northeastern states of
+        Meghalaya, Mizoram and Nagaland, where most people are Christian and whole towns light up.</li>
+        <li><strong>How it feels:</strong> warm, not snowy, in most of the country, with church at midnight, family
+        visits and food shared with the whole street.</li>
+      </ul>
+
+      <h2>Stars, diyas and plum cake: the traditions to share</h2>
+      <ul>
+        <li><strong>Paper stars:</strong> big star lanterns made of paper or cloth, lit from inside, hang outside homes
+        and churches, a sign that the house celebrates Christmas.</li>
+        <li><strong>Diyas:</strong> many families in the south place small clay oil lamps on walls and rooftops, as they
+        do at Diwali, to show that Jesus is the light of the world.</li>
+        <li><strong>Cribs:</strong> Nativity scenes with clay figures are built at home, in churches and sometimes as
+        large village displays, especially in Goa.</li>
+        <li><strong>Plum cake:</strong> a rich fruit cake, baked in Kerala's bakeries for more than a century and given
+        to friends and neighbours. Some families start with a cake mixing in November.</li>
+        <li><strong>Sweets for the neighbours:</strong> in Goa, families prepare a plate of kuswar, homemade sweets such
+        as kulkuls and neureos, and share it around the street.</li>
+        <li><strong>Carols and Christmas Papa:</strong> carol groups go from house to house in the evenings, often with
+        someone dressed as Santa, called Christmas Papa in Kerala and Christmas Baba in Hindi.</li>
+        <li><strong>A different tree:</strong> pine trees are rare in most of India, so some families decorate a banana
+        or mango plant, or a tree made of paper.</li>
+      </ul>
+
+      <h2>A ready 40-minute lesson</h2>
+      <ol>
+        <li><strong>Map (5 minutes):</strong> show a map of India and mark Kerala, Goa, Mumbai and the northeast. Ask who
+        has visited any of them.</li>
+        <li><strong>Talk (10 minutes):</strong> share the traditions above with a photo of each. Ask children which
+        festivals they know with lamps, sweets or visits, such as Diwali, Eid or Onam, and what they have in common.</li>
+        <li><strong>Word search (10 minutes):</strong> hand out the free Christmas word search. Fast finishers hide the
+        India words from the list below in a grid for a friend.</li>
+        <li><strong>Paper star (10 minutes):</strong> make the simple star below to take home or hang in the classroom.</li>
+        <li><strong>Share (5 minutes):</strong> each child says one tradition they learned and one they would like to
+        try.</li>
+      </ol>
+
+      <h2>Christmas in India word list</h2>
+      <p>Use these words for a spelling game, a matching activity, or a word search the children build themselves with
+      our <a href="make-your-own-word-search.html">free word search maker</a>: STAR, DIYA, LANTERN, CRIB, CAROLS,
+      CHURCH, PLUM CAKE, KULKULS, KERALA, GOA, SHILLONG, BADA DIN, MIDNIGHT, NEIGHBOURS, CANDLE, BELLS, GIFTS,
+      FAMILY. For younger classes, choose eight short words and print them in large letters.</p>
+
+      <h2>Make a simple paper star</h2>
+      <ol>
+        <li><strong>Draw a star</strong> on card, about the size of a hand, or trace one from a template.</li>
+        <li><strong>Cut it out twice</strong> and cut a smaller star from the middle of each, like a frame.</li>
+        <li><strong>Glue coloured tissue or cellophane</strong> between the two frames, so light shines through.</li>
+        <li><strong>Add a tail of paper strips</strong> at the bottom, like the stars hung outside Indian homes.</li>
+        <li><strong>Punch a hole and add a thread</strong> to hang it in a window, where the sun lights it up.</li>
+      </ol>
+
+      <h2>Keep it respectful and inclusive</h2>
+      <ul>
+        <li><strong>Teach it as a festival people celebrate,</strong> like Diwali or Eid, not as something every child
+        must share. Children of every faith can learn about it and join the craft.</li>
+        <li><strong>Let Christian pupils lead</strong> if they want to: they may have a family star, a carol or a cake
+        recipe to share. Never put anyone on the spot.</li>
+        <li><strong>Skip food in class,</strong> or check with families first: allergies, vegetarian homes and eggless
+        diets all matter with cake.</li>
+        <li><strong>Show real India,</strong> not snow and reindeer: warm evenings, paper stars and busy streets are
+        what your pupils will recognise.</li>
+      </ul>
+
+      <h2>Print the free pages</h2>
+      <p>Our free large print Christmas word search is ready to copy for the lesson, with its answer key on the second
+      page. For younger children, the farm word search for kids and the cardinal Christmas coloring page make calm
+      extras for fast finishers. The pages are made for US Letter: on A4 paper, choose "Fit" in the print settings, and
+      print as many copies as your class needs. For a whole term of puzzles, Cozy Christmas Word Search has a set of
+      Christmas around the world pages, and Cute Farm Days Coloring Book suits the youngest classes.</p>
+
   - slug: christmas-around-the-world-quiz
     title: "Christmas Around the World Quiz: 30 Questions for Family, Pub or Classroom (With Answers)"
     description: >-

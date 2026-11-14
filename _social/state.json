@@ -2211,5 +2211,17 @@
     "when": "2026-12-10T11:00:00-05:00",
     "first_planned": "2026-12-10T11:00:00-05:00",
     "approved": "2026-11-13T12:23:35"
+  },
+  "tt-cozy-christmas-new-neighbors": {
+    "status": "scheduled",
+    "when": "2026-12-13T11:45:00-05:00",
+    "first_planned": "2026-12-13T11:45:00-05:00",
+    "approved": "2026-11-14T18:51:20"
+  },
+  "tt-jumbo-grandpa-eye-doctor": {
+    "status": "scheduled",
+    "when": "2026-12-14T11:33:00-05:00",
+    "first_planned": "2026-12-14T11:33:00-05:00",
+    "approved": "2026-11-14T18:51:20"
   }
 }
