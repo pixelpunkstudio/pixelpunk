@@ -928,10 +928,17 @@
     ]
   },
   "pin-fall-activities-for-seniors-indoors-2": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-14T11:14:00-05:00",
     "first_planned": "2026-11-16T11:14:00-05:00",
-    "approved": "article rule 2026-11-01T07:41:06-05:00"
+    "approved": "article rule 2026-11-01T07:41:06-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613025712195/",
+    "published_at": "2026-11-14T11:15-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Fall Activities",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-fall-activities-for-seniors-indoors-3": {
     "status": "scheduled",
