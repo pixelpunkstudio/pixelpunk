@@ -1829,7 +1829,7 @@
   },
   "ig-bughunt-stridulate": {
     "status": "scheduled",
-    "when": "2026-12-16T12:37:00-05:00",
+    "when": "2027-01-02T12:37:00-05:00",
     "first_planned": "2026-12-16T12:37:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -2267,6 +2267,9 @@
     "approved": "article rule 2026-11-15T12:25:57-05:00"
   },
   "ig-christmas-in-india-classroom": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-16T12:37:00-05:00",
+    "first_planned": "2026-12-16T12:37:00-05:00",
+    "approved": "article rule 2026-11-15 (swap out book posts, as on 2026-11-13)"
   }
 }
