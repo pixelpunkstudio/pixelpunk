@@ -5400,3 +5400,99 @@ items:
   - media/social/tiktok/jumbo-grandpa-eye-doctor-3.jpg
   start: '2026-12-14'
   until: '2026-12-16'
+- key: pin-christmas-in-india-classroom
+  platform: pinterest
+  kind: article
+  book: christmas-in-india-classroom
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-in-india-classroom.html
+  title: 'Teaching Christmas in India: Stars, Diyas and Plum Cake'
+  alt: A lit clay diya surrounded by orange marigold flowers on a pale floor
+  description: 'Want a respectful Christmas lesson that shows how India really celebrates? A ready 40-minute classroom
+    activity on Christmas in India, from paper stars and diyas to plum cake and carols, with a word list, a star
+    craft and a free printable word search. #christmasinindia #christmasactivities #teachertips #classroomactivities
+    #printables'
+  design: top
+  photo: hero
+  kicker: Classroom activity
+  items: []
+  start: '2026-12-05'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-in-india-classroom-2
+  platform: pinterest
+  kind: article
+  book: christmas-in-india-classroom
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-in-india-classroom.html
+  title: A Ready 40-Minute Lesson on Christmas in India
+  alt: A glowing paper star lantern with paisley cutouts, lit from inside at night
+  description: 'Want a respectful Christmas lesson that shows how India really celebrates? A ready 40-minute classroom
+    activity on Christmas in India, from paper stars and diyas to plum cake and carols, with a word list, a star
+    craft and a free printable word search. #christmasinindia #christmasactivities #teachertips #classroomactivities
+    #printables'
+  design: list
+  photo: lesson
+  kicker: Ready to teach
+  items:
+  - Map (5 minutes)
+  - Talk (10 minutes)
+  - Word search (10 minutes)
+  - Paper star (10 minutes)
+  - Share (5 minutes)
+  start: '2026-12-12'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-in-india-classroom-3
+  platform: pinterest
+  kind: article
+  book: christmas-in-india-classroom
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-in-india-classroom.html
+  title: Free Printables for Your Class
+  alt: Three free printable pages for the classroom, a Christmas word search, a puppy coloring page and a bug word
+    search
+  description: 'Want a respectful Christmas lesson that shows how India really celebrates? A ready 40-minute classroom
+    activity on Christmas in India, from paper stars and diyas to plum cake and carols, with a word list, a star
+    craft and a free printable word search. #christmasinindia #christmasactivities #teachertips #classroomactivities
+    #printables'
+  design: pages
+  photo: hero
+  kicker: Christmas in India lesson
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Word search
+  - page: cute-farm-days
+    label: Coloring
+  - page: bug-hunt
+    label: Ages 6-10
+  start: '2026-12-19'
+  priority: 2
+  until: '2026-12-22'
+- key: ig-christmas-in-india-classroom
+  platform: instagram
+  kind: article carousel
+  book: christmas-in-india-classroom
+  link: https://pixelpunkstudio.shop/christmas-in-india-classroom.html
+  title: 'Teaching Christmas in India: Stars, Diyas and Plum Cake, a Ready Classroom Activity With Free Printable'
+  headline: How India celebrates Christmas
+  kicker: New on the blog
+  items:
+  - Map (5 minutes)
+  - Talk (10 minutes)
+  - Word search (10 minutes)
+  - Paper star (10 minutes)
+  - Share (5 minutes)
+  list_title: A ready 40-minute lesson
+  caption: 'Paper stars over the door, clay diyas on the wall, plum cake and carols late into the night ⭐
+
+    Our new article is a ready 40-minute classroom activity on Christmas in India, with a word list, a paper star
+    craft and a free printable word search.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #christmasinindia #christmasactivities #teachertips #classroomactivities #printables'
+  start: '2026-12-05'
+  priority: 2
+  until: '2026-12-22'

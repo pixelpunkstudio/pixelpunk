@@ -15,11 +15,11 @@ articles:
       - slot: hero
         query: diya oil lamp
         wide_focus: [0.5, 0.5]
-        alt: A row of small lit clay diyas glowing on a dark ledge
+        alt: A lit clay diya surrounded by orange marigold flowers on a pale floor
       - slot: lesson
         after: A ready 40-minute lesson
-        query: star lantern christmas
-        alt: A glowing paper star lantern hanging outside a house at night
+        query: paper star lantern
+        alt: A glowing paper star lantern with paisley cutouts, lit from inside at night
     related: [cozy-christmas, cute-farm-days, cozy-christmas-coloring, bug-hunt]
     printables: [free-printable-christmas-word-search, free-printable-farm-word-search-for-kids, free-printable-cardinal-christmas-coloring-page]
     social:
@@ -28,8 +28,8 @@ articles:
         - {photo: hero, design: top, kicker: Classroom activity, headline: "Teaching Christmas in India: Stars, Diyas and Plum Cake"}
         - {photo: lesson, design: list, kicker: Ready to teach, headline: "A Ready 40-Minute Lesson on Christmas in India", from: "A ready 40-minute lesson"}
         - design: pages
-          kicker: Free for your classroom
-          headline: "Free Christmas Printables for Your Class"
+          kicker: Christmas in India lesson
+          headline: "Free Printables for Your Class"
           pages: [{page: cozy-christmas, label: Word search}, {page: cute-farm-days, label: Coloring}, {page: bug-hunt, label: Ages 6-10}]
       instagram:
         headline: How India celebrates Christmas

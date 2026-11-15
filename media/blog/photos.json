@@ -232,6 +232,31 @@
    "width": 1000
   }
  },
+ "christmas-in-india-classroom": {
+  "hero": {
+   "file": "media/blog/christmas-in-india-classroom-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/lamp-diwali-deepawali-deepavali-6771488/",
+   "pixabay_id": 6771488,
+   "puzzle": false,
+   "query": "diya oil lamp",
+   "user": "SwastikArora",
+   "user_page": "https://pixabay.com/users/SwastikArora-16423446/",
+   "wide": "media/blog/christmas-in-india-classroom-hero-wide.jpg",
+   "width": 1000
+  },
+  "lesson": {
+   "file": "media/blog/christmas-in-india-classroom-lesson.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/star-yellow-black-dark-night-80885/",
+   "pixabay_id": 80885,
+   "puzzle": false,
+   "query": "paper star lantern",
+   "user": "xuuxuu",
+   "user_page": "https://pixabay.com/users/xuuxuu-12368/",
+   "width": 1000
+  }
+ },
  "christmas-word-search-games": {
   "hero": {
    "file": "media/blog/christmas-word-search-games-hero.jpg",

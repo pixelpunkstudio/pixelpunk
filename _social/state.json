@@ -2247,5 +2247,26 @@
     "when": "2026-12-14T11:33:00-05:00",
     "first_planned": "2026-12-14T11:33:00-05:00",
     "approved": "2026-11-14T18:51:20"
+  },
+  "pin-christmas-in-india-classroom": {
+    "status": "scheduled",
+    "when": "2026-12-05T20:56:00-05:00",
+    "first_planned": "2026-12-05T20:56:00-05:00",
+    "approved": "article rule 2026-11-15T12:25:57-05:00"
+  },
+  "pin-christmas-in-india-classroom-2": {
+    "status": "scheduled",
+    "when": "2026-12-12T20:08:00-05:00",
+    "first_planned": "2026-12-12T20:08:00-05:00",
+    "approved": "article rule 2026-11-15T12:25:57-05:00"
+  },
+  "pin-christmas-in-india-classroom-3": {
+    "status": "scheduled",
+    "when": "2026-12-19T20:19:00-05:00",
+    "first_planned": "2026-12-19T20:19:00-05:00",
+    "approved": "article rule 2026-11-15T12:25:57-05:00"
+  },
+  "ig-christmas-in-india-classroom": {
+    "status": "draft"
   }
 }
