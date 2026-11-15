@@ -1864,10 +1864,17 @@
     "note": "no free date in its season"
   },
   "pin-fall-lost-in-corn-maze-open": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-14T20:23:00-05:00",
     "first_planned": "2026-11-14T20:23:00-05:00",
-    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change"
+    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change",
+    "url": "https://www.pinterest.com/pin/1127166613025748747/",
+    "published_at": "2026-11-14T20:31-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Fall Activities",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-fall-lost-in-corn-maze": {
     "status": "draft",
