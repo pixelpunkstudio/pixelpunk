@@ -75,7 +75,7 @@ sections:
         published: 2026-11-16
         sample:
           pdf: "books/jumbo-bible/output"
-          pages: [7, 208]
+          pages: [7, "208:top"]   # only the Days of Creation solution (page 208 holds two)
           label: Free printable puzzle
           page: free-printable-jumbo-bible-word-search
           seo_title: "Free Printable Jumbo Bible Word Search for Seniors (Extra Large Print)"
