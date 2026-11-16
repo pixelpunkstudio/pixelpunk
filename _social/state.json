@@ -1303,10 +1303,12 @@
     "published_at": "2026-11-15T11:01-05:00"
   },
   "tt-retirement-dad-my-garage": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-16T11:11:00-05:00",
     "first_planned": "2026-11-16T11:11:00-05:00",
-    "approved": "2026-11-05T21:59:49"
+    "approved": "2026-11-05T21:59:49",
+    "url": "tiktok inbox draft p_inbox_url~v2.7708803617008011286 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-16T11:15-05:00"
   },
   "tt-farm-goats-can-talk": {
     "status": "published",
