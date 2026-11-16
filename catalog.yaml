@@ -71,7 +71,18 @@ sections:
         title: Jumbo Bible Word Search for Seniors
         subtitle: 100 extra large print puzzles in font size 30, from Genesis to Revelation, with a Bible fun fact beside every puzzle
         tags: [Font size 30, 8.5 x 11, Seniors]
-        amazon:
+        amazon: B0HRX67MVT
+        published: 2026-11-16
+        sample:
+          pdf: "books/jumbo-bible/output"
+          pages: [7, 208]
+          label: Free printable puzzle
+          page: free-printable-jumbo-bible-word-search
+          seo_title: "Free Printable Jumbo Bible Word Search for Seniors (Extra Large Print)"
+          pin_title: "Jumbo Bible Word Search"   # two lines max on the pin
+          about: >-
+            Days of Creation: an extra large print Bible word search in 30-point letters with 18 words from Genesis 1, from beginning, light and firmament to the seasons, the creatures and the Sabbath rest.
+        more: There are 99 more jumbo print Bible puzzles, from Genesis to Revelation, each with a Bible fun fact, in Jumbo Bible Word Search for Seniors.
 
   - title: Culture Lovers Word Search
     intro: Large print word searches with a great painter, author or composer, their story and a fun fact beside every puzzle. A tour of art, literature and opera for adults and seniors.
