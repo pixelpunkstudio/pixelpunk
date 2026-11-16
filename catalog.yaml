@@ -67,6 +67,11 @@ sections:
           about: >-
             Christmas Cookie Swap: an extra large print Christmas word search in 30-point letters with 18 words, from spritz, pizzelle and biscotti to sprinkles, frosting and the cookie exchange.
         more: There are 99 more jumbo print Christmas puzzles, each with a fun fact, in Jumbo Christmas Word Search for Seniors.
+      - slug: jumbo-bible
+        title: Jumbo Bible Word Search for Seniors
+        subtitle: 100 extra large print puzzles in font size 30, from Genesis to Revelation, with a Bible fun fact beside every puzzle
+        tags: [Font size 30, 8.5 x 11, Seniors]
+        amazon:
 
   - title: Culture Lovers Word Search
     intro: Large print word searches with a great painter, author or composer, their story and a fun fact beside every puzzle. A tour of art, literature and opera for adults and seniors.
@@ -299,6 +304,11 @@ sections:
 
   - title: More Puzzle Books
     books:
+      - slug: vintage-recipe-word-search
+        title: Vintage Recipe Word Search
+        subtitle: 55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams
+        tags: [Large print, 8.5 x 11, Gift idea]
+        amazon:
       - slug: retirement
         title: Retirement Word Search
         subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
