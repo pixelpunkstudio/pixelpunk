@@ -257,6 +257,31 @@
    "width": 1000
   }
  },
+ "christmas-traditions-canada-kids": {
+  "hero": {
+   "file": "media/blog/christmas-traditions-canada-kids-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/log-house-winter-forest-snow-6647128/",
+   "pixabay_id": 6647128,
+   "puzzle": false,
+   "query": "snowy cabin winter forest",
+   "user": "LTapsaH",
+   "user_page": "https://pixabay.com/users/LTapsaH-2465371/",
+   "wide": "media/blog/christmas-traditions-canada-kids-hero-wide.jpg",
+   "width": 1000
+  },
+  "hunt": {
+   "file": "media/blog/christmas-traditions-canada-kids-hunt.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/mittens-snowballs-snowball-fight-8508885/",
+   "pixabay_id": 8508885,
+   "puzzle": false,
+   "query": "winter mittens snow",
+   "user": "JillWellington",
+   "user_page": "https://pixabay.com/users/JillWellington-334088/",
+   "width": 1000
+  }
+ },
  "christmas-word-search-games": {
   "hero": {
    "file": "media/blog/christmas-word-search-games-hero.jpg",
@@ -634,6 +659,31 @@
    "user": "garten-gg",
    "user_page": "https://pixabay.com/users/garten-gg-201217/",
    "wide": "media/blog/nativity-activities-sunday-school-hero-wide.jpg",
+   "width": 1000
+  }
+ },
+ "printable-puzzle-gift": {
+  "hero": {
+   "file": "media/blog/printable-puzzle-gift-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-holiday-tree-package-1908462/",
+   "pixabay_id": 1908462,
+   "puzzle": false,
+   "query": "kraft paper gift twine",
+   "user": "12019",
+   "user_page": "https://pixabay.com/users/12019-12019/",
+   "wide": "media/blog/printable-puzzle-gift-hero-wide.jpg",
+   "width": 1000
+  },
+  "wrap": {
+   "file": "media/blog/printable-puzzle-gift-wrap.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/cookies-food-flat-lay-5775887/",
+   "pixabay_id": 5775887,
+   "puzzle": false,
+   "query": "christmas ribbon scissors",
+   "user": "13729238",
+   "user_page": "https://pixabay.com/users/13729238-13729238/",
    "width": 1000
   }
  },

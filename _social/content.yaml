@@ -5496,3 +5496,190 @@ items:
   start: '2026-12-05'
   priority: 2
   until: '2026-12-22'
+- key: pin-christmas-traditions-canada-kids
+  platform: pinterest
+  kind: article
+  book: christmas-traditions-canada-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-traditions-canada-kids.html
+  title: Canadian Christmas Traditions Kids Love
+  alt: A small log cabin at the edge of a snowy spruce forest
+  description: 'Tired of Christmas activities that only show American traditions? Mummering, réveillon, H0H 0H0
+    and more Canadian Christmas traditions explained for kids, with a snow-day puzzle hunt to set up at home or
+    in class and a free printable word search. #christmasincanada #canadianchristmas #christmasactivities #kidsactivities
+    #printables'
+  design: top
+  photo: hero
+  kicker: Christmas in Canada
+  items: []
+  start: '2026-12-07'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-traditions-canada-kids-2
+  platform: pinterest
+  kind: article
+  book: christmas-traditions-canada-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-traditions-canada-kids.html
+  title: Set Up a Snow-Day Puzzle Hunt in 15 Minutes
+  alt: A pair of striped knitted mittens beside a pile of snowballs in fresh snow
+  description: 'Tired of Christmas activities that only show American traditions? Mummering, réveillon, H0H 0H0
+    and more Canadian Christmas traditions explained for kids, with a snow-day puzzle hunt to set up at home or
+    in class and a free printable word search. #christmasincanada #canadianchristmas #christmasactivities #kidsactivities
+    #printables'
+  design: list
+  photo: hunt
+  kicker: Snow-day fun
+  items:
+  - Print the word search
+  - Pick six hiding places
+  - Write six clue cards
+  - Hide the cards in order
+  - Circle each word before moving on
+  - End with a small prize
+  start: '2026-12-14'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-traditions-canada-kids-3
+  platform: pinterest
+  kind: article
+  book: christmas-traditions-canada-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-traditions-canada-kids.html
+  title: Free Printables for a Snow Day
+  alt: A small log cabin at the edge of a snowy spruce forest
+  description: 'Tired of Christmas activities that only show American traditions? Mummering, réveillon, H0H 0H0
+    and more Canadian Christmas traditions explained for kids, with a snow-day puzzle hunt to set up at home or
+    in class and a free printable word search. #christmasincanada #canadianchristmas #christmasactivities #kidsactivities
+    #printables'
+  design: pages
+  photo: hero
+  kicker: Christmas in Canada for kids
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Word search
+  - page: winter-snowy-days
+    label: Winter puzzles
+  - page: cute-bug-days
+    label: Coloring
+  start: '2026-12-21'
+  priority: 2
+  until: '2026-12-22'
+- key: ig-christmas-traditions-canada-kids
+  platform: instagram
+  kind: article carousel
+  book: christmas-traditions-canada-kids
+  link: https://pixelpunkstudio.shop/christmas-traditions-canada-kids.html
+  title: 'Christmas Traditions in Canada Kids Love: Mummering, Réveillon and a Snow-Day Puzzle Hunt'
+  headline: Christmas the Canadian way
+  kicker: New on the blog
+  items:
+  - A letter to H0H 0H0
+  - The Huron Carol
+  - A tree for Boston
+  - Belsnickels
+  - Twelve dishes
+  - The Santa Claus Parade
+  list_title: Six traditions from coast to coast
+  caption: 'Mummers at the door, tourtière after midnight and a letter to Santa at H0H 0H0 🍁
+
+    Our new article explains Canadian Christmas traditions for kids, with a snow-day puzzle hunt to set up at home
+    or in class and a free printable word search.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #christmasincanada #canadianchristmas #christmasactivities #kidsactivities #printables'
+  start: '2026-12-07'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-printable-puzzle-gift
+  platform: pinterest
+  kind: article
+  book: printable-puzzle-gift
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/printable-puzzle-gift.html
+  title: Need a Stocking Stuffer Tonight? Make One From Printable Puzzles
+  alt: A small parcel in snowflake-printed brown paper, tied with red and white twine, lying on fir branches
+  description: 'Too late to order a gift? Turn free printable puzzles into a personal stocking stuffer tonight:
+    hide family names in a word search, roll it into a scroll, add a pencil and a note. A 30-minute plan with ideas
+    for every age. #stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts'
+  design: top
+  photo: hero
+  kicker: Last-minute gift
+  items: []
+  start: '2026-12-06'
+  priority: 3
+- key: pin-printable-puzzle-gift-2
+  platform: pinterest
+  kind: article
+  book: printable-puzzle-gift
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/printable-puzzle-gift.html
+  title: Wrap a Printable Puzzle Gift in Five Minutes
+  alt: Black scissors, a curl of ribbon and heart-shaped cookies on a pale wooden table
+  description: 'Too late to order a gift? Turn free printable puzzles into a personal stocking stuffer tonight:
+    hide family names in a word search, roll it into a scroll, add a pencil and a note. A 30-minute plan with ideas
+    for every age. #stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts'
+  design: list
+  photo: wrap
+  kicker: DIY stocking stuffer
+  items:
+  - Roll it into a scroll
+  - Tie it with ribbon or twine
+  - Add a tag
+  - Or fold it into a card
+  - Make a small bundle
+  - Pop it in the stocking last
+  start: '2026-12-13'
+  priority: 3
+- key: pin-printable-puzzle-gift-3
+  platform: pinterest
+  kind: article
+  book: printable-puzzle-gift
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/printable-puzzle-gift.html
+  title: Printable Puzzles That Make a Thoughtful Gift
+  alt: A small parcel in snowflake-printed brown paper, tied with red and white twine, lying on fir branches
+  description: 'Too late to order a gift? Turn free printable puzzles into a personal stocking stuffer tonight:
+    hide family names in a word search, roll it into a scroll, add a pencil and a note. A 30-minute plan with ideas
+    for every age. #stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts'
+  design: pages
+  photo: hero
+  kicker: Free pages to print tonight
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Word search
+  - page: jumbo-christmas
+    label: Large print
+  - page: cozy-christmas-coloring
+    label: Coloring
+  start: '2026-12-20'
+  priority: 3
+- key: ig-printable-puzzle-gift
+  platform: instagram
+  kind: article carousel
+  book: printable-puzzle-gift
+  link: https://pixelpunkstudio.shop/printable-puzzle-gift.html
+  title: Need a Stocking Stuffer Tonight? Turn Printable Puzzles Into a Thoughtful Gift
+  headline: A stocking stuffer you can print tonight
+  kicker: New on the blog
+  items:
+  - Roll it into a scroll
+  - Tie it with ribbon or twine
+  - Add a tag
+  - Or fold it into a card
+  - Make a small bundle
+  - Pop it in the stocking last
+  list_title: Wrap it in five minutes
+  caption: 'Shops closed, deliveries too late, one stocking still empty? 🎁
+
+    Our new article shows how to turn free printable puzzles into a personal gift tonight: a word search with family
+    names hidden in it, rolled into a scroll with a pencil and a note.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts'
+  start: '2026-12-06'
+  priority: 3

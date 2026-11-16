@@ -2284,5 +2284,41 @@
     "when": "2026-12-16T12:37:00-05:00",
     "first_planned": "2026-12-16T12:37:00-05:00",
     "approved": "article rule 2026-11-15 (swap out book posts, as on 2026-11-13)"
+  },
+  "pin-christmas-traditions-canada-kids": {
+    "status": "draft"
+  },
+  "pin-christmas-traditions-canada-kids-2": {
+    "status": "draft"
+  },
+  "pin-christmas-traditions-canada-kids-3": {
+    "status": "draft"
+  },
+  "ig-christmas-traditions-canada-kids": {
+    "status": "draft"
+  },
+  "pin-printable-puzzle-gift": {
+    "status": "scheduled",
+    "when": "2026-12-06T20:31:00-05:00",
+    "first_planned": "2026-12-06T20:31:00-05:00",
+    "approved": "article rule 2026-11-16T07:30:21-05:00"
+  },
+  "pin-printable-puzzle-gift-2": {
+    "status": "scheduled",
+    "when": "2026-12-13T20:39:00-05:00",
+    "first_planned": "2026-12-13T20:39:00-05:00",
+    "approved": "article rule 2026-11-16T07:30:21-05:00"
+  },
+  "pin-printable-puzzle-gift-3": {
+    "status": "scheduled",
+    "when": "2026-12-20T20:58:00-05:00",
+    "first_planned": "2026-12-20T20:58:00-05:00",
+    "approved": "article rule 2026-11-16T07:30:21-05:00"
+  },
+  "ig-printable-puzzle-gift": {
+    "status": "scheduled",
+    "when": "2026-12-24T12:46:00-05:00",
+    "first_planned": "2026-12-24T12:46:00-05:00",
+    "approved": "article rule 2026-11-16T07:30:21-05:00"
   }
 }

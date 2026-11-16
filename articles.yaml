@@ -3,6 +3,228 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-traditions-canada-kids
+    title: "Christmas Traditions in Canada Kids Love: Mummering, Réveillon and a Snow-Day Puzzle Hunt"
+    description: >-
+      Tired of Christmas activities that only show American traditions? Mummering, réveillon, H0H 0H0 and more
+      Canadian Christmas traditions explained for kids, with a snow-day puzzle hunt to set up at home or in class
+      and a free printable word search.
+    date: 2026-12-07
+    topics: [Seasonal ideas, Kids & coloring, Activity ideas]
+    photos:
+      - slot: hero
+        query: snowy cabin winter forest
+        wide_focus: [0.5, 0.88]
+        alt: A small log cabin at the edge of a snowy spruce forest
+      - slot: hunt
+        after: Set up a snow-day puzzle hunt
+        query: winter mittens snow
+        alt: A pair of striped knitted mittens beside a pile of snowballs in fresh snow
+    related: [cozy-christmas, winter-snowy-days, cute-bug-days, jumbo-christmas]
+    printables: [free-printable-christmas-word-search, free-printable-winter-word-search, free-printable-cardinal-christmas-coloring-page]
+    social:
+      tags: "#christmasincanada #canadianchristmas #christmasactivities #kidsactivities #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Christmas in Canada, headline: "Canadian Christmas Traditions Kids Love"}
+        - {photo: hunt, design: list, kicker: Snow-day fun, headline: "Set Up a Snow-Day Puzzle Hunt in 15 Minutes", from: "Set up a snow-day puzzle hunt"}
+        - design: pages
+          kicker: Christmas in Canada for kids
+          headline: "Free Printables for a Snow Day"
+          pages: [{page: cozy-christmas, label: Word search}, {page: winter-snowy-days, label: Winter puzzles}, {page: cute-bug-days, label: Coloring}]
+      instagram:
+        headline: Christmas the Canadian way
+        list_title: Six traditions from coast to coast
+        from: "Six more traditions from coast to coast"
+        caption: |-
+          Mummers at the door, tourtière after midnight and a letter to Santa at H0H 0H0 🍁
+          Our new article explains Canadian Christmas traditions for kids, with a snow-day puzzle hunt to set up at home or in class and a free printable word search.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #christmasincanada #canadianchristmas #christmasactivities #kidsactivities #printables
+    body: |
+      <p>Most Christmas worksheets and videos come from the United States: Thanksgiving turkeys, cookies for Santa and
+      not much else. Canadian kids have traditions of their own, from masked visitors in Newfoundland to a feast after
+      midnight in Quebec, and they are a lot of fun to learn about. Here they are explained simply for children, with a
+      snow-day puzzle hunt you can set up at home or in the classroom in about 15 minutes, using paper, a pencil and a
+      free printable word search.</p>
+
+      <h2>Mummering and réveillon, explained for kids</h2>
+      <p><strong>Mummering</strong> comes from Newfoundland and Labrador. During the twelve days of Christmas, after
+      25 December, neighbours dress up in disguise: old coats worn inside out, pillowcases or lace curtains over their
+      faces, boots on the wrong feet. They knock and ask, "Any mummers allowed in?" Inside, they dance and talk in silly
+      voices while the family tries to guess who they are. Once someone is guessed, the mask comes off and everyone
+      shares a treat. Kids love it because it is part dress-up, part guessing game.</p>
+      <p><strong>Réveillon</strong> is a French-Canadian tradition, strongest in Quebec. After Midnight Mass on
+      Christmas Eve, families come home and eat a big feast in the middle of the night, often until early morning.
+      Favourite dishes are tourtière (a spiced meat pie), meatball stew, a bûche de Noël (a cake rolled to look like a
+      log) and tarte au sucre, a sugar pie. For children, staying up that late is the best part.</p>
+
+      <h2>Six more traditions from coast to coast</h2>
+      <ul>
+        <li><strong>A letter to H0H 0H0:</strong> Canada Post gives Santa his own postal code, H0H 0H0, and volunteers
+        help him answer the letters children send to the North Pole.</li>
+        <li><strong>The Huron Carol:</strong> often called Canada's oldest Christmas song, it was written in the
+        Wendat (Huron) language in the 1640s and is still sung in schools today.</li>
+        <li><strong>A tree for Boston:</strong> every year since 1971, Nova Scotia sends a giant Christmas tree to
+        Boston to say thank you for the help the city sent after the Halifax Explosion of 1917.</li>
+        <li><strong>Belsnickels:</strong> in parts of Nova Scotia, costumed visitors called belsnickels come to the
+        door, ask whether the children have been good and hand out sweets.</li>
+        <li><strong>Twelve dishes:</strong> many Ukrainian Canadian families sit down to a meatless Christmas Eve
+        supper of twelve dishes, called Sviata Vechera, when the first star appears in the sky.</li>
+        <li><strong>The Santa Claus Parade:</strong> Toronto has held one since 1905, and towns across the country
+        have their own parades of floats, bands and lights.</li>
+      </ul>
+
+      <h2>Set up a snow-day puzzle hunt</h2>
+      <p>A snow day, or a long afternoon in the holidays, is perfect for a treasure hunt where each clue is a word to
+      find. It takes about 15 minutes to prepare.</p>
+      <ol>
+        <li><strong>Print the word search:</strong> one free Christmas or winter word search per child or team.</li>
+        <li><strong>Pick six hiding places</strong> in the house or classroom, such as the boot tray, the fridge, the
+        bookshelf, the coat hooks, the window and the tree.</li>
+        <li><strong>Write six clue cards,</strong> each naming a word from the puzzle and a place: "Find MITTENS, then
+        look by the boots."</li>
+        <li><strong>Hide the cards in order,</strong> so each one leads to the next, and give the children the first
+        card with their puzzle.</li>
+        <li><strong>Circle each word before moving on,</strong> so nobody runs ahead and the puzzle gets solved along the
+        way.</li>
+        <li><strong>End with a small prize</strong> behind the last card: a candy cane, a sticker or a coloring page for
+        everyone, not just the fastest.</li>
+      </ol>
+
+      <h2>Christmas in Canada word list</h2>
+      <p>Use these for the clue cards, a spelling game, or a word search the children build themselves with our
+      <a href="make-your-own-word-search.html">free word search maker</a>: MUMMERS, REVEILLON, TOURTIERE, SUGAR PIE,
+      MAPLE, TOQUE, MITTENS, TOBOGGAN, SNOWSHOE, SKATES, HOCKEY, CAROLS, PARADE, BELSNICKEL, NORTH POLE, SANTA,
+      LANTERN, SNOWFALL. For younger children, choose eight short words and print them in large letters.</p>
+
+      <h2>Make it work at home or in class</h2>
+      <ul>
+        <li><strong>Hold a mummers' guessing game:</strong> children take turns hiding behind a blanket and talking in
+        a funny voice while the others guess who it is. No costumes needed.</li>
+        <li><strong>Have a mini réveillon breakfast</strong> instead of a midnight feast: a slice of sugar pie or toast
+        with maple syrup, at home only, and check allergies before any food in class.</li>
+        <li><strong>Write to Santa together:</strong> each child writes or draws a letter, and the class addresses the
+        envelopes to Santa Claus, North Pole, H0H 0H0, Canada.</li>
+        <li><strong>Ask families to share:</strong> some children may celebrate in January, with twelve dishes, or not
+        at all. Invite them to tell the class about their own winter traditions, and never put anyone on the spot.</li>
+      </ul>
+
+      <h2>Print the free pages</h2>
+      <p>Our free large print Christmas word search is ready to print for the hunt, with its answer key on the second
+      page, and the winter word search makes a good second round for older children. The cardinal Christmas coloring
+      page is a calm prize for the end. Print as many copies as your family or class needs. For a whole season of snow
+      days, Cozy Christmas Word Search and Winter Snowy Days Word Search have plenty more puzzles, and Cute Bug Days
+      Coloring Book suits the youngest.</p>
+
+  - slug: printable-puzzle-gift
+    title: "Need a Stocking Stuffer Tonight? Turn Printable Puzzles Into a Thoughtful Gift"
+    description: >-
+      Too late to order a gift? Turn free printable puzzles into a personal stocking stuffer tonight: hide family names
+      in a word search, roll it into a scroll, add a pencil and a note. A 30-minute plan with ideas for every age.
+    date: 2026-12-06
+    topics: [Seasonal ideas, Puzzle tips, Activity ideas]
+    photos:
+      - slot: hero
+        query: kraft paper gift twine
+        wide_focus: [0.5, 0.5]
+        alt: A small parcel in snowflake-printed brown paper, tied with grey and white twine, lying on fir branches
+      - slot: wrap
+        after: Wrap it in five minutes
+        query: christmas ribbon scissors
+        alt: Black scissors, a curl of ribbon and heart-shaped cookies on a pale wooden table
+    related: [cozy-christmas, cozy-christmas-coloring, jumbo-christmas, nostalgic-christmas-coloring]
+    printables: [free-printable-christmas-word-search, free-printable-cardinal-christmas-coloring-page, free-printable-jumbo-christmas-word-search, free-printable-vintage-christmas-tv-coloring-page]
+    social:
+      tags: "#stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts"
+      pins:
+        - {photo: hero, design: top, kicker: Last-minute gift, headline: "Need a Stocking Stuffer Tonight? Make One From Printable Puzzles"}
+        - {photo: wrap, design: list, kicker: DIY stocking stuffer, headline: "Wrap a Printable Puzzle Gift in Five Minutes", from: "Wrap it in five minutes"}
+        - design: pages
+          kicker: Free pages to print tonight
+          headline: "Printable Puzzles That Make a Thoughtful Gift"
+          pages: [{page: cozy-christmas, label: Word search}, {page: jumbo-christmas, label: Large print}, {page: cozy-christmas-coloring, label: Coloring}]
+      instagram:
+        headline: A stocking stuffer you can print tonight
+        list_title: Wrap it in five minutes
+        from: "Wrap it in five minutes"
+        caption: |-
+          Shops closed, deliveries too late, one stocking still empty? 🎁
+          Our new article shows how to turn free printable puzzles into a personal gift tonight: a word search with family names hidden in it, rolled into a scroll with a pencil and a note.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts
+    body: |
+      <p>It is late, the shops are closed or too far, delivery dates have passed, and one stocking is still empty. A
+      printer and half an hour are enough to fix it. A printable puzzle on its own can look like an afterthought, but a
+      word search with the family's names hidden in it, rolled into a scroll with a pencil and a note, feels made for
+      that person. Here is how to turn free printable puzzles into a thoughtful stocking stuffer tonight, for a child,
+      a teen, a partner or a grandparent.</p>
+
+      <h2>Why a printable can be a real gift</h2>
+      <ul>
+        <li><strong>It is personal:</strong> you choose the words, the theme and the print size for one person, which
+        no shop-bought book can do.</li>
+        <li><strong>It gives time, not clutter:</strong> a puzzle is a quiet half hour on Christmas morning or Boxing
+        Day, then it goes in the recycling.</li>
+        <li><strong>It can say something:</strong> a hidden message, a family joke or a promise of a day out turns a
+        sheet of paper into the gift people remember.</li>
+      </ul>
+
+      <h2>A 30-minute plan for tonight</h2>
+      <ol>
+        <li><strong>Choose the person and the puzzle (5 minutes):</strong> a coloring page for a young child, a large
+        print word search for a grandparent, a harder grid for a teen or a partner.</li>
+        <li><strong>Make it personal (10 minutes):</strong> build your own word search with our
+        <a href="make-your-own-word-search.html">free word search maker</a>, using names of the family, pets, places
+        you have been and favourite foods. Hide a final secret word for them to find last.</li>
+        <li><strong>Print it well (5 minutes):</strong> use thicker paper if you have it, best quality, and print the
+        answer key separately so it stays out of sight.</li>
+        <li><strong>Add the extras (5 minutes):</strong> a pencil, a few coloured pencils or a highlighter, and a short
+        handwritten note.</li>
+        <li><strong>Wrap it (5 minutes):</strong> roll it into a scroll or fold it into a card, as below.</li>
+      </ol>
+
+      <h2>Ideas for each person on your list</h2>
+      <ul>
+        <li><strong>Young children:</strong> a coloring page with a few crayons and their name written in bubble
+        letters at the top, ready to colour too.</li>
+        <li><strong>Older kids:</strong> a word search where the secret word is the clue to a small treat hidden
+        somewhere in the house.</li>
+        <li><strong>Teens:</strong> a harder grid with their friends' names, favourite games or inside jokes, and the
+        answer key sealed in an envelope marked "only if you give up".</li>
+        <li><strong>A partner:</strong> a word search of places you have been together, with the secret word revealing
+        a plan: DINNER, MOVIE or WEEKEND.</li>
+        <li><strong>Grandparents:</strong> a large print or jumbo print page with grandchildren's names, a good pencil
+        with an eraser, and a promise to solve the next one together.</li>
+      </ul>
+
+      <h2>Wrap it in five minutes</h2>
+      <ol>
+        <li><strong>Roll it into a scroll</strong> with the puzzle facing in, so the first look is a surprise.</li>
+        <li><strong>Tie it with ribbon or twine,</strong> and slide a pencil under the bow.</li>
+        <li><strong>Add a tag</strong> with a hint, such as "Find the secret word to unlock your gift".</li>
+        <li><strong>Or fold it into a card:</strong> fold the page in half with a plain cover sheet and write on the
+        front.</li>
+        <li><strong>Make a small bundle</strong> of three pages, clipped together with a bulldog clip, for a puzzle lover.</li>
+        <li><strong>Pop it in the stocking last,</strong> standing up at the back, so it doesn't crease.</li>
+      </ol>
+
+      <h2>Mistakes to avoid</h2>
+      <ul>
+        <li><strong>Print size too small:</strong> for older eyes, choose a large or jumbo print page, or make the
+        letters bigger in the word search maker.</li>
+        <li><strong>Words that are too long:</strong> long phrases make a word search frustrating for children. Keep
+        their words to eight letters or fewer.</li>
+        <li><strong>The answer key in the same roll:</strong> it is too easy to peek. Keep it in a separate envelope
+        or on your phone.</li>
+        <li><strong>A pen instead of a pencil:</strong> mistakes happen, and an eraser keeps the page neat.</li>
+      </ul>
+
+      <h2>Free pages to print tonight</h2>
+      <p>Our free large print Christmas word search, jumbo Christmas word search and two Christmas coloring pages are
+      ready to print right now, with answer keys for the puzzles. Print as many copies as your family needs. If they
+      love it, the full books make a gift for next year: Cozy Christmas Word Search, Jumbo Christmas Word Search, Cozy
+      Christmas Coloring Book and Nostalgic Christmas Coloring Book.</p>
+
   - slug: christmas-in-india-classroom
     title: "Teaching Christmas in India: Stars, Diyas and Plum Cake, a Ready Classroom Activity With Free Printable"
     description: >-
