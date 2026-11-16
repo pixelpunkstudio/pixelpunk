@@ -2339,5 +2339,29 @@
     "when": "2026-12-24T12:46:00-05:00",
     "first_planned": "2026-12-24T12:46:00-05:00",
     "approved": "article rule 2026-11-16T07:30:21-05:00"
+  },
+  "tt-retirement-first-december-free": {
+    "status": "scheduled",
+    "when": "2026-12-15T11:56:00-05:00",
+    "first_planned": "2026-12-15T11:56:00-05:00",
+    "approved": "2026-11-16T16:53:09"
+  },
+  "tt-cutefarm-wants-a-puppy": {
+    "status": "scheduled",
+    "when": "2026-12-16T11:18:00-05:00",
+    "first_planned": "2026-12-16T11:18:00-05:00",
+    "approved": "2026-11-16T16:53:09"
+  },
+  "tt-coloring-white-elephant": {
+    "status": "scheduled",
+    "when": "2026-12-17T11:05:00-05:00",
+    "first_planned": "2026-12-17T11:05:00-05:00",
+    "approved": "2026-11-16T16:53:09"
+  },
+  "tt-nostalgic-aunt-store-windows": {
+    "status": "scheduled",
+    "when": "2026-12-18T11:11:00-05:00",
+    "first_planned": "2026-12-18T11:11:00-05:00",
+    "approved": "2026-11-16T16:53:09"
   }
 }

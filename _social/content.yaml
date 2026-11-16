@@ -5683,3 +5683,83 @@ items:
     #stockingstuffers #lastminutegifts #diygifts #printables #christmasgifts'
   start: '2026-12-06'
   priority: 3
+- key: tt-retirement-first-december-free
+  platform: tiktok
+  kind: tiktok carousel
+  book: retirement
+  title: Mom retired in June. First December with no office party
+  caption: 'She''s on the genealogy one. We now have a family tree back to 1802 🌱
+
+    Retirement Word Search: 55 large print puzzles, on Amazon.
+
+
+    #retirement #wordsearch #retirementgift #giftsformom #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-retirement-word-search.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/retirement-first-december-free-1.jpg
+  - media/social/tiktok/retirement-first-december-free-2.jpg
+  - media/social/tiktok/retirement-first-december-free-3.jpg
+  start: '2026-12-15'
+  until: '2026-12-17'
+- key: tt-cutefarm-wants-a-puppy
+  platform: tiktok
+  kind: tiktok carousel
+  book: cute-farm-days
+  title: She's 4 and wants a puppy for Christmas. Every day. Loudly
+  caption: 'The dog page is done. In purple. ''Like a real one'' 🐶🖍️
+
+    Cute Farm Days Coloring Book, ages 4-8: adorable animals with fun facts, on Amazon.
+
+
+    #coloringbook #kidsactivities #christmasgifts #stockingstuffer #farmanimals'
+  link: https://pixelpunkstudio.shop/free-printable-puppy-kitten-coloring-page.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cutefarm-wants-a-puppy-1.jpg
+  - media/social/tiktok/cutefarm-wants-a-puppy-2.jpg
+  - media/social/tiktok/cutefarm-wants-a-puppy-3.jpg
+  start: '2026-12-16'
+  until: '2026-12-18'
+- key: tt-coloring-white-elephant
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: Office gift swap. $20 limit. Everyone fought over one gift
+  caption: 'The winner colors on her lunch break now. Door closed 🎁
+
+    Cozy Christmas Coloring Book: 50 bold and easy holiday scenes, on Amazon.
+
+
+    #coloringbook #whiteelephant #officeparty #adultcoloring #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-white-elephant-1.jpg
+  - media/social/tiktok/coloring-white-elephant-2.jpg
+  - media/social/tiktok/coloring-white-elephant-3.jpg
+  start: '2026-12-17'
+  until: '2026-12-19'
+- key: tt-nostalgic-aunt-store-windows
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: My aunt remembers every store window downtown, Christmas 1956
+  caption: 'She did the window first. Then told me what was in the real one 🎁
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 bold and easy 1950s scenes, on Amazon.
+
+
+    #coloringbook #nostalgia #1950s #giftsforaunt #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-aunt-store-windows-1.jpg
+  - media/social/tiktok/nostalgic-aunt-store-windows-2.jpg
+  - media/social/tiktok/nostalgic-aunt-store-windows-3.jpg
+  start: '2026-12-18'
+  until: '2026-12-20'
