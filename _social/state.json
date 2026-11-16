@@ -2286,13 +2286,22 @@
     "approved": "article rule 2026-11-15 (swap out book posts, as on 2026-11-13)"
   },
   "pin-christmas-traditions-canada-kids": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-08T20:45:00-05:00",
+    "first_planned": "2026-12-08T20:45:00-05:00",
+    "approved": "article rule 2026-11-16T07:31:04-05:00"
   },
   "pin-christmas-traditions-canada-kids-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-15T20:26:00-05:00",
+    "first_planned": "2026-12-15T20:26:00-05:00",
+    "approved": "article rule 2026-11-16T07:31:04-05:00"
   },
   "pin-christmas-traditions-canada-kids-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-22T11:11:00-05:00",
+    "first_planned": "2026-12-22T11:11:00-05:00",
+    "approved": "article rule 2026-11-16T07:31:04-05:00"
   },
   "ig-christmas-traditions-canada-kids": {
     "status": "draft"
