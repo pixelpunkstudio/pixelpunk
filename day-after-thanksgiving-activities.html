@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0WLJJBGB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"]});
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'granted'});
+
+(function () {
+  var KEY = 'pps_consent', DAYS = 180, tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  function load() {
+    try { var v = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (v && (v.c === 'granted' || v.c === 'denied') && Date.now() - v.t < DAYS * 864e5) return v.c;
+    } catch (e) {}
+    return null;
+  }
+  var choice = load();
+  if (choice) gtag('consent', 'update', {analytics_storage: choice});
+  var europe = !tz || /^(Europe|Arctic)\//.test(tz) ||
+    /^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(tz);
+
+  var STORES = {
+    'co.uk': /^Europe\/(London|Belfast|Guernsey|Jersey|Isle_of_Man|Gibraltar)$/,
+    'ie': /^Europe\/Dublin$/,
+    'de': /^Europe\/(Berlin|Vienna|Zurich|Busingen|Luxembourg|Vaduz)$/,
+    'fr': /^Europe\/(Paris|Monaco)$/,
+    'com.be': /^Europe\/Brussels$/,
+    'nl': /^Europe\/Amsterdam$/,
+    'es': /^(Europe\/Madrid|Atlantic\/Canary|Africa\/Ceuta)$/,
+    'it': /^Europe\/(Rome|Vatican|San_Marino|Malta)$/,
+    'pl': /^Europe\/Warsaw$/,
+    'se': /^Europe\/Stockholm$/,
+    'co.jp': /^Asia\/Tokyo$/,
+    'com.au': /^(Australia\/|Pacific\/(Auckland|Chatham)$)/,
+    'ca': /^America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Iqaluit|Yellowknife|Swift_Current|Atikokan|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Blanc-Sablon)$/
+  };
+  var store = 'com';
+  for (var d in STORES) if (STORES[d].test(tz)) { store = d; break; }
+
+  function save(c) {
+    try { localStorage.setItem(KEY, JSON.stringify({c: c, t: Date.now()})); } catch (e) {}
+    gtag('consent', 'update', {analytics_storage: c});
+    if (c === 'denied') document.cookie.split(';').forEach(function (k) {
+      var n = k.split('=')[0].trim();
+      if (/^_ga/.test(n)) ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')]
+        .forEach(function (dm) { document.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + dm; });
+    });
+    var b = document.getElementById('pps-cookie'); if (b) b.remove();
+  }
+  function banner() {
+    if (document.getElementById('pps-cookie')) return;
+    var b = document.createElement('div');
+    b.id = 'pps-cookie'; b.setAttribute('role', 'region'); b.setAttribute('aria-label', 'Cookie choice');
+    b.style.cssText = 'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;' +
+      'background:#fff;color:#23324a;border:2px solid #23324a;border-radius:12px;padding:16px 18px;' +
+      'box-shadow:0 6px 24px rgba(0,0,0,.18);font:15px/1.5 system-ui,sans-serif';
+    b.innerHTML = '<p style="margin:0 0 12px">We would like to use Google Analytics cookies to count visits and ' +
+      'see which puzzles and articles you enjoy. No advertising cookies, ever. ' +
+      '<a href="privacy.html#statistics" style="color:#b0702e">Privacy policy</a></p>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
+      '<button type="button" data-c="granted">Accept</button><button type="button" data-c="denied">Reject</button></div>';
+    [].forEach.call(b.querySelectorAll('button'), function (x) {
+      x.style.cssText = 'flex:1 1 140px;font:600 15px system-ui,sans-serif;padding:10px 14px;border-radius:8px;' +
+        'cursor:pointer;border:2px solid #23324a;background:#23324a;color:#fff';
+      x.onclick = function () { save(x.getAttribute('data-c')); };
+    });
+    document.body.appendChild(b);
+  }
+  window.ppsCookieSettings = banner;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+    });
+    [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
+      var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
+      p.parentNode.insertBefore(s, p.nextSibling); p.parentNode.insertBefore(document.createTextNode(' · '), s);
+    });
+    document.addEventListener('click', function (ev) {
+      var t = ev.target.closest && ev.target.closest('[data-cookie-settings]');
+      if (t) { ev.preventDefault(); banner(); }
+    });
+    if (!choice && europe) banner();
+  });
+})();
+
+  gtag('js', new Date());
+  gtag('config', 'G-VD0WLJJBGB');
+</script>
+<!-- /Google tag -->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family | Pixel Punk Studio</title>
+<meta name="description" content="A full house, a long weekend and too many leftovers. Eight calm activities that work for every age, a simple plan for the day, and free pages to print before everyone wakes up.">
+<link rel="canonical" href="https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Pixel Punk Studio">
+<meta property="og:title" content="The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family | Pixel Punk Studio">
+<meta property="og:description" content="A full house, a long weekend and too many leftovers. Eight calm activities that work for every age, a simple plan for the day, and free pages to print before everyone wakes up.">
+<meta property="og:url" content="https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html">
+<meta property="og:image" content="https://pixelpunkstudio.shop/media/blog/day-after-thanksgiving-activities-hero-wide.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family | Pixel Punk Studio">
+<meta name="twitter:description" content="A full house, a long weekend and too many leftovers. Eight calm activities that work for every age, a simple plan for the day, and free pages to print before everyone wakes up.">
+<meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/day-after-thanksgiving-activities-hero-wide.jpg">
+<link rel="icon" href="logo.png">
+<link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
+<link rel="stylesheet" href="style.css?v=4fb37728">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family", "description": "A full house, a long weekend and too many leftovers. Eight calm activities that work for every age, a simple plan for the day, and free pages to print before everyone wakes up.", "image": "https://pixelpunkstudio.shop/media/blog/day-after-thanksgiving-activities-hero.jpg", "url": "https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html", "datePublished": "2026-11-16", "dateModified": "2026-11-16", "keywords": "Seasonal ideas, Kids & coloring", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family", "item": "https://pixelpunkstudio.shop/day-after-thanksgiving-activities.html"}]}</script>
+</head><body><main class="wide">
+<header class="top">
+  <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
+  <nav class="menu" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  <form class="search-form search-top" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <a class="btn small-btn" href="#newsletter">Free monthly puzzle</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
+</header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <form class="search-form search-panel" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search puzzles, books and tips" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <nav class="panel-links" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  <div class="panel-article"><nav class="side-box toc" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#8-cozy-screen-free-activities">8 cozy, screen-free activities</a></li><li><a href="#a-simple-plan-for-the-day">A simple plan for the day</a></li><li><a href="#keeping-every-age-happy">Keeping every age happy</a></li><li><a href="#free-pages-to-print-tonight">Free pages to print tonight</a></li></ol></nav>
+  <div class="side-box"><strong>Topics</strong><div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#kids-coloring">Kids &amp; coloring</a></div></div>
+  <nav class="side-box" aria-label="More articles"><strong>More articles</strong><ul><li><a href="large-print-vs-jumbo-print.html">Large Print or Jumbo Print? How to Choose a Puzzle Book for Tired or Low Vision Eyes</a></li><li><a href="thanksgiving-activities-for-seniors.html">Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day</a></li><li><a href="word-search-game-night-for-groups.html">How to Run a Word Search Game Night for a Group: Rules, Timing and Small Prizes</a></li><li><a href="after-school-screen-free-activities.html">Kids Asking for Screens After School? 7 Calm 15-Minute Activities That Work</a></li><li><a href="fall-activities-for-seniors-indoors.html">Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home</a></li></ul>
+    <a class="all" href="blog.html">All articles →</a></nav>
+  <div class="side-box cta"><strong>Free printables</strong><p>Large print puzzles with solutions, free to print at home.</p>
+    <a class="btn" href="free-printables.html">Browse free printables</a></div></div>
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
+<div class="article-layout">
+<div class="article-main">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> <span aria-hidden="true">›</span> <a href="blog.html">Blog</a> <span aria-hidden="true">›</span> <a href="blog.html#seasonal-ideas">Seasonal ideas</a></nav>
+<h1 class="page left">The Day After Thanksgiving: 8 Cozy, Screen-Free Activities for the Whole Family</h1>
+<article class="card prose">
+<figure class="photo wide"><img src="media/blog/day-after-thanksgiving-activities-hero-wide.jpg" alt="Stone front steps decorated for fall with a big red pumpkin, small squash, dried corn, ivy and pots of golden chrysanthemums" width="1200" height="675" fetchpriority="high"><figcaption>Photo: <a href="https://pixabay.com/photos/autumn-fruits-corn-work-1035609/" target="_blank" rel="noopener">ArmbrustAnna / Pixabay</a></figcaption></figure>
+<p class="small left">November 16, 2026 · By Pixel Punk Studio</p>
+<div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#kids-coloring">Kids &amp; coloring</a></div>
+<nav class="toc inline" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#8-cozy-screen-free-activities">8 cozy, screen-free activities</a></li><li><a href="#a-simple-plan-for-the-day">A simple plan for the day</a></li><li><a href="#keeping-every-age-happy">Keeping every age happy</a></li><li><a href="#free-pages-to-print-tonight">Free pages to print tonight</a></li></ol></nav>
+<p>The big meal is over, the dishes are finally done, and you wake up on Friday with a full house and nothing
+planned. The kids are restless by nine, the teenagers have vanished into their phones, and Grandpa is wondering
+what happens next. You could brave the stores, or you could do almost nothing at all, with just enough on the
+table to keep every age happy. The day after Thanksgiving is one of the few days when nobody has anywhere to be.
+A little planning is all it takes to make the most of it.</p>
+
+<h2 id="8-cozy-screen-free-activities">8 cozy, screen-free activities</h2>
+<ol>
+  <li><strong>Build-your-own leftovers lunch.</strong> Put the turkey, rolls, stuffing and cranberry sauce on
+  the counter and let everyone make their own sandwich. Nobody has to cook, and the kids can help set it up.</li>
+  <li><strong>A word search race in pairs.</strong> Print one puzzle per team, pairing an older solver with a
+  younger one. The first pair to find ten words wins the last slice of pie.</li>
+  <li><strong>A slow family walk.</strong> Everyone needs to get out after yesterday. Give the kids a list of
+  things to find: a red leaf, an acorn, a feather, something round.</li>
+  <li><strong>Leaf rubbings.</strong> Back at the table, put the leaves from your walk under thin paper and rub
+  them gently with the side of a crayon. Even toddlers can do it, and it costs nothing.</li>
+  <li><strong>The old photo box.</strong> Bring out the albums and ask the oldest person in the room to tell
+  the story behind one picture. Let the youngest choose it.</li>
+  <li><strong>An all-day coloring table.</strong> Leave out pages for every age with a pot of crayons and
+  pencils. People wander over, color for a while and drift off, which suits a slow day.</li>
+  <li><strong>A cocoa bar.</strong> Make a big pot of hot chocolate and set out marshmallows, cinnamon and
+  crushed candy canes. It marks the afternoon as an occasion, with almost no work.</li>
+  <li><strong>A paper chain countdown to Christmas.</strong> Cut strips of paper, write a small activity on
+  each one, and link 24 of them together. Then hang the chain and take off one link each day from December 1.</li>
+</ol>
+
+<h2 id="a-simple-plan-for-the-day">A simple plan for the day</h2>
+<ul>
+  <li><strong>Morning puzzles.</strong> Leave out the coloring pages and puzzles the night before, so early risers
+  have something quiet to do.</li>
+  <li><strong>A walk before lunch.</strong> Go out in the late morning, before anyone settles in for the day.</li>
+  <li><strong>A leftovers buffet.</strong> Put it all on the counter and let everyone help themselves.</li>
+  <li><strong>One group activity.</strong> In the afternoon, bring out the word search race or the photo box, then
+  let people rest.</li>
+  <li><strong>Cocoa and the paper chain.</strong> Finish the evening with both, and call it a day.</li>
+</ul>
+<figure class="photo tall"><img src="media/blog/day-after-thanksgiving-activities-walk.jpg" alt="A quiet forest path covered with fallen orange leaves between tall autumn trees" width="1000" height="1500" loading="lazy"><figcaption>Photo: <a href="https://pixabay.com/photos/forest-path-fall-leaves-trees-7591324/" target="_blank" rel="noopener">experimentMR / Pixabay</a></figcaption></figure>
+
+<h2 id="keeping-every-age-happy">Keeping every age happy</h2>
+<ul>
+  <li><strong>Little ones:</strong> a simple coloring page, a job at the lunch counter and a list for the
+  walk.</li>
+  <li><strong>Ages 6 to 10:</strong> the leaf rubbings and a word search with a fun fact to read aloud to the
+  room.</li>
+  <li><strong>Teens:</strong> give them a role rather than a worksheet. They can run the race, keep score or
+  photograph the old photos for the family.</li>
+  <li><strong>Grandparents:</strong> a comfortable chair by the table, a large print puzzle and an invitation
+  to tell the story. Being asked is the best part.</li>
+</ul>
+<p>Don't try to do all eight. Two or three is plenty, and a nap is a perfectly good activity.</p>
+
+<h2 id="free-pages-to-print-tonight">Free pages to print tonight</h2>
+<p>Print them on Thanksgiving night, while the printer still works and everyone is busy with pie. Our free
+Thanksgiving word search suits older kids and grown-ups, the Candlelit Evenings puzzle from our hygge book is a
+calm large print page for adults, and the puppy and kitten coloring page is ready for little hands. For the rest
+of the winter, Cozy Winter Hygge Word Search has 55 large print puzzles and Cute Farm Days has 50 farm animals to
+color, each with a fun fact to read together.</p>
+
+<p class="back"><a href="blog.html">← Back to all articles</a></p>
+</article>
+<nav class="pager" aria-label="More articles"><a class="older" href="large-print-vs-jumbo-print.html"><small>← Older</small>Large Print or Jumbo Print? How to Choose a Puzzle Book for Tired or Low Vision Eyes</a><span></span></nav>
+</div>
+<aside class="side" aria-label="Article navigation">
+  <nav class="side-box toc" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#8-cozy-screen-free-activities">8 cozy, screen-free activities</a></li><li><a href="#a-simple-plan-for-the-day">A simple plan for the day</a></li><li><a href="#keeping-every-age-happy">Keeping every age happy</a></li><li><a href="#free-pages-to-print-tonight">Free pages to print tonight</a></li></ol></nav>
+  <div class="side-box"><strong>Topics</strong><div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#kids-coloring">Kids &amp; coloring</a></div></div>
+  <nav class="side-box" aria-label="More articles"><strong>More articles</strong><ul><li><a href="large-print-vs-jumbo-print.html">Large Print or Jumbo Print? How to Choose a Puzzle Book for Tired or Low Vision Eyes</a></li><li><a href="thanksgiving-activities-for-seniors.html">Thanksgiving Activities for Seniors: Easy Games That Keep Grandparents Part of the Day</a></li><li><a href="word-search-game-night-for-groups.html">How to Run a Word Search Game Night for a Group: Rules, Timing and Small Prizes</a></li><li><a href="after-school-screen-free-activities.html">Kids Asking for Screens After School? 7 Calm 15-Minute Activities That Work</a></li><li><a href="fall-activities-for-seniors-indoors.html">Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home</a></li></ul>
+    <a class="all" href="blog.html">All articles →</a></nav>
+  <div class="side-box cta"><strong>Free printables</strong><p>Large print puzzles with solutions, free to print at home.</p>
+    <a class="btn" href="free-printables.html">Browse free printables</a></div>
+</aside>
+</div>
+<section>
+  <h2>Free printables to try</h2>
+  <div class="grid printables"><a class="printable" href="free-printable-thanksgiving-word-search.html">
+  <img src="media/printables/thanksgiving-word-search.jpg" alt="Free Printable Thanksgiving Word Search for Adults (Large Print)" loading="lazy">
+  <span>Thanksgiving Word Search</span>
+</a>
+<a class="printable" href="free-printable-hygge-word-search.html">
+  <img src="media/printables/cozy-winter-hygge.jpg" alt="Free Printable Hygge Word Search for Adults (Large Print)" loading="lazy">
+  <span>Cozy Hygge Word Search</span>
+</a>
+<a class="printable" href="free-printable-puppy-kitten-coloring-page.html">
+  <img src="media/printables/cute-farm-days.jpg" alt="Free Printable Puppy and Kitten Coloring Page for Kids" loading="lazy">
+  <span>Puppy &amp; Kitten Coloring Page</span>
+</a></div>
+</section>
+<section>
+  <h2>Books you might like</h2>
+  <div class="grid"><article class="book">
+  <img src="covers/cozy-winter-hygge.jpg" alt="Cover of Cozy Winter Hygge Word Search" loading="lazy">
+  <div class="info"><h3>Cozy Winter Hygge Word Search</h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <img src="covers/cute-farm-days.jpg" alt="Cover of Cute Farm Days Coloring Book" loading="lazy">
+  <div class="info"><h3>Cute Farm Days Coloring Book</h3><p>Adorable farm animals with easy designs and fun facts</p><a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <img src="covers/cozy-christmas.jpg" alt="Cover of Cozy Christmas Word Search" loading="lazy">
+  <div class="info"><h3>Cozy Christmas Word Search</h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <img src="covers/bug-hunt.jpg" alt="Cover of Bug Hunt Word Search Coloring Book" loading="lazy">
+  <div class="info"><h3>Bug Hunt Word Search Coloring Book</h3><p>55 bug word searches with color-the-letters puzzles</p><a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN" target="_blank" rel="noopener">View on Amazon</a></div>
+</article></div>
+</section>
+<section id="newsletter" class="band">
+  <h2>Get a free puzzle every month</h2>
+  <p class="intro">Join the Pixel Punk Studio newsletter for exclusive printable puzzles, new releases
+  and launch-week deals.</p>
+  <form class="signup" id="signup" method="post" action="https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==" data-after="subscribed.html">
+      <input type="email" name="EMAIL" placeholder="Your email address" required autocomplete="email" aria-label="Email address">
+      <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+    <p class="small" id="signup-msg" role="status"></p>
+    <p class="small">One email a month at most: new books, free puzzles and gift ideas. Unsubscribe in one
+    click. See our <a href="privacy.html">privacy policy</a>.</p>
+    <script>
+    // Send the address to Brevo in the background, then open our own confirmation page.
+    document.getElementById("signup").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const f = ev.target, msg = document.getElementById("signup-msg"), btn = f.querySelector("button");
+      const email = f.EMAIL.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+        msg.textContent = "That email address doesn't look right. Please check it and try again."; return;
+      }
+      btn.disabled = true; btn.textContent = "Sending...";
+      try {
+        // isAjax=1 makes Brevo answer with JSON instead of redirecting (same as Brevo's own script)
+        const r = await fetch(f.action + "?isAjax=1", { method: "POST", body: new FormData(f) });
+        if (r.redirected) { location.href = f.dataset.after; return; }
+        let data = {};
+        try { data = await r.json(); } catch (_) {}
+        if (r.ok && data.success) { location.href = f.dataset.after; return; }
+        const why = data.errors ? Object.values(data.errors).join(" ") : "";
+        msg.textContent = why || "Something went wrong on our side. Please try again in a moment.";
+      } catch (e) {
+        msg.textContent = "Something went wrong on our side. Please try again in a moment.";
+      }
+      btn.disabled = false; btn.textContent = "Subscribe";
+    });
+    </script>
+</section>
+<nav>Questions? <a href="mailto:hello@pixelpunkstudio.shop">hello@pixelpunkstudio.shop</a><br>
+<a href="free-printables.html">Free printables</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · © 2026 Pixel Punk Studio</nav>
+</main></body>
+</html>
