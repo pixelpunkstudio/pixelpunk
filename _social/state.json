@@ -1860,7 +1860,7 @@
   },
   "ig-cutefarm-rainy-saturday": {
     "status": "scheduled",
-    "when": "2026-12-18T12:33:00-05:00",
+    "when": "2027-01-03T12:18:00-05:00",
     "first_planned": "2026-12-18T12:33:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -2304,7 +2304,10 @@
     "approved": "article rule 2026-11-16T07:31:04-05:00"
   },
   "ig-christmas-traditions-canada-kids": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-18T12:33:00-05:00",
+    "first_planned": "2026-12-18T12:33:00-05:00",
+    "approved": "article rule 2026-11-16T07:30:21-05:00"
   },
   "pin-printable-puzzle-gift": {
     "status": "scheduled",
