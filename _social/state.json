@@ -829,10 +829,12 @@
     "approved": "article rule 2026-11-01T07:42:02-05:00"
   },
   "ig-large-print-vs-jumbo-print": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-16T12:54:00-05:00",
     "first_planned": "2026-11-16T12:54:00-05:00",
-    "approved": "article rule 2026-11-01T07:42:02-05:00"
+    "approved": "article rule 2026-11-01T07:42:02-05:00",
+    "url": "https://www.instagram.com/p/Dfz86fmDT67/",
+    "published_at": "2026-11-16T13:01-05:00"
   },
   "pin-thanksgiving-activities-for-seniors": {
     "status": "published",
