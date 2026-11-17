@@ -430,10 +430,12 @@
     "approved": "2026-10-21T18:04:40.259Z"
   },
   "ig-retirement": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-17T12:39:00-05:00",
     "first_planned": "2026-11-07T12:39:00-05:00",
-    "approved": "2026-10-21T18:04:53.999Z"
+    "approved": "2026-10-21T18:04:53.999Z",
+    "url": "https://www.instagram.com/p/Df2fgZvGIzt/",
+    "published_at": "2026-11-17T12:41-05:00"
   },
   "pin-sudoku-of-love-cover": {
     "status": "scheduled",
