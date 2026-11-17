@@ -791,10 +791,15 @@
     ]
   },
   "pin-make-your-own-word-search-3": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-17T08:52:00-05:00",
     "first_planned": "2026-11-22T14:52:00-05:00",
-    "approved": "article rule 2026-10-28T11:21:54-04:00"
+    "approved": "article rule 2026-10-28T11:21:54-04:00",
+    "url": "https://www.pinterest.com/pin/1127166613025952217/",
+    "published_at": "2026-11-17T09:01-05:00",
+    "boards": [
+      "Cozy Activities for Adults"
+    ]
   },
   "ig-make-your-own-word-search": {
     "status": "published",
