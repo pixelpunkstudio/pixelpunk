@@ -2450,5 +2450,20 @@
     "when": "2026-12-25T12:56:00-05:00",
     "first_planned": "2026-12-25T12:56:00-05:00",
     "approved": "article rule 2026-11-18T11:01:22-05:00"
+  },
+  "pin-vintage-recipe-word-search-cover": {
+    "status": "scheduled",
+    "when": "2026-11-19T20:26:00-05:00",
+    "first_planned": "2026-11-19T20:26:00-05:00",
+    "approved": "2026-11-18T16:19:24.992Z"
+  },
+  "pin-vintage-recipe-word-search-inside": {
+    "status": "draft"
+  },
+  "pin-vintage-recipe-word-search-free": {
+    "status": "draft"
+  },
+  "ig-vintage-recipe-word-search": {
+    "status": "draft"
   }
 }

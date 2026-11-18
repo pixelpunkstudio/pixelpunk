@@ -216,7 +216,10 @@ def pin_call(method: str, path: str, **kw) -> dict:
 BOARD_INFO = {
     "Art Lover Activities & Gift Ideas": "Art word searches, free printables and gift ideas for art lovers and museum goers: "
                                          "famous paintings, great painters and art history fun facts in large print.",
-    "Word Search Puzzle Books": "Large print word search puzzle books for adults, seniors and teens: cozy, seasonal and "
+    "Vintage Recipes & Baking Gift Ideas": "Old-fashioned recipes, vintage baking and gift ideas for bakers and "
+                                           "seniors: large print recipe word searches with 1910 recipes in cups "
+                                           "and grams, free printables and kitchen fun facts.",
+    "Word Search Puzzle Books":"Large print word search puzzle books for adults, seniors and teens: cozy, seasonal and "
                                 "holiday themes, one puzzle per page, solutions included. Gift ideas for puzzle lovers.",
     "Cozy Activities for Adults": "Cozy, relaxing activities for adults and seniors: word search tips, bold and easy "
                                   "coloring, sudoku and slow-living ideas for calm evenings at home.",
@@ -251,6 +254,7 @@ TOPICS = [  # (words in the pin's key or book, topic board), first matches first
     (("sudoku-of-love", "valentine"), "Valentine's Day Gift Ideas"), (("retirement",), "Retirement Gift Ideas"),
     (("bug",), "Bug & Insect Activities for Kids"), (("farm",), "Farm Animal Activities for Kids"),
     (("art-lovers",), "Art Lover Activities & Gift Ideas"),
+    (("vintage-recipe", "gingerbread"), "Vintage Recipes & Baking Gift Ideas"),
 ]
 SENIORS = "Large Print Activities for Seniors"
 _boards = {}

@@ -5953,3 +5953,61 @@ items:
     #winterbreak #screenfreekids #kidsactivities #momlife #printables'
   start: '2026-12-09'
   priority: 3
+- key: pin-vintage-recipe-word-search-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Vintage Recipe Word Search: 55 Large Print Puzzles With Old-Fashioned Recipes From 1910'
+  description: 'Every puzzle faces a real recipe from a 1910 cookbook, printed as written with metric amounts, a
+    modern oven note and a kitchen fun fact: gingerbread, popovers, Indian pudding, molasses cookies and more. 55
+    large print word searches. A nostalgic gift for bakers and seniors. Try a free gingerbread puzzle on our website.
+    #vintagerecipes #wordsearch #largeprint #oldfashionedrecipes #giftsforbakers'
+  alt: 'Cover of Vintage Recipe Word Search: Grandma''s recipes, one puzzle at a time'
+  book: vintage-recipe-word-search
+  link: https://pixelpunkstudio.shop/free-printable-gingerbread-word-search.html
+  priority: 2
+- key: pin-vintage-recipe-word-search-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Vintage Recipe Word Search'
+  description: 'A real page from Vintage Recipe Word Search. Every puzzle faces a real recipe from a 1910 cookbook,
+    printed as written with metric amounts, a modern oven note and a kitchen fun fact: gingerbread, popovers, Indian
+    pudding, molasses cookies and more. 55 large print word searches. A nostalgic gift for bakers and seniors. Try
+    a free gingerbread puzzle on our website. #vintagerecipes #wordsearch #largeprint #oldfashionedrecipes #giftsforbakers'
+  alt: A page from Vintage Recipe Word Search next to its cover
+  book: vintage-recipe-word-search
+  link: https://pixelpunkstudio.shop/free-printable-gingerbread-word-search.html
+  priority: 2
+- key: pin-vintage-recipe-word-search-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Gingerbread Word Search for Adults (Large Print, 1910 Recipe)
+  description: 'Hot Water Gingerbread from a 1910 cookbook: the recipe card as printed, with metric amounts and a
+    modern oven note, facing a large print word search with 24 words, from pearlash and molasses to Amelia Simmons.
+    Free to download and print at home, solution included. 54 more old-fashioned recipes in Vintage Recipe Word Search.
+    #gingerbread #vintagerecipes #wordsearch #freeprintable #largeprint'
+  alt: Free Printable Gingerbread Word Search for Adults (Large Print, 1910 Recipe)
+  image: media/pins/vintage-recipe-word-search.jpg
+  book: vintage-recipe-word-search
+  link: https://pixelpunkstudio.shop/free-printable-gingerbread-word-search.html
+  priority: 2
+- key: ig-vintage-recipe-word-search
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Vintage Recipe Word Search
+  caption: 'Grandma''s recipes, one puzzle at a time ✏️
+
+    Vintage Recipe Word Search: 55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups
+    and grams.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-gingerbread-word-search.html
+
+    #vintagerecipes #wordsearch #largeprint #oldfashionedrecipes #giftsforbakers'
+  book: vintage-recipe-word-search
+  link: https://pixelpunkstudio.shop/free-printable-gingerbread-word-search.html
+  priority: 2
