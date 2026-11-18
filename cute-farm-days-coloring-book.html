@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/cute-farm-days.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Cute Farm Days Coloring Book", "description": "Adorable farm animals with easy designs and fun facts", "image": "https://pixelpunkstudio.shop/covers/cute-farm-days.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FBM7X2HR", "sameAs": "https://www.amazon.com/dp/B0FBM7X2HR", "mainEntityOfPage": "https://pixelpunkstudio.shop/cute-farm-days-coloring-book.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Cute Days Coloring Books", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Cute Farm Days Coloring Book", "item": "https://pixelpunkstudio.shop/cute-farm-days-coloring-book.html"}]}</script>
 </head><body><main class="wide">
@@ -158,7 +159,7 @@
     <h1 class="page left">Cute Farm Days Coloring Book</h1>
     <p class="lead-left">Adorable farm animals with easy designs and fun facts</p>
     <div class="tags"><span class="tag">Ages 4-8</span><span class="tag">Coloring</span><span class="tag">8.5 x 11</span></div>
-    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0FBM7X2HR" target="_blank" rel="noopener">View on Amazon</a>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0FBM7X2HR?maas=maas_adg_6766C58EB9AC47922609E11660172170_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
     <a class="btn ghost" href="free-printable-puppy-kitten-coloring-page.html">⬇ Print a free page</a></p>
     <p class="small left">There are 49 more farm animals to color, each with a fun fact, in Cute Farm Days Coloring Book.</p>
   </div>
@@ -170,7 +171,7 @@
 <section class="card prose book-about">
   <h2>About this book</h2>
   <p>Adorable farm animals to color for kids ages 4 to 8: a puppy and a kitten in a wheelbarrow, piglets in the mud, sheep and many more, all in bold, easy outlines for little hands. Every drawing comes with a &quot;Did you know?&quot; fun fact, and the page facing it invites children to write or tell a story about the picture.</p>
-  <p><a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR" target="_blank" rel="noopener">See it on Amazon</a></p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR?maas=maas_adg_6766C58EB9AC47922609E11660172170_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">See it on Amazon</a></p>
 </section>
 
 <section>
@@ -195,7 +196,7 @@
   <h2>More from Cute Days Coloring Books</h2>
   <div class="grid"><article class="book">
   <a href="cute-bug-days-coloring-book.html"><img src="covers/cute-bug-days.jpg" alt="Cover of Cute Bug Days Coloring Book" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cute-bug-days-coloring-book.html">Cute Bug Days Coloring Book</a></h3><p>50 cute bugs and insects to color, with a fun fact on every page</p><a class="btn" href="https://www.amazon.com/dp/B0HNTC7ZBX" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cute-bug-days-coloring-book.html">Cute Bug Days Coloring Book</a></h3><p>50 cute bugs and insects to color, with a fun fact on every page</p><a class="btn" href="https://www.amazon.com/dp/B0HNTC7ZBX?maas=maas_adg_FDB5427D858CB9934AC12DB09F648D26_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

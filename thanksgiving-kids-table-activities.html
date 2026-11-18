@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/thanksgiving-kids-table-activities-hero-wide.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Thanksgiving Kids' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner", "description": "The turkey needs another hour and the kids' table is getting loud? 8 calm, screen-free Thanksgiving activities for ages 4 to 12, a simple kids' table kit and free printable word searches and coloring pages.", "image": "https://pixelpunkstudio.shop/media/blog/thanksgiving-kids-table-activities-hero.jpg", "url": "https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html", "datePublished": "2026-10-28", "dateModified": "2026-10-28", "keywords": "Seasonal ideas, Activity ideas, Kids & coloring", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Thanksgiving Kids' Table: 8 Quiet Activities That Keep Every Age Busy Until Dinner", "item": "https://pixelpunkstudio.shop/thanksgiving-kids-table-activities.html"}]}</script>
 </head><body><main class="wide">
@@ -278,19 +279,19 @@ dozens more pages, each with a fun fact to share at dinner.</p>
   <h2>Books you might like</h2>
   <div class="grid"><article class="book">
   <a href="life-on-the-farm-word-search-for-kids.html"><img src="covers/life-on-the-farm.jpg" alt="Cover of Life on the Farm Word Search for Kids" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="life-on-the-farm-word-search-for-kids.html">Life on the Farm Word Search for Kids</a></h3><p>50 farm-themed puzzles with fun facts about animals and activities</p><a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="life-on-the-farm-word-search-for-kids.html">Life on the Farm Word Search for Kids</a></h3><p>50 farm-themed puzzles with fun facts about animals and activities</p><a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK?maas=maas_adg_507E178E1CEC72097815B99F74A7A5B6_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cute-farm-days-coloring-book.html"><img src="covers/cute-farm-days.jpg" alt="Cover of Cute Farm Days Coloring Book" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cute-farm-days-coloring-book.html">Cute Farm Days Coloring Book</a></h3><p>Adorable farm animals with easy designs and fun facts</p><a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cute-farm-days-coloring-book.html">Cute Farm Days Coloring Book</a></h3><p>Adorable farm animals with easy designs and fun facts</p><a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR?maas=maas_adg_6766C58EB9AC47922609E11660172170_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="bug-hunt-word-search-coloring-book.html"><img src="covers/bug-hunt.jpg" alt="Cover of Bug Hunt Word Search Coloring Book" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="bug-hunt-word-search-coloring-book.html">Bug Hunt Word Search Coloring Book</a></h3><p>55 bug word searches with color-the-letters puzzles</p><a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="bug-hunt-word-search-coloring-book.html">Bug Hunt Word Search Coloring Book</a></h3><p>55 bug word searches with color-the-letters puzzles</p><a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN?maas=maas_adg_7403D2FB515E67684F72C1911B5214AC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cute-bug-days-coloring-book.html"><img src="covers/cute-bug-days.jpg" alt="Cover of Cute Bug Days Coloring Book" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cute-bug-days-coloring-book.html">Cute Bug Days Coloring Book</a></h3><p>50 cute bugs and insects to color, with a fun fact on every page</p><a class="btn" href="https://www.amazon.com/dp/B0HNTC7ZBX" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cute-bug-days-coloring-book.html">Cute Bug Days Coloring Book</a></h3><p>50 cute bugs and insects to color, with a fun fact on every page</p><a class="btn" href="https://www.amazon.com/dp/B0HNTC7ZBX?maas=maas_adg_FDB5427D858CB9934AC12DB09F648D26_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

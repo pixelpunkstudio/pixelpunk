@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/pins/christmas-word-search.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Free Christmas Printables for Every Age: Word Searches, Coloring Pages and Ideas", "description": "Free Christmas printables for adults, seniors and kids: large print Christmas word searches, a Nativity puzzle, jumbo print pages and Christmas coloring pages, each with its solution, plus ideas for using them.", "url": "https://pixelpunkstudio.shop/christmas-printables.html", "hasPart": [{"@type": "CreativeWork", "name": "Free Printable Christmas Word Search for Adults (Large Print)", "url": "https://pixelpunkstudio.shop/free-printable-christmas-word-search.html"}, {"@type": "CreativeWork", "name": "Free Printable Nativity Word Search for Adults (Large Print)", "url": "https://pixelpunkstudio.shop/free-printable-nativity-word-search.html"}, {"@type": "CreativeWork", "name": "Free Printable Jumbo Christmas Word Search for Seniors (Extra Large Print)", "url": "https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html"}, {"@type": "CreativeWork", "name": "Free Printable Cardinal Christmas Coloring Page for Adults (Bold and Easy)", "url": "https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html"}, {"@type": "CreativeWork", "name": "Free Printable Vintage Christmas Coloring Page for Seniors (1950s TV, Bold and Easy)", "url": "https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html"}, {"@type": "CreativeWork", "name": "Free Printable Gingerbread Word Search for Adults (Large Print, 1910 Recipe)", "url": "https://pixelpunkstudio.shop/free-printable-gingerbread-word-search.html"}]}</script>
 </head><body><main class="wide">
 <header class="top">
@@ -198,16 +199,16 @@ Every page is free to print on regular letter paper (on A4, choose "Fit"), as ma
   <p class="intro">Liked the free pages? Each one comes from a full book, ready to give or keep.</p>
   <div class="grid"><article class="book">
   <a href="cozy-christmas-word-search.html"><img src="covers/cozy-christmas.jpg" alt="Cover of Cozy Christmas Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7?maas=maas_adg_9515D016A4B1E20F8C8B6C2AF99D3FB2_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="jumbo-christmas-word-search-for-seniors.html"><img src="covers/jumbo-christmas.jpg" alt="Cover of Jumbo Christmas Word Search for Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX?maas=maas_adg_63FE62C1DFEACA62DA22BA153CA3CA29_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="cozy-christmas-coloring-book-for-adults-and-seniors.html"><img src="covers/cozy-christmas-coloring.jpg" alt="Cover of Cozy Christmas Coloring Book for Adults and Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75?maas=maas_adg_62A3E2888CCC0EB9B1DC00947A828A85_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="nostalgic-christmas-coloring-book-for-seniors.html"><img src="covers/nostalgic-christmas-coloring.jpg" alt="Cover of Nostalgic Christmas Coloring Book for Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="nostalgic-christmas-coloring-book-for-seniors.html">Nostalgic Christmas Coloring Book for Seniors</a></h3><p>50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HQ8F1JXV" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="nostalgic-christmas-coloring-book-for-seniors.html">Nostalgic Christmas Coloring Book for Seniors</a></h3><p>50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HQ8F1JXV?maas=maas_adg_AAEBDDB97AA23A26E60736201FF1957E_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

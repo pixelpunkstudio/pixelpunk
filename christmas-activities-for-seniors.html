@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/christmas-activities-for-seniors-hero-wide.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care", "description": "Looking for Christmas games for seniors that everyone can join? How to choose the right puzzle level, 9 calm word search activities for December and tips for memory care groups, with free large print printables.", "image": "https://pixelpunkstudio.shop/media/blog/christmas-activities-for-seniors-hero.jpg", "url": "https://pixelpunkstudio.shop/christmas-activities-for-seniors.html", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "keywords": "Seniors & groups, Seasonal ideas", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Christmas Activities for Seniors: 9 Easy Puzzle Games for Home, Care Homes and Memory Care", "item": "https://pixelpunkstudio.shop/christmas-activities-for-seniors.html"}]}</script>
 </head><body><main class="wide">
@@ -284,19 +285,19 @@ Nativity and the Nutcracker to Christmas around the world.</p>
   <h2>Books you might like</h2>
   <div class="grid"><article class="book">
   <a href="cozy-christmas-word-search.html"><img src="covers/cozy-christmas.jpg" alt="Cover of Cozy Christmas Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7?maas=maas_adg_9515D016A4B1E20F8C8B6C2AF99D3FB2_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cozy-winter-hygge-word-search.html"><img src="covers/cozy-winter-hygge.jpg" alt="Cover of Cozy Winter Hygge Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21?maas=maas_adg_E669E744848CD4D343CB32D31071C53A_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="retirement-word-search.html"><img src="covers/retirement.jpg" alt="Cover of Retirement Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="retirement-word-search.html">Retirement Word Search</a></h3><p>55 fun puzzles inspired by hobbies, travel, creativity and wellness</p><a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="retirement-word-search.html">Retirement Word Search</a></h3><p>55 fun puzzles inspired by hobbies, travel, creativity and wellness</p><a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2?maas=maas_adg_ACEA8523B37E376ABD13E72F161B8604_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="jumbo-christmas-word-search-for-seniors.html"><img src="covers/jumbo-christmas.jpg" alt="Cover of Jumbo Christmas Word Search for Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX?maas=maas_adg_63FE62C1DFEACA62DA22BA153CA3CA29_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

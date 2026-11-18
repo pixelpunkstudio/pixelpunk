@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/nostalgic-christmas-coloring.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Nostalgic Christmas Coloring Book for Seniors", "description": "50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page", "image": "https://pixelpunkstudio.shop/covers/nostalgic-christmas-coloring.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HQ8F1JXV", "sameAs": "https://www.amazon.com/dp/B0HQ8F1JXV", "mainEntityOfPage": "https://pixelpunkstudio.shop/nostalgic-christmas-coloring-book-for-seniors.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Bold & Easy Coloring for Adults", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Nostalgic Christmas Coloring Book for Seniors", "item": "https://pixelpunkstudio.shop/nostalgic-christmas-coloring-book-for-seniors.html"}]}</script>
 </head><body><main class="wide">
@@ -158,7 +159,7 @@
     <h1 class="page left">Nostalgic Christmas Coloring Book for Seniors</h1>
     <p class="lead-left">50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page</p>
     <div class="tags"><span class="tag">Bold &amp; easy</span><span class="tag">8.5 x 8.5</span><span class="tag">Seniors</span></div>
-    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0HQ8F1JXV" target="_blank" rel="noopener">View on Amazon</a>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0HQ8F1JXV?maas=maas_adg_AAEBDDB97AA23A26E60736201FF1957E_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
     <a class="btn ghost" href="free-printable-vintage-christmas-tv-coloring-page.html">⬇ Print a free page</a></p>
     <p class="small left">There are 49 more old-fashioned Christmas scenes to color, each with a fun fact and a memory question, in Nostalgic Christmas Coloring Book for Seniors.</p>
   </div>
@@ -195,7 +196,7 @@ Perfect for
 A thoughtful Christmas gift
 <p>A lovely stocking stuffer for grandma, grandpa, mom or dad, or a gift to share during a visit. Pair it with a set of markers or colored pencils for a ready-made present.</p>
 <p><strong>Put on a Christmas record, find a comfy chair and start coloring.</strong></p>
-  <p><a class="btn" href="https://www.amazon.com/dp/B0HQ8F1JXV" target="_blank" rel="noopener">See it on Amazon</a></p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0HQ8F1JXV?maas=maas_adg_AAEBDDB97AA23A26E60736201FF1957E_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">See it on Amazon</a></p>
 </section>
 <section class="aplus"><img src="media/books/nostalgic-christmas-coloring-aplus-1.jpg" alt="Nostalgic Christmas Coloring Book for Seniors: what you will find inside" loading="lazy"><img src="media/books/nostalgic-christmas-coloring-aplus-2.jpg" alt="Nostalgic Christmas Coloring Book for Seniors: what you will find inside" loading="lazy"><img src="media/books/nostalgic-christmas-coloring-aplus-3.jpg" alt="Nostalgic Christmas Coloring Book for Seniors: what you will find inside" loading="lazy"><img src="media/books/nostalgic-christmas-coloring-aplus-4.jpg" alt="Nostalgic Christmas Coloring Book for Seniors: what you will find inside" loading="lazy"></section>
 <section>
@@ -218,7 +219,7 @@ A thoughtful Christmas gift
   <h2>More from Bold &amp; Easy Coloring for Adults</h2>
   <div class="grid"><article class="book">
   <a href="cozy-christmas-coloring-book-for-adults-and-seniors.html"><img src="covers/cozy-christmas-coloring.jpg" alt="Cover of Cozy Christmas Coloring Book for Adults and Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75?maas=maas_adg_62A3E2888CCC0EB9B1DC00947A828A85_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

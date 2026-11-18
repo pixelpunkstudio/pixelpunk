@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/hygge-winter-activities-hero-wide.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "15 Cozy Hygge Winter Activities to Enjoy at Home", "description": "Simple hygge ideas for long winter evenings: candles, warm drinks, slow mornings, puzzles and small rituals that make the cold season feel cozy.", "image": "https://pixelpunkstudio.shop/media/blog/hygge-winter-activities-hero.jpg", "url": "https://pixelpunkstudio.shop/hygge-winter-activities.html", "datePublished": "2026-10-12", "dateModified": "2026-10-12", "keywords": "Cozy living, Seasonal ideas, Activity ideas", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "15 Cozy Hygge Winter Activities to Enjoy at Home", "item": "https://pixelpunkstudio.shop/hygge-winter-activities.html"}]}</script>
 </head><body><main class="wide">
@@ -263,19 +264,19 @@ solutions, so you can print one, light a candle and relax.</p>
   <h2>Books you might like</h2>
   <div class="grid"><article class="book">
   <a href="cozy-winter-hygge-word-search.html"><img src="covers/cozy-winter-hygge.jpg" alt="Cover of Cozy Winter Hygge Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21?maas=maas_adg_E669E744848CD4D343CB32D31071C53A_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="snowy-days-winter-word-search.html"><img src="covers/winter-snowy-days.jpg" alt="Cover of Snowy Days Winter Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="snowy-days-winter-word-search.html">Snowy Days Winter Word Search</a></h3><p>55 winter activity puzzles, from building snowmen to sipping hot cocoa</p><a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="snowy-days-winter-word-search.html">Snowy Days Winter Word Search</a></h3><p>55 winter activity puzzles, from building snowmen to sipping hot cocoa</p><a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T?maas=maas_adg_EEC7FB48897DEDC006B3141921C0A054_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cozy-christmas-word-search.html"><img src="covers/cozy-christmas.jpg" alt="Cover of Cozy Christmas Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3><p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p><a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7?maas=maas_adg_9515D016A4B1E20F8C8B6C2AF99D3FB2_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cozy-christmas-coloring-book-for-adults-and-seniors.html"><img src="covers/cozy-christmas-coloring.jpg" alt="Cover of Cozy Christmas Coloring Book for Adults and Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75?maas=maas_adg_62A3E2888CCC0EB9B1DC00947A828A85_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

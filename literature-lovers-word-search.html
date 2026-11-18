@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/literature-lovers-word-search.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Literature Lover's Word Search", "description": "55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each", "image": "https://pixelpunkstudio.shop/covers/literature-lovers-word-search.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HR4Z43GG", "sameAs": "https://www.amazon.com/dp/B0HR4Z43GG", "mainEntityOfPage": "https://pixelpunkstudio.shop/literature-lovers-word-search.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Culture Lovers Word Search", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Literature Lover's Word Search", "item": "https://pixelpunkstudio.shop/literature-lovers-word-search.html"}]}</script>
 </head><body><main class="wide">
@@ -158,7 +159,7 @@
     <h1 class="page left">Literature Lover&#x27;s Word Search</h1>
     <p class="lead-left">55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each</p>
     <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Adults &amp; seniors</span></div>
-    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0HR4Z43GG" target="_blank" rel="noopener">View on Amazon</a>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0HR4Z43GG?maas=maas_adg_B0962F8BED02D6970C2511D81331E7CC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
     <a class="btn ghost" href="free-printable-jane-austen-word-search.html">⬇ Print a free page</a></p>
     <p class="small left">There are 54 more great authors, each with a portrait, a famous quote, a fun fact and a large print puzzle, in Literature Lover&#x27;s Word Search.</p>
   </div>
@@ -194,7 +195,7 @@ Perfect for
 <li><strong>Anyone looking for a thoughtful gift</strong> for a birthday, retirement, Mother's Day, Father's Day or a Christmas stocking</li>
 </ul>
 <p>From the people behind <strong>Art Lover's Word Search</strong>. <strong>Grab a pencil and open the first page!</strong></p>
-  <p><a class="btn" href="https://www.amazon.com/dp/B0HR4Z43GG" target="_blank" rel="noopener">See it on Amazon</a></p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0HR4Z43GG?maas=maas_adg_B0962F8BED02D6970C2511D81331E7CC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">See it on Amazon</a></p>
 </section>
 <section class="aplus"><img src="media/books/literature-lovers-word-search-aplus-1.jpg" alt="Literature Lover&#x27;s Word Search: what you will find inside" loading="lazy"><img src="media/books/literature-lovers-word-search-aplus-2.jpg" alt="Literature Lover&#x27;s Word Search: what you will find inside" loading="lazy"><img src="media/books/literature-lovers-word-search-aplus-3.jpg" alt="Literature Lover&#x27;s Word Search: what you will find inside" loading="lazy"><img src="media/books/literature-lovers-word-search-aplus-4.jpg" alt="Literature Lover&#x27;s Word Search: what you will find inside" loading="lazy"><img src="media/books/literature-lovers-word-search-aplus-5.jpg" alt="Literature Lover&#x27;s Word Search: what you will find inside" loading="lazy"></section>
 <section>
@@ -209,10 +210,10 @@ Perfect for
   <h2>More from Culture Lovers Word Search</h2>
   <div class="grid"><article class="book">
   <a href="art-lovers-word-search.html"><img src="covers/art-lovers-word-search.jpg" alt="Cover of Art Lover&#x27;s Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="art-lovers-word-search.html">Art Lover&#x27;s Word Search</a></h3><p>55 large print puzzles about great painters and their famous paintings, with art history fun facts</p><a class="btn" href="https://www.amazon.com/dp/B0HQ8L5DMG" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="art-lovers-word-search.html">Art Lover&#x27;s Word Search</a></h3><p>55 large print puzzles about great painters and their famous paintings, with art history fun facts</p><a class="btn" href="https://www.amazon.com/dp/B0HQ8L5DMG?maas=maas_adg_94BE29EA9CF9F946FD70C505F97D8312_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="opera-lovers-word-search.html"><img src="covers/opera-lovers-word-search.jpg" alt="Cover of Opera Lover&#x27;s Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="opera-lovers-word-search.html">Opera Lover&#x27;s Word Search</a></h3><p>55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each</p><a class="btn" href="https://www.amazon.com/dp/B0HR4BKYJQ" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="opera-lovers-word-search.html">Opera Lover&#x27;s Word Search</a></h3><p>55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each</p><a class="btn" href="https://www.amazon.com/dp/B0HR4BKYJQ?maas=maas_adg_5BA72CB5F3564D589C9C3B2A51530AC3_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

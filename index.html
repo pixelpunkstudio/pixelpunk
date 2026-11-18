@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/og-home.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/", "logo": "https://pixelpunkstudio.shop/logo.png", "email": "hello@pixelpunkstudio.shop", "sameAs": ["https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Pixel Punk Studio books", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Cozy Christmas Word Search", "description": "55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world", "image": "https://pixelpunkstudio.shop/covers/cozy-christmas.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HNTD7VS7", "sameAs": "https://www.amazon.com/dp/B0HNTD7VS7"}}, {"@type": "ListItem", "position": 2, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Cozy Winter Hygge Word Search", "description": "55 relaxing large print puzzles inspired by the Scandinavian art of cozy living", "image": "https://pixelpunkstudio.shop/covers/cozy-winter-hygge.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HMJH6W21", "sameAs": "https://www.amazon.com/dp/B0HMJH6W21"}}, {"@type": "ListItem", "position": 3, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Jumbo Christmas Word Search for Seniors", "description": "100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle", "image": "https://pixelpunkstudio.shop/covers/jumbo-christmas.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HPL7DGYX", "sameAs": "https://www.amazon.com/dp/B0HPL7DGYX"}}, {"@type": "ListItem", "position": 4, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Jumbo Bible Word Search for Seniors", "description": "100 extra large print puzzles in font size 30, from Genesis to Revelation, with a Bible fun fact beside every puzzle", "image": "https://pixelpunkstudio.shop/covers/jumbo-bible.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HRX67MVT", "sameAs": "https://www.amazon.com/dp/B0HRX67MVT"}}, {"@type": "ListItem", "position": 5, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Art Lover's Word Search", "description": "55 large print puzzles about great painters and their famous paintings, with art history fun facts", "image": "https://pixelpunkstudio.shop/covers/art-lovers-word-search.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HQ8L5DMG", "sameAs": "https://www.amazon.com/dp/B0HQ8L5DMG"}}, {"@type": "ListItem", "position": 6, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Literature Lover's Word Search", "description": "55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each", "image": "https://pixelpunkstudio.shop/covers/literature-lovers-word-search.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HR4Z43GG", "sameAs": "https://www.amazon.com/dp/B0HR4Z43GG"}}, {"@type": "ListItem", "position": 7, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Opera Lover's Word Search", "description": "55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each", "image": "https://pixelpunkstudio.shop/covers/opera-lovers-word-search.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HR4BKYJQ", "sameAs": "https://www.amazon.com/dp/B0HR4BKYJQ"}}, {"@type": "ListItem", "position": 8, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Cozy Christmas Coloring Book for Adults and Seniors", "description": "50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page", "image": "https://pixelpunkstudio.shop/covers/cozy-christmas-coloring.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HPLFLS75", "sameAs": "https://www.amazon.com/dp/B0HPLFLS75"}}, {"@type": "ListItem", "position": 9, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Nostalgic Christmas Coloring Book for Seniors", "description": "50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page", "image": "https://pixelpunkstudio.shop/covers/nostalgic-christmas-coloring.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HQ8F1JXV", "sameAs": "https://www.amazon.com/dp/B0HQ8F1JXV"}}, {"@type": "ListItem", "position": 10, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Snowy Days Winter Word Search", "description": "55 winter activity puzzles, from building snowmen to sipping hot cocoa", "image": "https://pixelpunkstudio.shop/covers/winter-snowy-days.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0DS9SG35T", "sameAs": "https://www.amazon.com/dp/B0DS9SG35T"}}, {"@type": "ListItem", "position": 11, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Fresh Blooms Spring Word Search", "description": "55 spring puzzles full of gardens, picnics and blossoms", "image": "https://pixelpunkstudio.shop/covers/spring-fresh-blooms.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FLXRGFZY", "sameAs": "https://www.amazon.com/dp/B0FLXRGFZY"}}, {"@type": "ListItem", "position": 12, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Sunny Vibes Summer Word Search", "description": "55 summer puzzles about camping, beaches and long sunny days", "image": "https://pixelpunkstudio.shop/covers/summer-sunny-vibes.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FRXWL9R7", "sameAs": "https://www.amazon.com/dp/B0FRXWL9R7"}}, {"@type": "ListItem", "position": 13, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Crisp Leaves Fall Word Search", "description": "55 autumn puzzles with apple picking, hayrides and cozy campfires", "image": "https://pixelpunkstudio.shop/covers/fall-crisp-leaves.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FDL4QN1M", "sameAs": "https://www.amazon.com/dp/B0FDL4QN1M"}}, {"@type": "ListItem", "position": 14, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Life on the Farm Word Search for Kids", "description": "50 farm-themed puzzles with fun facts about animals and activities", "image": "https://pixelpunkstudio.shop/covers/life-on-the-farm.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FHKMG9KK", "sameAs": "https://www.amazon.com/dp/B0FHKMG9KK"}}, {"@type": "ListItem", "position": 15, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Bug Hunt Word Search Coloring Book", "description": "55 bug word searches with color-the-letters puzzles", "image": "https://pixelpunkstudio.shop/covers/bug-hunt.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0G3H1KJLN", "sameAs": "https://www.amazon.com/dp/B0G3H1KJLN"}}, {"@type": "ListItem", "position": 16, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Cute Farm Days Coloring Book", "description": "Adorable farm animals with easy designs and fun facts", "image": "https://pixelpunkstudio.shop/covers/cute-farm-days.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FBM7X2HR", "sameAs": "https://www.amazon.com/dp/B0FBM7X2HR"}}, {"@type": "ListItem", "position": 17, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Cute Bug Days Coloring Book", "description": "50 cute bugs and insects to color, with a fun fact on every page", "image": "https://pixelpunkstudio.shop/covers/cute-bug-days.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HNTC7ZBX", "sameAs": "https://www.amazon.com/dp/B0HNTC7ZBX"}}, {"@type": "ListItem", "position": 18, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Vintage Recipe Word Search", "description": "55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams", "image": "https://pixelpunkstudio.shop/covers/vintage-recipe-word-search.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HRX8Z6TJ", "sameAs": "https://www.amazon.com/dp/B0HRX8Z6TJ"}}, {"@type": "ListItem", "position": 19, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Retirement Word Search", "description": "55 fun puzzles inspired by hobbies, travel, creativity and wellness", "image": "https://pixelpunkstudio.shop/covers/retirement.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HGB15BJ2", "sameAs": "https://www.amazon.com/dp/B0HGB15BJ2"}}, {"@type": "ListItem", "position": 20, "item": {"@context": "https://schema.org", "@type": "Book", "name": "Sudoku of Love", "description": "500+ romantic sudoku puzzles, very easy to hard, with solutions", "image": "https://pixelpunkstudio.shop/covers/sudoku-of-love.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0DVR3HN6Q", "sameAs": "https://www.amazon.com/dp/B0DVR3HN6Q"}}]}</script>
 </head>
@@ -161,6 +162,27 @@
   <a class="btn" href="https://www.amazon.com/Pixel-Punk-Studio/e/B0FCYYJ5FY" target="_blank" rel="noopener">All our books on Amazon</a>
   <a class="btn ghost" href="free-printables.html">Free printable puzzles</a>
 </header>
+<section class="new-strip" aria-label="New releases">
+  <h2>New releases</h2>
+  <div class="new-books">
+    <a class="new-book" href="vintage-recipe-word-search.html">
+      <img src="covers/vintage-recipe-word-search.jpg" alt="Cover of Vintage Recipe Word Search" loading="lazy">
+      <span><strong>Vintage Recipe Word Search</strong><small>New, November 2026</small></span>
+    </a>
+    <a class="new-book" href="jumbo-bible-word-search-for-seniors.html">
+      <img src="covers/jumbo-bible.jpg" alt="Cover of Jumbo Bible Word Search for Seniors" loading="lazy">
+      <span><strong>Jumbo Bible Word Search for Seniors</strong><small>New, November 2026</small></span>
+    </a>
+    <a class="new-book" href="literature-lovers-word-search.html">
+      <img src="covers/literature-lovers-word-search.jpg" alt="Cover of Literature Lover&#x27;s Word Search" loading="lazy">
+      <span><strong>Literature Lover&#x27;s Word Search</strong><small>New, November 2026</small></span>
+    </a>
+    <a class="new-book" href="opera-lovers-word-search.html">
+      <img src="covers/opera-lovers-word-search.jpg" alt="Cover of Opera Lover&#x27;s Word Search" loading="lazy">
+      <span><strong>Opera Lover&#x27;s Word Search</strong><small>New, November 2026</small></span>
+    </a>
+  </div>
+</section>
 <section id="free" class="cozy-band">
   <h2>Free puzzles to print at home</h2>
   <p class="intro">Grab a pencil and something warm to drink: these puzzles are free to download and print
@@ -218,7 +240,7 @@
           <h3><a class="title-link" href="cozy-christmas-word-search.html">Cozy Christmas Word Search</a></h3>
           <p>55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Adults &amp; seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HNTD7VS7?maas=maas_adg_9515D016A4B1E20F8C8B6C2AF99D3FB2_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-nativity-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -229,7 +251,7 @@
           <h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3>
           <p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Adults &amp; seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21?maas=maas_adg_E669E744848CD4D343CB32D31071C53A_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-hygge-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -246,7 +268,7 @@
           <h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3>
           <p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p>
           <div class="tags"><span class="tag">Font size 30</span><span class="tag">8.5 x 11</span><span class="tag">Seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX?maas=maas_adg_63FE62C1DFEACA62DA22BA153CA3CA29_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-jumbo-christmas-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -257,7 +279,7 @@
           <h3><a class="title-link" href="jumbo-bible-word-search-for-seniors.html">Jumbo Bible Word Search for Seniors</a></h3>
           <p>100 extra large print puzzles in font size 30, from Genesis to Revelation, with a Bible fun fact beside every puzzle</p>
           <div class="tags"><span class="tag">Font size 30</span><span class="tag">8.5 x 11</span><span class="tag">Seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HRX67MVT" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HRX67MVT?maas=maas_adg_BAE8817355328C4DBA5DD76AE9CDC1BB_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-jumbo-bible-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -274,7 +296,7 @@
           <h3><a class="title-link" href="art-lovers-word-search.html">Art Lover&#x27;s Word Search</a></h3>
           <p>55 large print puzzles about great painters and their famous paintings, with art history fun facts</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Adults &amp; seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HQ8L5DMG" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HQ8L5DMG?maas=maas_adg_94BE29EA9CF9F946FD70C505F97D8312_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-leonardo-da-vinci-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -285,7 +307,7 @@
           <h3><a class="title-link" href="literature-lovers-word-search.html">Literature Lover&#x27;s Word Search</a></h3>
           <p>55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Adults &amp; seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HR4Z43GG" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HR4Z43GG?maas=maas_adg_B0962F8BED02D6970C2511D81331E7CC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-jane-austen-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -296,7 +318,7 @@
           <h3><a class="title-link" href="opera-lovers-word-search.html">Opera Lover&#x27;s Word Search</a></h3>
           <p>55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Adults &amp; seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HR4BKYJQ" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HR4BKYJQ?maas=maas_adg_5BA72CB5F3564D589C9C3B2A51530AC3_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-mozart-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -313,7 +335,7 @@
           <h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3>
           <p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p>
           <div class="tags"><span class="tag">Bold &amp; easy</span><span class="tag">8.5 x 8.5</span><span class="tag">Adults &amp; seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75?maas=maas_adg_62A3E2888CCC0EB9B1DC00947A828A85_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-cardinal-christmas-coloring-page.html">⬇ Free coloring page</a>
         </div>
       </article>
@@ -324,7 +346,7 @@
           <h3><a class="title-link" href="nostalgic-christmas-coloring-book-for-seniors.html">Nostalgic Christmas Coloring Book for Seniors</a></h3>
           <p>50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page</p>
           <div class="tags"><span class="tag">Bold &amp; easy</span><span class="tag">8.5 x 8.5</span><span class="tag">Seniors</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HQ8F1JXV" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HQ8F1JXV?maas=maas_adg_AAEBDDB97AA23A26E60736201FF1957E_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-vintage-christmas-tv-coloring-page.html">⬇ Free coloring page</a>
         </div>
       </article>
@@ -340,7 +362,7 @@
           <h3><a class="title-link" href="snowy-days-winter-word-search.html">Snowy Days Winter Word Search</a></h3>
           <p>55 winter activity puzzles, from building snowmen to sipping hot cocoa</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Teens &amp; adults</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T?maas=maas_adg_EEC7FB48897DEDC006B3141921C0A054_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-winter-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -350,7 +372,7 @@
           <h3><a class="title-link" href="fresh-blooms-spring-word-search.html">Fresh Blooms Spring Word Search</a></h3>
           <p>55 spring puzzles full of gardens, picnics and blossoms</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Teens &amp; adults</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0FLXRGFZY" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0FLXRGFZY?maas=maas_adg_1ECB2635C01F9112206ACA8DDADE1A3A_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-spring-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -360,7 +382,7 @@
           <h3><a class="title-link" href="sunny-vibes-summer-word-search.html">Sunny Vibes Summer Word Search</a></h3>
           <p>55 summer puzzles about camping, beaches and long sunny days</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Teens &amp; adults</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0FRXWL9R7" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0FRXWL9R7?maas=maas_adg_01C8F5A609BCDD0800CE0CE69A158FF3_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-summer-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -370,7 +392,7 @@
           <h3><a class="title-link" href="crisp-leaves-fall-word-search.html">Crisp Leaves Fall Word Search</a></h3>
           <p>55 autumn puzzles with apple picking, hayrides and cozy campfires</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Teens &amp; adults</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M?maas=maas_adg_F4BE3BFF4BF649137C87CDAFC57E20FB_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-fall-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -386,7 +408,7 @@
           <h3><a class="title-link" href="life-on-the-farm-word-search-for-kids.html">Life on the Farm Word Search for Kids</a></h3>
           <p>50 farm-themed puzzles with fun facts about animals and activities</p>
           <div class="tags"><span class="tag">Ages 6-10</span><span class="tag">8.5 x 11</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK?maas=maas_adg_507E178E1CEC72097815B99F74A7A5B6_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-farm-word-search-for-kids.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -396,7 +418,7 @@
           <h3><a class="title-link" href="bug-hunt-word-search-coloring-book.html">Bug Hunt Word Search Coloring Book</a></h3>
           <p>55 bug word searches with color-the-letters puzzles</p>
           <div class="tags"><span class="tag">Ages 4-10</span><span class="tag">8.5 x 8.5</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN?maas=maas_adg_7403D2FB515E67684F72C1911B5214AC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-bug-word-search-for-kids.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -412,7 +434,7 @@
           <h3><a class="title-link" href="cute-farm-days-coloring-book.html">Cute Farm Days Coloring Book</a></h3>
           <p>Adorable farm animals with easy designs and fun facts</p>
           <div class="tags"><span class="tag">Ages 4-8</span><span class="tag">Coloring</span><span class="tag">8.5 x 11</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR?maas=maas_adg_6766C58EB9AC47922609E11660172170_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-puppy-kitten-coloring-page.html">⬇ Free coloring page</a>
         </div>
       </article>
@@ -423,7 +445,7 @@
           <h3><a class="title-link" href="cute-bug-days-coloring-book.html">Cute Bug Days Coloring Book</a></h3>
           <p>50 cute bugs and insects to color, with a fun fact on every page</p>
           <div class="tags"><span class="tag">Ages 3-10</span><span class="tag">Coloring</span><span class="tag">8.5 x 11</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HNTC7ZBX" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HNTC7ZBX?maas=maas_adg_FDB5427D858CB9934AC12DB09F648D26_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-ladybug-coloring-page.html">⬇ Free coloring page</a>
         </div>
       </article>
@@ -440,7 +462,7 @@
           <h3><a class="title-link" href="vintage-recipe-word-search.html">Vintage Recipe Word Search</a></h3>
           <p>55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Gift idea</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HRX8Z6TJ" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HRX8Z6TJ?maas=maas_adg_A5B59B7C2FF88F05E491110723E7447B_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-gingerbread-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -451,7 +473,7 @@
           <h3><a class="title-link" href="retirement-word-search.html">Retirement Word Search</a></h3>
           <p>55 fun puzzles inspired by hobbies, travel, creativity and wellness</p>
           <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Gift idea</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2?maas=maas_adg_ACEA8523B37E376ABD13E72F161B8604_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-retirement-word-search.html">⬇ Free printable puzzle</a>
         </div>
       </article>
@@ -461,7 +483,7 @@
           <h3><a class="title-link" href="sudoku-of-love.html">Sudoku of Love</a></h3>
           <p>500+ romantic sudoku puzzles, very easy to hard, with solutions</p>
           <div class="tags"><span class="tag">Sudoku</span><span class="tag">6 x 9</span><span class="tag">Gift idea</span></div>
-          <a class="btn" href="https://www.amazon.com/dp/B0DVR3HN6Q" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="btn" href="https://www.amazon.com/dp/B0DVR3HN6Q?maas=maas_adg_22A8E347BE4F681EB76DF2A96E4C1D8B_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
           <a class="free" href="free-printable-easy-sudoku-puzzles.html">⬇ Free printable puzzle</a>
         </div>
       </article>

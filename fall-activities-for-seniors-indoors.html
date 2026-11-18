@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/fall-activities-for-seniors-indoors-hero-wide.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home", "description": "Shorter days and colder weather mean more time indoors and fewer outdoor routines. 9 cozy fall activities for seniors at home, how to build a simple autumn routine, tips for tired hands and eyes, and a free fall word search.", "image": "https://pixelpunkstudio.shop/media/blog/fall-activities-for-seniors-indoors-hero.jpg", "url": "https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html", "datePublished": "2026-11-06", "dateModified": "2026-11-06", "keywords": "Seasonal ideas, Activity ideas, Seniors & groups", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Too Cold to Go Out? 9 Cozy Fall Activities for Seniors at Home", "item": "https://pixelpunkstudio.shop/fall-activities-for-seniors-indoors.html"}]}</script>
 </head><body><main class="wide">
@@ -264,19 +265,19 @@ Christmas Word Search prints every letter at 30 points for the eyes that need it
   <h2>Books you might like</h2>
   <div class="grid"><article class="book">
   <a href="crisp-leaves-fall-word-search.html"><img src="covers/fall-crisp-leaves.jpg" alt="Cover of Crisp Leaves Fall Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="crisp-leaves-fall-word-search.html">Crisp Leaves Fall Word Search</a></h3><p>55 autumn puzzles with apple picking, hayrides and cozy campfires</p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="crisp-leaves-fall-word-search.html">Crisp Leaves Fall Word Search</a></h3><p>55 autumn puzzles with apple picking, hayrides and cozy campfires</p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M?maas=maas_adg_F4BE3BFF4BF649137C87CDAFC57E20FB_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cozy-winter-hygge-word-search.html"><img src="covers/cozy-winter-hygge.jpg" alt="Cover of Cozy Winter Hygge Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-winter-hygge-word-search.html">Cozy Winter Hygge Word Search</a></h3><p>55 relaxing large print puzzles inspired by the Scandinavian art of cozy living</p><a class="btn" href="https://www.amazon.com/dp/B0HMJH6W21?maas=maas_adg_E669E744848CD4D343CB32D31071C53A_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="jumbo-christmas-word-search-for-seniors.html"><img src="covers/jumbo-christmas.jpg" alt="Cover of Jumbo Christmas Word Search for Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="jumbo-christmas-word-search-for-seniors.html">Jumbo Christmas Word Search for Seniors</a></h3><p>100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle</p><a class="btn" href="https://www.amazon.com/dp/B0HPL7DGYX?maas=maas_adg_63FE62C1DFEACA62DA22BA153CA3CA29_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article>
 <article class="book">
   <a href="cozy-christmas-coloring-book-for-adults-and-seniors.html"><img src="covers/cozy-christmas-coloring.jpg" alt="Cover of Cozy Christmas Coloring Book for Adults and Seniors" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="cozy-christmas-coloring-book-for-adults-and-seniors.html">Cozy Christmas Coloring Book for Adults and Seniors</a></h3><p>50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page</p><a class="btn" href="https://www.amazon.com/dp/B0HPLFLS75?maas=maas_adg_62A3E2888CCC0EB9B1DC00947A828A85_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

@@ -1,5 +1,6 @@
 # Pixel Punk Studio catalog, rendered into index.html by `python -m kdp site`.
 # amazon: the paperback ASIN (https://www.amazon.com/dp/<ASIN>). Leave it empty for "coming soon".
+# attribution: the book's Amazon Attribution maas tag (US store only; the site strips it for visitors sent to other stores).
 # published: Amazon publication date; the card shows a "New" pill for 90 days after it.
 site_url: https://pixelpunkstudio.shop/
 newsletter:                    # Brevo form "Website newsletter" -> list Pixel Punk Newsletter
@@ -20,6 +21,7 @@ sections:
         subtitle: 55 festive large print puzzles, from the Nativity and the Nutcracker to Christmas around the world
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HNTD7VS7
+        attribution: maas_adg_9515D016A4B1E20F8C8B6C2AF99D3FB2_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-10-21
         sample:
           pdf: "books/cozy-christmas/output"
@@ -36,6 +38,7 @@ sections:
         subtitle: 55 relaxing large print puzzles inspired by the Scandinavian art of cozy living
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HMJH6W21
+        attribution: maas_adg_E669E744848CD4D343CB32D31071C53A_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-10-09
         sample:
           pdf: "books/cozy-winter-hygge/output"
@@ -56,6 +59,7 @@ sections:
         subtitle: 100 extra large print Christmas puzzles in font size 30, with a fun fact beside every puzzle
         tags: [Font size 30, 8.5 x 11, Seniors]
         amazon: B0HPL7DGYX
+        attribution: maas_adg_63FE62C1DFEACA62DA22BA153CA3CA29_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-10-28
         sample:
           pdf: "books/jumbo-christmas/output"
@@ -72,6 +76,7 @@ sections:
         subtitle: 100 extra large print puzzles in font size 30, from Genesis to Revelation, with a Bible fun fact beside every puzzle
         tags: [Font size 30, 8.5 x 11, Seniors]
         amazon: B0HRX67MVT
+        attribution: maas_adg_BAE8817355328C4DBA5DD76AE9CDC1BB_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-11-16
         sample:
           pdf: "books/jumbo-bible/output"
@@ -92,6 +97,7 @@ sections:
         subtitle: 55 large print puzzles about great painters and their famous paintings, with art history fun facts
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HQ8L5DMG
+        attribution: maas_adg_94BE29EA9CF9F946FD70C505F97D8312_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-11-03
         sample:
           pdf: "books/art-lovers-word-search/output"
@@ -108,6 +114,7 @@ sections:
         subtitle: 55 large print puzzles about great authors and their classic books, with a famous quote and a fun fact for each
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HR4Z43GG
+        attribution: maas_adg_B0962F8BED02D6970C2511D81331E7CC_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-11-11
         sample:
           pdf: "books/literature-lovers-word-search/output"
@@ -124,6 +131,7 @@ sections:
         subtitle: 55 large print puzzles about great composers and their operas, with a famous aria and a fun fact for each
         tags: [Large print, 8.5 x 11, Adults & seniors]
         amazon: B0HR4BKYJQ
+        attribution: maas_adg_5BA72CB5F3564D589C9C3B2A51530AC3_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         sample:
           pdf: "books/opera-lovers-word-search/output"
           pages: [28, 29, 128]
@@ -144,6 +152,7 @@ sections:
         subtitle: 50 peaceful holiday scenes in bold and easy large print designs, with a fun fact beside every page
         tags: [Bold & easy, 8.5 x 8.5, Adults & seniors]
         amazon: B0HPLFLS75
+        attribution: maas_adg_62A3E2888CCC0EB9B1DC00947A828A85_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-10-28
         sample:
           pdf: "books/cozy-christmas-coloring/output"
@@ -160,6 +169,7 @@ sections:
         subtitle: 50 bold and easy 1950s holiday scenes, with a fun fact and a memory question beside every page
         tags: [Bold & easy, 8.5 x 8.5, Seniors]
         amazon: B0HQ8F1JXV
+        attribution: maas_adg_AAEBDDB97AA23A26E60736201FF1957E_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-11-03
         sample:
           pdf: "books/nostalgic-christmas-coloring/output"
@@ -180,6 +190,7 @@ sections:
         subtitle: 55 winter activity puzzles, from building snowmen to sipping hot cocoa
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0DS9SG35T
+        attribution: maas_adg_EEC7FB48897DEDC006B3141921C0A054_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2024-12-12
         sample:
           pdf: "C:/BigBangPixels/KDP/Winter Activities - Word Search/Winter_Season_Word_Search 1861158 (CMYK)"
@@ -197,6 +208,7 @@ sections:
         subtitle: 55 spring puzzles full of gardens, picnics and blossoms
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FLXRGFZY
+        attribution: maas_adg_1ECB2635C01F9112206ACA8DDADE1A3A_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-08-08
         sample:
           pdf: "C:/BigBangPixels/KDP/Spring Activities - Word Search/Spring_Activities_Word_Search 2435155 (CMYK)"
@@ -214,6 +226,7 @@ sections:
         subtitle: 55 summer puzzles about camping, beaches and long sunny days
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FRXWL9R7
+        attribution: maas_adg_01C8F5A609BCDD0800CE0CE69A158FF3_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-09-17
         sample:
           pdf: "C:/BigBangPixels/KDP/Summer Activities - Word Search/Summer_Activities_Word_Search 2512955 (CMYK)"
@@ -231,6 +244,7 @@ sections:
         subtitle: 55 autumn puzzles with apple picking, hayrides and cozy campfires
         tags: [Large print, 8.5 x 11, Teens & adults]
         amazon: B0FDL4QN1M
+        attribution: maas_adg_F4BE3BFF4BF649137C87CDAFC57E20FB_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-06-15
         sample:
           pdf: "C:/BigBangPixels/KDP/Fall Activities - Word Search/Fall_Activities_Word_Search 2327831 (CMYK)"
@@ -252,6 +266,7 @@ sections:
         subtitle: 50 farm-themed puzzles with fun facts about animals and activities
         tags: [Ages 6-10, 8.5 x 11]
         amazon: B0FHKMG9KK
+        attribution: maas_adg_507E178E1CEC72097815B99F74A7A5B6_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-07-12
         sample:
           pdf: "C:/BigBangPixels/KDP/Life On The Farm - Word Search/Life_On_The_Farm_Word_Search 2348354 (CMYK)"
@@ -270,6 +285,7 @@ sections:
         subtitle: 55 bug word searches with color-the-letters puzzles
         tags: [Ages 4-10, 8.5 x 8.5]
         amazon: B0G3H1KJLN
+        attribution: maas_adg_7403D2FB515E67684F72C1911B5214AC_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-11-21
         sample:
           pdf: "C:/BigBangPixels/KDP/Kids Word Search - Bugs/Kids_Word_Search_Bugs 2582400 (CMYK)"
@@ -291,6 +307,7 @@ sections:
         subtitle: Adorable farm animals with easy designs and fun facts
         tags: [Ages 4-8, Coloring, 8.5 x 11]
         amazon: B0FBM7X2HR
+        attribution: maas_adg_6766C58EB9AC47922609E11660172170_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-05-30
         sample:
           pdf: "C:/BigBangPixels/KDP/Farm Animals Coloring Book/Cute_Farm_Days_Coloring_Book 2295511 (CMYK)"
@@ -308,6 +325,7 @@ sections:
         subtitle: 50 cute bugs and insects to color, with a fun fact on every page
         tags: [Ages 3-10, Coloring, 8.5 x 11]
         amazon: B0HNTC7ZBX
+        attribution: maas_adg_FDB5427D858CB9934AC12DB09F648D26_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-10-21
         sample:
           pdf: "books/cute-bug-days/output"
@@ -327,6 +345,7 @@ sections:
         subtitle: 55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HRX8Z6TJ
+        attribution: maas_adg_A5B59B7C2FF88F05E491110723E7447B_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-11-18
         sample:
           pdf: "books/vintage-recipe-word-search/output"
@@ -343,6 +362,7 @@ sections:
         subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HGB15BJ2
+        attribution: maas_adg_ACEA8523B37E376ABD13E72F161B8604_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2026-08-24
         sample:
           pdf: "C:/BigBangPixels/KDP/Retirement Activities - Word Search/Retirement_Activities_Word_Search 2754862 (CMYK)"
@@ -360,6 +380,7 @@ sections:
         subtitle: 500+ romantic sudoku puzzles, very easy to hard, with solutions
         tags: [Sudoku, 6 x 9, Gift idea]
         amazon: B0DVR3HN6Q
+        attribution: maas_adg_22A8E347BE4F681EB76DF2A96E4C1D8B_afap_abs   # Amazon Attribution tag (US), campaign Website 581421973030839342
         published: 2025-01-30
         sample:
           pdf: "C:/BigBangPixels/KDP/Sudoku of Love/Sudoku_of_Love 1991516 (CMYK)"

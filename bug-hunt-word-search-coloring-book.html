@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/bug-hunt.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Bug Hunt Word Search Coloring Book", "description": "55 bug word searches with color-the-letters puzzles", "image": "https://pixelpunkstudio.shop/covers/bug-hunt.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0G3H1KJLN", "sameAs": "https://www.amazon.com/dp/B0G3H1KJLN", "mainEntityOfPage": "https://pixelpunkstudio.shop/bug-hunt-word-search-coloring-book.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Farm & Bug Word Search for Kids", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Bug Hunt Word Search Coloring Book", "item": "https://pixelpunkstudio.shop/bug-hunt-word-search-coloring-book.html"}]}</script>
 </head><body><main class="wide">
@@ -158,7 +159,7 @@
     <h1 class="page left">Bug Hunt Word Search Coloring Book</h1>
     <p class="lead-left">55 bug word searches with color-the-letters puzzles</p>
     <div class="tags"><span class="tag">Ages 4-10</span><span class="tag">8.5 x 8.5</span></div>
-    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0G3H1KJLN" target="_blank" rel="noopener">View on Amazon</a>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0G3H1KJLN?maas=maas_adg_7403D2FB515E67684F72C1911B5214AC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
     <a class="btn ghost" href="free-printable-bug-word-search-for-kids.html">⬇ Print a free page</a></p>
     <p class="small left">There are 54 more bug puzzles to search and color in Bug Hunt Word Search Coloring Book.</p>
   </div>
@@ -170,7 +171,7 @@
 <section class="card prose book-about">
   <h2>About this book</h2>
   <p>55 bug word searches for kids ages 4 to 10: common bugs, beetles, butterflies and moths and many more. The grids use big bubble letters that children color in once a word is found, the word lists are short, and the page facing each puzzle asks which other bugs they know. Solutions are at the back of the book.</p>
-  <p><a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN" target="_blank" rel="noopener">See it on Amazon</a></p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN?maas=maas_adg_7403D2FB515E67684F72C1911B5214AC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">See it on Amazon</a></p>
 </section>
 
 <section>
@@ -195,7 +196,7 @@
   <h2>More from Farm &amp; Bug Word Search for Kids</h2>
   <div class="grid"><article class="book">
   <a href="life-on-the-farm-word-search-for-kids.html"><img src="covers/life-on-the-farm.jpg" alt="Cover of Life on the Farm Word Search for Kids" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="life-on-the-farm-word-search-for-kids.html">Life on the Farm Word Search for Kids</a></h3><p>50 farm-themed puzzles with fun facts about animals and activities</p><a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="life-on-the-farm-word-search-for-kids.html">Life on the Farm Word Search for Kids</a></h3><p>50 farm-themed puzzles with fun facts about animals and activities</p><a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK?maas=maas_adg_507E178E1CEC72097815B99F74A7A5B6_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

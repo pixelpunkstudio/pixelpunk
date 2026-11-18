@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/vintage-recipe-word-search.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Vintage Recipe Word Search", "description": "55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams", "image": "https://pixelpunkstudio.shop/covers/vintage-recipe-word-search.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0HRX8Z6TJ", "sameAs": "https://www.amazon.com/dp/B0HRX8Z6TJ", "mainEntityOfPage": "https://pixelpunkstudio.shop/vintage-recipe-word-search.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "More Puzzle Books", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Vintage Recipe Word Search", "item": "https://pixelpunkstudio.shop/vintage-recipe-word-search.html"}]}</script>
 </head><body><main class="wide">
@@ -158,7 +159,7 @@
     <h1 class="page left">Vintage Recipe Word Search</h1>
     <p class="lead-left">55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams</p>
     <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Gift idea</span></div>
-    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0HRX8Z6TJ" target="_blank" rel="noopener">View on Amazon</a>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0HRX8Z6TJ?maas=maas_adg_A5B59B7C2FF88F05E491110723E7447B_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
     <a class="btn ghost" href="free-printable-gingerbread-word-search.html">⬇ Print a free page</a></p>
     <p class="small left">There are 54 more old-fashioned recipes, each with a recipe card in cups and grams, a fun fact and a large print puzzle, in Vintage Recipe Word Search.</p>
   </div>
@@ -197,7 +198,7 @@ Perfect for
 </ul>
 <p>Recipes are reprinted for their historical interest; results are not guaranteed.</p>
 <p>From the people behind <strong>Art Lover's Word Search</strong>. <strong>Grab a pencil and step into the kitchen!</strong></p>
-  <p><a class="btn" href="https://www.amazon.com/dp/B0HRX8Z6TJ" target="_blank" rel="noopener">See it on Amazon</a></p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0HRX8Z6TJ?maas=maas_adg_A5B59B7C2FF88F05E491110723E7447B_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">See it on Amazon</a></p>
 </section>
 <section class="aplus"><img src="media/books/vintage-recipe-word-search-aplus-1.jpg" alt="Vintage Recipe Word Search: what you will find inside" loading="lazy"><img src="media/books/vintage-recipe-word-search-aplus-2.jpg" alt="Vintage Recipe Word Search: what you will find inside" loading="lazy"><img src="media/books/vintage-recipe-word-search-aplus-3.jpg" alt="Vintage Recipe Word Search: what you will find inside" loading="lazy"><img src="media/books/vintage-recipe-word-search-aplus-4.jpg" alt="Vintage Recipe Word Search: what you will find inside" loading="lazy"><img src="media/books/vintage-recipe-word-search-aplus-5.jpg" alt="Vintage Recipe Word Search: what you will find inside" loading="lazy"></section>
 <section>
@@ -212,10 +213,10 @@ Perfect for
   <h2>More from More Puzzle Books</h2>
   <div class="grid"><article class="book">
   <a href="retirement-word-search.html"><img src="covers/retirement.jpg" alt="Cover of Retirement Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="retirement-word-search.html">Retirement Word Search</a></h3><p>55 fun puzzles inspired by hobbies, travel, creativity and wellness</p><a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="retirement-word-search.html">Retirement Word Search</a></h3><p>55 fun puzzles inspired by hobbies, travel, creativity and wellness</p><a class="btn" href="https://www.amazon.com/dp/B0HGB15BJ2?maas=maas_adg_ACEA8523B37E376ABD13E72F161B8604_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="sudoku-of-love.html"><img src="covers/sudoku-of-love.jpg" alt="Cover of Sudoku of Love" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="sudoku-of-love.html">Sudoku of Love</a></h3><p>500+ romantic sudoku puzzles, very easy to hard, with solutions</p><a class="btn" href="https://www.amazon.com/dp/B0DVR3HN6Q" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="sudoku-of-love.html">Sudoku of Love</a></h3><p>500+ romantic sudoku puzzles, very easy to hard, with solutions</p><a class="btn" href="https://www.amazon.com/dp/B0DVR3HN6Q?maas=maas_adg_22A8E347BE4F681EB76DF2A96E4C1D8B_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">

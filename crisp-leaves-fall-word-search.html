@@ -76,7 +76,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
-      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
     });
     [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
       var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
@@ -110,7 +111,7 @@
 <meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/fall-crisp-leaves.jpg">
 <link rel="icon" href="logo.png">
 <link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
-<link rel="stylesheet" href="style.css?v=8931b74e">
+<link rel="stylesheet" href="style.css?v=e373472b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Crisp Leaves Fall Word Search", "description": "55 autumn puzzles with apple picking, hayrides and cozy campfires", "image": "https://pixelpunkstudio.shop/covers/fall-crisp-leaves.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FDL4QN1M", "sameAs": "https://www.amazon.com/dp/B0FDL4QN1M", "mainEntityOfPage": "https://pixelpunkstudio.shop/crisp-leaves-fall-word-search.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Cozy Seasons Word Search", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Crisp Leaves Fall Word Search", "item": "https://pixelpunkstudio.shop/crisp-leaves-fall-word-search.html"}]}</script>
 </head><body><main class="wide">
@@ -158,7 +159,7 @@
     <h1 class="page left">Crisp Leaves Fall Word Search</h1>
     <p class="lead-left">55 autumn puzzles with apple picking, hayrides and cozy campfires</p>
     <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Teens &amp; adults</span></div>
-    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0FDL4QN1M" target="_blank" rel="noopener">View on Amazon</a>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0FDL4QN1M?maas=maas_adg_F4BE3BFF4BF649137C87CDAFC57E20FB_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a>
     <a class="btn ghost" href="free-printable-fall-word-search.html">⬇ Print a free page</a></p>
     <p class="small left">There are 54 more autumn puzzles in Crisp Leaves Fall Word Search.</p>
   </div>
@@ -170,7 +171,7 @@
 <section class="card prose book-about">
   <h2>About this book</h2>
   <p>55 large print word searches for autumn: nature walks, leaf peeping, apple picking, hayrides, pumpkins and cozy campfires. Each puzzle has its own page with a soft autumn illustration behind the grid and a lined notes page facing it, and every solution is at the back of the book.</p>
-  <p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M" target="_blank" rel="noopener">See it on Amazon</a></p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M?maas=maas_adg_F4BE3BFF4BF649137C87CDAFC57E20FB_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">See it on Amazon</a></p>
 </section>
 
 <section>
@@ -195,13 +196,13 @@
   <h2>More from Cozy Seasons Word Search</h2>
   <div class="grid"><article class="book">
   <a href="snowy-days-winter-word-search.html"><img src="covers/winter-snowy-days.jpg" alt="Cover of Snowy Days Winter Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="snowy-days-winter-word-search.html">Snowy Days Winter Word Search</a></h3><p>55 winter activity puzzles, from building snowmen to sipping hot cocoa</p><a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="snowy-days-winter-word-search.html">Snowy Days Winter Word Search</a></h3><p>55 winter activity puzzles, from building snowmen to sipping hot cocoa</p><a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T?maas=maas_adg_EEC7FB48897DEDC006B3141921C0A054_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="fresh-blooms-spring-word-search.html"><img src="covers/spring-fresh-blooms.jpg" alt="Cover of Fresh Blooms Spring Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="fresh-blooms-spring-word-search.html">Fresh Blooms Spring Word Search</a></h3><p>55 spring puzzles full of gardens, picnics and blossoms</p><a class="btn" href="https://www.amazon.com/dp/B0FLXRGFZY" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="fresh-blooms-spring-word-search.html">Fresh Blooms Spring Word Search</a></h3><p>55 spring puzzles full of gardens, picnics and blossoms</p><a class="btn" href="https://www.amazon.com/dp/B0FLXRGFZY?maas=maas_adg_1ECB2635C01F9112206ACA8DDADE1A3A_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article><article class="book">
   <a href="sunny-vibes-summer-word-search.html"><img src="covers/summer-sunny-vibes.jpg" alt="Cover of Sunny Vibes Summer Word Search" loading="lazy"></a>
-  <div class="info"><h3><a class="title-link" href="sunny-vibes-summer-word-search.html">Sunny Vibes Summer Word Search</a></h3><p>55 summer puzzles about camping, beaches and long sunny days</p><a class="btn" href="https://www.amazon.com/dp/B0FRXWL9R7" target="_blank" rel="noopener">View on Amazon</a></div>
+  <div class="info"><h3><a class="title-link" href="sunny-vibes-summer-word-search.html">Sunny Vibes Summer Word Search</a></h3><p>55 summer puzzles about camping, beaches and long sunny days</p><a class="btn" href="https://www.amazon.com/dp/B0FRXWL9R7?maas=maas_adg_01C8F5A609BCDD0800CE0CE69A158FF3_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
 </article></div>
 </section>
 <section id="newsletter" class="band pack-band">
