@@ -737,6 +737,31 @@
    "width": 1000
   }
  },
+ "screen-free-winter-break-for-kids": {
+  "hero": {
+   "file": "media/blog/screen-free-winter-break-for-kids-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/fox-red-fox-wildlife-snow-winter-9863421/",
+   "pixabay_id": 9863421,
+   "puzzle": false,
+   "query": "animal tracks snow",
+   "user": "Solarselle77",
+   "user_page": "https://pixabay.com/users/Solarselle77-52253391/",
+   "wide": "media/blog/screen-free-winter-break-for-kids-hero-wide.jpg",
+   "width": 1000
+  },
+  "rhythm": {
+   "file": "media/blog/screen-free-winter-break-for-kids-rhythm.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/dough-gingerbread-man-baking-7511779/",
+   "pixabay_id": 7511779,
+   "puzzle": false,
+   "query": "cookie cutters dough",
+   "user": "krigell",
+   "user_page": "https://pixabay.com/users/krigell-5920167/",
+   "width": 1000
+  }
+ },
  "stocking-stuffers-for-puzzle-lovers": {
   "hero": {
    "file": "media/blog/stocking-stuffers-for-puzzle-lovers-hero.jpg",

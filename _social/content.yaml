@@ -5860,3 +5860,96 @@ items:
   start: '2026-12-08'
   priority: 2
   until: '2026-12-22'
+- key: pin-screen-free-winter-break-for-kids
+  platform: pinterest
+  kind: article
+  book: screen-free-winter-break-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/screen-free-winter-break-for-kids.html
+  title: 'Screen-Free Winter Break: A 10-Day Plan for Kids 4 to 10'
+  alt: A red fox walking through deep snow beside the line of tracks it has left behind
+  description: 'Dreading two weeks of "I''m bored" and too much screen time? A simple daily rhythm and a 10-day
+    plan of calm, screen-free winter break activities for kids ages 4 to 10, with easy versions for little ones,
+    tips for working parents and free printable coloring pages and word searches. #winterbreak #screenfreekids #kidsactivities
+    #momlife #printables'
+  design: top
+  photo: hero
+  kicker: Winter break plan
+  items: []
+  start: '2026-12-09'
+  priority: 3
+- key: pin-screen-free-winter-break-for-kids-2
+  platform: pinterest
+  kind: article
+  book: screen-free-winter-break-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/screen-free-winter-break-for-kids.html
+  title: A Simple Daily Rhythm for Winter Break
+  alt: A gingerbread man cutter pressed into rolled-out dough beside a wooden rolling pin on a floured board
+  description: 'Dreading two weeks of "I''m bored" and too much screen time? A simple daily rhythm and a 10-day
+    plan of calm, screen-free winter break activities for kids ages 4 to 10, with easy versions for little ones,
+    tips for working parents and free printable coloring pages and word searches. #winterbreak #screenfreekids #kidsactivities
+    #momlife #printables'
+  design: list
+  photo: rhythm
+  kicker: No more "I'm bored"
+  items:
+  - A slow breakfast
+  - The day's activity
+  - Outside time
+  - A quiet hour after lunch
+  - Free play in the afternoon
+  - Screens at a set time
+  start: '2026-12-16'
+  priority: 3
+- key: pin-screen-free-winter-break-for-kids-3
+  platform: pinterest
+  kind: article
+  book: screen-free-winter-break-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/screen-free-winter-break-for-kids.html
+  title: Free Coloring Pages and Word Searches for Kids
+  alt: A red fox walking through deep snow beside the line of tracks it has left behind
+  description: 'Dreading two weeks of "I''m bored" and too much screen time? A simple daily rhythm and a 10-day
+    plan of calm, screen-free winter break activities for kids ages 4 to 10, with easy versions for little ones,
+    tips for working parents and free printable coloring pages and word searches. #winterbreak #screenfreekids #kidsactivities
+    #momlife #printables'
+  design: pages
+  photo: hero
+  kicker: Free pages for winter break
+  items: []
+  pages:
+  - page: cute-bug-days
+    label: Coloring
+  - page: life-on-the-farm
+    label: Farm
+  - page: bug-hunt
+    label: Bug puzzles
+  start: '2026-12-23'
+  priority: 3
+- key: ig-screen-free-winter-break-for-kids
+  platform: instagram
+  kind: article carousel
+  book: screen-free-winter-break-for-kids
+  link: https://pixelpunkstudio.shop/screen-free-winter-break-for-kids.html
+  title: 'Screen-Free Winter Break: A 10-Day Plan of Calm Activities for Kids Ages 4-10'
+  headline: A calm 10-day winter break plan
+  kicker: New on the blog
+  items:
+  - A slow breakfast
+  - The day's activity
+  - Outside time
+  - A quiet hour after lunch
+  - Free play in the afternoon
+  - Screens at a set time
+  list_title: A simple daily rhythm
+  caption: 'Two weeks off, and "I''m bored" by day two? ❄️
+
+    Our new article has a simple daily rhythm and a 10-day plan of calm, screen-free activities for kids ages 4
+    to 10: a blanket fort den, animal tracks, an ice rescue, a puppet show and more.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #winterbreak #screenfreekids #kidsactivities #momlife #printables'
+  start: '2026-12-09'
+  priority: 3

@@ -2069,7 +2069,7 @@
   },
   "ig-coloring-teen-exam-week": {
     "status": "scheduled",
-    "when": "2026-12-10T12:03:00-05:00",
+    "when": "2027-01-04T12:03:00-05:00",
     "first_planned": "2026-12-10T12:03:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -2405,17 +2405,50 @@
   },
   "pin-christmas-around-the-world-game-for-kids": {
     "status": "scheduled",
-    "when": "2026-12-16T20:13:00-05:00",
+    "when": "2026-12-10T20:52:00-05:00",
     "first_planned": "2026-12-16T20:13:00-05:00",
-    "approved": "article rule 2026-11-18T08:13:40-05:00"
+    "approved": "article rule 2026-11-18 (hand-placed, December full)"
   },
   "pin-christmas-around-the-world-game-for-kids-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-16T20:13:00-05:00",
+    "first_planned": "2026-12-16T20:13:00-05:00",
+    "approved": "article rule 2026-11-18 (hand-placed, December full)"
   },
   "pin-christmas-around-the-world-game-for-kids-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-22T17:38:00-05:00",
+    "first_planned": "2026-12-22T17:38:00-05:00",
+    "approved": "article rule 2026-11-18 (hand-placed, December full)"
   },
   "ig-christmas-around-the-world-game-for-kids": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-10T12:03:00-05:00",
+    "first_planned": "2026-12-10T12:03:00-05:00",
+    "approved": "article rule 2026-11-18 (hand-placed, December full) swap: took ig-coloring-teen-exam-week slot"
+  },
+  "pin-screen-free-winter-break-for-kids": {
+    "status": "scheduled",
+    "when": "2026-12-09T20:24:00-05:00",
+    "first_planned": "2026-12-09T20:24:00-05:00",
+    "approved": "article rule 2026-11-18T11:01:22-05:00"
+  },
+  "pin-screen-free-winter-break-for-kids-2": {
+    "status": "scheduled",
+    "when": "2026-12-18T08:29:00-05:00",
+    "first_planned": "2026-12-18T08:29:00-05:00",
+    "approved": "article rule 2026-11-18T11:01:22-05:00"
+  },
+  "pin-screen-free-winter-break-for-kids-3": {
+    "status": "scheduled",
+    "when": "2026-12-25T08:46:00-05:00",
+    "first_planned": "2026-12-25T08:46:00-05:00",
+    "approved": "article rule 2026-11-18T11:01:22-05:00"
+  },
+  "ig-screen-free-winter-break-for-kids": {
+    "status": "scheduled",
+    "when": "2026-12-25T12:56:00-05:00",
+    "first_planned": "2026-12-25T12:56:00-05:00",
+    "approved": "article rule 2026-11-18T11:01:22-05:00"
   }
 }
