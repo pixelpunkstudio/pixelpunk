@@ -1067,7 +1067,7 @@
     "approved": "article rule 2026-11-03T08:34:41-05:00"
   },
   "pin-gifts-for-grandparents-who-want-nothing": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-18T17:53:00-05:00",
     "first_planned": "2026-11-17T14:40:00-05:00",
     "approved": "article rule 2026-11-03T08:34:25-05:00",
@@ -1078,7 +1078,12 @@
         "moved_to": "2026-11-18T17:53:00-05:00"
       }
     ],
-    "moves": 1
+    "moves": 1,
+    "url": "https://www.pinterest.com/pin/1127166613026067378/",
+    "published_at": "2026-11-18T18:01-05:00",
+    "boards": [
+      "Cozy Activities for Adults"
+    ]
   },
   "pin-gifts-for-grandparents-who-want-nothing-2": {
     "status": "scheduled",
