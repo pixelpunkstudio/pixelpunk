@@ -303,3 +303,4 @@ a.title-link:hover { text-decoration: underline; }
   .inside { grid-template-columns: 1fr 1fr; }
   .inside a:nth-child(3) { display: none; }
 }
+p.more { text-align: center; }
