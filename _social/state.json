@@ -2468,7 +2468,10 @@
     "approved": "2026-11-18T16:19:24.992Z"
   },
   "pin-vintage-recipe-word-search-inside": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-11-27T20:39:00-05:00",
+    "first_planned": "2026-11-27T20:39:00-05:00",
+    "approved": "2026-11-18 user OK in chat: recipe peek inside pin (grid image)"
   },
   "pin-vintage-recipe-word-search-free": {
     "status": "scheduled",
