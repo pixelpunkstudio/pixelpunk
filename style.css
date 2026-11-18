@@ -238,3 +238,48 @@ h1.page.left { text-align: left; margin-left: 0; }
 @media (max-width: 980px) { .sheets { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 620px; } }
 @media (max-width: 520px) { .sheets { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; }
                             .cozy-band { padding: 28px 16px 22px; } }
+/* newsletter: free welcome pack offer (2026-11-18) */
+.signup .signup-msg { flex-basis: 100%; margin: 0; }
+.signup .signup-msg:empty { display: none; }
+.pack-title { display: block; font: 700 1.15rem/1.3 system-ui, sans-serif; color: var(--ink); margin-bottom: 4px; }
+.pack-box { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 20px; align-items: center; text-align: left;
+            background: #fff4e3; border: 2px solid #ecd3ad; border-radius: 16px; padding: 18px 20px; margin: 28px 0; }
+.pack-box img { width: 100%; height: auto; display: block; border-radius: 10px; }
+.pack-box p { margin: 0 0 8px; }
+.pack-box .signup { justify-content: flex-start; margin: 8px 0; max-width: none; }
+.pack-box .small { text-align: left; margin: 0; }
+.prose .pack-box { margin: 32px 0; }
+.pack-band { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 28px; align-items: center; text-align: left; }
+.pack-band img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.pack-band h2 { text-align: left; margin-top: 0; }
+.pack-band .intro, .pack-band .small { text-align: left; }
+.pack-band .signup { justify-content: flex-start; margin: 8px 0; }
+.pack-toast { position: fixed; right: 16px; bottom: 16px; z-index: 9998; width: min(440px, calc(100vw - 32px));
+              display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 14px; align-items: start; text-align: left;
+              background: #fff; color: var(--ink); border: 2px solid var(--ink); border-radius: 14px; padding: 16px;
+              box-shadow: 0 8px 28px rgba(0, 0, 0, .2); }
+.pack-toast[hidden] { display: none; }
+.pack-toast img { width: 100%; height: auto; border-radius: 8px; }
+.pack-toast p { margin: 0 0 6px; font-size: .95rem; }
+.pack-toast .signup { margin: 6px 0; justify-content: flex-start; }
+.pack-toast .signup input[type=email] { flex-basis: 100%; }
+.pack-toast .close { position: absolute; top: 4px; right: 8px; border: 0; background: none; font-size: 1.6rem; line-height: 1;
+                     color: var(--muted); cursor: pointer; padding: 4px; }
+.pack-toast .no-thanks { border: 0; background: none; color: var(--muted); text-decoration: underline; cursor: pointer;
+                         font: .85rem system-ui, sans-serif; padding: 0; }
+@media (max-width: 640px) {
+  .pack-box, .pack-band { grid-template-columns: 1fr; text-align: center; }
+  .pack-box img { max-width: 260px; margin: 0 auto; }
+  .pack-band img { max-width: 320px; margin: 0 auto; }
+  .pack-box .signup, .pack-band .signup { justify-content: center; }
+  .pack-box .small, .pack-band h2, .pack-band .intro, .pack-band .small { text-align: center; }
+  .pack-toast { grid-template-columns: 1fr; }
+  .pack-toast img { display: none; }
+}
+.pack-box.in-column { grid-template-columns: 110px minmax(0, 1fr); gap: 14px; padding: 14px 16px; margin: 20px 0; }
+.pack-box.in-column .pack-title { font-size: 1.05rem; }
+.pack-box.in-column p { font-size: .95rem; }
+.pack-box.in-column .signup input[type=email] { flex-basis: 100%; }
+@media (max-width: 640px) { .pack-box.in-column { grid-template-columns: 1fr; } .pack-box.in-column img { max-width: 220px; } }
+.printable-hero .signup { justify-content: flex-start; margin: 14px 0 8px; } .printable-hero > div > .small { text-align: left; }
+@media (max-width: 640px) { .printable-hero > div > .small { text-align: center; } .printable-hero .signup { justify-content: center; } }

@@ -219,7 +219,13 @@ BOARD_INFO = {
     "Vintage Recipes & Baking Gift Ideas": "Old-fashioned recipes, vintage baking and gift ideas for bakers and "
                                            "seniors: large print recipe word searches with 1910 recipes in cups "
                                            "and grams, free printables and kitchen fun facts.",
-    "Word Search Puzzle Books":"Large print word search puzzle books for adults, seniors and teens: cozy, seasonal and "
+    "Book Lover Activities & Gift Ideas": "Gift ideas and activities for book lovers and readers: large print word "
+                                          "searches about great authors and classic novels, famous quotes and "
+                                          "literary fun facts, free printables.",
+    "Opera & Classical Music Gift Ideas": "Gift ideas and activities for opera and classical music lovers: large "
+                                          "print word searches about great composers, famous arias and music "
+                                          "history fun facts, free printables.",
+    "Word Search Puzzle Books": "Large print word search puzzle books for adults, seniors and teens: cozy, seasonal and "
                                 "holiday themes, one puzzle per page, solutions included. Gift ideas for puzzle lovers.",
     "Cozy Activities for Adults": "Cozy, relaxing activities for adults and seniors: word search tips, bold and easy "
                                   "coloring, sudoku and slow-living ideas for calm evenings at home.",
@@ -255,6 +261,8 @@ TOPICS = [  # (words in the pin's key or book, topic board), first matches first
     (("bug",), "Bug & Insect Activities for Kids"), (("farm",), "Farm Animal Activities for Kids"),
     (("art-lovers",), "Art Lover Activities & Gift Ideas"),
     (("vintage-recipe", "gingerbread"), "Vintage Recipes & Baking Gift Ideas"),
+    (("literature-lovers",), "Book Lover Activities & Gift Ideas"),
+    (("opera-lovers",), "Opera & Classical Music Gift Ideas"),
 ]
 SENIORS = "Large Print Activities for Seniors"
 _boards = {}

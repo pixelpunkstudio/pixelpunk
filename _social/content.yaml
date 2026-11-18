@@ -5986,10 +5986,10 @@ items:
   kind: free printable
   board: Free Printable Puzzles
   title: Free Printable Gingerbread Word Search for Adults (Large Print, 1910 Recipe)
-  description: 'Hot Water Gingerbread from a 1910 cookbook: the recipe card as printed, with metric amounts and a
-    modern oven note, facing a large print word search with 24 words, from pearlash and molasses to Amelia Simmons.
-    Free to download and print at home, solution included. 54 more old-fashioned recipes in Vintage Recipe Word Search.
-    #gingerbread #vintagerecipes #wordsearch #freeprintable #largeprint'
+  description: 'Hot Water Gingerbread from a 1910 cookbook: the recipe card as printed, with metric amounts and
+    a modern oven note, facing a large print word search with 24 words, from pearlash and molasses to Amelia Simmons.
+    Free to download and print at home, solution included. 54 more old-fashioned recipes in Vintage Recipe Word
+    Search. #gingerbread #vintagerecipes #wordsearch #freeprintable #largeprint'
   alt: Free Printable Gingerbread Word Search for Adults (Large Print, 1910 Recipe)
   image: media/pins/vintage-recipe-word-search.jpg
   book: vintage-recipe-word-search
@@ -6010,4 +6010,115 @@ items:
     #vintagerecipes #wordsearch #largeprint #oldfashionedrecipes #giftsforbakers'
   book: vintage-recipe-word-search
   link: https://pixelpunkstudio.shop/free-printable-gingerbread-word-search.html
+  priority: 2
+- key: pin-literature-lovers-word-search-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Literature Lover''s Word Search: 55 Large Print Puzzles About Great Authors and Classic Books'
+  description: 'A reading-room tour of the classics: every puzzle faces the author''s portrait, a famous quote and
+    a surprising fun fact, from Jane Austen and Charles Dickens to Mark Twain and the Brontë sisters. 55 large print
+    word searches and 1,650 words that never repeat. A thoughtful gift for book lovers. Try a free Jane Austen puzzle
+    on our website. #booklovers #classicliterature #wordsearch #largeprint #giftsforreaders'
+  alt: 'Cover of Literature Lover''s Word Search: 55 great authors, one puzzle at a time'
+  book: literature-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-jane-austen-word-search.html
+  priority: 2
+- key: pin-literature-lovers-word-search-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Literature Lover''s Word Search'
+  description: 'A real page from Literature Lover''s Word Search. A reading-room tour of the classics: every puzzle
+    faces the author''s portrait, a famous quote and a surprising fun fact, from Jane Austen and Charles Dickens
+    to Mark Twain and the Brontë sisters. 55 large print word searches and 1,650 words that never repeat. A thoughtful
+    gift for book lovers. Try a free Jane Austen puzzle on our website. #booklovers #classicliterature #wordsearch
+    #largeprint #giftsforreaders'
+  alt: A page from Literature Lover's Word Search next to its cover
+  book: literature-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-jane-austen-word-search.html
+  priority: 2
+- key: pin-literature-lovers-word-search-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Jane Austen Word Search for Adults (Large Print, Pride and Prejudice)
+  description: 'Jane Austen word search: a large print puzzle with 30 words, from Darcy and Pemberley to Chawton, Regency and Lyme Regis, facing her portrait, the famous first line of Pride and Prejudice and a fun fact. Free to download and print at home, solution included. 54 more great authors in Literature Lover''s Word Search. #janeausten #prideandprejudice #wordsearch #freeprintable #largeprint'
+  alt: Free Printable Jane Austen Word Search for Adults (Large Print, Pride and Prejudice)
+  image: media/pins/literature-lovers-word-search.jpg
+  book: literature-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-jane-austen-word-search.html
+  priority: 2
+- key: ig-literature-lovers-word-search
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Literature Lover's Word Search
+  caption: '55 great authors, one puzzle at a time ✏️
+
+    Literature Lover''s Word Search: 55 large print puzzles about great authors and their classic books, with a
+    famous quote and a fun fact for each.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-jane-austen-word-search.html
+
+    #booklovers #classicliterature #wordsearch #largeprint #giftsforreaders'
+  book: literature-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-jane-austen-word-search.html
+  priority: 2
+- key: pin-opera-lovers-word-search-cover
+  platform: pinterest
+  kind: book cover
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Opera Lover''s Word Search: 55 Large Print Puzzles About Great Composers and Their Operas'
+  description: 'A night at the opera in 55 puzzles: every puzzle faces the composer''s portrait, a famous aria and
+    a surprising fun fact, from Mozart and Verdi to Puccini and Bizet. 55 large print word searches and 1,650 words
+    that never repeat. A thoughtful gift for opera and classical music lovers. Try a free Mozart puzzle on our website.
+    #operalovers #classicalmusic #wordsearch #largeprint #giftsformusiclovers'
+  alt: 'Cover of Opera Lover''s Word Search: 55 great composers, one puzzle at a time'
+  book: opera-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-mozart-word-search.html
+  priority: 2
+- key: pin-opera-lovers-word-search-inside
+  platform: pinterest
+  kind: peek inside
+  board: Word Search Puzzle Books
+  needs_amazon: true
+  title: 'Look Inside: Opera Lover''s Word Search'
+  description: 'A real page from Opera Lover''s Word Search. A night at the opera in 55 puzzles: every puzzle faces
+    the composer''s portrait, a famous aria and a surprising fun fact, from Mozart and Verdi to Puccini and Bizet.
+    55 large print word searches and 1,650 words that never repeat. A thoughtful gift for opera and classical music
+    lovers. Try a free Mozart puzzle on our website. #operalovers #classicalmusic #wordsearch #largeprint #giftsformusiclovers'
+  alt: A page from Opera Lover's Word Search next to its cover
+  book: opera-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-mozart-word-search.html
+  priority: 2
+- key: pin-opera-lovers-word-search-free
+  platform: pinterest
+  kind: free printable
+  board: Free Printable Puzzles
+  title: Free Printable Mozart Word Search for Adults (Large Print, The Magic Flute)
+  description: 'Mozart word search: a large print puzzle with 30 words, from Papageno and Sarastro to Salzburg, Don Giovanni and the Requiem, facing his portrait, the Queen of the Night aria from The Magic Flute and a fun fact. Free to download and print at home, solution included. 54 more great composers in Opera Lover''s Word Search. #mozart #opera #wordsearch #freeprintable #largeprint'
+  alt: Free Printable Mozart Word Search for Adults (Large Print, The Magic Flute)
+  image: media/pins/opera-lovers-word-search.jpg
+  book: opera-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-mozart-word-search.html
+  priority: 2
+- key: ig-opera-lovers-word-search
+  platform: instagram
+  kind: carousel
+  needs_amazon: true
+  title: Opera Lover's Word Search
+  caption: '55 great composers, one puzzle at a time ✏️
+
+    Opera Lover''s Word Search: 55 large print puzzles about great composers and their operas, with a famous aria
+    and a fun fact for each.
+
+    Try a free page at home: link in bio 👉 pixelpunkstudio.shop/free-printable-mozart-word-search.html
+
+    #operalovers #classicalmusic #wordsearch #largeprint #giftsformusiclovers'
+  book: opera-lovers-word-search
+  link: https://pixelpunkstudio.shop/free-printable-mozart-word-search.html
   priority: 2

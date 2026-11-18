@@ -2478,5 +2478,47 @@
   },
   "ig-vintage-recipe-word-search": {
     "status": "draft"
+  },
+  "pin-literature-lovers-word-search-cover": {
+    "status": "scheduled",
+    "when": "2026-11-20T20:10:00-05:00",
+    "first_planned": "2026-11-20T20:10:00-05:00",
+    "approved": "2026-11-18T17:43:30.845Z"
+  },
+  "pin-literature-lovers-word-search-inside": {
+    "status": "scheduled",
+    "when": "2026-11-28T17:45:00-05:00",
+    "first_planned": "2026-11-28T17:45:00-05:00",
+    "approved": "2026-11-18T17:43:30.845Z"
+  },
+  "pin-literature-lovers-word-search-free": {
+    "status": "scheduled",
+    "when": "2026-11-24T20:13:00-05:00",
+    "first_planned": "2026-11-24T20:13:00-05:00",
+    "approved": "2026-11-18T17:43:30.845Z"
+  },
+  "ig-literature-lovers-word-search": {
+    "status": "draft"
+  },
+  "pin-opera-lovers-word-search-cover": {
+    "status": "scheduled",
+    "when": "2026-11-21T20:28:00-05:00",
+    "first_planned": "2026-11-21T20:28:00-05:00",
+    "approved": "2026-11-18T17:43:30.845Z"
+  },
+  "pin-opera-lovers-word-search-inside": {
+    "status": "scheduled",
+    "when": "2026-11-30T20:09:00-05:00",
+    "first_planned": "2026-11-30T20:09:00-05:00",
+    "approved": "2026-11-18T17:43:30.845Z"
+  },
+  "pin-opera-lovers-word-search-free": {
+    "status": "scheduled",
+    "when": "2026-11-25T20:33:00-05:00",
+    "first_planned": "2026-11-25T20:33:00-05:00",
+    "approved": "2026-11-18T17:43:30.845Z"
+  },
+  "ig-opera-lovers-word-search": {
+    "status": "draft"
   }
 }
