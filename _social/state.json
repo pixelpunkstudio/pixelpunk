@@ -1088,10 +1088,12 @@
     "approved": "moved 2026-11-09T05:53:22-05:00 from 2026-12-01T14:32:00-05:00 (room for the Thanksgiving pin)"
   },
   "ig-gifts-for-grandparents-who-want-nothing": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-18T12:22:00-05:00",
     "first_planned": "2026-11-18T12:22:00-05:00",
-    "approved": "article rule 2026-11-03T08:34:25-05:00"
+    "approved": "article rule 2026-11-03T08:34:25-05:00",
+    "url": "https://www.instagram.com/p/Df5DDfbDIvw/",
+    "published_at": "2026-11-18T12:31-05:00"
   },
   "tt-jumbo-grandma-small-print": {
     "status": "published",
