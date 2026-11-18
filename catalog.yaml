@@ -321,6 +321,16 @@ sections:
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HRX8Z6TJ
         published: 2026-11-18
+        sample:
+          pdf: "books/vintage-recipe-word-search/output"
+          pages: [80, 81, 155]
+          label: Free printable puzzle
+          page: free-printable-gingerbread-word-search
+          seo_title: "Free Printable Gingerbread Word Search for Adults (Large Print, 1910 Recipe)"
+          pin_title: "Vintage Gingerbread Word Search"
+          about: >-
+            Hot Water Gingerbread: the 1910 recipe card as printed, with metric amounts, a modern oven note and a fun fact about the first American cookbook, facing a large print word search with 24 words, from molasses-era favorites like pearlash and tinware to Amelia Simmons and American Cookery.
+        more: There are 54 more old-fashioned recipes, each with a recipe card in cups and grams, a fun fact and a large print puzzle, in Vintage Recipe Word Search.
       - slug: retirement
         title: Retirement Word Search
         subtitle: 55 fun puzzles inspired by hobbies, travel, creativity and wellness
