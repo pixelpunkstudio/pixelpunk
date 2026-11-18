@@ -191,6 +191,7 @@ sections:
           about: >-
             Stargazing on Clear Winter Nights: 30 words about long starry evenings, from comets and constellations to the Milky Way and the northern lights.
         more: There are 54 more winter puzzles in Snowy Days Winter Word Search.
+        about_book: '55 large print word searches about the best of winter: skiing, snowboarding, stargazing on clear winter nights, building snowmen and sipping hot cocoa. Each puzzle has its own page with a soft winter illustration behind the grid and a lined notes page facing it, and every solution is at the back of the book. A relaxing pastime for teens and adults on long snowy afternoons.'
       - slug: spring-fresh-blooms
         title: Fresh Blooms Spring Word Search
         subtitle: 55 spring puzzles full of gardens, picnics and blossoms
@@ -207,6 +208,7 @@ sections:
           about: >-
             Go on an Egg Hunt: 30 springtime words about an Easter egg hunt, from bunnies, baskets and chocolate to clues, prizes and hidden surprises in the grass.
         more: There are 54 more spring puzzles in Fresh Blooms Spring Word Search.
+        about_book: '55 large print word searches full of spring: an Easter egg hunt, baking flower-shaped cookies, spring crafts, gardens, picnics and blossoms. Each puzzle has its own page with a soft spring illustration behind the grid and a lined notes page facing it, and every solution is at the back of the book.'
       - slug: summer-sunny-vibes
         title: Sunny Vibes Summer Word Search
         subtitle: 55 summer puzzles about camping, beaches and long sunny days
@@ -223,6 +225,7 @@ sections:
           about: >-
             Swim in the Ocean: 30 summer words about a day at the beach, from snorkeling and sandbars to coral reefs, high tide and lifeguards.
         more: There are 54 more summer puzzles in Sunny Vibes Summer Word Search.
+        about_book: '55 large print word searches about long sunny days: swimming in the ocean, beach volleyball, surfing, camping and lazy afternoons outdoors. Each puzzle has its own page with a soft summer illustration behind the grid and a lined notes page facing it, and every solution is at the back of the book. Easy to pack for the beach, the porch or a road trip.'
       - slug: fall-crisp-leaves
         title: Crisp Leaves Fall Word Search
         subtitle: 55 autumn puzzles with apple picking, hayrides and cozy campfires
@@ -239,6 +242,7 @@ sections:
           about: >-
             A Fall Nature Walk: 30 autumn words, from acorns and maple leaves to hayrides, pumpkins, cinnamon and campfires.
         more: There are 54 more autumn puzzles in Crisp Leaves Fall Word Search.
+        about_book: '55 large print word searches for autumn: nature walks, leaf peeping, apple picking, hayrides, pumpkins and cozy campfires. Each puzzle has its own page with a soft autumn illustration behind the grid and a lined notes page facing it, and every solution is at the back of the book.'
 
   - title: Farm & Bug Word Search for Kids
     intro: Screen-free word search books for kids, with fun facts and color-the-letters puzzles to learn while they play.
@@ -260,6 +264,7 @@ sections:
             Highland Cow: a kids' farm word search with 18 big, easy-to-read words and a fun fact page about these fluffy, cold-loving cows.
           preview: 2
         more: There are 49 more farm puzzles, each with a fun fact, in Life on the Farm Word Search for Kids.
+        about_book: 50 word searches for kids ages 6 to 10 about life on the farm, from Highland cows and pigs to chickens and more, with big, easy-to-read letters. Every puzzle faces a "Did you know?" page with a fun fact and a cute animal drawing, so children learn something new as they search, and the solutions are at the back of the book.
       - slug: bug-hunt
         title: Bug Hunt Word Search Coloring Book
         subtitle: 55 bug word searches with color-the-letters puzzles
@@ -276,6 +281,7 @@ sections:
           about: >-
             Common Bugs: an easy word search for young kids with 8 bug words to find, then color in, with bubble letters and a cute ant.
         more: There are 54 more bug puzzles to search and color in Bug Hunt Word Search Coloring Book.
+        about_book: '55 bug word searches for kids ages 4 to 10: common bugs, beetles, butterflies and moths and many more. The grids use big bubble letters that children color in once a word is found, the word lists are short, and the page facing each puzzle asks which other bugs they know. Solutions are at the back of the book.'
 
   - title: Cute Days Coloring Books
     intro: Bold, easy coloring books for young kids, with a "Did you know?" fun fact on every page.
@@ -296,6 +302,7 @@ sections:
           about: >-
             A puppy and a sleepy kitten in a wheelbarrow, with bold, easy lines for little hands and a "Did you know?" fun fact about dogs.
         more: There are 49 more farm animals to color, each with a fun fact, in Cute Farm Days Coloring Book.
+        about_book: 'Adorable farm animals to color for kids ages 4 to 8: a puppy and a kitten in a wheelbarrow, piglets in the mud, sheep and many more, all in bold, easy outlines for little hands. Every drawing comes with a "Did you know?" fun fact, and the page facing it invites children to write or tell a story about the picture.'
       - slug: cute-bug-days
         title: Cute Bug Days Coloring Book
         subtitle: 50 cute bugs and insects to color, with a fun fact on every page
@@ -347,6 +354,7 @@ sections:
           about: >-
             Take an Online Course: 30 words about learning something new in retirement, from history and painting to gardening, music and typing.
         more: There are 54 more puzzles about hobbies, travel and wellness in Retirement Word Search.
+        about_book: '55 large print word searches for a happy retirement, inspired by hobbies, travel, creativity and wellness: taking an online course, learning a new language, joining a book club and many more ideas for the years ahead. Each grid has its own page with a soft illustration facing it, and every solution is at the back of the book. A cheerful gift for a colleague, a parent or yourself.'
       - slug: sudoku-of-love
         title: Sudoku of Love
         subtitle: 500+ romantic sudoku puzzles, very easy to hard, with solutions
@@ -363,6 +371,7 @@ sections:
           about: >-
             Four very easy sudoku puzzles from the "Sweet Beginnings" chapter of Sudoku of Love, with heart-themed pages and all the solutions.
         more: There are 500+ romantic sudoku puzzles, from very easy to hard, in Sudoku of Love.
+        about_book: More than 500 heart-themed sudoku puzzles in a handy 6 x 9 size, from very easy to hard. The book starts gently with the "Sweet Beginnings" chapter, four puzzles per page, and builds up step by step, with all the solutions at the back. A sweet gift for Valentine's Day, an anniversary or anyone who loves a quiet puzzle.
 
 # Standalone free printables (not samples of a book). Each gets a page, a pin image and a PDF built
 # from books/<source>/words.yaml (puzzle = 1-based index). related: book slugs promoted on the page.

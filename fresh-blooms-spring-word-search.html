@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0WLJJBGB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"]});
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'granted'});
+
+(function () {
+  var KEY = 'pps_consent', DAYS = 180, tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  function load() {
+    try { var v = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (v && (v.c === 'granted' || v.c === 'denied') && Date.now() - v.t < DAYS * 864e5) return v.c;
+    } catch (e) {}
+    return null;
+  }
+  var choice = load();
+  if (choice) gtag('consent', 'update', {analytics_storage: choice});
+  var europe = !tz || /^(Europe|Arctic)\//.test(tz) ||
+    /^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(tz);
+
+  var STORES = {
+    'co.uk': /^Europe\/(London|Belfast|Guernsey|Jersey|Isle_of_Man|Gibraltar)$/,
+    'ie': /^Europe\/Dublin$/,
+    'de': /^Europe\/(Berlin|Vienna|Zurich|Busingen|Luxembourg|Vaduz)$/,
+    'fr': /^Europe\/(Paris|Monaco)$/,
+    'com.be': /^Europe\/Brussels$/,
+    'nl': /^Europe\/Amsterdam$/,
+    'es': /^(Europe\/Madrid|Atlantic\/Canary|Africa\/Ceuta)$/,
+    'it': /^Europe\/(Rome|Vatican|San_Marino|Malta)$/,
+    'pl': /^Europe\/Warsaw$/,
+    'se': /^Europe\/Stockholm$/,
+    'co.jp': /^Asia\/Tokyo$/,
+    'com.au': /^(Australia\/|Pacific\/(Auckland|Chatham)$)/,
+    'ca': /^America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Iqaluit|Yellowknife|Swift_Current|Atikokan|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Blanc-Sablon)$/
+  };
+  var store = 'com';
+  for (var d in STORES) if (STORES[d].test(tz)) { store = d; break; }
+
+  function save(c) {
+    try { localStorage.setItem(KEY, JSON.stringify({c: c, t: Date.now()})); } catch (e) {}
+    gtag('consent', 'update', {analytics_storage: c});
+    if (c === 'denied') document.cookie.split(';').forEach(function (k) {
+      var n = k.split('=')[0].trim();
+      if (/^_ga/.test(n)) ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')]
+        .forEach(function (dm) { document.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + dm; });
+    });
+    var b = document.getElementById('pps-cookie'); if (b) b.remove();
+  }
+  function banner() {
+    if (document.getElementById('pps-cookie')) return;
+    var b = document.createElement('div');
+    b.id = 'pps-cookie'; b.setAttribute('role', 'region'); b.setAttribute('aria-label', 'Cookie choice');
+    b.style.cssText = 'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;' +
+      'background:#fff;color:#23324a;border:2px solid #23324a;border-radius:12px;padding:16px 18px;' +
+      'box-shadow:0 6px 24px rgba(0,0,0,.18);font:15px/1.5 system-ui,sans-serif';
+    b.innerHTML = '<p style="margin:0 0 12px">We would like to use Google Analytics cookies to count visits and ' +
+      'see which puzzles and articles you enjoy. No advertising cookies, ever. ' +
+      '<a href="privacy.html#statistics" style="color:#b0702e">Privacy policy</a></p>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
+      '<button type="button" data-c="granted">Accept</button><button type="button" data-c="denied">Reject</button></div>';
+    [].forEach.call(b.querySelectorAll('button'), function (x) {
+      x.style.cssText = 'flex:1 1 140px;font:600 15px system-ui,sans-serif;padding:10px 14px;border-radius:8px;' +
+        'cursor:pointer;border:2px solid #23324a;background:#23324a;color:#fff';
+      x.onclick = function () { save(x.getAttribute('data-c')); };
+    });
+    document.body.appendChild(b);
+  }
+  window.ppsCookieSettings = banner;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/');
+    });
+    [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
+      var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
+      p.parentNode.insertBefore(s, p.nextSibling); p.parentNode.insertBefore(document.createTextNode(' · '), s);
+    });
+    document.addEventListener('click', function (ev) {
+      var t = ev.target.closest && ev.target.closest('[data-cookie-settings]');
+      if (t) { ev.preventDefault(); banner(); }
+    });
+    if (!choice && europe) banner();
+  });
+})();
+
+  gtag('js', new Date());
+  gtag('config', 'G-VD0WLJJBGB');
+</script>
+<!-- /Google tag -->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fresh Blooms Spring Word Search | Pixel Punk Studio</title>
+<meta name="description" content="Fresh Blooms Spring Word Search: 55 spring puzzles full of gardens, picnics and blossoms. See inside, print a free page and find it on Amazon.">
+<link rel="canonical" href="https://pixelpunkstudio.shop/fresh-blooms-spring-word-search.html">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Pixel Punk Studio">
+<meta property="og:title" content="Fresh Blooms Spring Word Search | Pixel Punk Studio">
+<meta property="og:description" content="Fresh Blooms Spring Word Search: 55 spring puzzles full of gardens, picnics and blossoms. See inside, print a free page and find it on Amazon.">
+<meta property="og:url" content="https://pixelpunkstudio.shop/fresh-blooms-spring-word-search.html">
+<meta property="og:image" content="https://pixelpunkstudio.shop/covers/spring-fresh-blooms.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fresh Blooms Spring Word Search | Pixel Punk Studio">
+<meta name="twitter:description" content="Fresh Blooms Spring Word Search: 55 spring puzzles full of gardens, picnics and blossoms. See inside, print a free page and find it on Amazon.">
+<meta name="twitter:image" content="https://pixelpunkstudio.shop/covers/spring-fresh-blooms.jpg">
+<link rel="icon" href="logo.png">
+<link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
+<link rel="stylesheet" href="style.css?v=61f72e25">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Fresh Blooms Spring Word Search", "description": "55 spring puzzles full of gardens, picnics and blossoms", "image": "https://pixelpunkstudio.shop/covers/spring-fresh-blooms.jpg", "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio"}, "bookFormat": "https://schema.org/Paperback", "inLanguage": "en-US", "url": "https://www.amazon.com/dp/B0FLXRGFZY", "sameAs": "https://www.amazon.com/dp/B0FLXRGFZY", "mainEntityOfPage": "https://pixelpunkstudio.shop/fresh-blooms-spring-word-search.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Cozy Seasons Word Search", "item": "https://pixelpunkstudio.shop/#books"}, {"@type": "ListItem", "position": 3, "name": "Fresh Blooms Spring Word Search", "item": "https://pixelpunkstudio.shop/fresh-blooms-spring-word-search.html"}]}</script>
+</head><body><main class="wide">
+<header class="top">
+  <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
+  <nav class="menu" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books" aria-current="page">Books</a><a href="blog.html">Blog</a></nav>
+  <form class="search-form search-top" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <a class="btn small-btn" href="free-puzzle-pack.html">Get your 5 free puzzles now!</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
+</header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <form class="search-form search-panel" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search puzzles, books and tips" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <nav class="panel-links" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books" aria-current="page">Books</a><a href="blog.html">Blog</a></nav>
+  
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> <span aria-hidden="true">›</span> <a href="./#books">Cozy Seasons Word Search</a></nav>
+<section class="book-hero">
+  <img class="book-cover" src="covers/spring-fresh-blooms.jpg" alt="Cover of Fresh Blooms Spring Word Search" width="420">
+  <div>
+    <h1 class="page left">Fresh Blooms Spring Word Search</h1>
+    <p class="lead-left">55 spring puzzles full of gardens, picnics and blossoms</p>
+    <div class="tags"><span class="tag">Large print</span><span class="tag">8.5 x 11</span><span class="tag">Teens &amp; adults</span></div>
+    <p class="buy"><a class="btn big" href="https://www.amazon.com/dp/B0FLXRGFZY" target="_blank" rel="noopener">View on Amazon</a>
+    <a class="btn ghost" href="free-printable-spring-word-search.html">⬇ Print a free page</a></p>
+    <p class="small left">There are 54 more spring puzzles in Fresh Blooms Spring Word Search.</p>
+  </div>
+</section>
+<section>
+  <h2>Look inside</h2>
+  <div class="inside"><a href="media/books/spring-fresh-blooms-inside-1.jpg" target="_blank" rel="noopener"><img src="media/books/spring-fresh-blooms-inside-1.jpg" alt="Inside Fresh Blooms Spring Word Search: page 1" loading="lazy"></a><a href="media/books/spring-fresh-blooms-inside-2.jpg" target="_blank" rel="noopener"><img src="media/books/spring-fresh-blooms-inside-2.jpg" alt="Inside Fresh Blooms Spring Word Search: page 2" loading="lazy"></a><a href="media/books/spring-fresh-blooms-inside-3.jpg" target="_blank" rel="noopener"><img src="media/books/spring-fresh-blooms-inside-3.jpg" alt="Inside Fresh Blooms Spring Word Search: page 3" loading="lazy"></a></div>
+</section>
+<section class="card prose book-about">
+  <h2>About this book</h2>
+  <p>55 large print word searches full of spring: an Easter egg hunt, baking flower-shaped cookies, spring crafts, gardens, picnics and blossoms. Each puzzle has its own page with a soft spring illustration behind the grid and a lined notes page facing it, and every solution is at the back of the book.</p>
+  <p><a class="btn" href="https://www.amazon.com/dp/B0FLXRGFZY" target="_blank" rel="noopener">See it on Amazon</a></p>
+</section>
+
+<section>
+  <h2>Try a free page first</h2>
+  <div class="grid printables"><a class="printable" href="free-printable-spring-word-search.html">
+  <img src="media/printables/spring-fresh-blooms.jpg" alt="Free Printable Spring Word Search for Adults: Easter Egg Hunt (Large Print)" loading="lazy">
+  <span>Spring Word Search</span>
+</a></div>
+</section>
+<section>
+  <h2>From the blog</h2>
+  <div class="articles">
+    <a class="article-link" href="how-to-solve-word-search-puzzles.html"><strong>How to Solve Word Search Puzzles Faster: 9 Simple Tips</strong>
+      <span>Easy word search strategies that actually work: scanning for rare letters, searching row by row, double letters and more. Practice with free large print printables.</span></a>
+  </div>
+</section>
+<section>
+  <h2>More from Cozy Seasons Word Search</h2>
+  <div class="grid"><article class="book">
+  <a href="snowy-days-winter-word-search.html"><img src="covers/winter-snowy-days.jpg" alt="Cover of Snowy Days Winter Word Search" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="snowy-days-winter-word-search.html">Snowy Days Winter Word Search</a></h3><p>55 winter activity puzzles, from building snowmen to sipping hot cocoa</p><a class="btn" href="https://www.amazon.com/dp/B0DS9SG35T" target="_blank" rel="noopener">View on Amazon</a></div>
+</article><article class="book">
+  <a href="sunny-vibes-summer-word-search.html"><img src="covers/summer-sunny-vibes.jpg" alt="Cover of Sunny Vibes Summer Word Search" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="sunny-vibes-summer-word-search.html">Sunny Vibes Summer Word Search</a></h3><p>55 summer puzzles about camping, beaches and long sunny days</p><a class="btn" href="https://www.amazon.com/dp/B0FRXWL9R7" target="_blank" rel="noopener">View on Amazon</a></div>
+</article><article class="book">
+  <a href="crisp-leaves-fall-word-search.html"><img src="covers/fall-crisp-leaves.jpg" alt="Cover of Crisp Leaves Fall Word Search" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="crisp-leaves-fall-word-search.html">Crisp Leaves Fall Word Search</a></h3><p>55 autumn puzzles with apple picking, hayrides and cozy campfires</p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M" target="_blank" rel="noopener">View on Amazon</a></div>
+</article></div>
+</section>
+<section id="newsletter" class="band pack-band">
+  <a href="free-puzzle-pack.html"><img src="media/free-pack.jpg" alt="Pages of the free welcome pack: five large print word searches" width="300" height="225" loading="lazy"></a>
+  <div>
+  <h2>Get 5 exclusive puzzles free</h2>
+  <p class="intro">Join the Pixel Punk Studio newsletter and get 5 large print word searches you won't find on
+  this site or in our books, with solutions. Then one email a month at most: new books, free puzzles and gift ideas.</p>
+  <form class="signup" method="post" action="https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==" data-after="subscribed.html" data-place="footer_band">
+      <input type="email" name="EMAIL" placeholder="Your email address" required autocomplete="email" aria-label="Email address">
+      <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <button class="btn" type="submit">Send me the puzzles</button>
+      <p class="small signup-msg" role="status"></p>
+    </form>
+  <p class="small">Unsubscribe in one click. See our <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+</section>
+<script>
+// Every newsletter form on the page: send the address to Brevo in the background, then open our own page.
+document.addEventListener("submit", async (ev) => {
+  const f = ev.target;
+  if (!f.classList || !f.classList.contains("signup")) return;
+  ev.preventDefault();
+  const msg = f.querySelector(".signup-msg"), btn = f.querySelector("button"), label = btn.textContent;
+  const email = f.EMAIL.value.trim();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+    msg.textContent = "That email address doesn't look right. Please check it and try again."; return;
+  }
+  btn.disabled = true; btn.textContent = "Sending...";
+  const done = () => {
+    try { localStorage.setItem("pps-nl", "joined"); } catch (_) {}
+    if (window.gtag) gtag("event", "sign_up", { method: f.dataset.place || "form" });
+    setTimeout(() => { location.href = f.dataset.after; }, 150);
+  };
+  try {
+    // isAjax=1 makes Brevo answer with JSON instead of redirecting (same as Brevo's own script)
+    const r = await fetch(f.action + "?isAjax=1", { method: "POST", body: new FormData(f) });
+    if (r.redirected) { done(); return; }
+    let data = {};
+    try { data = await r.json(); } catch (_) {}
+    if (r.ok && data.success) { done(); return; }
+    const why = data.errors ? Object.values(data.errors).join(" ") : "";
+    msg.textContent = why || "Something went wrong on our side. Please try again in a moment.";
+  } catch (e) {
+    msg.textContent = "Something went wrong on our side. Please try again in a moment.";
+  }
+  btn.disabled = false; btn.textContent = label;
+});
+</script>
+<nav>Questions? <a href="mailto:hello@pixelpunkstudio.shop">hello@pixelpunkstudio.shop</a><br>
+<a href="free-printables.html">Free printables</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · © 2026 Pixel Punk Studio</nav>
+</main></body>
+</html>
