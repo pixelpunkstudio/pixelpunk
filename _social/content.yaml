@@ -5763,3 +5763,100 @@ items:
   - media/social/tiktok/nostalgic-aunt-store-windows-3.jpg
   start: '2026-12-18'
   until: '2026-12-20'
+- key: pin-christmas-around-the-world-game-for-kids
+  platform: pinterest
+  kind: article
+  book: christmas-around-the-world-game-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-around-the-world-game-for-kids.html
+  title: Turn a Word Search Into a Christmas Geography Game
+  alt: A present wrapped in an old world map, tied with a red ribbon and a small sprig of berries
+  description: 'Want December learning that feels festive, not like homework? Turn a word search into a Christmas
+    around the world geography game: kids find "Merry Christmas" in 12 languages, then hunt each country on a map
+    and stamp a paper passport. Easy and harder versions for ages 4 to 10, at home or in class. #christmasaroundtheworld
+    #geographyforkids #christmasactivities #homeschool #printables'
+  design: top
+  photo: hero
+  kicker: Christmas around the world
+  items: []
+  start: '2026-12-08'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-around-the-world-game-for-kids-2
+  platform: pinterest
+  kind: article
+  book: christmas-around-the-world-game-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-around-the-world-game-for-kids.html
+  title: Set Up a Christmas Passport Game in 15 Minutes
+  alt: Pale blue envelopes with colorful illustrated postage stamps on a sunny yellow background
+  description: 'Want December learning that feels festive, not like homework? Turn a word search into a Christmas
+    around the world geography game: kids find "Merry Christmas" in 12 languages, then hunt each country on a map
+    and stamp a paper passport. Easy and harder versions for ages 4 to 10, at home or in class. #christmasaroundtheworld
+    #geographyforkids #christmasactivities #homeschool #printables'
+  design: list
+  photo: passport
+  kicker: Ages 4 to 10
+  items:
+  - Make the word search
+  - Fold a passport
+  - Find a map
+  - Choose your stamps
+  - Print the greetings card
+  - Set the rule
+  start: '2026-12-15'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-around-the-world-game-for-kids-3
+  platform: pinterest
+  kind: article
+  book: christmas-around-the-world-game-for-kids
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-around-the-world-game-for-kids.html
+  title: Free Word Searches for a Festive Geography Lesson
+  alt: A present wrapped in an old world map, tied with a red ribbon and a small sprig of berries
+  description: 'Want December learning that feels festive, not like homework? Turn a word search into a Christmas
+    around the world geography game: kids find "Merry Christmas" in 12 languages, then hunt each country on a map
+    and stamp a paper passport. Easy and harder versions for ages 4 to 10, at home or in class. #christmasaroundtheworld
+    #geographyforkids #christmasactivities #homeschool #printables'
+  design: pages
+  photo: hero
+  kicker: Free Christmas printables
+  items: []
+  pages:
+  - page: cozy-christmas
+    label: Word search
+  - page: jumbo-christmas
+    label: Jumbo print
+  - page: winter-snowy-days
+    label: Winter puzzles
+  start: '2026-12-22'
+  priority: 2
+  until: '2026-12-22'
+- key: ig-christmas-around-the-world-game-for-kids
+  platform: instagram
+  kind: article carousel
+  book: christmas-around-the-world-game-for-kids
+  link: https://pixelpunkstudio.shop/christmas-around-the-world-game-for-kids.html
+  title: 'Christmas Around the World: Turn a Word Search Into a Geography Game for Kids'
+  headline: Merry Christmas in 12 languages
+  kicker: New on the blog
+  items:
+  - Make the word search
+  - Fold a passport
+  - Find a map
+  - Choose your stamps
+  - Print the greetings card
+  - Set the rule
+  list_title: Set it up in 15 minutes
+  caption: 'Feliz Navidad, Meri Kirihimete, Krismasi Njema 🌍 Where in the world would you hear each one?
+
+    Our new article turns a word search into a Christmas geography game: kids find "Merry Christmas" in 12 languages,
+    then hunt each country on a map and stamp a paper passport. Easy and harder versions for ages 4 to 10.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #christmasaroundtheworld #geographyforkids #christmasactivities #homeschool #printables'
+  start: '2026-12-08'
+  priority: 2
+  until: '2026-12-22'

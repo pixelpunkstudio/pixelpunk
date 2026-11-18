@@ -3,6 +3,127 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: christmas-around-the-world-game-for-kids
+    title: "Christmas Around the World: Turn a Word Search Into a Geography Game for Kids"
+    description: >-
+      Want December learning that feels festive, not like homework? Turn a word search into a Christmas around the
+      world geography game: kids find "Merry Christmas" in 12 languages, then hunt each country on a map and stamp a
+      paper passport. Easy and harder versions for ages 4 to 10, at home or in class.
+    date: 2026-12-08
+    topics: [Seasonal ideas, Kids & coloring, Activity ideas]
+    photos:
+      - slot: hero
+        query: vintage world map
+        wide_focus: [0.5, 0.5]
+        alt: A present wrapped in an old world map, tied with a red ribbon and a small sprig of berries
+      - slot: passport
+        after: Set it up in 15 minutes
+        query: passport stamps travel
+        alt: Pale blue envelopes with colorful illustrated postage stamps on a sunny yellow background
+    related: [cozy-christmas, winter-snowy-days, life-on-the-farm, bug-hunt]
+    printables: [free-printable-christmas-word-search, free-printable-jumbo-christmas-word-search, free-printable-cardinal-christmas-coloring-page]
+    social:
+      tags: "#christmasaroundtheworld #geographyforkids #christmasactivities #homeschool #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Christmas around the world, headline: "Turn a Word Search Into a Christmas Geography Game"}
+        - {photo: passport, design: list, kicker: Ages 4 to 10, headline: "Set Up a Christmas Passport Game in 15 Minutes", from: "Set it up in 15 minutes"}
+        - design: pages
+          kicker: Free Christmas printables
+          headline: "Free Word Searches for a Festive Geography Lesson"
+          pages: [{page: cozy-christmas, label: Word search}, {page: jumbo-christmas, label: Jumbo print}, {page: winter-snowy-days, label: Winter puzzles}]
+      instagram:
+        headline: Merry Christmas in 12 languages
+        list_title: Set it up in 15 minutes
+        from: "Set it up in 15 minutes"
+        caption: |-
+          Feliz Navidad, Meri Kirihimete, Krismasi Njema 🌍 Where in the world would you hear each one?
+          Our new article turns a word search into a Christmas geography game: kids find "Merry Christmas" in 12 languages, then hunt each country on a map and stamp a paper passport. Easy and harder versions for ages 4 to 10.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #christmasaroundtheworld #geographyforkids #christmasactivities #homeschool #printables
+    body: |
+      <p>December is the hardest month to teach anything. Children are excited, the calendar is full of parties, and a
+      worksheet with the word "geography" at the top gets groans before the pencils come out. Yet it is also the month
+      when children are most curious about how other families celebrate. This game uses that curiosity. Children hunt
+      for "Merry Christmas" in 12 languages in a word search, then find each country on a map and stamp it in a paper
+      passport. It feels like a holiday treasure hunt, it takes about 15 minutes to set up, and they learn continents,
+      hemispheres and a few new words without noticing.</p>
+
+      <h2>How the Christmas passport game works</h2>
+      <p>Each greeting hidden in the word search is a ticket to one country. When a child circles a word, they look it
+      up on the greetings card below, find that country on a world map or globe, and earn a stamp in their passport.
+      The first round takes 30 to 40 minutes. Children aged 6 to 10 can play on their own or in pairs; 4 and 5 year
+      olds play with a grown-up reading the words and a smaller list of countries.</p>
+
+      <h2>Set it up in 15 minutes</h2>
+      <ol>
+        <li><strong>Make the word search:</strong> hide the 12 grid words below in a 12 x 12 grid on graph paper (our
+        guide on <a href="make-your-own-word-search.html">how to make your own word search</a> shows how), then copy it
+        once per child or pair.</li>
+        <li><strong>Fold a passport:</strong> fold a sheet of paper in half twice to make a small booklet, and let each
+        child write their name and draw their face on the cover.</li>
+        <li><strong>Find a map:</strong> a printed world map, a classroom wall map, an atlas or a globe all work.</li>
+        <li><strong>Choose your stamps:</strong> stickers, a rubber stamp, or a star drawn in a different color for each
+        country.</li>
+        <li><strong>Print the greetings card</strong> from the list below, or write it on the board, so children can
+        check which country each word belongs to.</li>
+        <li><strong>Set the rule:</strong> circle a word, find the country, then stamp the passport, in that order, so
+        the map work never gets skipped.</li>
+      </ol>
+
+      <h2>12 ways to say Merry Christmas, and where to find them</h2>
+      <p>Whole greetings are too long for a children's grid, so hide only the word for Christmas from each one, in
+      capitals below, without accents. Most of these languages are spoken in more than one place; the country given is
+      one good stop for the map.</p>
+      <ul>
+        <li><strong>Feliz Navidad</strong> (NAVIDAD, Spanish): Mexico, North America. Winter, but mild in most of the country.</li>
+        <li><strong>Feliz Natal</strong> (NATAL, Portuguese): Brazil, South America. Christmas comes in summer.</li>
+        <li><strong>Joyeux Noël</strong> (NOEL, French): France, Europe. Winter.</li>
+        <li><strong>Buon Natale</strong> (NATALE, Italian): Italy, Europe. Winter.</li>
+        <li><strong>God Jul</strong> (JUL, Swedish): Sweden, Europe. Winter, with only a few hours of daylight in the north.</li>
+        <li><strong>Mele Kalikimaka</strong> (KALIKIMAKA, Hawaiian): Hawaii, United States, in the Pacific Ocean. Warm all year.</li>
+        <li><strong>Maligayang Pasko</strong> (PASKO, Filipino): the Philippines, Asia. Warm all year.</li>
+        <li><strong>Meri Kurisumasu</strong> (KURISUMASU, Japanese): Japan, Asia. Winter.</li>
+        <li><strong>Shengdan Kuaile</strong> (SHENGDAN, Mandarin Chinese): China, Asia. Winter.</li>
+        <li><strong>Meri Kirihimete</strong> (KIRIHIMETE, Māori): New Zealand, Oceania. Christmas comes in summer.</li>
+        <li><strong>Krismasi Njema</strong> (KRISMASI, Swahili): Kenya and Tanzania, Africa. Warm all year.</li>
+        <li><strong>Geseënde Kersfees</strong> (KERSFEES, Afrikaans): South Africa, Africa. Christmas comes in summer.</li>
+      </ul>
+      <p>When every passport is full, ask the big question: why do Brazil, New Zealand and South Africa have Christmas in
+      summer? Point to the equator on the map and let the children work it out.</p>
+
+      <h2>Make it easier or harder</h2>
+      <ul>
+        <li><strong>Ages 4 and 5:</strong> use six short grid words, such as JUL, NOEL, NATAL, PASKO, NATALE and
+        NAVIDAD, in an 8 x 8 grid with big letters. Let them color each continent on a simple map instead of finding the country.</li>
+        <li><strong>Ages 6 to 8:</strong> play the full list of 12, and add one question per stop: "Is it winter or
+        summer there at Christmas?"</li>
+        <li><strong>Ages 9 and 10:</strong> add the capital city for each country, and ask which place reaches
+        Christmas morning first. New Zealand is one of the first countries to see Christmas Day, and Hawaii one of the
+        last.</li>
+        <li><strong>Mixed ages:</strong> pair an older child who reads the grid with a younger one who holds the map and
+        does the stamping.</li>
+      </ul>
+
+      <h2>Tips for the classroom</h2>
+      <ul>
+        <li><strong>Keep it about greetings and places.</strong> Not every child celebrates Christmas, and the game works
+        as a lesson about languages and maps for everyone.</li>
+        <li><strong>Invite families to add a stop.</strong> A child might teach the class how their family says Happy New
+        Year, or how they greet each other at another winter festival. Ask, and never put anyone on the spot.</li>
+        <li><strong>Say the words out loud.</strong> Children love trying "Mele Kalikimaka" and "Krismasi Njema". Nobody
+        needs perfect pronunciation, and it helps the spelling stick.</li>
+        <li><strong>Leave the map up</strong> with a sticker on each country, so the class can add new stops until the
+        holidays begin.</li>
+      </ul>
+
+      <h2>Print the free pages</h2>
+      <p>Our free large print Christmas word search makes a good warm-up before the passport round, with its answer key on
+      the second page, and the jumbo print Christmas word search suits younger readers who need bigger letters. The
+      cardinal Christmas coloring page is a calm prize for a full passport. They print on US Letter paper; on A4, choose
+      "Fit" in the print settings. For more journeys, Cozy Christmas Word Search has a puzzle with 30 ways to say Merry
+      Christmas, plus Christmas in Germany, Italy, Mexico, France, Britain, the Philippines and Down Under. It is large
+      print, so confident readers from about 9 can join in, and grandparents too.</p>
+
   - slug: christmas-traditions-canada-kids
     title: "Christmas Traditions in Canada Kids Love: Mummering, Réveillon and a Snow-Day Puzzle Hunt"
     description: >-

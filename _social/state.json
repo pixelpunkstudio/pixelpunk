@@ -2395,5 +2395,20 @@
     "when": "2026-12-18T11:11:00-05:00",
     "first_planned": "2026-12-18T11:11:00-05:00",
     "approved": "2026-11-16T16:53:09"
+  },
+  "pin-christmas-around-the-world-game-for-kids": {
+    "status": "scheduled",
+    "when": "2026-12-16T20:13:00-05:00",
+    "first_planned": "2026-12-16T20:13:00-05:00",
+    "approved": "article rule 2026-11-18T08:13:40-05:00"
+  },
+  "pin-christmas-around-the-world-game-for-kids-2": {
+    "status": "draft"
+  },
+  "pin-christmas-around-the-world-game-for-kids-3": {
+    "status": "draft"
+  },
+  "ig-christmas-around-the-world-game-for-kids": {
+    "status": "draft"
   }
 }

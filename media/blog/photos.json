@@ -132,6 +132,31 @@
    "width": 1000
   }
  },
+ "christmas-around-the-world-game-for-kids": {
+  "hero": {
+   "file": "media/blog/christmas-around-the-world-game-for-kids-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/package-packaging-gift-map-pattern-1169762/",
+   "pixabay_id": 1169762,
+   "puzzle": false,
+   "query": "vintage world map",
+   "user": "pierrevacus",
+   "user_page": "https://pixabay.com/users/pierrevacus-1939361/",
+   "wide": "media/blog/christmas-around-the-world-game-for-kids-hero-wide.jpg",
+   "width": 1000
+  },
+  "passport": {
+   "file": "media/blog/christmas-around-the-world-game-for-kids-passport.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/envelope-letter-gift-4943161/",
+   "pixabay_id": 4943161,
+   "puzzle": false,
+   "query": "passport stamps travel",
+   "user": "va703b",
+   "user_page": "https://pixabay.com/users/va703b-15619518/",
+   "width": 1000
+  }
+ },
  "christmas-around-the-world-quiz": {
   "hero": {
    "file": "media/blog/christmas-around-the-world-quiz-hero.jpg",
