@@ -1669,10 +1669,17 @@
     "approved": "2026-11-09T18:09:39.716Z"
   },
   "pin-jumbo-quiet-days-assisted-living-scene": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-19T17:13:00-05:00",
     "first_planned": "2026-11-19T17:13:00-05:00",
-    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change"
+    "approved": "earlier approval; scheduled 2026-11-13 after the 5-a-day change",
+    "url": "https://www.pinterest.com/pin/1127166613026146295/",
+    "published_at": "2026-11-19T17:15-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-jumbo-quiet-days-assisted-living-open": {
     "status": "published",
