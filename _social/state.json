@@ -2502,10 +2502,17 @@
     "approved": "article rule 2026-11-18T11:01:22-05:00"
   },
   "pin-vintage-recipe-word-search-cover": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-19T20:26:00-05:00",
     "first_planned": "2026-11-19T20:26:00-05:00",
-    "approved": "2026-11-18T16:19:24.992Z"
+    "approved": "2026-11-18T16:19:24.992Z",
+    "url": "https://www.pinterest.com/pin/1127166613026156355/",
+    "published_at": "2026-11-19T20:30-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Vintage Recipes & Baking Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-vintage-recipe-word-search-inside": {
     "status": "scheduled",
