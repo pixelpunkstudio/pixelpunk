@@ -1904,7 +1904,7 @@
   },
   "ig-retirement-dad-my-garage": {
     "status": "scheduled",
-    "when": "2026-12-21T12:23:00-05:00",
+    "when": "2027-01-06T12:23:00-05:00",
     "first_planned": "2026-12-21T12:23:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -1922,7 +1922,7 @@
   },
   "ig-farm-goats-can-talk": {
     "status": "scheduled",
-    "when": "2026-12-20T12:22:00-05:00",
+    "when": "2027-01-01T12:32:00-05:00",
     "first_planned": "2026-12-20T12:22:00-05:00",
     "approved": "2026-11-09T18:09:39.716Z"
   },
@@ -2578,13 +2578,22 @@
     "approved": "article rule 2026-11-20T05:02:40-05:00"
   },
   "pin-christmas-eve-quiet-games-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-21T11:06:00-05:00",
+    "first_planned": "2026-12-21T11:06:00-05:00",
+    "approved": "article rule 2026-11-20 (hand-placed before the holiday)"
   },
   "pin-christmas-eve-quiet-games-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-24T08:17:00-05:00",
+    "first_planned": "2026-12-24T08:17:00-05:00",
+    "approved": "article rule 2026-11-20 (hand-placed before the holiday)"
   },
   "ig-christmas-eve-quiet-games": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-21T12:23:00-05:00",
+    "first_planned": "2026-12-21T12:23:00-05:00",
+    "approved": "article rule 2026-11-20 (hand-placed before the holiday)"
   },
   "pin-boxing-day-at-home": {
     "status": "scheduled",
@@ -2594,19 +2603,19 @@
   },
   "pin-boxing-day-at-home-2": {
     "status": "scheduled",
-    "when": "2026-12-21T08:22:00-05:00",
+    "when": "2026-12-18T17:44:00-05:00",
     "first_planned": "2026-12-21T08:22:00-05:00",
     "approved": "article rule 2026-11-20T05:01:43-05:00"
   },
   "pin-boxing-day-at-home-3": {
     "status": "scheduled",
-    "when": "2026-12-28T14:23:00-05:00",
+    "when": "2026-12-23T20:31:00-05:00",
     "first_planned": "2026-12-28T14:23:00-05:00",
     "approved": "article rule 2026-11-20T05:01:43-05:00"
   },
   "ig-boxing-day-at-home": {
     "status": "scheduled",
-    "when": "2027-01-01T12:32:00-05:00",
+    "when": "2026-12-20T12:22:00-05:00",
     "first_planned": "2027-01-01T12:32:00-05:00",
     "approved": "article rule 2026-11-20T05:01:43-05:00"
   }
