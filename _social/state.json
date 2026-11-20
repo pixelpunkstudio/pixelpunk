@@ -1529,10 +1529,12 @@
     "approved": "article rule 2026-11-09T05:31:08-05:00"
   },
   "tt-nostalgic-grandpa-tree-on-the-wagon": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-20T11:46:00-05:00",
     "first_planned": "2026-11-20T11:46:00-05:00",
-    "approved": "2026-11-09T12:43:54"
+    "approved": "2026-11-09T12:43:54",
+    "url": "tiktok inbox draft p_inbox_url~v2.7710299809672103958 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-20T12:01-05:00"
   },
   "tt-nostalgic-visit-small-talk": {
     "status": "scheduled",
