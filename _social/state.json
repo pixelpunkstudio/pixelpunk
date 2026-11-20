@@ -2572,7 +2572,10 @@
     "status": "draft"
   },
   "pin-christmas-eve-quiet-games": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-17T08:01:00-05:00",
+    "first_planned": "2026-12-17T08:01:00-05:00",
+    "approved": "article rule 2026-11-20T05:02:40-05:00"
   },
   "pin-christmas-eve-quiet-games-2": {
     "status": "draft"
