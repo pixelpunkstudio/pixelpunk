@@ -35,6 +35,31 @@
    "width": 1000
   }
  },
+ "boxing-day-at-home": {
+  "hero": {
+   "file": "media/blog/boxing-day-at-home-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/tree-snow-winter-sky-nature-7845181/",
+   "pixabay_id": 7845181,
+   "puzzle": false,
+   "query": "frosty countryside walk",
+   "user": "3562285",
+   "user_page": "https://pixabay.com/users/3562285-3562285/",
+   "wide": "media/blog/boxing-day-at-home-hero-wide.jpg",
+   "width": 1000
+  },
+  "plan": {
+   "file": "media/blog/boxing-day-at-home-plan.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/play-cards-game-fun-playing-cards-932773/",
+   "pixabay_id": 932773,
+   "puzzle": false,
+   "query": "playing cards table",
+   "user": "tookapic",
+   "user_page": "https://pixabay.com/users/tookapic-1386459/",
+   "width": 1000
+  }
+ },
  "bug-coloring-activities-for-kids": {
   "crayons": {
    "file": "media/blog/bug-coloring-activities-for-kids-crayons.jpg",
@@ -254,6 +279,31 @@
    "query": "wrapping paper ribbon scissors",
    "user": "neelam279",
    "user_page": "https://pixabay.com/users/neelam279-9820894/",
+   "width": 1000
+  }
+ },
+ "christmas-eve-quiet-games": {
+  "hero": {
+   "file": "media/blog/christmas-eve-quiet-games-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/snow-ball-snow-nicholas-santa-claus-7590210/",
+   "pixabay_id": 7590210,
+   "puzzle": false,
+   "query": "snow globe christmas",
+   "user": "Edyttka1388",
+   "user_page": "https://pixabay.com/users/Edyttka1388-11539575/",
+   "wide": "media/blog/christmas-eve-quiet-games-hero-wide.jpg",
+   "width": 1000
+  },
+  "plan": {
+   "file": "media/blog/christmas-eve-quiet-games-plan.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/christmas-fireplace-fire-in-fireplace-1875871/",
+   "pixabay_id": 1875871,
+   "puzzle": false,
+   "query": "christmas stockings fireplace",
+   "user": "JillWellington",
+   "user_page": "https://pixabay.com/users/JillWellington-334088/",
    "width": 1000
   }
  },

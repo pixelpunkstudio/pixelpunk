@@ -6045,7 +6045,10 @@ items:
   kind: free printable
   board: Free Printable Puzzles
   title: Free Printable Jane Austen Word Search for Adults (Large Print, Pride and Prejudice)
-  description: 'Jane Austen word search: a large print puzzle with 30 words, from Darcy and Pemberley to Chawton, Regency and Lyme Regis, facing her portrait, the famous first line of Pride and Prejudice and a fun fact. Free to download and print at home, solution included. 54 more great authors in Literature Lover''s Word Search. #janeausten #prideandprejudice #wordsearch #freeprintable #largeprint'
+  description: 'Jane Austen word search: a large print puzzle with 30 words, from Darcy and Pemberley to Chawton,
+    Regency and Lyme Regis, facing her portrait, the famous first line of Pride and Prejudice and a fun fact. Free
+    to download and print at home, solution included. 54 more great authors in Literature Lover''s Word Search.
+    #janeausten #prideandprejudice #wordsearch #freeprintable #largeprint'
   alt: Free Printable Jane Austen Word Search for Adults (Large Print, Pride and Prejudice)
   image: media/pins/literature-lovers-word-search.jpg
   book: literature-lovers-word-search
@@ -6100,7 +6103,10 @@ items:
   kind: free printable
   board: Free Printable Puzzles
   title: Free Printable Mozart Word Search for Adults (Large Print, The Magic Flute)
-  description: 'Mozart word search: a large print puzzle with 30 words, from Papageno and Sarastro to Salzburg, Don Giovanni and the Requiem, facing his portrait, the Queen of the Night aria from The Magic Flute and a fun fact. Free to download and print at home, solution included. 54 more great composers in Opera Lover''s Word Search. #mozart #opera #wordsearch #freeprintable #largeprint'
+  description: 'Mozart word search: a large print puzzle with 30 words, from Papageno and Sarastro to Salzburg,
+    Don Giovanni and the Requiem, facing his portrait, the Queen of the Night aria from The Magic Flute and a fun
+    fact. Free to download and print at home, solution included. 54 more great composers in Opera Lover''s Word
+    Search. #mozart #opera #wordsearch #freeprintable #largeprint'
   alt: Free Printable Mozart Word Search for Adults (Large Print, The Magic Flute)
   image: media/pins/opera-lovers-word-search.jpg
   book: opera-lovers-word-search
@@ -6122,3 +6128,192 @@ items:
   book: opera-lovers-word-search
   link: https://pixelpunkstudio.shop/free-printable-mozart-word-search.html
   priority: 2
+- key: pin-christmas-eve-quiet-games
+  platform: pinterest
+  kind: article
+  book: christmas-eve-quiet-games
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-eve-quiet-games.html
+  title: Too Excited to Sleep? 7 Quiet Christmas Eve Games for Kids
+  alt: A snow globe with a smiling Santa figure inside, on white fake snow beside a gold bauble, a string of gold
+    beads and a pine cone
+  description: 'Christmas Eve bedtime and the kids are bouncing off the walls? A calm evening plan from dinner to
+    lights out, 7 quiet games that turn the excitement into something gentle, what to say to "Is it morning yet?"
+    and free printable pages for the last hour before bed. #christmaseve #christmaswithkids #christmastraditions
+    #parentingtips #printables'
+  design: top
+  photo: hero
+  kicker: Christmas Eve with kids
+  items: []
+  start: '2026-12-11'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-eve-quiet-games-2
+  platform: pinterest
+  kind: article
+  book: christmas-eve-quiet-games
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-eve-quiet-games.html
+  title: A Calm Christmas Eve, Hour by Hour
+  alt: Four Christmas stockings hanging from a garland-trimmed brick mantelpiece above a glowing fireplace, with
+    candles and a red poinsettia
+  description: 'Christmas Eve bedtime and the kids are bouncing off the walls? A calm evening plan from dinner to
+    lights out, 7 quiet games that turn the excitement into something gentle, what to say to "Is it morning yet?"
+    and free printable pages for the last hour before bed. #christmaseve #christmaswithkids #christmastraditions
+    #parentingtips #printables'
+  design: list
+  photo: plan
+  kicker: From dinner to lights out
+  items:
+  - Late afternoon
+  - Dinner
+  - After dinner
+  - Wind-down hour
+  - The Santa ritual
+  - Bedtime as usual
+  start: '2026-12-18'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-christmas-eve-quiet-games-3
+  platform: pinterest
+  kind: article
+  book: christmas-eve-quiet-games
+  board: Kids Coloring & Activity Books
+  link: https://pixelpunkstudio.shop/christmas-eve-quiet-games.html
+  title: Free Coloring Pages and Puzzles for a Calm Christmas Eve
+  alt: A snow globe with a smiling Santa figure inside, on white fake snow beside a gold bauble, a string of gold
+    beads and a pine cone
+  description: 'Christmas Eve bedtime and the kids are bouncing off the walls? A calm evening plan from dinner to
+    lights out, 7 quiet games that turn the excitement into something gentle, what to say to "Is it morning yet?"
+    and free printable pages for the last hour before bed. #christmaseve #christmaswithkids #christmastraditions
+    #parentingtips #printables'
+  design: pages
+  photo: hero
+  kicker: Free pages for Christmas Eve
+  items: []
+  pages:
+  - page: cute-farm-days
+    label: Coloring
+  - page: cozy-christmas-coloring
+    label: Christmas
+  - page: life-on-the-farm
+    label: Word search
+  start: '2026-12-25'
+  priority: 2
+  until: '2026-12-22'
+- key: ig-christmas-eve-quiet-games
+  platform: instagram
+  kind: article carousel
+  book: christmas-eve-quiet-games
+  link: https://pixelpunkstudio.shop/christmas-eve-quiet-games.html
+  title: Kids Too Excited to Sleep on Christmas Eve? 7 Quiet Games to Wind Down
+  headline: Too excited to sleep on Christmas Eve?
+  kicker: New on the blog
+  items:
+  - Late afternoon
+  - Dinner
+  - After dinner
+  - Wind-down hour
+  - The Santa ritual
+  - Bedtime as usual
+  list_title: A calm evening plan
+  caption: 'It''s Christmas Eve, it''s bedtime, and nobody under ten is anywhere near sleepy 🎄✨
+
+    Our new article has a calm evening plan from dinner to lights out, 7 quiet games that turn the excitement into
+    something gentle, and what to say to "Is it morning yet?"
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #christmaseve #christmaswithkids #christmastraditions #parentingtips #printables'
+  start: '2026-12-11'
+  priority: 2
+  until: '2026-12-22'
+- key: pin-boxing-day-at-home
+  platform: pinterest
+  kind: article
+  book: boxing-day-at-home
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/boxing-day-at-home.html
+  title: 'Boxing Day at Home: 10 Lazy, Screen-Free Ideas for the Whole Family'
+  alt: A large bare oak tree in a snowy field under a blue winter sky, with farm buildings in the distance
+  description: '26 December, the family is still together, everyone is full and tired, and the day is drifting into
+    screens and squabbles? 10 lazy, screen-free Boxing Day ideas for all ages, a simple plan for the day, and free
+    printable puzzles to keep three generations happy. #boxingday #boxingdayathome #familytime #screenfree #printables'
+  design: top
+  photo: hero
+  kicker: Boxing Day ideas
+  items: []
+  start: '2026-12-10'
+  priority: 3
+- key: pin-boxing-day-at-home-2
+  platform: pinterest
+  kind: article
+  book: boxing-day-at-home
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/boxing-day-at-home.html
+  title: A Simple Plan for a Lazy Boxing Day
+  alt: A hand of playing cards spread out on a warm wooden table
+  description: '26 December, the family is still together, everyone is full and tired, and the day is drifting into
+    screens and squabbles? 10 lazy, screen-free Boxing Day ideas for all ages, a simple plan for the day, and free
+    printable puzzles to keep three generations happy. #boxingday #boxingdayathome #familytime #screenfree #printables'
+  design: list
+  photo: plan
+  kicker: Full, tired and happy
+  items:
+  - A slow breakfast
+  - A walk before lunch
+  - A grazing lunch
+  - A quiet afternoon
+  - One film or game
+  start: '2026-12-17'
+  priority: 3
+- key: pin-boxing-day-at-home-3
+  platform: pinterest
+  kind: article
+  book: boxing-day-at-home
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/boxing-day-at-home.html
+  title: Free Puzzles and Coloring Pages for Boxing Day
+  alt: A large bare oak tree in a snowy field under a blue winter sky, with farm buildings in the distance
+  description: '26 December, the family is still together, everyone is full and tired, and the day is drifting into
+    screens and squabbles? 10 lazy, screen-free Boxing Day ideas for all ages, a simple plan for the day, and free
+    printable puzzles to keep three generations happy. #boxingday #boxingdayathome #familytime #screenfree #printables'
+  design: pages
+  photo: hero
+  kicker: Free puzzles for 26 December
+  items: []
+  pages:
+  - page: jumbo-christmas
+    label: Big print
+  - page: cozy-christmas
+    label: Word search
+  - page: nostalgic-christmas-coloring
+    label: Coloring
+  start: '2026-12-24'
+  priority: 3
+- key: ig-boxing-day-at-home
+  platform: instagram
+  kind: article carousel
+  book: boxing-day-at-home
+  link: https://pixelpunkstudio.shop/boxing-day-at-home.html
+  title: 'Boxing Day at Home: 10 Lazy, Screen-Free Ideas When Everyone''s Full and Tired'
+  headline: Boxing Day, full and tired?
+  kicker: New on the blog
+  items:
+  - A slow breakfast
+  - A walk before lunch
+  - A grazing lunch
+  - A quiet afternoon
+  - One film or game
+  list_title: A lazy Boxing Day plan
+  caption: '26 December: the family is still here, everyone''s full, and the day is drifting into screens and squabbles
+    🎄
+
+    Our new article has 10 lazy, screen-free Boxing Day ideas for every age, a simple plan for the day, and free
+    puzzles for three generations.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #boxingday #boxingdayathome #familytime #screenfree #printables'
+  start: '2026-12-10'
+  priority: 3

@@ -2570,5 +2570,41 @@
   },
   "ig-opera-lovers-word-search": {
     "status": "draft"
+  },
+  "pin-christmas-eve-quiet-games": {
+    "status": "draft"
+  },
+  "pin-christmas-eve-quiet-games-2": {
+    "status": "draft"
+  },
+  "pin-christmas-eve-quiet-games-3": {
+    "status": "draft"
+  },
+  "ig-christmas-eve-quiet-games": {
+    "status": "draft"
+  },
+  "pin-boxing-day-at-home": {
+    "status": "scheduled",
+    "when": "2026-12-14T20:23:00-05:00",
+    "first_planned": "2026-12-14T20:23:00-05:00",
+    "approved": "article rule 2026-11-20T05:01:43-05:00"
+  },
+  "pin-boxing-day-at-home-2": {
+    "status": "scheduled",
+    "when": "2026-12-21T08:22:00-05:00",
+    "first_planned": "2026-12-21T08:22:00-05:00",
+    "approved": "article rule 2026-11-20T05:01:43-05:00"
+  },
+  "pin-boxing-day-at-home-3": {
+    "status": "scheduled",
+    "when": "2026-12-28T14:23:00-05:00",
+    "first_planned": "2026-12-28T14:23:00-05:00",
+    "approved": "article rule 2026-11-20T05:01:43-05:00"
+  },
+  "ig-boxing-day-at-home": {
+    "status": "scheduled",
+    "when": "2027-01-01T12:32:00-05:00",
+    "first_planned": "2027-01-01T12:32:00-05:00",
+    "approved": "article rule 2026-11-20T05:01:43-05:00"
   }
 }
