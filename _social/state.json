@@ -1833,10 +1833,17 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "pin-art-aunt-corrects-the-guide-open": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-21T08:33:00-05:00",
     "first_planned": "2026-11-21T08:33:00-05:00",
-    "approved": "2026-11-09T18:08:19.468Z"
+    "approved": "2026-11-09T18:08:19.468Z",
+    "url": "https://www.pinterest.com/pin/1127166613026274301/",
+    "published_at": "2026-11-21T08:45-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Art Lover Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-art-aunt-corrects-the-guide": {
     "status": "scheduled",
