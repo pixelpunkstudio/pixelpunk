@@ -1568,10 +1568,12 @@
     "published_at": "2026-11-20T12:01-05:00"
   },
   "tt-nostalgic-visit-small-talk": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-22T11:37:00-05:00",
     "first_planned": "2026-11-22T11:37:00-05:00",
-    "approved": "2026-11-09T12:43:54"
+    "approved": "2026-11-09T12:43:54",
+    "url": "tiktok inbox draft p_inbox_url~v2.7711037090180565014 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-22T11:43-05:00"
   },
   "tt-sudoku-valentine-one-pen": {
     "status": "scheduled",
