@@ -857,10 +857,16 @@
     ]
   },
   "pin-large-print-vs-jumbo-print-2": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-22T08:58:00-05:00",
     "first_planned": "2026-11-22T08:58:00-05:00",
-    "approved": "article rule 2026-11-01T07:42:02-05:00"
+    "approved": "article rule 2026-11-01T07:42:02-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613026364187/",
+    "published_at": "2026-11-22T09:01-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-large-print-vs-jumbo-print-3": {
     "status": "scheduled",
