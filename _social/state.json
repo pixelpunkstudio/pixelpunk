@@ -2605,10 +2605,17 @@
     "status": "draft"
   },
   "pin-opera-lovers-word-search-cover": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-21T20:28:00-05:00",
     "first_planned": "2026-11-21T20:28:00-05:00",
-    "approved": "2026-11-18T17:43:30.845Z"
+    "approved": "2026-11-18T17:43:30.845Z",
+    "url": "https://www.pinterest.com/pin/1127166613026325419/",
+    "published_at": "2026-11-21T20:30-05:00",
+    "boards": [
+      "Word Search Puzzle Books",
+      "Opera & Classical Music Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "pin-opera-lovers-word-search-inside": {
     "status": "scheduled",
