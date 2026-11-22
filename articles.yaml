@@ -3,6 +3,115 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: puzzles-for-teens-winter-break
+    title: "Winter Break Boredom for Teens: Puzzles That Don't Feel Babyish"
+    description: >-
+      Your teen won't touch anything that looks like a kids' worksheet, and the phone hasn't left their hand since
+      school let out? Why puzzles feel babyish to teens, what makes them feel grown-up, 8 puzzle challenges teens
+      actually enjoy and free printable word searches and sudoku to start with.
+    date: 2026-12-13
+    topics: [Activity ideas, Seasonal ideas, Puzzle tips]
+    photos:
+      - slot: hero
+        query: snowboard snow mountain
+        wide_focus: [0.5, 0.5]
+        alt: A snowboarder in a helmet and dark jacket jumping high above a snowy slope against a deep blue winter sky
+      - slot: challenges
+        after: 8 puzzle challenges teens actually enjoy
+        query: chess pieces board
+        alt: Black and white chess pieces, a king and a queen at the front, standing on a black and white chess board
+    related: [winter-snowy-days, literature-lovers-word-search, sudoku-of-love, cozy-christmas]
+    printables: [free-printable-winter-word-search, free-printable-easy-sudoku-puzzles, free-printable-jane-austen-word-search, free-printable-christmas-word-search]
+    social:
+      tags: "#winterbreak #teens #parentingteens #wordsearch #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Winter break with teens, headline: "Puzzles for Teens That Don't Feel Babyish"}
+        - {photo: challenges, design: list, kicker: Less scrolling more puzzling, headline: "How to Offer Puzzles to Teens Without Nagging", from: "How to offer puzzles without nagging"}
+        - design: pages
+          kicker: Free pages for teens
+          headline: "Free Word Searches and Sudoku for Teens"
+          pages: [{page: winter-snowy-days, label: Winter}, {page: literature-lovers-word-search, label: Classic books}, {page: sudoku-of-love, label: Sudoku}]
+      instagram:
+        headline: Puzzles teens don't find babyish
+        list_title: Offer puzzles without nagging
+        from: "How to offer puzzles without nagging"
+        caption: |-
+          Two weeks off, and your teen's phone hasn't left their hand since the last school bell ❄️📱
+          Our new article explains why puzzles feel babyish to teens, what makes them feel grown-up, and 8 challenges they actually enjoy: a timed word search race, a sudoku ladder, a puzzle made for a friend, a family tournament and more.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #winterbreak #teens #parentingteens #wordsearch #printables
+    body: |
+      <p>The last school bell rings, and by the next afternoon your teenager is on the sofa with a phone, and will stay
+      there for most of the two weeks. Suggest a puzzle and you get the look: "That's for kids." They have a point.
+      Most activity sheets are made for eight-year-olds, with cartoon animals, giant letters and five easy words. Teens
+      don't dislike puzzles. They dislike being treated like children. Change the look, the difficulty and the way you
+      offer it, and a word search or a sudoku becomes a challenge they choose for themselves. Here is how.</p>
+
+      <h2>Why puzzles feel babyish to teens</h2>
+      <ul>
+        <li><strong>The design:</strong> bright cartoons and bubbly fonts say "worksheet" before they read a single
+        word.</li>
+        <li><strong>The difficulty:</strong> a grid they finish in two minutes is boring, and boring feels childish.</li>
+        <li><strong>The topic:</strong> farm animals and school words feel like homework from years ago.</li>
+        <li><strong>The way it's offered:</strong> "Why don't you put the phone down and do this?" turns a puzzle into
+        a punishment.</li>
+      </ul>
+
+      <h2>What makes a puzzle feel grown-up</h2>
+      <ul>
+        <li><strong>A clean, adult page:</strong> a plain grid and a calm illustration, like the puzzles grown-ups buy
+        for themselves.</li>
+        <li><strong>Real difficulty:</strong> 30 words hidden in every direction, or a sudoku that takes some
+        thinking. Let them pick the level, and expect them to go for the hardest one.</li>
+        <li><strong>Topics they care about:</strong> stargazing, winter sports, the classic novels from English class,
+        or a list they make up themselves.</li>
+        <li><strong>A clock or a rival:</strong> a timer, a score or a friend to beat turns a quiet page into a
+        game.</li>
+        <li><strong>Their choice:</strong> a puzzle left on the table gets picked up far more often than one handed
+        over.</li>
+      </ul>
+
+      <h2>8 puzzle challenges teens actually enjoy</h2>
+      <ol>
+        <li><strong>The word search speed run.</strong> One grid, a phone stopwatch and a scoreboard on the fridge. Each
+        person tries to beat their own time over the break. The phone stays in the game, as the timer.</li>
+        <li><strong>The sudoku ladder.</strong> Start with very easy grids and move up one level each time one is solved
+        without a mistake. Write each step on a sheet of paper and see who reaches "hard" before New Year.</li>
+        <li><strong>Make a puzzle for a friend.</strong> Teens pick 15 to 20 words (friends' names, inside jokes, places
+        they've been together), hide them in a grid on squared paper and fill the gaps with random letters. Then they
+        photograph it and send it. Nothing feels less babyish than stumping a friend.</li>
+        <li><strong>The book club grid.</strong> If they are reading a classic for English class, a word search about
+        the author is a light way to remember characters and places, like Darcy and Pemberley in our free Jane Austen
+        puzzle.</li>
+        <li><strong>The family tournament.</strong> Same printable for everyone, start at the same time, first to find
+        all the words wins. Teens usually win against parents, and they enjoy that a lot.</li>
+        <li><strong>The no-pencil challenge.</strong> Find every word without marking the grid, only by looking. It is
+        much harder than it sounds and works well on a long car ride.</li>
+        <li><strong>The house puzzle hunt.</strong> Teens write a chain of clues for younger siblings or cousins, each
+        one leading to the next hiding place, with a small treat at the end. They get to be the puzzle maker for
+        once.</li>
+        <li><strong>Puzzle and podcast.</strong> A sudoku or a word search with a podcast or music in the background is
+        a relaxing hour off the scroll, and the hands stay busy without a screen.</li>
+      </ol>
+
+      <h2>How to offer puzzles without nagging</h2>
+      <ul>
+        <li><strong>Leave it, don't hand it over:</strong> a printed page and a pencil on the kitchen table, and no
+        comment.</li>
+        <li><strong>Do one yourself</strong> where they can see you. Curiosity works better than advice.</li>
+        <li><strong>Never call it educational,</strong> even if it is.</li>
+        <li><strong>Make it a challenge:</strong> "Bet you can't find all 30 words in under ten minutes."</li>
+        <li><strong>Let the phone join in</strong> as a timer, or to share their own puzzles with friends.</li>
+      </ul>
+
+      <h2>Print the free pages</h2>
+      <p>Our free winter word search, about stargazing on clear winter nights, is a good first speed run, with 30 words
+      and an answer key. The very easy sudoku puzzles are the first rungs of the ladder, the Jane Austen word search
+      suits the book club grid, and the Christmas word search makes a quick family tournament. They print on US Letter
+      paper; on A4, choose "Fit" in the print settings. For the whole break, Snowy Days Winter Word Search has 55 large
+      print puzzles with clean pages made for teens and adults, Sudoku of Love climbs from very easy to hard, and Literature
+      Lover's Word Search and Cozy Christmas Word Search bring classic books and Christmas into the mix.</p>
+
   - slug: christmas-eve-quiet-games
     title: "Kids Too Excited to Sleep on Christmas Eve? 7 Quiet Games to Wind Down"
     description: >-

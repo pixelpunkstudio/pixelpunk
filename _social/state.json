@@ -2679,5 +2679,29 @@
     "when": "2026-12-20T12:22:00-05:00",
     "first_planned": "2027-01-01T12:32:00-05:00",
     "approved": "article rule 2026-11-20T05:01:43-05:00"
+  },
+  "pin-puzzles-for-teens-winter-break": {
+    "status": "scheduled",
+    "when": "2026-12-21T20:37:00-05:00",
+    "first_planned": "2026-12-21T20:37:00-05:00",
+    "approved": "article rule 2026-11-22T05:04:18-05:00"
+  },
+  "pin-puzzles-for-teens-winter-break-2": {
+    "status": "scheduled",
+    "when": "2026-12-28T14:10:00-05:00",
+    "first_planned": "2026-12-28T14:10:00-05:00",
+    "approved": "article rule 2026-11-22T05:04:18-05:00"
+  },
+  "pin-puzzles-for-teens-winter-break-3": {
+    "status": "scheduled",
+    "when": "2027-01-04T14:08:00-05:00",
+    "first_planned": "2027-01-04T14:08:00-05:00",
+    "approved": "article rule 2026-11-22T05:04:18-05:00"
+  },
+  "ig-puzzles-for-teens-winter-break": {
+    "status": "scheduled",
+    "when": "2027-01-07T12:46:00-05:00",
+    "first_planned": "2027-01-07T12:46:00-05:00",
+    "approved": "article rule 2026-11-22T05:04:18-05:00"
   }
 }

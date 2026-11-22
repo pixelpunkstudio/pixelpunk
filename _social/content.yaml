@@ -6317,3 +6317,95 @@ items:
     #boxingday #boxingdayathome #familytime #screenfree #printables'
   start: '2026-12-10'
   priority: 3
+- key: pin-puzzles-for-teens-winter-break
+  platform: pinterest
+  kind: article
+  book: puzzles-for-teens-winter-break
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/puzzles-for-teens-winter-break.html
+  title: Puzzles for Teens That Don't Feel Babyish
+  alt: A snowboarder in a helmet and dark jacket jumping high above a snowy slope against a deep blue winter sky
+  description: 'Your teen won''t touch anything that looks like a kids'' worksheet, and the phone hasn''t left their
+    hand since school let out? Why puzzles feel babyish to teens, what makes them feel grown-up, 8 puzzle challenges
+    teens actually enjoy and free printable word searches and sudoku to start with. #winterbreak #teens #parentingteens
+    #wordsearch #printables'
+  design: top
+  photo: hero
+  kicker: Winter break with teens
+  items: []
+  start: '2026-12-13'
+  priority: 3
+- key: pin-puzzles-for-teens-winter-break-2
+  platform: pinterest
+  kind: article
+  book: puzzles-for-teens-winter-break
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/puzzles-for-teens-winter-break.html
+  title: How to Offer Puzzles to Teens Without Nagging
+  alt: Black and white chess pieces, a king and a queen at the front, standing on a black and white chess board
+  description: 'Your teen won''t touch anything that looks like a kids'' worksheet, and the phone hasn''t left their
+    hand since school let out? Why puzzles feel babyish to teens, what makes them feel grown-up, 8 puzzle challenges
+    teens actually enjoy and free printable word searches and sudoku to start with. #winterbreak #teens #parentingteens
+    #wordsearch #printables'
+  design: list
+  photo: challenges
+  kicker: Less scrolling more puzzling
+  items:
+  - Leave it, don't hand it over
+  - Do one yourself
+  - Never call it educational
+  - Make it a challenge
+  - Let the phone join in
+  start: '2026-12-20'
+  priority: 3
+- key: pin-puzzles-for-teens-winter-break-3
+  platform: pinterest
+  kind: article
+  book: puzzles-for-teens-winter-break
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/puzzles-for-teens-winter-break.html
+  title: Free Word Searches and Sudoku for Teens
+  alt: A snowboarder in a helmet and dark jacket jumping high above a snowy slope against a deep blue winter sky
+  description: 'Your teen won''t touch anything that looks like a kids'' worksheet, and the phone hasn''t left their
+    hand since school let out? Why puzzles feel babyish to teens, what makes them feel grown-up, 8 puzzle challenges
+    teens actually enjoy and free printable word searches and sudoku to start with. #winterbreak #teens #parentingteens
+    #wordsearch #printables'
+  design: pages
+  photo: hero
+  kicker: Free pages for teens
+  items: []
+  pages:
+  - page: winter-snowy-days
+    label: Winter
+  - page: literature-lovers-word-search
+    label: Classic books
+  - page: sudoku-of-love
+    label: Sudoku
+  start: '2026-12-27'
+  priority: 3
+- key: ig-puzzles-for-teens-winter-break
+  platform: instagram
+  kind: article carousel
+  book: puzzles-for-teens-winter-break
+  link: https://pixelpunkstudio.shop/puzzles-for-teens-winter-break.html
+  title: 'Winter Break Boredom for Teens: Puzzles That Don''t Feel Babyish'
+  headline: Puzzles teens don't find babyish
+  kicker: New on the blog
+  items:
+  - Leave it, don't hand it over
+  - Do one yourself
+  - Never call it educational
+  - Make it a challenge
+  - Let the phone join in
+  list_title: Offer puzzles without nagging
+  caption: 'Two weeks off, and your teen''s phone hasn''t left their hand since the last school bell ❄️📱
+
+    Our new article explains why puzzles feel babyish to teens, what makes them feel grown-up, and 8 challenges
+    they actually enjoy: a timed word search race, a sudoku ladder, a puzzle made for a friend, a family tournament
+    and more.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #winterbreak #teens #parentingteens #wordsearch #printables'
+  start: '2026-12-13'
+  priority: 3

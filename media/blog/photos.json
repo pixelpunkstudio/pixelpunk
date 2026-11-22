@@ -787,6 +787,31 @@
    "width": 1000
   }
  },
+ "puzzles-for-teens-winter-break": {
+  "challenges": {
+   "file": "media/blog/puzzles-for-teens-winter-break-challenges.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/chess-chess-board-chess-pieces-5217922/",
+   "pixabay_id": 5217922,
+   "puzzle": false,
+   "query": "chess pieces board",
+   "user": "moritz320",
+   "user_page": "https://pixabay.com/users/moritz320-1260270/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/puzzles-for-teens-winter-break-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/snowboard-fresh-winter-snow-sport-779255/",
+   "pixabay_id": 779255,
+   "puzzle": false,
+   "query": "snowboard snow mountain",
+   "user": "jtrujilloc0",
+   "user_page": "https://pixabay.com/users/jtrujilloc0-965395/",
+   "wide": "media/blog/puzzles-for-teens-winter-break-hero-wide.jpg",
+   "width": 1000
+  }
+ },
  "screen-free-winter-break-for-kids": {
   "hero": {
    "file": "media/blog/screen-free-winter-break-for-kids-hero.jpg",
