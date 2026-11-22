@@ -1209,10 +1209,11 @@
     "approved": "article rule 2026-11-04T05:51:52-05:00"
   },
   "ig-car-ride-activities-for-kids-printable": {
-    "status": "scheduled",
+    "status": "failed",
     "when": "2026-11-22T12:03:00-05:00",
     "first_planned": "2026-11-22T12:03:00-05:00",
-    "approved": "article rule 2026-11-04T05:51:52-05:00"
+    "approved": "article rule 2026-11-04T05:51:52-05:00",
+    "error": "POST /17841417251183745/media -> 400: {\"error\":{\"message\":\"Timeout\",\"code\":-2,\"type\":\"OAuthException\",\"error_subcode\":2207003,\"is_transient\":false,\"error_user_msg\":\"It takes too long to download the media.\",\"error_user_title\":\"Timeout\",\"fbtrace_id\":\"AyYuLFI6YWWBAvThyoQc3Ze\"}}"
   },
   "pin-coloring-with-grandkids": {
     "status": "published",
