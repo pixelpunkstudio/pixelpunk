@@ -6409,3 +6409,143 @@ items:
     #winterbreak #teens #parentingteens #wordsearch #printables'
   start: '2026-12-13'
   priority: 3
+- key: tt-farm-grandkids-two-weeks
+  platform: tiktok
+  kind: tiktok carousel
+  book: life-on-the-farm
+  title: The grandkids arrive today. Two weeks. No tablets at Grandma's
+  caption: 'Day 2 and they''re arguing over who gets the next puzzle. Perfect 🐄
+
+    Life on the Farm Word Search for Kids, ages 6-10: 50 puzzles with fun facts, on Amazon.
+
+
+    #wordsearch #kidsactivities #screenfree #grandkids #winterbreak'
+  link: https://pixelpunkstudio.shop/free-printable-farm-word-search-for-kids.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/farm-grandkids-two-weeks-1.jpg
+  - media/social/tiktok/farm-grandkids-two-weeks-2.jpg
+  - media/social/tiktok/farm-grandkids-two-weeks-3.jpg
+  start: '2026-12-19'
+  until: '2026-12-21'
+- key: tt-jumbo-snowbird-grandpa
+  platform: tiktok
+  kind: tiktok carousel
+  book: jumbo-christmas
+  title: Grandpa moved to Florida. Says he doesn't miss the snow one bit
+  caption: 'He did the snowbird puzzle first and called to tell us 🌴
+
+    Jumbo Christmas Word Search for Seniors: 100 puzzles in 30 pt print, on Amazon.
+
+
+    #wordsearch #largeprint #snowbirds #giftsforgrandpa #christmasgifts'
+  link: https://pixelpunkstudio.shop/free-printable-jumbo-christmas-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/jumbo-snowbird-grandpa-1.jpg
+  - media/social/tiktok/jumbo-snowbird-grandpa-2.jpg
+  - media/social/tiktok/jumbo-snowbird-grandpa-3.jpg
+  start: '2026-12-20'
+  until: '2026-12-22'
+- key: tt-art-sister-has-everything
+  platform: tiktok
+  kind: tiktok carousel
+  book: art-lovers-word-search
+  title: Four days left. My sister already has everything
+  caption: 'She texted me a photo of the Monet page. With a heart. She never does hearts 🎨
+
+    Art Lover''s Word Search: 55 large print puzzles about great painters, on Amazon.
+
+
+    #wordsearch #arthistory #giftsforher #lastminutegifts #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-leonardo-da-vinci-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/art-sister-has-everything-1.jpg
+  - media/social/tiktok/art-sister-has-everything-2.jpg
+  - media/social/tiktok/art-sister-has-everything-3.jpg
+  start: '2026-12-21'
+  until: '2026-12-23'
+- key: tt-cozy-christmas-flight-delayed
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas
+  title: Flight home for Christmas. Delayed 6 hours. Again
+  caption: 'Made it home by midnight. Puzzle 39 done on the plane ✈️
+
+    Cozy Christmas Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #holidaytravel #flightdelay #largeprint #christmas'
+  link: https://pixelpunkstudio.shop/free-printable-nativity-word-search.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/cozy-christmas-flight-delayed-1.jpg
+  - media/social/tiktok/cozy-christmas-flight-delayed-2.jpg
+  - media/social/tiktok/cozy-christmas-flight-delayed-3.jpg
+  start: '2026-12-22'
+  until: '2026-12-24'
+- key: tt-winter-train-home
+  platform: tiktok
+  kind: tiktok carousel
+  book: winter-snowy-days
+  title: 8 hours on the train home for Christmas. No signal after the mountains
+  caption: 'Best train ride I''ve had. Didn''t look at my phone once 🚆
+
+    Snowy Days Winter Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #trainjourney #digitaldetox #winter #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/winter-train-home-1.jpg
+  - media/social/tiktok/winter-train-home-2.jpg
+  - media/social/tiktok/winter-train-home-3.jpg
+  start: '2026-12-23'
+  until: '2026-12-25'
+- key: tt-hygge-christmas-eve-quiet
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-winter-hygge
+  title: Christmas Eve. Kids asleep. Presents out. House finally quiet
+  caption: 'Two puzzles, then bed. Best 30 minutes of the whole season 🕯️
+
+    Cozy Winter Hygge Word Search: 55 large print puzzles, on Amazon.
+
+
+    #hygge #wordsearch #christmaseve #metime #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-hygge-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/hygge-christmas-eve-quiet-1.jpg
+  - media/social/tiktok/hygge-christmas-eve-quiet-2.jpg
+  - media/social/tiktok/hygge-christmas-eve-quiet-3.jpg
+  start: '2026-12-24'
+  until: '2026-12-26'
+- key: tt-nostalgic-christmas-morning
+  platform: tiktok
+  kind: tiktok carousel
+  book: nostalgic-christmas-coloring
+  title: Christmas morning. Grandma opened ours first
+  caption: 'The big bulb lights page. ''That''s exactly how ours looked.'' Then quiet ❤️
+
+    Nostalgic Christmas Coloring Book for Seniors: 50 bold and easy 1950s scenes, on Amazon.
+
+
+    #coloringbook #nostalgia #christmasmorning #giftsforgrandma #1950s'
+  link: https://pixelpunkstudio.shop/free-printable-vintage-christmas-tv-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/nostalgic-christmas-morning-1.jpg
+  - media/social/tiktok/nostalgic-christmas-morning-2.jpg
+  - media/social/tiktok/nostalgic-christmas-morning-3.jpg
+  start: '2026-12-25'
+  until: '2026-12-27'

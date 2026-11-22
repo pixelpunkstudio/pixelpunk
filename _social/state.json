@@ -2703,5 +2703,47 @@
     "when": "2026-12-17T12:15:00-05:00",
     "first_planned": "2027-01-07T12:46:00-05:00",
     "approved": "article rule 2026-11-22T05:04:18-05:00 | swapped 2026-11-22 (user OK): teens article post into December"
+  },
+  "tt-farm-grandkids-two-weeks": {
+    "status": "scheduled",
+    "when": "2026-12-19T11:29:00-05:00",
+    "first_planned": "2026-12-19T11:29:00-05:00",
+    "approved": "2026-11-22T11:19:47"
+  },
+  "tt-jumbo-snowbird-grandpa": {
+    "status": "scheduled",
+    "when": "2026-12-20T11:58:00-05:00",
+    "first_planned": "2026-12-20T11:58:00-05:00",
+    "approved": "2026-11-22T11:19:47"
+  },
+  "tt-art-sister-has-everything": {
+    "status": "scheduled",
+    "when": "2026-12-21T11:02:00-05:00",
+    "first_planned": "2026-12-21T11:02:00-05:00",
+    "approved": "2026-11-22T11:19:47"
+  },
+  "tt-cozy-christmas-flight-delayed": {
+    "status": "scheduled",
+    "when": "2026-12-22T11:51:00-05:00",
+    "first_planned": "2026-12-22T11:51:00-05:00",
+    "approved": "2026-11-22T11:19:47"
+  },
+  "tt-winter-train-home": {
+    "status": "scheduled",
+    "when": "2026-12-23T11:00:00-05:00",
+    "first_planned": "2026-12-23T11:00:00-05:00",
+    "approved": "2026-11-22T11:19:47"
+  },
+  "tt-hygge-christmas-eve-quiet": {
+    "status": "scheduled",
+    "when": "2026-12-24T11:35:00-05:00",
+    "first_planned": "2026-12-24T11:35:00-05:00",
+    "approved": "2026-11-22T11:19:47"
+  },
+  "tt-nostalgic-christmas-morning": {
+    "status": "scheduled",
+    "when": "2026-12-25T11:18:00-05:00",
+    "first_planned": "2026-12-25T11:18:00-05:00",
+    "approved": "2026-11-22T11:19:47"
   }
 }
