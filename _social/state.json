@@ -1933,9 +1933,9 @@
   },
   "ig-winter-snow-day-cancelled": {
     "status": "scheduled",
-    "when": "2026-12-17T12:15:00-05:00",
+    "when": "2027-01-07T12:46:00-05:00",
     "first_planned": "2026-12-17T12:15:00-05:00",
-    "approved": "2026-11-09T18:09:39.716Z"
+    "approved": "2026-11-09T18:09:39.716Z | swapped 2026-11-22 (user OK): teens article post into December"
   },
   "pin-retirement-dad-my-garage-scene": {
     "status": "scheduled",
@@ -2700,8 +2700,8 @@
   },
   "ig-puzzles-for-teens-winter-break": {
     "status": "scheduled",
-    "when": "2027-01-07T12:46:00-05:00",
+    "when": "2026-12-17T12:15:00-05:00",
     "first_planned": "2027-01-07T12:46:00-05:00",
-    "approved": "article rule 2026-11-22T05:04:18-05:00"
+    "approved": "article rule 2026-11-22T05:04:18-05:00 | swapped 2026-11-22 (user OK): teens article post into December"
   }
 }
