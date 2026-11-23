@@ -6549,3 +6549,43 @@ items:
   - media/social/tiktok/nostalgic-christmas-morning-3.jpg
   start: '2026-12-25'
   until: '2026-12-27'
+- key: tt-coloring-day-after-christmas
+  platform: tiktok
+  kind: tiktok carousel
+  book: cozy-christmas-coloring
+  title: December 26. Dishes done. Guests gone. The couch is mine
+  caption: 'The mouse in a slipper. Took me an hour. Didn''t move once 🐭
+
+    Cozy Christmas Coloring Book: 50 bold and easy holiday scenes, on Amazon.
+
+
+    #coloringbook #adultcoloring #afterchristmas #selfcare #cozy'
+  link: https://pixelpunkstudio.shop/free-printable-cardinal-christmas-coloring-page.html
+  priority: 2
+  needs_amazon: true
+  images:
+  - media/social/tiktok/coloring-day-after-christmas-1.jpg
+  - media/social/tiktok/coloring-day-after-christmas-2.jpg
+  - media/social/tiktok/coloring-day-after-christmas-3.jpg
+  start: '2026-12-26'
+  until: '2026-12-28'
+- key: tt-winter-snowed-in-break
+  platform: tiktok
+  kind: tiktok carousel
+  book: winter-snowy-days
+  title: Day 3 of winter break. The whole family is snowed in
+  caption: 'We''re on day 5. I''m on puzzle 22. Nobody''s fighting. A miracle ❄️
+
+    Snowy Days Winter Word Search: 55 large print puzzles, on Amazon.
+
+
+    #wordsearch #snowedin #winterbreak #familytime #largeprint'
+  link: https://pixelpunkstudio.shop/free-printable-winter-word-search.html
+  priority: 3
+  needs_amazon: true
+  images:
+  - media/social/tiktok/winter-snowed-in-break-1.jpg
+  - media/social/tiktok/winter-snowed-in-break-2.jpg
+  - media/social/tiktok/winter-snowed-in-break-3.jpg
+  start: '2026-12-27'
+  until: '2026-12-29'

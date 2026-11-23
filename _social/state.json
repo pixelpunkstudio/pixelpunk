@@ -2759,5 +2759,17 @@
     "when": "2026-12-25T11:18:00-05:00",
     "first_planned": "2026-12-25T11:18:00-05:00",
     "approved": "2026-11-22T11:19:47"
+  },
+  "tt-coloring-day-after-christmas": {
+    "status": "scheduled",
+    "when": "2026-12-26T11:58:00-05:00",
+    "first_planned": "2026-12-26T11:58:00-05:00",
+    "approved": "2026-11-23T10:59:05"
+  },
+  "tt-winter-snowed-in-break": {
+    "status": "scheduled",
+    "when": "2026-12-27T11:01:00-05:00",
+    "first_planned": "2026-12-27T11:01:00-05:00",
+    "approved": "2026-11-23T10:59:05"
   }
 }
