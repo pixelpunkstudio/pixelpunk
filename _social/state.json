@@ -1505,10 +1505,12 @@
     "approved": "article rule 2026-11-06T14:05:39+01:00"
   },
   "ig-day-after-thanksgiving-activities": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-23T12:05:00-05:00",
     "first_planned": "2026-11-23T12:05:00-05:00",
-    "approved": "article rule 2026-11-06T08:04:02-05:00"
+    "approved": "article rule 2026-11-06T08:04:02-05:00",
+    "url": "https://www.instagram.com/p/DgF5R1Sl5OA/",
+    "published_at": "2026-11-23T12:15-05:00"
   },
   "pin-puzzle-advent-calendar": {
     "status": "scheduled",
