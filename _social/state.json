@@ -1601,10 +1601,12 @@
     "published_at": "2026-11-21T12:01-05:00"
   },
   "tt-hygge-no-phones-after-dinner": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-23T11:11:00-05:00",
     "first_planned": "2026-11-23T11:11:00-05:00",
-    "approved": "2026-11-09T12:47:11"
+    "approved": "2026-11-09T12:47:11",
+    "url": "tiktok inbox draft p_inbox_url~v2.7711401294086522902 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-23T11:15-05:00"
   },
   "tt-winter-ski-trip-non-skier": {
     "status": "scheduled",
