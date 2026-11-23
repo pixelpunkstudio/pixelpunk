@@ -1499,10 +1499,16 @@
     ]
   },
   "pin-day-after-thanksgiving-activities-2": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-23T14:21:00-05:00",
     "first_planned": "2026-11-24T08:48:00-05:00",
-    "approved": "article rule 2026-11-06T14:05:39+01:00"
+    "approved": "article rule 2026-11-06T14:05:39+01:00",
+    "url": "https://www.pinterest.com/pin/1127166613026469388/",
+    "published_at": "2026-11-23T14:30-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Thanksgiving Activities"
+    ]
   },
   "ig-day-after-thanksgiving-activities": {
     "status": "published",
