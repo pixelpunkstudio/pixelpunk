@@ -2597,10 +2597,17 @@
     "approved": "2026-11-18 user OK in chat: recipe peek inside pin (grid image)"
   },
   "pin-vintage-recipe-word-search-free": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-23T17:46:00-05:00",
     "first_planned": "2026-11-23T17:46:00-05:00",
-    "approved": "2026-11-18 user OK in chat: gingerbread free printable pin (grid image)"
+    "approved": "2026-11-18 user OK in chat: gingerbread free printable pin (grid image)",
+    "url": "https://www.pinterest.com/pin/1127166613026483713/",
+    "published_at": "2026-11-23T18:01-05:00",
+    "boards": [
+      "Free Printable Puzzles",
+      "Vintage Recipes & Baking Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-vintage-recipe-word-search": {
     "status": "draft"
