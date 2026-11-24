@@ -1716,10 +1716,17 @@
     "approved": "2026-11-09T18:08:19.468Z"
   },
   "pin-coloring-mom-needs-nothing-open": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-24T11:37:00-05:00",
     "first_planned": "2026-11-24T11:37:00-05:00",
-    "approved": "2026-11-09T18:08:19.468Z"
+    "approved": "2026-11-09T18:08:19.468Z",
+    "url": "https://www.pinterest.com/pin/1127166613026536305/",
+    "published_at": "2026-11-24T11:45-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Christmas Activities & Gift Ideas",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-coloring-mom-needs-nothing": {
     "status": "scheduled",
