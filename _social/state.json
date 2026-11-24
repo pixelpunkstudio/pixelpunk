@@ -256,10 +256,16 @@
     ]
   },
   "pin-life-on-the-farm-inside": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-24T08:17:00-05:00",
     "first_planned": "2026-11-06T14:17:00-05:00",
-    "approved": "2026-10-21T18:04:40.259Z"
+    "approved": "2026-10-21T18:04:40.259Z",
+    "url": "https://www.pinterest.com/pin/1127166613026524122/",
+    "published_at": "2026-11-24T08:30-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books",
+      "Farm Animal Activities for Kids"
+    ]
   },
   "pin-life-on-the-farm-free": {
     "status": "published",
