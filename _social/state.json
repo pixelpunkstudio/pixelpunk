@@ -1549,10 +1549,18 @@
     "approved": "article rule 2026-11-07T12:47:26-05:00"
   },
   "pin-thanksgiving-break-classroom-activities": {
-    "status": "scheduled",
+    "status": "expired",
     "when": "2026-11-24T14:57:00-05:00",
     "first_planned": "2026-11-24T14:57:00-05:00",
-    "approved": "article rule 2026-11-09T05:53:22-05:00 (user: make room, 2026-11-09)"
+    "approved": "article rule 2026-11-09T05:53:22-05:00 (user: make room, 2026-11-09)",
+    "history": [
+      {
+        "missed": "2026-11-24T14:57:00-05:00",
+        "noticed": "2026-11-24T23:01-05:00",
+        "moved_to": null
+      }
+    ],
+    "note": "missed and its season is over"
   },
   "ig-thanksgiving-break-classroom-activities": {
     "status": "expired",
