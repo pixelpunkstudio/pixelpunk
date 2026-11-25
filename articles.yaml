@@ -3,6 +3,117 @@
 # No health claims (no "prevents dementia", "improves memory"): keep it about relaxation and fun.
 
 articles:
+  - slug: holiday-stress-puzzle-break
+    title: "December Feels Rushed? How a 10-Minute Puzzle Break Helps You Slow Down"
+    description: >-
+      Shopping, cooking, cards and visits, and not one quiet minute in the day? Why December runs away with us, how
+      to take a 10-minute puzzle break that really feels like a pause, when to fit it in, and free word search,
+      sudoku and coloring pages to keep beside you until Christmas.
+    date: 2026-12-15
+    topics: [Puzzle tips, Seasonal ideas, Activity ideas]
+    photos:
+      - slot: hero
+        query: frozen lake mountains winter calm
+        wide_focus: [0.5, 0.5]
+        alt: A still mountain lake in winter, snowy slopes and soft clouds mirrored in the calm water
+      - slot: break
+        after: How to take a 10-minute puzzle break
+        query: hourglass sand timer
+        alt: A glass hourglass with dark sand running through it, standing on a mossy rock outdoors
+    related: [cozy-winter-hygge, cozy-christmas-coloring, sudoku-of-love, jumbo-christmas]
+    printables: [free-printable-hygge-word-search, free-printable-easy-sudoku-puzzles, free-printable-cardinal-christmas-coloring-page]
+    social:
+      tags: "#slowliving #hygge #wordsearch #christmasstress #printables"
+      pins:
+        - {photo: hero, design: top, kicker: Ten quiet minutes, headline: "December Feels Rushed? Take a 10-Minute Puzzle Break"}
+        - {photo: break, design: list, kicker: Slow down in December, headline: "How to Take a Puzzle Break That Feels Like a Real Pause", from: "How to take a 10-minute puzzle break"}
+        - design: pages
+          kicker: Free pages for quiet minutes
+          headline: "Free Word Search, Sudoku and Coloring Pages"
+          pages: [{page: cozy-winter-hygge, label: Word search}, {page: sudoku-of-love, label: Sudoku}, {page: cozy-christmas-coloring, label: Coloring}]
+      instagram:
+        headline: December feels rushed?
+        list_title: Your 10-minute puzzle break
+        from: "How to take a 10-minute puzzle break"
+        caption: |-
+          Gifts to wrap, cookies to bake, cards to write, and somehow no time to sit down ❄️
+          Our new article shows how a 10-minute puzzle break can give you one quiet pause a day: how to set it up, when to fit it in, and which puzzle to pick when your head is full.
+          Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+          #slowliving #hygge #wordsearch #christmasstress #printables
+    body: |
+      <p>December is supposed to be the cozy month. Then the list arrives: gifts to buy and wrap, cards to write,
+      food to plan, a school concert, an office party, relatives to visit or to host. By the middle of the month many
+      of us rush from one job to the next and go to bed with the list still running in our heads. The season you were
+      looking forward to slips past without one quiet moment to enjoy it. You can't cancel December, but you can give
+      yourself ten minutes of it back each day. A small puzzle is one of the easiest ways to do it.</p>
+
+      <h2>Why December runs away with us</h2>
+      <ul>
+        <li><strong>Everything has a deadline,</strong> and the deadlines all fall in the same few weeks.</li>
+        <li><strong>The jobs never feel finished.</strong> There is always one more present, one more card, one more
+        thing to buy for the table.</li>
+        <li><strong>Breaks turn into more screens.</strong> We sit down for a minute and pick up the phone, and the
+        phone shows us more gifts, more recipes and more news.</li>
+        <li><strong>Rest feels like something to earn.</strong> "I'll sit down when it's all done" means sitting down
+        on Christmas Eve, if then.</li>
+      </ul>
+
+      <h2>Why a puzzle works when you only have ten minutes</h2>
+      <p>A word search or an easy sudoku asks for just enough attention to pull your thoughts away from the list,
+      and not so much that it feels like another job. It has a clear start and a clear end, so you get the small
+      pleasure of finishing something on a day when nothing else is finished. It needs no screen, no setup and no
+      skill, and you can stop halfway and pick it up tomorrow. Many people find that ten minutes with a pencil feels
+      longer and calmer than half an hour of scrolling.</p>
+
+      <h2>How to take a 10-minute puzzle break</h2>
+      <ol>
+        <li><strong>Pick one spot.</strong> A chair by the window, the end of the kitchen table, a corner of the sofa.
+        Sitting in the same place each day makes the break a small habit instead of another decision.</li>
+        <li><strong>Keep the puzzle ready.</strong> Leave a printed page and a pencil in that spot, so starting takes
+        two seconds and no searching.</li>
+        <li><strong>Put the phone in another room.</strong> Or at least face down and silent. The break only works if
+        nothing pulls you back to the list.</li>
+        <li><strong>Set a gentle timer.</strong> Ten minutes on a kitchen timer or an old alarm clock means you don't
+        have to watch the time, and you know the break has an end.</li>
+        <li><strong>Choose an easy puzzle.</strong> This is not the moment for a fiendish grid. Large print word
+        searches and beginner sudoku are just right.</li>
+        <li><strong>Stop when the timer rings,</strong> even halfway through. An unfinished puzzle is something to
+        look forward to tomorrow.</li>
+      </ol>
+
+      <h2>When to fit it into a busy day</h2>
+      <ul>
+        <li><strong>Before the house wakes up,</strong> while the kettle boils and the first light comes in.</li>
+        <li><strong>While the oven works,</strong> during the twelve minutes the cookies need.</li>
+        <li><strong>After the shopping,</strong> before you unpack the bags and start the next job.</li>
+        <li><strong>In the waiting moments:</strong> the school pickup line, a train, a waiting room. A folded page
+        fits in a coat pocket.</li>
+        <li><strong>Before bed,</strong> instead of one last look at the phone, so the day ends on something
+        quiet.</li>
+      </ul>
+
+      <h2>Which puzzle to pick for your mood</h2>
+      <ul>
+        <li><strong>Head full of lists?</strong> A word search. Hunting for words keeps your eyes busy and your mind
+        off tomorrow.</li>
+        <li><strong>Want to feel clever?</strong> An easy sudoku. Each number you place is a small win, with no
+        guessing needed.</li>
+        <li><strong>Too tired to think?</strong> Color one corner of a bold and easy page. No words, no numbers, just
+        a few colors.</li>
+      </ul>
+
+      <h2>Share the quiet with others</h2>
+      <p>A puzzle break doesn't have to be a solo escape. Put a page on the table when the family sits down after a
+      busy afternoon, and let everyone find a word or two. Children often copy what they see: if they watch you sit
+      down with a pencil instead of a phone, they may pull up a chair. For a visiting parent or grandparent, a large
+      print page is a simple way to spend ten calm minutes together while the kitchen gets busy.</p>
+
+      <h2>Free pages to keep beside you</h2>
+      <p>Print a small stack now, so a page is always ready when the ten minutes appear. Our free hygge word search,
+      easy sudoku puzzles and cardinals at the bird feeder coloring page are a gentle start. If you enjoy them, Cozy
+      Winter Hygge Word Search has 55 large print puzzles about candlelight, snow and slow evenings, and Cozy
+      Christmas Coloring Book has 50 peaceful bold and easy scenes for the days when words feel like too much.</p>
+
   - slug: puzzles-for-teens-winter-break
     title: "Winter Break Boredom for Teens: Puzzles That Don't Feel Babyish"
     description: >-

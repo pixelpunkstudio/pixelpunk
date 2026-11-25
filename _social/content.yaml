@@ -6589,3 +6589,116 @@ items:
   - media/social/tiktok/winter-snowed-in-break-3.jpg
   start: '2026-12-27'
   until: '2026-12-29'
+- key: pin-holiday-stress-puzzle-break
+  platform: pinterest
+  kind: article
+  book: holiday-stress-puzzle-break
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/holiday-stress-puzzle-break.html
+  title: December Feels Rushed? Take a 10-Minute Puzzle Break
+  alt: A still mountain lake in winter, snowy slopes and soft clouds mirrored in the calm water
+  description: 'Shopping, cooking, cards and visits, and not one quiet minute in the day? Why December runs away
+    with us, how to take a 10-minute puzzle break that really feels like a pause, when to fit it in, and free word
+    search, sudoku and coloring pages to keep beside you until Christmas. #slowliving #hygge #wordsearch #christmasstress
+    #printables'
+  design: top
+  photo: hero
+  kicker: Ten quiet minutes
+  items: []
+  start: '2026-12-15'
+  priority: 3
+- key: pin-holiday-stress-puzzle-break-2
+  platform: pinterest
+  kind: article
+  book: holiday-stress-puzzle-break
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/holiday-stress-puzzle-break.html
+  title: How to Take a Puzzle Break That Feels Like a Real Pause
+  alt: A glass hourglass with dark sand running through it, standing on a mossy rock outdoors
+  description: 'Shopping, cooking, cards and visits, and not one quiet minute in the day? Why December runs away
+    with us, how to take a 10-minute puzzle break that really feels like a pause, when to fit it in, and free word
+    search, sudoku and coloring pages to keep beside you until Christmas. #slowliving #hygge #wordsearch #christmasstress
+    #printables'
+  design: list
+  photo: break
+  kicker: Slow down in December
+  items:
+  - Pick one spot
+  - Keep the puzzle ready
+  - Put the phone in another room
+  - Set a gentle timer
+  - Choose an easy puzzle
+  - Stop when the timer rings
+  start: '2026-12-22'
+  priority: 3
+- key: pin-holiday-stress-puzzle-break-3
+  platform: pinterest
+  kind: article
+  book: holiday-stress-puzzle-break
+  board: Cozy Activities for Adults
+  link: https://pixelpunkstudio.shop/holiday-stress-puzzle-break.html
+  title: Free Word Search, Sudoku and Coloring Pages
+  alt: A still mountain lake in winter, snowy slopes and soft clouds mirrored in the calm water
+  description: 'Shopping, cooking, cards and visits, and not one quiet minute in the day? Why December runs away
+    with us, how to take a 10-minute puzzle break that really feels like a pause, when to fit it in, and free word
+    search, sudoku and coloring pages to keep beside you until Christmas. #slowliving #hygge #wordsearch #christmasstress
+    #printables'
+  design: pages
+  photo: hero
+  kicker: Free pages for quiet minutes
+  items: []
+  pages:
+  - page: cozy-winter-hygge
+    label: Word search
+  - page: sudoku-of-love
+    label: Sudoku
+  - page: cozy-christmas-coloring
+    label: Coloring
+  start: '2026-12-29'
+  priority: 3
+- key: ig-holiday-stress-puzzle-break
+  platform: instagram
+  kind: article carousel
+  book: holiday-stress-puzzle-break
+  link: https://pixelpunkstudio.shop/holiday-stress-puzzle-break.html
+  title: December Feels Rushed? How a 10-Minute Puzzle Break Helps You Slow Down
+  headline: December feels rushed?
+  kicker: New on the blog
+  items:
+  - Pick one spot
+  - Keep the puzzle ready
+  - Put the phone in another room
+  - Set a gentle timer
+  - Choose an easy puzzle
+  - Stop when the timer rings
+  list_title: Your 10-minute puzzle break
+  caption: 'Gifts to wrap, cookies to bake, cards to write, and somehow no time to sit down ❄️
+
+    Our new article shows how a 10-minute puzzle break can give you one quiet pause a day: how to set it up, when
+    to fit it in, and which puzzle to pick when your head is full.
+
+    Read it and print the free pages: link in bio 👉 pixelpunkstudio.shop
+
+    #slowliving #hygge #wordsearch #christmasstress #printables'
+  start: '2026-12-15'
+  priority: 3
+- key: tt-bughunt-magnifying-glass
+  platform: tiktok
+  kind: tiktok carousel
+  book: bug-hunt
+  title: Santa brought him a magnifying glass. He's inspected the cat, the plants and me
+  caption: 'The cat is relieved 🐞🔍
+
+    Bug Hunt Word Search Coloring Book for kids: 55 puzzles, on Amazon.
+
+
+    #wordsearch #kidsactivities #bugs #screenfree #winterbreak'
+  link: https://pixelpunkstudio.shop/free-printable-bug-word-search-for-kids.html
+  priority: 4
+  needs_amazon: true
+  images:
+  - media/social/tiktok/bughunt-magnifying-glass-1.jpg
+  - media/social/tiktok/bughunt-magnifying-glass-2.jpg
+  - media/social/tiktok/bughunt-magnifying-glass-3.jpg
+  start: '2026-12-28'
+  until: '2026-12-30'

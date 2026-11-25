@@ -529,6 +529,31 @@
    "width": 1000
   }
  },
+ "holiday-stress-puzzle-break": {
+  "break": {
+   "file": "media/blog/holiday-stress-puzzle-break-break.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/hourglass-time-rock-stone-7704148/",
+   "pixabay_id": 7704148,
+   "puzzle": false,
+   "query": "hourglass sand timer",
+   "user": "denfran",
+   "user_page": "https://pixabay.com/users/denfran-4118908/",
+   "width": 1000
+  },
+  "hero": {
+   "file": "media/blog/holiday-stress-puzzle-break-hero.jpg",
+   "height": 1500,
+   "page": "https://pixabay.com/photos/snow-covered-lake-mountain-reflection-10359150/",
+   "pixabay_id": 10359150,
+   "puzzle": false,
+   "query": "frozen lake mountains winter calm",
+   "user": "ahmetyuksek",
+   "user_page": "https://pixabay.com/users/ahmetyuksek-45995253/",
+   "wide": "media/blog/holiday-stress-puzzle-break-hero-wide.jpg",
+   "width": 1000
+  }
+ },
  "hot-summer-christmas-activities": {
   "hero": {
    "file": "media/blog/hot-summer-christmas-activities-hero.jpg",
