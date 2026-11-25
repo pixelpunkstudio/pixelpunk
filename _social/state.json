@@ -2833,16 +2833,28 @@
     "approved": "2026-11-23T10:59:05"
   },
   "pin-holiday-stress-puzzle-break": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-18T20:51:00-05:00",
+    "first_planned": "2026-12-18T20:51:00-05:00",
+    "approved": "article rule 2026-11-25T04:55:15-05:00"
   },
   "pin-holiday-stress-puzzle-break-2": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2026-12-25T20:16:00-05:00",
+    "first_planned": "2026-12-25T20:16:00-05:00",
+    "approved": "article rule 2026-11-25T04:55:15-05:00"
   },
   "pin-holiday-stress-puzzle-break-3": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2027-01-01T14:51:00-05:00",
+    "first_planned": "2027-01-01T14:51:00-05:00",
+    "approved": "article rule 2026-11-25T04:55:15-05:00"
   },
   "ig-holiday-stress-puzzle-break": {
-    "status": "draft"
+    "status": "scheduled",
+    "when": "2027-01-08T12:16:00-05:00",
+    "first_planned": "2027-01-08T12:16:00-05:00",
+    "approved": "article rule 2026-11-25T04:55:15-05:00"
   },
   "tt-bughunt-magnifying-glass": {
     "status": "scheduled",
