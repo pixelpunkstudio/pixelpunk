@@ -1479,10 +1479,15 @@
     "published_at": "2026-11-12T11:45-05:00"
   },
   "pin-coloring-for-adults-feels-hard": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-25T14:50:00-05:00",
     "first_planned": "2026-11-26T14:50:00-05:00",
-    "approved": "article rule 2026-11-06T08:01:56-05:00"
+    "approved": "article rule 2026-11-06T08:01:56-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613026626346/",
+    "published_at": "2026-11-25T15:01-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books"
+    ]
   },
   "pin-coloring-for-adults-feels-hard-2": {
     "status": "scheduled",
