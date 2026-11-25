@@ -1497,10 +1497,12 @@
     "approved": "article rule 2026-11-06T08:01:56-05:00"
   },
   "ig-coloring-for-adults-feels-hard": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-25T12:25:00-05:00",
     "first_planned": "2026-11-25T12:25:00-05:00",
-    "approved": "article rule 2026-11-06T08:01:56-05:00"
+    "approved": "article rule 2026-11-06T08:01:56-05:00",
+    "url": "https://www.instagram.com/p/DgLEnj7IJ9P/",
+    "published_at": "2026-11-25T12:31-05:00"
   },
   "pin-day-after-thanksgiving-activities": {
     "status": "published",
