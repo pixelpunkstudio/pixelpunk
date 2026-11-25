@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0WLJJBGB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"]});
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'granted'});
+
+(function () {
+  var KEY = 'pps_consent', DAYS = 180, tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  function load() {
+    try { var v = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (v && (v.c === 'granted' || v.c === 'denied') && Date.now() - v.t < DAYS * 864e5) return v.c;
+    } catch (e) {}
+    return null;
+  }
+  var choice = load();
+  if (choice) gtag('consent', 'update', {analytics_storage: choice});
+  var europe = !tz || /^(Europe|Arctic)\//.test(tz) ||
+    /^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(tz);
+
+  var STORES = {
+    'co.uk': /^Europe\/(London|Belfast|Guernsey|Jersey|Isle_of_Man|Gibraltar)$/,
+    'ie': /^Europe\/Dublin$/,
+    'de': /^Europe\/(Berlin|Vienna|Zurich|Busingen|Luxembourg|Vaduz)$/,
+    'fr': /^Europe\/(Paris|Monaco)$/,
+    'com.be': /^Europe\/Brussels$/,
+    'nl': /^Europe\/Amsterdam$/,
+    'es': /^(Europe\/Madrid|Atlantic\/Canary|Africa\/Ceuta)$/,
+    'it': /^Europe\/(Rome|Vatican|San_Marino|Malta)$/,
+    'pl': /^Europe\/Warsaw$/,
+    'se': /^Europe\/Stockholm$/,
+    'co.jp': /^Asia\/Tokyo$/,
+    'com.au': /^(Australia\/|Pacific\/(Auckland|Chatham)$)/,
+    'ca': /^America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Iqaluit|Yellowknife|Swift_Current|Atikokan|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Blanc-Sablon)$/
+  };
+  var store = 'com';
+  for (var d in STORES) if (STORES[d].test(tz)) { store = d; break; }
+
+  function save(c) {
+    try { localStorage.setItem(KEY, JSON.stringify({c: c, t: Date.now()})); } catch (e) {}
+    gtag('consent', 'update', {analytics_storage: c});
+    if (c === 'denied') document.cookie.split(';').forEach(function (k) {
+      var n = k.split('=')[0].trim();
+      if (/^_ga/.test(n)) ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')]
+        .forEach(function (dm) { document.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + dm; });
+    });
+    var b = document.getElementById('pps-cookie'); if (b) b.remove();
+  }
+  function banner() {
+    if (document.getElementById('pps-cookie')) return;
+    var b = document.createElement('div');
+    b.id = 'pps-cookie'; b.setAttribute('role', 'region'); b.setAttribute('aria-label', 'Cookie choice');
+    b.style.cssText = 'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;' +
+      'background:#fff;color:#23324a;border:2px solid #23324a;border-radius:12px;padding:16px 18px;' +
+      'box-shadow:0 6px 24px rgba(0,0,0,.18);font:15px/1.5 system-ui,sans-serif';
+    b.innerHTML = '<p style="margin:0 0 12px">We would like to use Google Analytics cookies to count visits and ' +
+      'see which puzzles and articles you enjoy. No advertising cookies, ever. ' +
+      '<a href="privacy.html#statistics" style="color:#b0702e">Privacy policy</a></p>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
+      '<button type="button" data-c="granted">Accept</button><button type="button" data-c="denied">Reject</button></div>';
+    [].forEach.call(b.querySelectorAll('button'), function (x) {
+      x.style.cssText = 'flex:1 1 140px;font:600 15px system-ui,sans-serif;padding:10px 14px;border-radius:8px;' +
+        'cursor:pointer;border:2px solid #23324a;background:#23324a;color:#fff';
+      x.onclick = function () { save(x.getAttribute('data-c')); };
+    });
+    document.body.appendChild(b);
+  }
+  window.ppsCookieSettings = banner;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (store !== 'com') [].forEach.call(document.querySelectorAll('a[href*="amazon.com/dp/"]'), function (a) {
+      // the Attribution tag only counts on amazon.com: other stores get the plain book link
+      a.href = a.href.replace(/\/\/(www\.)?amazon\.com\//, '//www.amazon.' + store + '/').replace(/\?maas=.*$/, '');
+    });
+    [].forEach.call(document.querySelectorAll('nav a[href="privacy.html"]'), function (p) {
+      var s = document.createElement('a'); s.href = '#'; s.textContent = 'Cookie settings'; s.setAttribute('data-cookie-settings', '');
+      p.parentNode.insertBefore(s, p.nextSibling); p.parentNode.insertBefore(document.createTextNode(' · '), s);
+    });
+    document.addEventListener('click', function (ev) {
+      var t = ev.target.closest && ev.target.closest('[data-cookie-settings]');
+      if (t) { ev.preventDefault(); banner(); }
+    });
+    if (!choice && europe) banner();
+  });
+})();
+
+  gtag('js', new Date());
+  gtag('config', 'G-VD0WLJJBGB');
+</script>
+<!-- /Google tag -->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Last School Days Before Thanksgiving Break? Calm Printable Activities Teachers Can Use | Pixel Punk Studio</title>
+<meta name="description" content="Restless students, tired teachers and half a class already gone? 7 calm, no-prep activities for the last days before Thanksgiving break, a simple plan for each day, and free printable word searches you can copy for your class.">
+<link rel="canonical" href="https://pixelpunkstudio.shop/thanksgiving-break-classroom-activities.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Pixel Punk Studio">
+<meta property="og:title" content="Last School Days Before Thanksgiving Break? Calm Printable Activities Teachers Can Use | Pixel Punk Studio">
+<meta property="og:description" content="Restless students, tired teachers and half a class already gone? 7 calm, no-prep activities for the last days before Thanksgiving break, a simple plan for each day, and free printable word searches you can copy for your class.">
+<meta property="og:url" content="https://pixelpunkstudio.shop/thanksgiving-break-classroom-activities.html">
+<meta property="og:image" content="https://pixelpunkstudio.shop/media/blog/thanksgiving-break-classroom-activities-hero-wide.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Last School Days Before Thanksgiving Break? Calm Printable Activities Teachers Can Use | Pixel Punk Studio">
+<meta name="twitter:description" content="Restless students, tired teachers and half a class already gone? 7 calm, no-prep activities for the last days before Thanksgiving break, a simple plan for each day, and free printable word searches you can copy for your class.">
+<meta name="twitter:image" content="https://pixelpunkstudio.shop/media/blog/thanksgiving-break-classroom-activities-hero-wide.jpg">
+<link rel="icon" href="logo.png">
+<link rel="alternate" type="application/rss+xml" title="Pixel Punk Studio blog" href="https://pixelpunkstudio.shop/feed.xml">
+<link rel="stylesheet" href="style.css?v=2dcf5e53">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Last School Days Before Thanksgiving Break? Calm Printable Activities Teachers Can Use", "description": "Restless students, tired teachers and half a class already gone? 7 calm, no-prep activities for the last days before Thanksgiving break, a simple plan for each day, and free printable word searches you can copy for your class.", "image": "https://pixelpunkstudio.shop/media/blog/thanksgiving-break-classroom-activities-hero.jpg", "url": "https://pixelpunkstudio.shop/thanksgiving-break-classroom-activities.html", "datePublished": "2026-11-24", "dateModified": "2026-11-24", "keywords": "Seasonal ideas, Activity ideas, Kids & coloring", "isPartOf": {"@type": "Blog", "name": "Pixel Punk Studio blog", "url": "https://pixelpunkstudio.shop/blog.html"}, "author": {"@type": "Organization", "name": "Pixel Punk Studio", "url": "https://pixelpunkstudio.shop/"}, "publisher": {"@type": "Organization", "name": "Pixel Punk Studio", "logo": {"@type": "ImageObject", "url": "https://pixelpunkstudio.shop/logo.png"}}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Pixel Punk Studio", "item": "https://pixelpunkstudio.shop/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pixelpunkstudio.shop/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Last School Days Before Thanksgiving Break? Calm Printable Activities Teachers Can Use", "item": "https://pixelpunkstudio.shop/thanksgiving-break-classroom-activities.html"}]}</script>
+</head><body><main class="wide">
+<header class="top">
+  <a class="home" href="./"><img src="logo.png" alt="Pixel Punk Studio logo, back to the home page" width="48" height="48"></a>
+  <nav class="menu" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  <form class="search-form search-top" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <a class="btn small-btn" href="free-puzzle-pack.html">Get your 5 free puzzles now!</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Menu">
+    <span></span><span></span><span></span></button>
+</header>
+<div class="mobile-panel" id="mobile-panel" hidden>
+  <form class="search-form search-panel" action="search.html" method="get" role="search">
+    <input type="search" name="q" value="" placeholder="Search puzzles, books and tips" aria-label="Search the site"
+           autocomplete="off" enterkeyhint="search">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+      <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  </form>
+  <nav class="panel-links" aria-label="Main"><a href="./">Home</a><a href="free-printables.html">Free printables</a><a href="./#books">Books</a><a href="blog.html" aria-current="page">Blog</a></nav>
+  <div class="panel-article"><nav class="side-box toc" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#why-these-days-are-so-hard-to-teach">Why these days are so hard to teach</a></li><li><a href="#7-calm-activities-that-take-no-preparation">7 calm activities that take no preparation</a></li><li><a href="#a-simple-plan-for-the-last-days">A simple plan for the last days</a></li><li><a href="#small-things-that-keep-it-calm">Small things that keep it calm</a></li><li><a href="#free-pages-to-copy-for-your-class">Free pages to copy for your class</a></li></ol></nav>
+  <div class="side-box"><strong>Topics</strong><div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#activity-ideas">Activity ideas</a><a class="tag" href="blog.html#kids-coloring">Kids &amp; coloring</a></div></div>
+  <nav class="side-box" aria-label="More articles"><strong>More articles</strong><ul><li><a href="coloring-for-adults-feels-hard.html">Adult Coloring Feels Hard? 7 Tips for Bold and Easy Pages (Shaky Hands and Tired Eyes Welcome)</a></li><li><a href="car-ride-activities-for-kids-printable.html">Long Car Ride to Grandma&#x27;s? Printable Travel Activities That Don&#x27;t Make Kids Carsick</a></li><li><a href="coloring-with-grandkids.html">Coloring With Grandkids: How to Pick Pages Both Ages Enjoy</a></li><li><a href="stocking-stuffers-for-puzzle-lovers.html">Stuck on Stocking Stuffers? How to Choose the Right Puzzle Book for Each Person on Your List</a></li><li><a href="gifts-for-grandparents-who-want-nothing.html">Gift Ideas for Grandparents Who Say They Want Nothing</a></li></ul>
+    <a class="all" href="blog.html">All articles →</a></nav>
+  <div class="side-box cta"><strong>Free printables</strong><p>Large print puzzles with solutions, free to print at home.</p>
+    <a class="btn" href="free-printables.html">Browse free printables</a></div></div>
+</div>
+<script>
+// Mobile menu: the hamburger opens the panel (site links + this page's navigation); Esc or a link closes it.
+(() => {
+  const b = document.querySelector(".burger"), p = document.getElementById("mobile-panel");
+  if (!b || !p) return;
+  const set = open => { b.setAttribute("aria-expanded", open); p.hidden = !open;
+                        document.body.classList.toggle("menu-open", open); };
+  b.addEventListener("click", () => set(p.hidden));
+  p.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  addEventListener("keydown", ev => { if (ev.key === "Escape") set(false); });
+})();
+</script>
+<div class="article-layout">
+<div class="article-main">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> <span aria-hidden="true">›</span> <a href="blog.html">Blog</a> <span aria-hidden="true">›</span> <a href="blog.html#seasonal-ideas">Seasonal ideas</a></nav>
+<h1 class="page left">Last School Days Before Thanksgiving Break? Calm Printable Activities Teachers Can Use</h1>
+<article class="card prose">
+<figure class="photo wide"><img src="media/blog/thanksgiving-break-classroom-activities-hero-wide.jpg" alt="An old wooden school desk with an apple and a small stack of books tied with a strap, beside a teacher&#x27;s desk" width="1200" height="675" fetchpriority="high"><figcaption>Photo: <a href="https://pixabay.com/photos/school-desk-schooldesk-backtoschool-4578848/" target="_blank" rel="noopener">Mishelved / Pixabay</a></figcaption></figure>
+<p class="small left">November 24, 2026 · By Pixel Punk Studio</p>
+<div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#activity-ideas">Activity ideas</a><a class="tag" href="blog.html#kids-coloring">Kids &amp; coloring</a></div>
+<nav class="toc inline" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#why-these-days-are-so-hard-to-teach">Why these days are so hard to teach</a></li><li><a href="#7-calm-activities-that-take-no-preparation">7 calm activities that take no preparation</a></li><li><a href="#a-simple-plan-for-the-last-days">A simple plan for the last days</a></li><li><a href="#small-things-that-keep-it-calm">Small things that keep it calm</a></li><li><a href="#free-pages-to-copy-for-your-class">Free pages to copy for your class</a></li></ol></nav>
+<p>The last days before Thanksgiving break are hard on everyone. Students are thinking about pie and cousins,
+a few desks are already empty because families left early, and you are running on what is left of a long fall.
+Starting a new unit makes little sense, but a free-for-all makes the room louder by the minute. What you need
+are calm activities that take no preparation, still feel like school, and work no matter who shows up.</p>
+
+<h2 id="why-these-days-are-so-hard-to-teach">Why these days are so hard to teach</h2>
+<p>Routines loosen, attendance is unpredictable, and excitement spreads quickly. A lesson that builds on
+yesterday leaves out anyone who was absent, and anything with many steps falls apart. The activities that work
+stand alone: each one starts in a sentence, ends whenever you need it to, and doesn't depend on the day before.
+Quiet also spreads, so a calm first ten minutes often sets the tone for the whole morning.</p>
+
+<h2 id="7-calm-activities-that-take-no-preparation">7 calm activities that take no preparation</h2>
+<ol>
+  <li><strong>A word search on every desk.</strong> It is silent, it needs only a pencil, and early finishers
+  can check a neighbor's page. Older students can race in pairs, quietly.</li>
+  <li><strong>Pick five words.</strong> Turn the finished puzzle into language practice: choose five words from
+  the list and use them in sentences, or sort them into nouns, verbs and adjectives.</li>
+  <li><strong>Coloring during a read-aloud.</strong> Hands stay busy while you read a chapter. Many children
+  listen better this way, and nobody has to sit perfectly still.</li>
+  <li><strong>A thank-you note.</strong> Each student writes a few lines to someone in the building: a bus
+  driver, a cook, a custodian, the office staff. Deliver them on the last day.</li>
+  <li><strong>Leaf rubbings and fall drawing.</strong> Bring in a bag of leaves, or collect them at recess. Thin
+  paper and the side of a crayon are all you need, and the results go straight on the wall.</li>
+  <li><strong>Silent reading, somewhere new.</strong> Let students sit on the floor or under a desk with a book
+  of their choice. A small change of place feels like a treat and costs nothing.</li>
+  <li><strong>A clean-out with a timer.</strong> Set ten minutes and tidy desks, cubbies and folders together.
+  Everyone comes back in December to a clean room, including you.</li>
+</ol>
+<figure class="photo tall"><img src="media/blog/thanksgiving-break-classroom-activities-leaves.jpg" alt="A thick carpet of fallen maple and oak leaves in orange, gold and deep red" width="1000" height="1500" loading="lazy"><figcaption>Photo: <a href="https://pixabay.com/photos/autumn-leaves-foliage-fall-111315/" target="_blank" rel="noopener">geralt / Pixabay</a></figcaption></figure>
+
+<aside class="pack-box " aria-label="Free puzzle pack">
+  <a href="free-puzzle-pack.html"><img src="media/free-pack.jpg" alt="Pages of the free welcome pack: five large print word searches" width="200" height="150" loading="lazy"></a>
+  <div>
+    <strong class="pack-title">Free: 5 exclusive puzzles to print</strong>
+    <p>Join our newsletter and get 5 large print puzzles you won&#x27;t find on this site or in our books, with solutions. Then one email a month at most.</p>
+    <form class="signup" method="post" action="https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==" data-after="subscribed.html" data-place="mid_article">
+      <input type="email" name="EMAIL" placeholder="Your email address" required autocomplete="email" aria-label="Email address">
+      <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <button class="btn" type="submit">Send me the puzzles</button>
+      <p class="small signup-msg" role="status"></p>
+    </form>
+    <p class="small">Unsubscribe in one click. <a href="privacy.html">Privacy policy</a>.</p>
+  </div>
+</aside>
+<h2 id="a-simple-plan-for-the-last-days">A simple plan for the last days</h2>
+<ul>
+  <li><strong>A word search at arrival:</strong> one on each desk before the bell, so the room starts quiet.</li>
+  <li><strong>Coloring after recess:</strong> ten minutes during a read-aloud, to bring energy back down.</li>
+  <li><strong>Thank-you notes:</strong> write them on the second-to-last day, so they can go out in time.</li>
+  <li><strong>A desk clean-out:</strong> on the last morning, deliver the notes and tidy up with a timer.</li>
+  <li><strong>Reading or drawing:</strong> for the last hour, whichever the room needs.</li>
+  <li><strong>A page for the car:</strong> one extra in the backpack, for anyone who wants it.</li>
+</ul>
+
+<h2 id="small-things-that-keep-it-calm">Small things that keep it calm</h2>
+<ul>
+  <li><strong>Print before the week starts.</strong> The copier line is longest right before a break.</li>
+  <li><strong>Keep a stack by the door</strong> for early finishers and for students who arrive late.</li>
+  <li><strong>Choose by reading level, not by grade.</strong> Big letters and short words for younger or newer
+  readers, full-size puzzles for the ones who want a challenge.</li>
+  <li><strong>Keep it about fall and gratitude.</strong> Not every family celebrates Thanksgiving in the same
+  way, and harvest, leaves and thank-you notes include every student in the room.</li>
+  <li><strong>Grade nothing.</strong> Keeping these pages low-stakes is what makes them calming.</li>
+</ul>
+
+<h2 id="free-pages-to-copy-for-your-class">Free pages to copy for your class</h2>
+<p>Our free printables are ready to print on letter paper, and you are welcome to make as many copies as you
+need for your classroom. The Thanksgiving word search and the fall word search suit older students, and the farm
+word search has short words in easy letters for ages 6 to 10. For the rest of the year, Life on the Farm and Bug
+Hunt Word Search keep younger readers busy, and Cute Farm Days has 50 farm animals to color, each with a fun fact
+to read aloud.</p>
+
+<p class="back"><a href="blog.html">← Back to all articles</a></p>
+</article>
+<nav class="pager" aria-label="More articles"><a class="older" href="car-ride-activities-for-kids-printable.html"><small>← Older</small>Long Car Ride to Grandma&#x27;s? Printable Travel Activities That Don&#x27;t Make Kids Carsick</a><a class="newer" href="coloring-for-adults-feels-hard.html"><small>Newer →</small>Adult Coloring Feels Hard? 7 Tips for Bold and Easy Pages (Shaky Hands and Tired Eyes Welcome)</a></nav>
+</div>
+<aside class="side" aria-label="Article navigation">
+  <nav class="side-box toc" aria-label="In this article"><strong>In this article</strong><ol><li><a href="#why-these-days-are-so-hard-to-teach">Why these days are so hard to teach</a></li><li><a href="#7-calm-activities-that-take-no-preparation">7 calm activities that take no preparation</a></li><li><a href="#a-simple-plan-for-the-last-days">A simple plan for the last days</a></li><li><a href="#small-things-that-keep-it-calm">Small things that keep it calm</a></li><li><a href="#free-pages-to-copy-for-your-class">Free pages to copy for your class</a></li></ol></nav>
+  <div class="side-box"><strong>Topics</strong><div class="tags"><a class="tag" href="blog.html#seasonal-ideas">Seasonal ideas</a><a class="tag" href="blog.html#activity-ideas">Activity ideas</a><a class="tag" href="blog.html#kids-coloring">Kids &amp; coloring</a></div></div>
+  <nav class="side-box" aria-label="More articles"><strong>More articles</strong><ul><li><a href="coloring-for-adults-feels-hard.html">Adult Coloring Feels Hard? 7 Tips for Bold and Easy Pages (Shaky Hands and Tired Eyes Welcome)</a></li><li><a href="car-ride-activities-for-kids-printable.html">Long Car Ride to Grandma&#x27;s? Printable Travel Activities That Don&#x27;t Make Kids Carsick</a></li><li><a href="coloring-with-grandkids.html">Coloring With Grandkids: How to Pick Pages Both Ages Enjoy</a></li><li><a href="stocking-stuffers-for-puzzle-lovers.html">Stuck on Stocking Stuffers? How to Choose the Right Puzzle Book for Each Person on Your List</a></li><li><a href="gifts-for-grandparents-who-want-nothing.html">Gift Ideas for Grandparents Who Say They Want Nothing</a></li></ul>
+    <a class="all" href="blog.html">All articles →</a></nav>
+  <div class="side-box cta"><strong>Free printables</strong><p>Large print puzzles with solutions, free to print at home.</p>
+    <a class="btn" href="free-printables.html">Browse free printables</a></div>
+</aside>
+</div>
+<section>
+  <h2>Free printables to try</h2>
+  <div class="grid printables"><a class="printable" href="free-printable-thanksgiving-word-search.html">
+  <img src="media/printables/thanksgiving-word-search.jpg" alt="Free Printable Thanksgiving Word Search for Adults (Large Print)" loading="lazy">
+  <span>Thanksgiving Word Search</span>
+</a>
+<a class="printable" href="free-printable-fall-word-search.html">
+  <img src="media/printables/fall-crisp-leaves.jpg" alt="Free Printable Fall Word Search for Adults (Large Print)" loading="lazy">
+  <span>Fall Word Search</span>
+</a>
+<a class="printable" href="free-printable-farm-word-search-for-kids.html">
+  <img src="media/printables/life-on-the-farm.jpg" alt="Free Printable Farm Word Search for Kids (Highland Cow)" loading="lazy">
+  <span>Farm Word Search for Kids</span>
+</a></div>
+</section>
+<section>
+  <h2>Books you might like</h2>
+  <div class="grid"><article class="book">
+  <a href="bug-hunt-word-search-coloring-book.html"><img src="covers/bug-hunt.jpg" alt="Cover of Bug Hunt Word Search Coloring Book" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="bug-hunt-word-search-coloring-book.html">Bug Hunt Word Search Coloring Book</a></h3><p>55 bug word searches with color-the-letters puzzles</p><a class="btn" href="https://www.amazon.com/dp/B0G3H1KJLN?maas=maas_adg_7403D2FB515E67684F72C1911B5214AC_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <a href="life-on-the-farm-word-search-for-kids.html"><img src="covers/life-on-the-farm.jpg" alt="Cover of Life on the Farm Word Search for Kids" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="life-on-the-farm-word-search-for-kids.html">Life on the Farm Word Search for Kids</a></h3><p>50 farm-themed puzzles with fun facts about animals and activities</p><a class="btn" href="https://www.amazon.com/dp/B0FHKMG9KK?maas=maas_adg_507E178E1CEC72097815B99F74A7A5B6_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <a href="crisp-leaves-fall-word-search.html"><img src="covers/fall-crisp-leaves.jpg" alt="Cover of Crisp Leaves Fall Word Search" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="crisp-leaves-fall-word-search.html">Crisp Leaves Fall Word Search</a></h3><p>55 autumn puzzles with apple picking, hayrides and cozy campfires</p><a class="btn" href="https://www.amazon.com/dp/B0FDL4QN1M?maas=maas_adg_F4BE3BFF4BF649137C87CDAFC57E20FB_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
+</article>
+<article class="book">
+  <a href="cute-farm-days-coloring-book.html"><img src="covers/cute-farm-days.jpg" alt="Cover of Cute Farm Days Coloring Book" loading="lazy"></a>
+  <div class="info"><h3><a class="title-link" href="cute-farm-days-coloring-book.html">Cute Farm Days Coloring Book</a></h3><p>Adorable farm animals with easy designs and fun facts</p><a class="btn" href="https://www.amazon.com/dp/B0FBM7X2HR?maas=maas_adg_6766C58EB9AC47922609E11660172170_afap_abs&amp;ref_=aa_maas&amp;tag=maas" target="_blank" rel="noopener">View on Amazon</a></div>
+</article></div>
+</section>
+<section id="newsletter" class="band pack-band">
+  <a href="free-puzzle-pack.html"><img src="media/free-pack.jpg" alt="Pages of the free welcome pack: five large print word searches" width="300" height="225" loading="lazy"></a>
+  <div>
+  <h2>Get 5 exclusive puzzles free</h2>
+  <p class="intro">Join the Pixel Punk Studio newsletter and get 5 large print word searches you won't find on
+  this site or in our books, with solutions. Then one email a month at most: new books, free puzzles and gift ideas.</p>
+  <form class="signup" method="post" action="https://764954f3.sibforms.com/serve/MUIFAFwA6WeLL065f-kQ4KU-sHJ5m9BVHecuyl4dvG4kdCjxFyg7yB75Uco-e17estaR6g5n75CmCcLEUN1luEQHz8J7Qd6O2gsY3Qy7zDDD7zsnkBQH6ISDWXFTpXPSin0AOgOtwOeqvOcx-NG1qiKPagbowdb-NNy-mfMFZA5v58ahGvwHBIqNug7_-KqfbOmA0pGGGEIxpG3ZOg==" data-after="subscribed.html" data-place="footer_band">
+      <input type="email" name="EMAIL" placeholder="Your email address" required autocomplete="email" aria-label="Email address">
+      <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <button class="btn" type="submit">Send me the puzzles</button>
+      <p class="small signup-msg" role="status"></p>
+    </form>
+  <p class="small">Unsubscribe in one click. See our <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+</section>
+<script>
+// Every newsletter form on the page: send the address to Brevo in the background, then open our own page.
+document.addEventListener("submit", async (ev) => {
+  const f = ev.target;
+  if (!f.classList || !f.classList.contains("signup")) return;
+  ev.preventDefault();
+  const msg = f.querySelector(".signup-msg"), btn = f.querySelector("button"), label = btn.textContent;
+  const email = f.EMAIL.value.trim();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+    msg.textContent = "That email address doesn't look right. Please check it and try again."; return;
+  }
+  btn.disabled = true; btn.textContent = "Sending...";
+  const done = () => {
+    try { localStorage.setItem("pps-nl", "joined"); } catch (_) {}
+    if (window.gtag) gtag("event", "sign_up", { method: f.dataset.place || "form" });
+    setTimeout(() => { location.href = f.dataset.after; }, 150);
+  };
+  try {
+    // isAjax=1 makes Brevo answer with JSON instead of redirecting (same as Brevo's own script)
+    const r = await fetch(f.action + "?isAjax=1", { method: "POST", body: new FormData(f) });
+    if (r.redirected) { done(); return; }
+    let data = {};
+    try { data = await r.json(); } catch (_) {}
+    if (r.ok && data.success) { done(); return; }
+    const why = data.errors ? Object.values(data.errors).join(" ") : "";
+    msg.textContent = why || "Something went wrong on our side. Please try again in a moment.";
+  } catch (e) {
+    msg.textContent = "Something went wrong on our side. Please try again in a moment.";
+  }
+  btn.disabled = false; btn.textContent = label;
+});
+</script>
+<nav>Questions? <a href="mailto:hello@pixelpunkstudio.shop">hello@pixelpunkstudio.shop</a><br>
+<a href="free-printables.html">Free printables</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · © 2026 Pixel Punk Studio</nav>
+</main></body>
+</html>
