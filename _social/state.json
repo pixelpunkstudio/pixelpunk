@@ -1959,10 +1959,12 @@
     ]
   },
   "ig-art-aunt-corrects-the-guide": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-26T12:39:00-05:00",
     "first_planned": "2026-11-26T12:39:00-05:00",
-    "approved": "2026-11-09T18:09:39.716Z"
+    "approved": "2026-11-09T18:09:39.716Z",
+    "url": "https://www.instagram.com/p/DgNrHXPEwtU/",
+    "published_at": "2026-11-26T12:45-05:00"
   },
   "pin-hygge-dark-at-five-scene": {
     "status": "scheduled",
