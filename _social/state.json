@@ -954,10 +954,16 @@
     ]
   },
   "pin-word-search-game-night-for-groups-3": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-26T14:49:00-05:00",
     "first_planned": "2026-11-26T14:49:00-05:00",
-    "approved": "article rule 2026-11-01T07:41:34-05:00"
+    "approved": "article rule 2026-11-01T07:41:34-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613026703157/",
+    "published_at": "2026-11-26T15:01-05:00",
+    "boards": [
+      "Cozy Activities for Adults",
+      "Large Print Activities for Seniors"
+    ]
   },
   "ig-word-search-game-night-for-groups": {
     "status": "published",
