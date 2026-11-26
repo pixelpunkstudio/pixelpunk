@@ -1688,10 +1688,12 @@
     "published_at": "2026-11-25T12:01-05:00"
   },
   "tt-jumbo-cant-make-it-home": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-26T11:24:00-05:00",
     "first_planned": "2026-11-26T11:24:00-05:00",
-    "approved": "2026-11-09T13:58:01"
+    "approved": "2026-11-09T13:58:01",
+    "url": "tiktok inbox draft p_inbox_url~v2.7712518568503609367 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-26T11:31-05:00"
   },
   "tt-coloring-teen-exam-week": {
     "status": "published",
