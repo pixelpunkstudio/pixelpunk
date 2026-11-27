@@ -346,6 +346,18 @@ sections:
         tags: [Large print, 8.5 x 11, Gift idea]
         amazon: B0HSYQ1J6F
         published: 2026-11-27
+        sample:
+          pdf: "books/nostalgia-trivia/output"
+          pages: [16, 17, 18, 37]         # 1950s Toys and Games (31-40) + Food and Kitchen (41-45), answer page 31 to 45
+          hide_footer_refs: true          # blank "Answers on page 37" / "Score page" / page numbers
+          preview: 1                     # a question page (not the grid rule for 3+ page samples)
+          label: Free printable quiz
+          page: free-printable-1950s-trivia-for-seniors
+          seo_title: "Free Printable 1950s Trivia for Seniors (Large Print, With Answers)"
+          pin_title: "1950s Trivia for Seniors"
+          about: >-
+            15 large print multiple choice questions about the 1950s, from hula hoops, Barbie and Silly Putty to TV dinners and Tupperware, with an answer page that adds a fun fact to every answer.
+        more: There are 585 more questions from the 1950s to the 1990s, each with a fun fact, in Memory Lane Trivia for Seniors.
       - slug: vintage-recipe-word-search
         title: Vintage Recipe Word Search
         subtitle: 55 large print puzzles with old-fashioned recipes from a 1910 cook book, in cups and grams
