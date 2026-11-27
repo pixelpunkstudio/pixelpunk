@@ -1266,10 +1266,15 @@
     ]
   },
   "pin-coloring-with-grandkids-2": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-27T14:45:00-05:00",
     "first_planned": "2026-11-27T08:45:00-05:00",
-    "approved": "article rule 2026-11-04T05:51:09-05:00"
+    "approved": "article rule 2026-11-04T05:51:09-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613026781373/",
+    "published_at": "2026-11-27T14:46-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books"
+    ]
   },
   "pin-coloring-with-grandkids-3": {
     "status": "scheduled",
