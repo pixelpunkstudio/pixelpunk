@@ -1555,10 +1555,15 @@
     "published_at": "2026-11-23T12:15-05:00"
   },
   "pin-puzzle-advent-calendar": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-27T08:52:00-05:00",
     "first_planned": "2026-11-27T08:52:00-05:00",
-    "approved": "article rule 2026-11-07T12:47:26-05:00"
+    "approved": "article rule 2026-11-07T12:47:26-05:00",
+    "url": "https://www.pinterest.com/pin/1127166613026758303/",
+    "published_at": "2026-11-27T09:01-05:00",
+    "boards": [
+      "Kids Coloring & Activity Books"
+    ]
   },
   "pin-puzzle-advent-calendar-2": {
     "status": "scheduled",
