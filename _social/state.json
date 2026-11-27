@@ -1686,10 +1686,12 @@
     "approved": "2026-11-09T13:58:01"
   },
   "tt-bugs-road-trip-no-tablet": {
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-27T11:09:00-05:00",
     "first_planned": "2026-11-27T11:09:00-05:00",
-    "approved": "2026-11-09T13:58:01"
+    "approved": "2026-11-09T13:58:01",
+    "url": "tiktok inbox draft p_inbox_url~v2.7712885607357253655 (SEND_TO_USER_INBOX)",
+    "published_at": "2026-11-27T11:15-05:00"
   },
   "tt-farm-grandpa-checks-the-facts": {
     "status": "scheduled",
